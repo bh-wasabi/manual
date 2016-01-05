@@ -1,0 +1,28 @@
+# Objeto: **param**
+- asigna uno o mútiples parámetros
+
+## Parámetros
+##### parametro="valor"
+- nombre del parámetro y su valor a pasar
+- el valor puede ser una [expresión](expr.md)
+- se pueden pasar múltiples parámetros juntos sobre el mismo objeto, separados por un espacio.
+
+## Ejemplos
+
+- parámetros unitarios
+
+````
+{{param id="factura"}}
+{{param name="Factura"}}
+{{param pagesStart="1"}}
+{{param pagesJustified="true"}}
+{{param allowDirectOperations="true"}}
+{{param allowEdit="true"}}
+{{param allowAdd="true"}}
+````
+
+- mútiples parámetros juntos
+
+````
+{{param id="factura" name="Factura" pagesStart="1" pagesJustified="true" allowDirectOperations="true" allowEdit="true" allowAdd="true"}}
+````
