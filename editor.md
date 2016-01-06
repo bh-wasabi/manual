@@ -33,9 +33,9 @@ predefinidos:
 basados en las configuraciones `_user`, `_company`, `_tenant` y `_config`:
 - `section` en este caso el sistema va a buscar en ese mismo orden (usuario, empresa, tenant y por ultimo config) que exista la sección (tipo arreglo y los campos `id` y `name`).
 - `_user/section` va a buscar específicamente en el usuario que exista esa sección (tipo arreglo y los campos `id` y `name`).
-- `_company/section` va a buscar específicamente en el usuario que exista esa sección (tipo arreglo y los campos `id` y `name`).
-- `_tenant/section` va a buscar específicamente en el usuario que exista esa sección (tipo arreglo y los campos `id` y `name`).
-- `_config/section` va a buscar específicamente en el usuario que exista esa sección (tipo arreglo y los campos `id` y `name`).
+- `_company/section` va a buscar específicamente en la empresa que exista esa sección (tipo arreglo y los campos `id` y `name`).
+- `_tenant/section` va a buscar específicamente en el tenant que exista esa sección (tipo arreglo y los campos `id` y `name`).
+- `_config/section` va a buscar específicamente en la configuración general que exista esa sección (tipo arreglo y los campos `id` y `name`).
 
 ##### visible (true, false)
 - podemos ocultar un campo con esta opción.
