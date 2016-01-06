@@ -21,13 +21,21 @@
 - `file-uploader` cargar archivos.
 
 ##### preset
+predefinidos:
 - `status`, Alta, Bloqueado, Baja.
 - `boolean`, Si, No.
 - `priority`, Urgente, Alta, Normal, Baja, Muy baja.
 - `months` Enero, Febrero, Marzo, Abril, etc.
 - `countries` lista de países del mundo.
-- `source/section/field` es posible hacer un preset directamente apuntado a un documento del tenant.
-- `source/section/key=value` de la misma forma es posible hacer un mapa de valores (valueMap).
+- `collections` lista de colecciones de la base de datos.
+- `sources` lista de tipos de documentos.
+
+basados en las configuraciones `_user`, `_company`, `_tenant` y `_config`:
+- `section` en este caso el sistema va a buscar en ese mismo orden (usuario, empresa, tenant y por ultimo config) que exista la sección (tipo arreglo y los campos `id` y `name`).
+- `_user/section` va a buscar específicamente en el usuario que exista esa sección (tipo arreglo y los campos `id` y `name`).
+- `_company/section` va a buscar específicamente en el usuario que exista esa sección (tipo arreglo y los campos `id` y `name`).
+- `_tenant/section` va a buscar específicamente en el usuario que exista esa sección (tipo arreglo y los campos `id` y `name`).
+- `_config/section` va a buscar específicamente en el usuario que exista esa sección (tipo arreglo y los campos `id` y `name`).
 
 ##### visible (true, false)
 - podemos ocultar un campo con esta opción.
