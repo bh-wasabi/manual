@@ -7,7 +7,7 @@
 - tipo de objeto, en este caso debe ser `app`
 
 ##### id
-- identificador de la aplicación
+- `_app` únicamente puede ser esta opción.
 
 ##### name
 - nombre visible de la aplicación 
@@ -25,6 +25,10 @@
 
 ## Sub objetos
 ##### [menu](menu.md)
+- es el menu principal de la aplicación.
 
-
+##### [doc](doc.md)
+- ahora podemos poner una forma que va a tener todos los datos a nivel aplicación `_app`.
+- para acceder a esta forma desde el menú la ruta debe ser: `href="/_app"`.
+- es un documento único a nivel base de datos de documentos.
 
