@@ -22,7 +22,7 @@
 
 ##### preset
 predefinidos:
-- `status`, Alta, Bloqueado, Baja.
+- `status`, Activo, Bloqueado, Inactivo.
 - `boolean`, Si, No.
 - `priority`, Urgente, Alta, Normal, Baja, Muy baja.
 - `months` Enero, Febrero, Marzo, Abril, etc.
@@ -30,11 +30,14 @@ predefinidos:
 - `collections` lista de colecciones de la base de datos.
 - `sources` lista de tipos de documentos.
 
+basados en el mismo documento:
+- `doc.[section]` va a buscar específicamente en el documento actual que exista esa sección (tipo arreglo y los campos `id` y `name`).
+
 basados en las configuración:
-- `user.section` va a buscar específicamente en el usuario que exista esa sección (tipo arreglo y los campos `id` y `name`).
-- `company.section` va a buscar específicamente en la empresa que exista esa sección (tipo arreglo y los campos `id` y `name`).
-- `tenant.section` va a buscar específicamente en el tenant que exista esa sección (tipo arreglo y los campos `id` y `name`).
-- `app.section` va a buscar específicamente en la configuración general que exista esa sección (tipo arreglo y los campos `id` y `name`).
+- `user.[section]` va a buscar específicamente en el usuario que exista esa sección (tipo arreglo y los campos `id` y `name`).
+- `company.[section]` va a buscar específicamente en la empresa que exista esa sección (tipo arreglo y los campos `id` y `name`).
+- `tenant.[section]` va a buscar específicamente en el tenant que exista esa sección (tipo arreglo y los campos `id` y `name`).
+- `app.[section]` va a buscar específicamente en la configuración general que exista esa sección (tipo arreglo y los campos `id` y `name`).
 
 ##### visible (true, false)
 - podemos ocultar un campo con esta opción.
