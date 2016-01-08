@@ -39,6 +39,9 @@ basados en las configuración:
 - `tenant.[section]` va a buscar específicamente en el tenant que exista esa sección (tipo arreglo y los campos `id` y `name`).
 - `app.[section]` va a buscar específicamente en la configuración general que exista esa sección (tipo arreglo y los campos `id` y `name`).
 
+basados en otras colecciones de documentos:
+- hay que usar `source` del [campo](field.md).
+
 ##### visible (true, false)
 - podemos ocultar un campo con esta opción.
 
