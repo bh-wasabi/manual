@@ -9,6 +9,7 @@
 - `href` se mueve a una url interna o externa.
 - `post` ejecuta un ajax post en la url indicada.
 - `refresh` refresca la forma actual.
+- `popup` abre una ventana tipo popup.
 - `doc-add` agrega un detalle al documento en la sección que esta definida.
 - `doc-refresh` refresca unicamente el documento.
 
@@ -28,6 +29,10 @@
 
 
 ## Sub objetos
+
+##### [popup](popup.md)
+- para abrir una ventana tipo popup al hacer click.
+
 ##### item
 - recursivamente
 

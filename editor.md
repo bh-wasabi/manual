@@ -5,10 +5,10 @@
 ##### type
 - `text` texto simple sin ayuda.
 - `text-area` area de texto multi-renglón.
-- `select` seleccionar de una lista de opciones.
-- `lookup` búsqueda avanzada sobre el campo.
-- `autocomplete` sugiere el texto en base a la lista de opciones.
-- `tags` multiples etiquetas.
+- `select` seleccionar de una lista de opciones, necesita `preset` o `source`.
+- `lookup` búsqueda avanzada sobre el campo, necesita `preset` o `source`.
+- `autocomplete` sugiere el texto en base a la lista de opciones, necesita `preset` o `source`.
+- `tags` multiples etiquetas, necesita `preset` o `source`.
 - `number`
 - `date`
 - `calendar`
@@ -21,14 +21,14 @@
 - `file-uploader` cargar archivos.
 
 ##### preset
-predefinidos:
+- ayuda en captura para tablas pequeñas (key/value) es están en memoria).
+
+ayudas predefinidas:
 - `status`, Activo, Bloqueado, Inactivo.
 - `boolean`, Si, No.
 - `priority`, Urgente, Alta, Normal, Baja, Muy baja.
 - `months` Enero, Febrero, Marzo, Abril, etc.
 - `countries` lista de países del mundo.
-- `collections` lista de colecciones de la base de datos.
-- `sources` lista de tipos de documentos.
 
 basados en el mismo documento:
 - `doc.[section]` va a buscar específicamente en el documento actual que exista esa sección (tipo arreglo y los campos `id` y `name`).
@@ -39,8 +39,9 @@ basados en las configuración:
 - `tenant.[section]` va a buscar específicamente en el tenant que exista esa sección (tipo arreglo y los campos `id` y `name`).
 - `app.[section]` va a buscar específicamente en la configuración general que exista esa sección (tipo arreglo y los campos `id` y `name`).
 
-basados en otras colecciones de documentos:
-- hay que usar `source` del [campo](field.md).
+##### source
+- cuando la ayuda en captura la queremos basar de otro tipo de documento.
+- si no se define usa el que este definido en el [campo](field.md).
 
 ##### visible (true, false)
 - podemos ocultar un campo con esta opción.

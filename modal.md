@@ -24,6 +24,9 @@
 - `xlong`
 - `xxlong`
 - `xxxlong`
+- `wide`
+- `xwide`
+- `xxwide`
 - `full`
 
 ##### effects
