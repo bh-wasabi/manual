@@ -14,6 +14,7 @@
 - `cancel-edit` cancela la edición.
 - `geocomplete` herramienta para buscar una dirección o establecimiento y obtener la dirección.
 - `menu` podemos tener una acción que invoque a un menú.
+- `attach` con esta opción podemos adjuntar archivos al documento.
 
 ##### modal
 - identificador de la forma modal a invocar

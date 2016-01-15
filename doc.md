@@ -65,6 +65,9 @@
 ##### addLabel
 - etiqueta a desplegar en el botón de agregar.
 
+##### attachSection
+- sección del documento que va administrar los archivos adjuntos.
+
 
 ## Sub objetos
 ##### [param](param.md)
