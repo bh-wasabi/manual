@@ -86,6 +86,9 @@
 ##### [grid](grid.md)
 - los grid's se pueden usar para configurar una cuadrícula para diferentes usos.
 
+##### [gallery](gallery.md)
+- se puede definir una galería de imágenes
+
 ##### [action](action.md)
 - las acciones sirven para poner los botones específicos del documento.
 
