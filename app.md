@@ -27,6 +27,25 @@
 ##### [menu](menu.md)
 - es el menu principal de la aplicación.
 
+##### [css](http://www.w3schools.com/css/)
+- es posible agregar estilos adicionales a la aplicación.
+
+por ejemplo:
+
+````
+{{#css}}
+.page-header{
+  background-color: black;
+}
+
+body {
+  font-size: 20px;
+  color: red;
+}
+{{/css}}
+```` 
+
+
 ##### [doc](doc.md)
 - ahora podemos poner una forma que va a tener todos los datos a nivel aplicación `_app`.
 - para acceder a esta forma desde el menú la ruta debe ser: `href="/_app"`.

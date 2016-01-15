@@ -6,6 +6,16 @@
 ##### id
 - identificador de la galería
 
+##### mimeType
+- es posible seleccionar el tipo de archivo a mostrar en el carrusel.
+- por omisión es `image`.
+
+##### filter
+- es posible seleccionar indicar un filtro adicional.
+- por ejemplo: `filter="tipo=foto"`.
+- es posible tener multiples filtros separados por el símbolo `&`.
+- Nota: hay que tomar en cuenta si el campo esta basado en un `preset` el valor a filtrar es el `id`. 
+
 ##### loop  (true, false)
 - activa un carrusel automáticamente
 
