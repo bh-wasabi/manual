@@ -16,15 +16,18 @@
 - es posible tener multiples filtros separados por el símbolo `&`.
 - Nota: hay que tomar en cuenta si el campo esta basado en un `preset` el valor a filtrar es el `id`. 
 
-##### loop  (true, false)
-- activa un carrusel automáticamente
+##### slideShow (true, false)
+- activa un carrusel de fotos.
 
-##### slideshowDelay (#)
+##### slideShowDelay (#)
 - tiempo de espera (en mili-segundos) para cambiar de imagen
-- esto funciona cuando es tipo carrusel `loop="true"`.
+- esto funciona cuando esta activo el `slideShow`.
+
+##### loop (true, false)
+- el carrusel de fotos da vueltas automáticamente.
 
 ##### animationEnabled (true, false)
-- hace un efecto al cambiar de imágen
+- hace un efecto al cambiar de imagen
 
 ##### animationDuration (#)
 - duración del efecto (en mili-segundos)

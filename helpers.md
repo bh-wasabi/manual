@@ -4,6 +4,7 @@
 ## Bloques
 #### [if](helper-if.md)
 #### [with](helper-with.md)
+#### [each](helper-each.md)
 #### [panel](helper-panel.md)
 #### [div](helper-div.md)
 #### [bold / strong](helper-bold.md)
