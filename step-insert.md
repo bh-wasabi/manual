@@ -1,19 +1,17 @@
-# Objeto: **insert**
-- crea una sección en el documento.
-- este comando es similar a [update](update.md).
+# Objeto: **insert** (step)
+- con este comando es posible crear documentos nuevos.
 
 ## Parámetros
-##### section
-- sección a modificar 
+##### source
+- tipo de documento a crear.
+- parámetro opcional, por omisión crea el documento sobre la misma colección.
 
-##### sourcePath
-- ruta base del documento, por omisión `"/"`
-- las expresiones toman en cuenta esta ruta.
-
-##### value
-- es posible establecer el valor de toda la sección directamente.
+##### upsert (true, false)
+- busca actualizar el documento usando los filtros.
 
 ## Sub objetos
+##### [create](step-create.md)
+- se usa para cada una de las secciones del documento nuevo.
 
-##### [set](set.md)
-- asigna valor a uno o varios campos.
+##### [filter](filter.md)
+- en el caso del `upsert="true"` es necesario definir los filtros, para que se busque actualizar primero y en caso de que no se encuentre el documento se inserta.

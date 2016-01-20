@@ -1,10 +1,19 @@
-# Objeto: **create** (step)
-- con este comando es posible crear documentos nuevos.
+# Objeto: **create**
+- crea una sección en el documento.
+- este comando es similar a [update](update.md).
 
 ## Parámetros
-##### source
-- tipo de documento a crear.
+##### section
+- sección a modificar 
+
+##### sourcePath
+- ruta base del documento, por omisión `"/"`
+- las expresiones toman en cuenta esta ruta.
+
+##### value
+- es posible establecer el valor de toda la sección directamente.
 
 ## Sub objetos
-##### [insert](step-insert.md)
-- se usa para cada una de las secciones del documento nuevo.
+
+##### [set](set.md)
+- asigna valor a uno o varios campos.
