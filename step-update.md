@@ -1,6 +1,5 @@
-# Objeto: **create**
-- crea una nueva sección en el documento.
-- en el caso de `upsert` reemplaza la sección completa.
+# Objeto: **update**
+- actualiza una sección en el documento.
 
 ## Parámetros
 ##### section

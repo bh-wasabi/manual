@@ -10,7 +10,9 @@
 - `autocomplete` sugiere el texto en base a la lista de opciones, necesita `preset` o `source`.
 - `tags` multiples etiquetas, necesita `preset` o `source`.
 - `number`
-- `date`
+- `date` para capturar una fecha.
+- `datetime` para capturar fecha con hora.
+- `time` para capturar una hora.
 - `calendar`
 - `checkbox`
 - `color`
@@ -132,6 +134,10 @@ basados en las configuración:
 ##### labelText
 - etiqueta a desplegar
 - funciona con el tipo `file-uploader`
+
+##### hint
+- es posible agregar una ayuda adicional al campo
+- aparece si se para el cursor encima del campo después de un momento.
 
 ## Sub objetos
 
