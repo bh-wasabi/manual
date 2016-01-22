@@ -15,6 +15,7 @@
 #### [h1..h6](helper-h.md)
 #### [p](helper-p.md)
 #### [span](helper-span.md)
+#### [render](helper-render.md)
 
 ## Campos
 #### [label](helper-label.md)
