@@ -33,7 +33,7 @@
     <strong>{{base.nombre}}</strong></br>
     {{sat.rfc}}</br>
     Grupo: {{base._grupo}}</br>
-    Estatus: {{base._estatus}}
+    Estatus: {{base._estatus}}</br>
   {{/each}}
 </div>
 {{/template}}
