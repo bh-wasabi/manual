@@ -10,8 +10,16 @@
 - nombre visible del componente
 
 ##### type
+- `browser` con esta opción es posible incrustar un [browser](browser.md), tiene algunas restricciones.
 - `gallery` muestra una galería de imágenes (adjuntas al documento).
 - `dashboard-info`
+
+##### source
+- identificador del tipo de documento.
+- sirve para cuando es tipo `browser`.
+
+##### browser
+- identificador del `browser`.
 
 ##### gallery
 - identificador de la [galería](gallery.md).
@@ -37,5 +45,8 @@
 - funciona únicamente con `dashboard-info`.
 
 ## Sub facilitadores
+##### [param](helper-param.md)
+- podemos pasar parámetros adicionales.
+
 ##### [indicator](helper-indicator.md)
 - funciona únicamente con `dashboard-info`.
