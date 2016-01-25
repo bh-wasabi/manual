@@ -16,4 +16,6 @@
 {{#onChange}}
     {{set nombre="=base.nombre"}}
 {{/onChange}}
+
+{{onChange refresh="true"}}
 ````

@@ -54,6 +54,10 @@ Ejemplo:
 ##### source
 - tipo de documento que se va usar como fuente en las capturas.
 
+##### sourceExpr
+- es posible basar el tipo de documento usando una expresión.
+- para que funcione correctamente es necesario hacer un [refresh](on-change.md) de la forma para que se actualice la fuente.
+
 ##### sourceFilter
 - se puede especificar el campo remoto donde se va aplicar el filtro
 - este tipo de filtros pueden funcionar en tiempo real sobre la misma forma, evita hacer un "refresh".
