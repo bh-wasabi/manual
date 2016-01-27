@@ -10,19 +10,31 @@
 - nombre visible del componente
 
 ##### type
-- `browser` con esta opción es posible incrustar un [browser](browser.md), tiene algunas restricciones.
-- `gallery` muestra una galería de imágenes (adjuntas al documento).
+- `cube` incrusta un [cubo](cube.md).
+- `grid` incrusta una [cuadrícula](grid.md).
+- `chart` incrusta una [gráfica](chart.md).
+- `gallery` muestra una galería de imágenes (basado en los archivos adjuntos del documento).
 - `dashboard-info`
 
 ##### source
-- identificador del tipo de documento.
-- sirve para cuando es tipo `browser`.
+- identificador del tipo de documento (opcional).
+- sirve para cuando es tipo `cube`, `grid` y `chart`.
 
-##### browser
-- identificador del `browser`.
+##### view
+- identificador de la vista a utilizar.
+- sirve para cuando es tipo `cube`, `grid` y `chart`.
+
+##### cube
+- identificador del cubo a incrustar.
+
+##### grid
+- identificador de la cuadrícula a incrustar.
+
+##### chart
+- identificador de la gráfica a incrustar.
 
 ##### gallery
-- identificador de la [galería](gallery.md).
+- identificador de la galeria a incrustar.
 
 ##### height
 - opcionalmente se puede definir el alto en pixeles que queremos que ocupe el widget.

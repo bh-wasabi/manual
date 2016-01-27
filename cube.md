@@ -41,7 +41,7 @@
 - define una medida de tipo valor máximo
 - el campo debe ser tipo numérico
 
-## Ejemplos
+## Ejemplo
 ````
 {{#cube allowSortingBySummary="true" allowSorting="true" allowFiltering="true" allowExpandAll="true"}}
   {{column field="category" label="Categoría" width="120"}}

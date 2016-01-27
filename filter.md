@@ -2,6 +2,9 @@
 - a una consulta se le pueden agregar filtros
 
 ## Parámetros
+##### condition
+- es posible condicionar el filtro.
+
 ##### field
 - ruta del campo dentro del documento, normalmente es "campo.valor"
 
