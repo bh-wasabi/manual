@@ -10,6 +10,7 @@
 
 ##### limit (#)
 - podemos limitar la cantidad de documentos a obtener por página.
+- si se indica `limit="-1"` devuelve todo sin limite.
 
 ##### skip (#)
 - podemos saltar algunos documentos.

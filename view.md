@@ -27,6 +27,17 @@
 ##### [calc](view-calc.md)
 - se pueden agregar campos calculados adicionales, que se calculan sobre el resultado de la consulta.
 
+##### [pivot](view-pivot.md)
+- es posible pivotear los resultados de la vista para generar un reporte matricial.
+
+##### [mapReduce](view-mapReduce.md)
+- en algunos casos se puede necesitar agrupar y concentrar los resultados de la vista.
+- es una alternativa al pipeline.
+
+##### [serialize](view-serialize.md)
+- es posible serializar los resultados.
+- esto es muy útil en el caso de gráficas que se necesitan así los datos.
+
 ##### [editor](view-editor.md)
 - establece los valores por omisión, para cuando se use esta vista.
 
