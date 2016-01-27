@@ -8,6 +8,20 @@
 ##### name
 - nombre visible del explorador.
 
+##### type
+- `list`
+- `grid`
+- `cube`
+
+##### list
+- identificador de la [lista](list.md), si se quiere usar una lista existente.
+
+##### grid
+- identificador de la [cuadrícula](grid.md), si se quiere usar una cuadrícula existente.
+
+##### cube
+- identificador del [cubo](cube.md), si se quiere usar un cubo existente.
+
 ##### view
 - [vista](view.md) a utilizar en este explorador.
 
@@ -29,10 +43,13 @@
 ## Sub objetos
 
 ##### [list](list.md)
+- aquí mismo podemos definir la lista a usar.
 - presentación del explorador tipo lista.
 
 ##### [grid](grid.md)
+- aquí mismo podemos definir la cuadrícula a usar.
 - presentación del explorador tipo cuadrícula.
 
 ##### [cube](cube.md)
+- aquí mismo podemos definir el cubo a usar.
 - presentación del explorador tipo cubo.
