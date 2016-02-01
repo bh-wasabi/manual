@@ -24,4 +24,5 @@ fullStackedspline
 stackedSpLine
 stackedSpLineArea
 fullStackedSpLineArea
+pie
 ````
