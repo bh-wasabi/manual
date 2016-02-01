@@ -13,6 +13,7 @@
 - `cube` incrusta un [cubo](cube.md).
 - `grid` incrusta una [cuadrícula](grid.md).
 - `chart` incrusta una [gráfica](chart.md).
+- `gauge` incrusta una gráfica de tipo [gauge](gauge.md).
 - `map` incrusta un [mapa](map.md).
 - `gallery` muestra una galería de imágenes (basado en los archivos adjuntos del documento).
 - `dashboard-info`
@@ -33,6 +34,9 @@
 
 ##### chart
 - identificador de la gráfica a incrustar.
+
+##### gauge
+- identificador de la gráfica tipo gauge a incrustar.
 
 ##### map
 - identificador del mapa a incrustar.
