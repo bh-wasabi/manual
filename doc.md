@@ -22,7 +22,7 @@
 ##### preview
 - id del reporte por omisión
 
-##### startPage (#)
+##### pagesStart (#)
 - número de pagina (tab) inicial, por omisión es 1.
 
 ##### pagesJustified (true, false)
