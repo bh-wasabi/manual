@@ -15,6 +15,7 @@
 - `chart` incrusta una [gráfica](chart.md).
 - `gauge` incrusta una gráfica de tipo [gauge](gauge.md).
 - `map` incrusta un [mapa](map.md).
+- `scheduler` incrusta una [agenda](scheduler.md).
 - `gallery` muestra una galería de imágenes (basado en los archivos adjuntos del documento).
 - `dashboard-info`
 
@@ -40,6 +41,9 @@
 
 ##### map
 - identificador del mapa a incrustar.
+
+##### scheduler
+- identificador de la agenda a incrustar.
 
 ##### gallery
 - identificador de la galeria a incrustar.
