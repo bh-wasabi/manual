@@ -21,6 +21,7 @@
 
 ##### source
 - identificador del tipo de documento (opcional).
+- cuando se quiere incrustar un objeto de otro tipo de documento.
 - sirve para cuando es tipo `cube`, `grid` y `chart`.
 
 ##### view

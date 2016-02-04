@@ -15,6 +15,12 @@
 ##### grid
 - identificador de la cuadrícula a utilizar en el modal.
 
+##### next
+- es posible indicar la forma modal siguiente.
+
+##### prev
+- es posible indicar la forma modal anterior.
+
 ##### size
 - `small`
 - `medium`
