@@ -36,13 +36,6 @@
 - latitud y longitud para centrar en el mapa
 - esto sirve únicamente en la acción `geocomplete`
 
-##### onOpenModal
-- en el caso de la acción tipo `open` es posible indicar el identificador de la forma modal al abrir.
-
-##### onVCardTransform
-- se puede configurar un evento de tipo `transform` al momento de adjuntar un archivo `.vcf` (vCard).
-- [estructura del archivo vCard](vcard.md).
-
 ## Sub objetos
 ##### [update](update.md)
 - en algunas acciones es posible cambiar los campos del documento.

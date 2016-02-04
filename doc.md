@@ -68,6 +68,12 @@
 ##### attachSection
 - sección del documento que va administrar los archivos adjuntos.
 
+##### onOpenModal
+- al abrir el documento o crear uno nuevo posible indicar la forma [modal](modal.md) al abrir.
+
+##### onVCardTransform
+- se puede configurar un evento de tipo `transform` al momento de adjuntar un archivo `.vcf` (vCard).
+- [estructura del archivo vCard](vcard.md).
 
 ## Sub objetos
 ##### [param](param.md)
