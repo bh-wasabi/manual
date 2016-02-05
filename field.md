@@ -22,6 +22,10 @@
 ##### label
 - es la etiqueta a desplegar por omisión.
 
+##### labelPopoverTemplate
+- con esta opción es posible asignar un [template](template.md), que sirva como ayuda (tipo el `hint` del editor) de captura del campo.
+- a diferencia del `hint` que es puro texto, aquí podemos tener un `template` donde podemos tener imágenes u otros elementos HTML que pueden ayudar a tener una ayuda mucho mas profesional.
+
 ##### align
 - `left`
 - `right`
