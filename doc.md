@@ -68,12 +68,17 @@
 ##### attachSection
 - sección del documento que va administrar los archivos adjuntos.
 
-##### onOpenModal
+##### onOpenStart
 - al abrir el documento o crear uno nuevo posible indicar la forma [modal](modal.md) al abrir.
+- puede ser una [expresión](expr.md).
 
 ##### onVCardTransform
 - se puede configurar un evento de tipo `transform` al momento de adjuntar un archivo `.vcf` (vCard).
 - [estructura del archivo vCard](vcard.md).
+
+##### autoOpenOnFocus (true, false)
+- si se activa aparece la ayuda en captura automáticamente.
+- unicamente aplica en `select`, `lookup` y `autocomplete`.
 
 ## Sub objetos
 ##### [param](param.md)

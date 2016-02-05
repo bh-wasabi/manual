@@ -17,9 +17,11 @@
 
 ##### next
 - es posible indicar la forma modal siguiente.
+- puede ser una [expresión](expr.md).
 
 ##### prev
 - es posible indicar la forma modal anterior.
+- puede ser una [expresión](expr.md).
 
 ##### size
 - `small`
