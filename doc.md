@@ -76,9 +76,8 @@
 - se puede configurar un evento de tipo `transform` al momento de adjuntar un archivo `.vcf` (vCard).
 - [estructura del archivo vCard](vcard.md).
 
-##### autoOpenOnFocus (true, false)
+##### autoOpenEditors (true, false)
 - si se activa aparece la ayuda en captura automáticamente.
-- unicamente aplica en `select`, `lookup` y `autocomplete`.
 
 ## Sub objetos
 ##### [param](param.md)
