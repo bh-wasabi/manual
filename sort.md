@@ -3,7 +3,7 @@
 
 ## Parámetros
 ##### field
-- ruta del campo dentro del documento, normalmente es "campo.valor"
+- ruta del campo dentro del documento, normalmente es "seccion.campo"
 
 ##### direction
 - `asc` ascendente

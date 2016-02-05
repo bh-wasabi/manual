@@ -6,7 +6,7 @@
 - es posible condicionar el filtro.
 
 ##### field
-- ruta del campo dentro del documento, normalmente es "campo.valor"
+- ruta del campo dentro del documento, normalmente es "seccion.campo"
 
 ##### eq
 - busca que el valor o la expresión indicada sea "igual" al campo indicado.

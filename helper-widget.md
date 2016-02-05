@@ -17,6 +17,7 @@
 - `map` incrusta un [mapa](map.md).
 - `scheduler` incrusta una [agenda](scheduler.md).
 - `gallery` muestra una galería de imágenes (basado en los archivos adjuntos del documento).
+- `tileView` incrusta un [mosaico de imágenes](tileView.md).
 - `dashboard-info`
 
 ##### source
@@ -48,6 +49,9 @@
 
 ##### gallery
 - identificador de la galeria a incrustar.
+
+##### tileView
+- identificador del mosaico de imágenes a incrustar.
 
 ##### height
 - opcionalmente se puede definir el alto en pixeles que queremos que ocupe el widget.
