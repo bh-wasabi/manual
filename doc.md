@@ -4,7 +4,7 @@
 ## Parámetros
 
 ##### type
-- tipo de objeto, en este caso debe ser `doc`
+- tipo de objeto, en este caso debe ser `type="doc"`.
 
 ##### id
 - identificador del tipo de documento
