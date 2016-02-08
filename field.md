@@ -22,10 +22,6 @@
 ##### label
 - es la etiqueta a desplegar por omisión.
 
-##### labelPopoverTemplate
-- con esta opción es posible asignar un [template](template.md), que sirva como ayuda (tipo el `hint` del editor) de captura del campo.
-- a diferencia del `hint` que es puro texto, aquí podemos tener un `template` donde podemos tener imágenes u otros elementos HTML que pueden ayudar a tener una ayuda mucho mas profesional.
-
 ##### align
 - `left`
 - `right`
@@ -55,6 +51,9 @@ Ejemplo:
 - asigna el valor por omisión a un campo.
 - puede ser una expresión
 
+##### isRules (true, false)
+- se le indica al campo donde vienen las reglas que vamos a usar en el calculo.
+
 ##### source
 - tipo de documento que se va usar como fuente en las capturas.
 
@@ -70,8 +69,25 @@ Ejemplo:
 - aquí se pasa el valor que se va a mandar al filtro.
 - puede ser una [expresion](expr.md)
 
-##### isRules (true, false)
-- se le indica al campo donde vienen las reglas que vamos a usar en el calculo.
+##### helpType
+- `popover` aparece una ventana de ayuda volátil sobre la etiqueta.
+- `popup` aparece una ventana de ayuda que el quita al hacer click afuera de la ventana o el botón de cerrar si tiene título.
+
+##### helpTemplate
+- en caso de querer usar el `helpType`
+- con esta opción es posible asignar un [template](template.md) a la ventana de ayuda.
+
+##### helpTitle
+- es posible establecer un título sobre la ventana de ayuda.
+- funciona en `helpType="popup"`.
+
+##### helpWidth
+- es posible definir el ancho de la ventana de ayuda.
+- funciona en `helpType="popup"`.
+
+##### helpHeight
+- es posible definir el alto de la ventana de ayuda.
+- funciona en `helpType="popup"`.
 
 ## Sub objetos
 
