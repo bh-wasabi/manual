@@ -47,3 +47,4 @@
 #### [buttonFloat](helper-button-float.md)
 #### [br](helper-br.md)
 #### [hairline](helper-hairline.md)
+#### [comment](helper-comment.md)
