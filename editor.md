@@ -43,7 +43,7 @@ basados en las configuración:
 
 ##### source
 - cuando la ayuda en captura la queremos basar de otro tipo de documento.
-- si no se define usa el que este definido en el [campo](field.md).
+- por omisión usa lo que esta definido en [field](field.md).
 
 ##### visible (true, false)
 - podemos ocultar un campo con esta opción.
