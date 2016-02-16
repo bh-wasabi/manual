@@ -18,3 +18,7 @@
 
 ##### allowEdit (true, false)
 - permite la edición del documento.
+
+##### allowItemClick (true, false)
+- permite hacer click en la lista para visualizar el documento.
+- por omisión es `true`.

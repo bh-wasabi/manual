@@ -23,6 +23,14 @@
 - es posible indicar la forma modal anterior.
 - puede ser una [expresión](expr.md).
 
+##### cancel (true, false)
+- para que aparezca o no el botón de cancelar.
+- por omisión es `true`.
+
+##### ok (true, false)
+- para que aparezca o no el botón de aceptar.
+- por omisión es `true`.
+
 ##### size
 - `small`
 - `medium`

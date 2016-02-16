@@ -1,10 +1,14 @@
-# Objeto: **onChange** (field)
+# Objeto: **onChange**
 - sirve para controlar las acciones cuando un campo cambia de valor
 
 ## Parámetros
+
 ##### refresh (true, false)
 - se refresca el modal de captura
 - sirve para cuando necesitamos que cambie la presentación o las ayuda de captura de la forma.
+
+##### playAudio (url)
+- en el caso de las encuestas orales, es posible lanzar un audio.
 
 ## Sub objetos
 ##### set

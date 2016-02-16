@@ -22,11 +22,18 @@
 ##### label
 - etiqueta a mostrar en el botón
 
+##### color
+- es posible establecer el color del botón en la acción.
+- [lista de colores](colors.md).
+
 ##### menu
 - identificador del menú a invocar sobre esta acción
 
 ##### hide (true, false)
 - oculta la acción
+
+##### btnSolid (true, false)
+- con esta opción es posible forzar a que el botón tenga un fondo solido y no sea transparente.
 
 ##### country
 - identificador del país

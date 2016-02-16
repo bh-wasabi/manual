@@ -124,6 +124,9 @@
 ##### [workflow](workflow.md)
 - aquí se definen los flujos de trabajo, ya sean humanos o de maquina.
 
+##### [survey](survey.md)
+- es posible definir una encuesta que se aplica sobre el documento.
+
 ## Markup
 ##### [page](page.md)
 - aquí se pone todo el diseño de cada una de las páginas (tab) del documento
