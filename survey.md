@@ -1,5 +1,6 @@
 # Objeto: **survey**
 - define una encuesta
+- **Nota: por el momento el audio unicamente funciona en "Google Chrome".**
 
 ## Parámetros
 ##### id
