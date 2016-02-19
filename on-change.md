@@ -11,14 +11,17 @@
 - en el caso de las encuestas orales, es posible lanzar un audio.
 
 ## Sub objetos
-##### set
+##### [set](set.md)
 - para asignar a nuevo valor a otro campo de la misma sección
 - el contexto incluye la información de la ayuda en captura
+
+##### [update](update.md)
+- es posible afectar otros campos de otras secciones.
 
 ##### [jQuery](jquery.md)
 - ejecuta una acción en el DOM
 
-##### log
+##### [log](log.md)
 - muestra en la consola un mensaje
 
 ## Ejemplo:

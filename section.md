@@ -11,6 +11,11 @@
 - `object` son la secciones que contienen campos directos (por omisión).
 - `array` es una sección múltiple, para detalles.
 
+##### temp (true, false)
+- define si es una sección temporal
+- si se activa, la sección no se guarda en la base de datos.
+- es muy útil cuando queremos guardar temporalmente los datos de un widget en la forma.
+
 ## Sub objetos
 
 ##### [field](field.md)

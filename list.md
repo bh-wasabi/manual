@@ -22,3 +22,9 @@
 ##### allowItemClick (true, false)
 - permite hacer click en la lista para visualizar el documento.
 - por omisión es `true`.
+
+##### items
+- si la lista se va usar dentro de un documento como widget, es necesario especificar la sección del documento que contiene la lista (debe ser tipo arreglo).
+
+##### itemIndex
+- es posible presentar la lista (como widget), indicando en que posición queremos que se posiciona.
