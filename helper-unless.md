@@ -4,3 +4,8 @@
 
 ## Contexto
 - se indica el campo u objeto a analizar no tiene valor o es falso.
+
+## Parametros
+#### context
+- es posible indicar un contexto diferente de otra sección del documento.
+

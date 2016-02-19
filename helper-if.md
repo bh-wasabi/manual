@@ -4,6 +4,11 @@
 ## Contexto
 - se indica el campo u objeto a analizar si tiene valor
 
+## Parametros
+#### context
+- es posible indicar un contexto diferente de otra sección del documento.
+
+
 ## Ejemplo:
 En este caso si el campo "esTarjeta" tiene es verdadero, despliega todo el bloque en la pantalla.
 ````

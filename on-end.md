@@ -17,3 +17,11 @@
 
 ##### createNew (true, false)
 - crea un nuevo documento automáticamente.
+
+## Sub objetos
+
+##### jQuery
+- ejecuta una acción en el DOM
+
+##### log
+- muestra en la consola un mensaje

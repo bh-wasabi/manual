@@ -8,3 +8,7 @@
 ## Sub objetos
 
 ##### [jQuery](jquery.md)
+- ejecuta una acción en el DOM
+
+##### log
+- muestra en la consola un mensaje

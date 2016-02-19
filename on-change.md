@@ -15,6 +15,12 @@
 - para asignar a nuevo valor a otro campo de la misma sección
 - el contexto incluye la información de la ayuda en captura
 
+##### [jQuery](jquery.md)
+- ejecuta una acción en el DOM
+
+##### log
+- muestra en la consola un mensaje
+
 ## Ejemplo:
 ````
 {{#onChange}}
