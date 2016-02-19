@@ -8,6 +8,10 @@
 ##### fullScreen (true, false)
 - usa toda la pantalla
 
+##### onSaveClose (true, false)
+- para que cierre la ventana al guardar el documento editado.
+- esto funciona únicamente cuando se pueden editar documentos en la ventana.
+
 ##### source
 - opcional podemos indicar un tipo de documento especifico.
 - puede ser una [expresión](expr.md) sobre el contexto actual.
