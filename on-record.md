@@ -2,7 +2,8 @@
 - ejecuta un evento al momento de grabar un audio
 
 ## Parámetros
-- no tiene 
+##### minWait (#)
+- cantidad de milisegundos mínima a grabar por el usuario.
 
 ## Sub objetos
 

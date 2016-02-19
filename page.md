@@ -6,6 +6,10 @@
 - nombre a desplegar
 - se ve cuando hay más de una sola página
 
+##### icon
+- icono a desplegar
+- [lista de iconos](ion-icons.md).
+
 ##### render
 - se puede ligar con un [template](template.md) especifico.
 - esto sirve cuando queremos "pintar" un página basado en algo más abierto que no este representado por las secciones del documento.

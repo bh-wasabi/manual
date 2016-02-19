@@ -2,7 +2,9 @@
 - ejecuta un evento al momento de lanzar el audio
 
 ## Parámetros
-- no tiene 
+
+##### minWait (#)
+- cantidad de milisegundos mínima a escuchar por el usuario.
 
 ## Sub objetos
 

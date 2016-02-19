@@ -12,6 +12,7 @@
 - `list`
 - `grid`
 - `cube`
+- `tileView`
 
 ##### list
 - identificador de la [lista](list.md), si se quiere usar una lista existente.
@@ -21,6 +22,9 @@
 
 ##### cube
 - identificador del [cubo](cube.md), si se quiere usar un cubo existente.
+
+##### tileView
+- identificador del [mosaico](tileView.md) a mostrar.
 
 ##### view
 - [vista](view.md) a utilizar en este explorador.
@@ -53,3 +57,7 @@
 ##### [cube](cube.md)
 - aquí mismo podemos definir el cubo a usar.
 - presentación del explorador tipo cubo.
+
+##### [tileView](tileView.md)
+- aquí mismo podemos definir el mosaico a usar.
+- presentación del explorador tipo mosaico.

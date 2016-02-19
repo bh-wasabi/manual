@@ -1,6 +1,6 @@
 # Objeto: **tileView**
 - define un mosaico de imágenes a desplegar en en documento
-- para desplegarlas hay que usar un [widget](helper-widget.md).
+- para desplegarlas hay que usar un [widget](helper-widget.md) o en un [browser](browser.md).
 
 ## Parámetros
 ##### id
@@ -36,6 +36,10 @@
 - por ejemplo: `filter="tipo=foto"`.
 - es posible tener multiples filtros separados por el símbolo `&`.
 - Nota: hay que tomar en cuenta si el campo esta basado en un `preset` el valor a filtrar es el `id`. 
+
+##### showScrollbar (true, false)
+- muestra la barra de scroll en el mosaico.
+- por omisión es `false`.
 
 ## Ejemplo
 ````

@@ -28,6 +28,14 @@
 ##### pagesJustified (true, false)
 - justifica las páginas (tabs) del documento.
 
+##### pagesTabsPosition
+- `top` por omisión.
+- `left`
+
+##### pagesTabsWidth (%)
+- cuando `pagesTabsPosition="left"` es posible controlar el ancho de la zona donde aparecen los tabuladores.
+- por omisión en `10`.
+
 ##### allowEdit (true, false)
 - permite la edición
 
