@@ -12,6 +12,9 @@
 - `popup` abre una ventana tipo popup.
 - `doc-add` agrega un detalle al documento en la sección que esta definida.
 - `doc-refresh` refresca unicamente el documento.
+- `cube-view-names` inserta en esa posición del menú la lista de vistas de ese cubo.
+- `cube-view-preferences` abre la ventana para configurar las vistas del cubo.
+- `cube-view-save` permite guardar la vista actual del cubro.
 
 ##### icon
 - nombre del icono a desplegar.
@@ -37,8 +40,7 @@
 - recursivamente
 
 ## Ejemplos:
-
-##### menú con múltiples opciones y sub opciones.
+Menú con múltiples opciones y sub opciones:
 ````
 {{#menu id="menu-ver"}}
   {{item text="Opción 1"}}
@@ -49,3 +51,14 @@
   {{/item}}
 {{/menu}}
 ````
+Menú con vistas del cubo:
+`````
+{{#menu id="menu-cubo"}}
+  {{#item text="Ver" icon="bookmark"}}
+    {{item text="(vistas)" type="cube-view-names"}}
+    {{item text="Guardar vista..." icon="save" beginGroup="true" type="cube-view-save"}}
+    {{item text="Ajustes..." icon="preferences" type="cube-view-preferences"}}
+  {{/item}}
+  {{item text="Refrescar" icon="refresh" type="refresh"}}
+{{/menu}}
+`````
