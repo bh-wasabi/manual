@@ -26,5 +26,5 @@
 ##### items
 - si la lista se va usar dentro de un documento como widget, es necesario especificar la sección del documento que contiene la lista (debe ser tipo arreglo).
 
-##### itemIndex
+##### selectItem (#)
 - es posible presentar la lista (como widget), indicando en que posición queremos que se posiciona.
