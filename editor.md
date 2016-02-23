@@ -133,7 +133,7 @@ basados en las configuración:
 
 ##### labelText
 - etiqueta a desplegar
-- funciona con el tipo `file-uploader`
+- funciona únicamente con los tipos `file-uploader` y `checkbox`.
 
 ##### hint
 - es posible agregar una ayuda adicional al campo
