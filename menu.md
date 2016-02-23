@@ -17,3 +17,16 @@
 
 ##### [item](menu-item.md)
 - puede ser recursivo, para poder tener "n" niveles de profundidad.
+
+## Ejemplos
+Menú con opción de cambiar las vistas del cubo:
+````
+{{#menu id="menu-cubo"}}
+  {{#item text="Ver" icon="bookmark"}}
+    {{item text="(vistas)" type="cube-view-names"}}
+    {{item text="Guardar vista..." icon="save" beginGroup="true" type="cube-view-save"}}
+    {{item text="Ajustes..." icon="preferences" type="cube-view-preferences"}}
+  {{/item}}
+  {{item text="Refrescar" icon="refresh" type="refresh"}}
+{{/menu}}
+````
