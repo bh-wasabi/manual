@@ -14,6 +14,10 @@
 ##### allowExpandAll (true, false)
 - le permite al usuario expandir y colapsar todo el cubo
 
+##### autoSaveView (true, false)
+- guarda automáticamente el ultimo acomodo (vista) del cubo.
+- Nota: para poder configurar las vistas manualmente es necesario apagar esta opción porque se pueden generar conflictos.
+
 ## Sub objetos
 
 ##### [column](cube-field.md)
