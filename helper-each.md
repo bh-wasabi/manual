@@ -6,6 +6,10 @@
 - el arreglo a recorrer
 - automáticamente hace un [with](helper-with.md), del detalle del arreglo.
 
+## Parámetros
+
+##### limit (#)
+- con esta opción es posible limitar la cantidad de registros a desplegar.
 
 ## Ejemplo:
 ````

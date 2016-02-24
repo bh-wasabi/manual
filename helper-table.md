@@ -10,6 +10,12 @@
 - lista de columnas (separadas por comas)
 - podemos poner el nombre de otra columna entre corchetes para indicar que hay una liga automática.
 
+##### medium
+- lista de anchos (separadas por comas)
+
+##### limit (#)
+- con esta opción es posible limitar la cantidad de registros a desplegar.
+
 ## Ejemplo:
 ````
 {{#row class="invoice-body"}}

@@ -50,6 +50,7 @@ Ejemplo:
 ##### defaultValue
 - asigna el valor por omisión a un campo.
 - puede ser una expresión
+- si el campo es de una sección tipo arreglo, es posible asignar una lista de valores separados por comas.
 
 ##### isRules (true, false)
 - se le indica al campo donde vienen las reglas que vamos a usar en el calculo.
@@ -60,6 +61,10 @@ Ejemplo:
 ##### sourceExpr
 - es posible basar el tipo de documento usando una expresión.
 - para que funcione correctamente es necesario hacer un [refresh](on-change.md) de la forma para que se actualice la fuente.
+
+##### view
+- se puede indicar la vista especifica del `source`.
+- por omisión toma la vista definida en el tipo de documento en `defaultView`.
 
 ##### sourceFilter
 - se puede especificar el campo remoto donde se va aplicar el filtro

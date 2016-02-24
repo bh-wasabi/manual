@@ -45,6 +45,10 @@ basados en las configuración:
 - cuando la ayuda en captura la queremos basar de otro tipo de documento.
 - por omisión usa lo que esta definido en [field](field.md).
 
+##### view
+- se puede indicar la vista especifica del `source`.
+- por omisión toma la vista definida en el tipo de documento en `defaultView`.
+
 ##### visible (true, false)
 - podemos ocultar un campo con esta opción.
 
