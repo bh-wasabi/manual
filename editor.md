@@ -49,6 +49,11 @@ basados en las configuración:
 - se puede indicar la vista especifica del `source`.
 - por omisión toma la vista definida en el tipo de documento en `defaultView`.
 
+##### allwaysLoad (true, false)
+- con esta opción forzamos que vuelva a leer la ayuda en captura.
+- es muy útil cuando se quiere hacer una ayuda en captura basada en otros campos capturados (en la misma sección) y sobre todo cuando se quiere evitar hacer el `refresh`.
+
+
 ##### visible (true, false)
 - podemos ocultar un campo con esta opción.
 

@@ -7,6 +7,10 @@
 - se refresca el modal de captura
 - sirve para cuando necesitamos que cambie la presentación o las ayuda de captura de la forma.
 
+##### clearFields
+- con esta opción es posible borrar los valores de otros campos de la misma sección y que estén visibles en ese momento en la forma de captura.
+- lista de campos separados por comas.
+
 ##### playAudio (url)
 - en el caso de las encuestas orales, es posible lanzar un audio.
 
