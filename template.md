@@ -21,12 +21,27 @@
 ##### if
 - podemos condicionar un bloque si el contexto tiene valor
 
+##### unless
+- es el contrario del `if`, la condición es que no tenga valor.
+
 ##### with
 - para tener un contexto a partir de un objeto del documento
 
 ##### each
 - podemos hacer iteraciones
 - en el contexto va el campo tipo arreglo.
+
+##### date
+- sirve para poner formato a un campo tipo fecha.
+- tiene 2 contextos: el campo y el formato, el formato debe ir entre comillas dobles.
+- se usa [Moment.js](http://momentjs.com) para formatear las fechas
+- ejemplo: `{{date base.fechaAlta "DD/MMM/YYYY"}}`
+
+##### number
+- sirve para poner formato a un campo numérico.
+- tiene 2 contextos: el campo y el formato, el formato debe ir entre comillas dobles.
+- se usa [Numeral.js](http://numeraljs.com) para formatear los números.
+- ejemplo: `{{date importe "#,.##"}}`
 
 ## Ejemplo:
 ````

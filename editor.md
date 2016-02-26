@@ -52,7 +52,7 @@ basados en las configuración:
 ##### allwaysLoad (true, false)
 - con esta opción forzamos que vuelva a leer la ayuda en captura.
 - es muy útil cuando se quiere hacer una ayuda en captura basada en otros campos capturados (en la misma sección) y sobre todo cuando se quiere evitar hacer el `refresh`.
-
+- Nota: para que funcione correctamente esta opción es necesario usar antes `clearFields` del evento `onChange` del campo padre.
 
 ##### visible (true, false)
 - podemos ocultar un campo con esta opción.
@@ -152,3 +152,14 @@ basados en las configuración:
 
 ##### [item](editor-item.md)
 - lista de opciones a seleccionar.
+
+##### [filter](filter.md)
+- es posible indicar filtros que se van a aplicar al abrir la ayuda en captura.
+- funciona cuando el tipo es `select`, `lookup` o `autocomplete`.
+
+>##### Nota: En los filtros hay 2 contextos disponibles
+1. Todos los campos misma sección (invocando al campo directo, `this.campo` o `@campo`)
+2. El documento completo.
+
+- los campos de la sección se modifican directamente (y pueden usarse como base de los filtros sin necesidad de refrescar la forma) y los campos del documento cuando se acepta la forma modal.
+

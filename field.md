@@ -29,7 +29,7 @@
 
 ##### format
 - en los campos tipo number, calc y date, se puede especificar un formato especifico
-- el sistema va usar [Moment.js](http://momentjs.com) para formatear las fechas y [Numeral.js](http://numeraljs.com) para formatear los numeros.
+- el sistema va usar [Moment.js](http://momentjs.com) para formatear las fechas y [Numeral.js](http://numeraljs.com) para formatear los números.
 - existen algunos valores pre-definidos como: `currency`.
 
 ##### value
