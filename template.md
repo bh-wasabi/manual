@@ -43,6 +43,11 @@
 - se usa [Numeral.js](http://numeraljs.com) para formatear los números.
 - ejemplo: `{{date importe "#,.##"}}`
 
+##### display
+- es otra forma de formatear un numero o una fecha.
+- ejemplos: `{{display importe type="number" format="#,.##"}}`, `{{display fecha type="date" format="DD/MMM/YYYY"}}`
+
+
 ## Ejemplo:
 ````
 {{#template id="cfdi" type="xml"}}
