@@ -4,9 +4,13 @@
 ## Parámetros
 ##### type
 - `css`
+- `attr`
+- `prop`
 - `addClass`
 - `removeClass`
 
+##### name
+- nombre a modificar
 
-##### key
 ##### value
+- nuevo valor
