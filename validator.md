@@ -10,6 +10,7 @@
 - `stringLength` valida el tamaño del campo en cantidad de caracteres.
 - `range` valida que el valor este en el rango (min y max)
 - `pattern` debe cumplir con un patrón de captura definido por una expresión regular.
+- `duplicates` valida valores duplicados, el mismo campo en otros documentos de la misma colección.
 
 ##### message
 - el mensaje de error a desplegar si no cumple con las reglas de validación
