@@ -15,12 +15,16 @@
 - `geocomplete` herramienta para buscar una dirección o establecimiento y obtener la dirección. [definición del objeto obtenido por google](google-geocomplete.md).
 - `menu` podemos tener una acción que invoque a un menú.
 - `attach` con esta opción podemos adjuntar archivos al documento.
+- `subdoc`con esta opción es posible agregar un sub-documento (es necesario especificar `source` para que funcione y definir el botón sobre la forma modal usando `buttonFloat`).
 
 ##### modal
 - identificador de la forma modal a invocar
 
 ##### label
 - etiqueta a mostrar en el botón
+
+##### source
+- en el caso de sub-documentos aqui se especifica el tipo de documento a agregar.
 
 ##### color
 - es posible establecer el color del botón en la acción.
