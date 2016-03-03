@@ -47,6 +47,10 @@
 - latitud y longitud para centrar en el mapa
 - esto sirve únicamente en la acción `geocomplete`
 
+##### condition
+- es una [expresión](expr.md).
+- es posible condicionar la acción usando el contexto del documento.
+
 ## Sub objetos
 ##### [update](update.md)
 - en algunas acciones es posible cambiar los campos del documento.

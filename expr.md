@@ -19,3 +19,7 @@
 - Nota: cuando la expresión puede regresar multiples resultados, hay que poner la palabra reservada "return" antes, por ejemplo: `=if (a>b) {return a} else {return b}`
  
 
+## contextos especiales
+- en el documento pueden existir algunos parámetros adiciones bajo la sección `_options`.
+- `_options.isSubDoc` 
+- `_options.isVertical` 
