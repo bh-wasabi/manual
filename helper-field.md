@@ -5,6 +5,11 @@
 ## Contexto
 - campo a editar
 
+## Parámetros
+##### readOnly (true, false)
+- con esta opción es posible controlar esto a nivel forma.
+- puede ser una [expresión](expr.md).
+
 ## Ejemplo:
 ````
 {{#modal base id="base" name="Datos Básicos"}}

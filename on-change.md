@@ -18,9 +18,7 @@
 ##### [set](set.md)
 - para asignar a nuevo valor a otro campo de la misma sección
 - el contexto incluye la información de la ayuda en captura
-
-##### [update](update.md)
-- es posible afectar otros campos de otras secciones.
+- Nota: el campo debe estar visible en la forma para que funcione.
 
 ##### [jQuery](jquery.md)
 - ejecuta una acción en el DOM
