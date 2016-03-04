@@ -10,6 +10,7 @@
 - nombre visible del componente
 
 ##### type
+- `list` incrusta una [lista](list.md).
 - `cube` incrusta un [cubo](cube.md).
 - `grid` incrusta una [cuadrícula](grid.md).
 - `chart` incrusta una [gráfica](chart.md).
@@ -23,11 +24,15 @@
 ##### source
 - identificador del tipo de documento (opcional).
 - cuando se quiere incrustar un objeto de otro tipo de documento.
-- sirve para cuando es tipo `cube`, `grid` y `chart`.
+- sirve para cuando es tipo `list`,  `cube`, `grid` y `chart`.
 
 ##### view
 - identificador de la vista a utilizar.
-- sirve para cuando es tipo `cube`, `grid` y `chart`.
+- si se usa `source` por omisión toma la vista que esta definida en el tipo de documento.
+- sirve para cuando es tipo `list`,  `cube`, `grid` y `chart`.
+
+##### list
+- identificador de la lista a incrustar.
 
 ##### cube
 - identificador del cubo a incrustar.
