@@ -31,6 +31,14 @@
 - si se usa `source` por omisión toma la vista que esta definida en el tipo de documento.
 - sirve para cuando es tipo `list`,  `cube`, `grid` y `chart`.
 
+##### allowOpen (true, false)
+- funciona unicamente con listas y con `source`.
+- define si es posible abrir el documento que esta ligado al detalle de la lista.
+
+##### label
+- nombre a mostrar sobre el menú de contexto.
+- cuando se tiene un menú de contexto en las listas.
+
 ##### list
 - identificador de la lista a incrustar.
 

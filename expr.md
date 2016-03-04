@@ -21,5 +21,6 @@
 
 ## contextos especiales
 - en el documento pueden existir algunos parámetros adiciones bajo la sección `_options`.
-- `_options.isSubDoc` 
-- `_options.isVertical` 
+- `isSubDoc`  es verdadero si el documento se abrió como sub-documento de otro.
+- `isVertical` es verdadero si la forma se abrió en forma vertical.
+- `browser` nombre del `browser` actual que esta abriendo el documento.
