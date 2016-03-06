@@ -17,7 +17,7 @@
 ## Sub objetos
 ##### [set](set.md)
 - para asignar a nuevo valor a otro campo de la misma sección
-- el contexto incluye la información de la ayuda en captura
+- se pueden usar como contexto todo el documento remoto como el documento local (cuando se usa ayudas en captura tipo `lookup`, `select` o `autocomplete`).
 - Nota: el campo debe estar visible en la forma para que funcione.
 
 ##### [jQuery](jquery.md)

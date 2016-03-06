@@ -17,6 +17,9 @@
 - el siguiente paso puede ser un sub objeto, para casos donde se necesiten expresiones para determinar cual es el siguiente paso.
 - si no hay un siguiente paso, termina el flujo de trabajo.
 
+##### updateSections
+- en algunos casos se requiere actualizar el documento original parcialmente, con este parámetros podemos indicar la lista de secciones (separadas por comas) que queremos actualizar.
+
 ## Sub objetos
 
 ##### [next](step-next.md)
