@@ -21,6 +21,15 @@
 - `true` o `header` le permite al usuario filtrar dinámicamente sobre todas las columnas visibles
 - `row` agrega una línea al encabezado de la cuadrícula donde el usuario puede establecer un filtro avanzado.
 
+##### allowEdit (true, false)
+- permite editar
+
+##### editMode
+- `row` por omisión
+- `batch`
+- `cell`
+- Nota: esto funciona cuando el `grid` opera dentro de un `browser` directamente.
+
 ## Sub objetos
 
 ##### [column](grid-column.md)

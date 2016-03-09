@@ -13,6 +13,9 @@
 ##### allowInsert (true, false)
 - permite agregar nuevos documento a la colección
 
+##### allowInsertLot (true, false)
+- permite agregar nuevos documento a la colección en [lote](insert-lot.md).
+
 ##### allowRefresh (true, false)
 - permite refrescar la lista.
 
@@ -28,3 +31,8 @@
 
 ##### selectItem (#)
 - es posible presentar la lista (como widget), indicando en que posición queremos que se posiciona.
+
+## Sub objetos
+
+##### [insertLot](insert-lot.md)
+- con esta opción es posible insertar documentos en lote.
