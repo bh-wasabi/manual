@@ -21,6 +21,11 @@
 - es el orden por omisión que se ejecuta al abrir la cuadrícula.
 - lista de columnas separadas por comas
 
+##### filter
+- es posible seleccionar indicar un filtro adicional.
+- por ejemplo: `filter="tipo=foto"`.
+- es posible tener multiples filtros separados por el símbolo `&`.
+
 ## Sub objetos
 
 ##### [column](grid-column.md)

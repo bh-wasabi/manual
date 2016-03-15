@@ -10,11 +10,25 @@
 - lista de columnas (separadas por comas)
 - podemos poner el nombre de otra columna entre corchetes para indicar que hay una liga automática.
 
+##### xsmall
+- lista de anchos (separadas por comas)
+
+##### small
+- lista de anchos (separadas por comas)
+
 ##### medium
+- lista de anchos (separadas por comas)
+
+##### large
 - lista de anchos (separadas por comas)
 
 ##### limit (#)
 - con esta opción es posible limitar la cantidad de registros a desplegar.
+
+##### filter
+- es posible seleccionar indicar un filtro adicional.
+- por ejemplo: `filter="tipo=foto"`.
+- es posible tener multiples filtros separados por el símbolo `&`.
 
 ## Ejemplo:
 ````
