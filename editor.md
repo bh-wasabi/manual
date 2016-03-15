@@ -21,6 +21,7 @@
 - `slider`
 - `switch`
 - `file-uploader` cargar archivos.
+- `options` para capturar las opciones de un artículo.
 
 ##### preset
 - ayuda en captura para tablas pequeñas (key/value) es están en memoria).
@@ -48,6 +49,11 @@ basados en las configuración:
 ##### view
 - se puede indicar la vista especifica del `source`.
 - por omisión toma la vista definida en el tipo de documento en `defaultView`.
+
+##### parent
+- campo padre 
+- en `select-current` se especifica el campo a usar como base del filtro.
+- en `options` se define el campo que tiene el artículo.
 
 ##### allwaysLoad (true, false)
 - con esta opción forzamos que vuelva a leer la ayuda en captura.
