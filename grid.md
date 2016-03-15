@@ -2,33 +2,24 @@
 - despliega una cuadrícula en el explorador
 
 ## Parámetros
-##### allowGrouping (true, false)
-- le permite al usuario hacer agrupaciones al vuelo.
+##### id
+- identificador del grid
 
-##### columnChooser (true, false)
-- le permite al usuario quitar o poner columnas.
+##### section
+- sección del documento
 
-##### allowSearch (true, false)
-- permite la búsqueda integrada a la cuadrícula
+##### allowRemove (true, false)
+- permite eliminar renglones
 
-##### pageSize (#)
-- determina el tamaño de la página visible.
+##### allowInsert (true, false)
+- permite insertar renglones
 
-##### allowedPageSizes
-- le permite al usuario cambiar el tamaño de la página al vuelo, por ejemplo: `allowedPageSizes="10,20,30"`.
+##### allowSort (true, false)
+- permite ordenar (al usuario final) 
 
-##### filters
-- `true` o `header` le permite al usuario filtrar dinámicamente sobre todas las columnas visibles
-- `row` agrega una línea al encabezado de la cuadrícula donde el usuario puede establecer un filtro avanzado.
-
-##### allowEdit (true, false)
-- permite editar
-
-##### editMode
-- `row` por omisión
-- `batch`
-- `cell`
-- Nota: esto funciona cuando el `grid` opera dentro de un `browser` directamente.
+##### sortBy
+- es el orden por omisión que se ejecuta al abrir la cuadrícula.
+- lista de columnas separadas por comas
 
 ## Sub objetos
 
