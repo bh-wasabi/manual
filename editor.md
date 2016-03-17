@@ -21,7 +21,7 @@
 - `slider`
 - `switch`
 - `file-uploader` cargar archivos.
-- `options` para capturar las opciones de un artículo.
+- `options` para capturar las opciones de un artículo, necesita `parent` (campo que tiene el artículo) y `source` (colección del artículo, debe estar definido `optionsSection` en esa colección).
 
 ##### preset
 - ayuda en captura para tablas pequeñas (key/value) es están en memoria).
@@ -45,6 +45,20 @@ basados en las configuración:
 ##### source
 - cuando la ayuda en captura la queremos basar de otro tipo de documento.
 - por omisión usa lo que esta definido en [field](field.md).
+
+##### sourceFindOne
+- cuando se usa `sourceGetSection` aquí podemos especificar el campo que contiene el identificador del documento.
+- puede ser una [expresión](expr.md), el contexto es la sección actual y el documento.
+
+##### sourceFindOneDisableCache (true, false)
+- el sistema genera un cache por omisión para este tipo de ayudas en captura.
+- con esta opción es posible des-habilitar el cache.
+- por omisión es `false`.
+
+##### sourceGetSection
+- es posible usar una sección especifica de un documento como ayuda en captura.
+- es necesario usar `sourceFindOne` para filtrar el documento.
+- la sección debe tener los campos `id` y `nombre`.
 
 ##### view
 - se puede indicar la vista especifica del `source`.

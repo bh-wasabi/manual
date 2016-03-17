@@ -80,6 +80,9 @@
 ##### attachSection
 - sección del documento que va administrar los archivos adjuntos.
 
+##### optionsSection
+- sección del documento que contiene las opciones del artículo.
+
 ##### startOnOpen
 - al abrir el documento o crear uno nuevo posible indicar la forma [modal](modal.md) al abrir.
 - puede ser una [expresión](expr.md).
