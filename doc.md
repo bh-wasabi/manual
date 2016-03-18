@@ -65,9 +65,6 @@
 ##### promosQuantity
 - campo que tiene la cantidad, que se necesita para el calculo de las promociones.
 
-##### totals (true, false)
-- si queremos calcular una sección de totalizadores del documento
-
 ##### totalsSection
 - nombre de la sección de totalizadores.
 
