@@ -91,6 +91,13 @@
 ##### autoOpenEditors (true, false)
 - si se activa aparece la ayuda en captura automáticamente.
 
+##### configSettings 
+- `sección.campo` del documento que contiene la configuración externa.
+- usa el `preset` del campo para conocer cual es la fuente de su configuración externa.
+- esto funciona cuando se quiere hacer una forma dinámica basada en partes externas.
+- reemplaza algunos objetos dinámicamente en base a la configuración.
+- genera un objeto `_config` disponible para hacer expresiones en el documento.
+
 ## Sub objetos
 ##### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.

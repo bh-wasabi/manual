@@ -1,4 +1,4 @@
-# functions
+# calc
 - funciones predefinidas adicionales
 
 ##### expireColor (date)
@@ -8,3 +8,7 @@
 - devuelve el primer elemento del arreglo.
 - opcionalmente se puede agregar un filtro, debe ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`.
 - si no hay resultados devuelve un objeto vacio `{}`.
+
+##### decision (id, parámetros...)
+- ejecuta una tabla de decisión 
+

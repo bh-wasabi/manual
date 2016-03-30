@@ -7,7 +7,7 @@
 - `xsd` ejecuta una validación de tipo XSD.
 - parámetro opcional.
 
-##### if
+##### condition
 - condición a evaluar.
 - el contexto es el documento y/o el detalle de la sección especifica.
 - puede ser una [expresión](expr.md).

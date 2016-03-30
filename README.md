@@ -5,5 +5,8 @@
 ##### [app](app.md)
 - aplicación
 
+##### [cfg](cfg.md)
+- configuración
+
 ##### [doc](doc.md)
 - tipo de documento

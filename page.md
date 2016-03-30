@@ -15,6 +15,11 @@
 - esto sirve cuando queremos "pintar" un página basado en algo más abierto que no este representado por las secciones del documento.
 
 ##### hide (true, false)
+- oculta la página
+- se puede usar una [expresión](expr.md).
+
+##### show (true, false)
+- muestra la página
 - se puede usar una [expresión](expr.md).
 
 ## Facilitadores
