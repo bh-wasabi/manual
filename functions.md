@@ -1,12 +1,17 @@
 # calc
 - funciones predefinidas adicionales
 
-##### expireColor (fecha)
-- devuelve el los colores `green`, `yellow`, `red` o `grey`, en base al vencimiento de la fecha.
+##### fn (id, parámetros...)
+- ejecuta una función configurable.
+- debe existir el identificador en la configuración (`_cfg`).
+- Nota: esta función también se puede ejecutar directamente sin el prefijo `calc.`
 
 ##### case (id, parámetros...)
-- ejecuta una tabla de decisión.
+- ejecuta una tabla de decisión configurable.
 - debe existir el identificador en la configuración (`_cfg`).
+
+##### expireColor (fecha)
+- devuelve el los colores `green`, `yellow`, `red` o `grey`, en base al vencimiento de la fecha.
 
 ##### extract (arreglo, campo)
 - extrae un campo de un arreglo y lo convierte a un texto separado por comas.
@@ -46,22 +51,26 @@ Sintaxis 2:
 calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 ````
 
-#### taxAmount (preset, rateField, keyField, taxTypes, amount)
+#### taxAmount (preset, baseRateField, rateField, keyField, taxTypes, subTotal, tax)
 Esta función regresa el importe de impuestos a nivel línea.
 - `preset` tipos de impuestos.
-- `rateField` nombre del campo de la tasa dentro del `preset`.
-- `keyField` nombre del campo del id dentro del `preset`.
+- `baseRateField` nombre del campo de la base del cálculo (dentro del `preset`).
+- `rateField` nombre del campo de la tasa (dentro del `preset`).
+- `keyField` nombre del campo del id (dentro del `preset`).
 - `taxTypes` campo que contiene la lista (separada por comas) de los impuestos asignados.
-- `amount` campo que contiene el importe total (antes de impuestos).
+- `subTotal` campo que contiene el sub total.
+- `tax` campo que contiene los impuestos.
 
-#### taxBreakdown (preset, rateField, keyField, items, taxTypesField, amountField, resultTaxTypeField, resultRateField, resultAmountField)
+#### taxBreakdown (preset, baseRateField, rateField, keyField, items, taxTypesField, subTotalField, taxField, resultTaxTypeField, resultRateField, resultAmountField)
 Esta función regresa el desglose de los impuestos totales de un movimiento.
 - `preset` nombre del preset que contiene los tipos de impuestos.
-- `rateField` nombre del campo de la tasa dentro del `preset`.
-- `keyField` nombre del campo del id dentro del `preset`.
+- `baseRateField` nombre del campo de la base del cálculo (dentro del `preset`).
+- `rateField` nombre del campo de la tasa (dentro del `preset`).
+- `keyField` nombre del campo del id (dentro del `preset`).
 - `items` sección del documento que contiene la lista de artículos.
-- `taxTypesField` nombre del campo dentro de los articulos que contiene la lista de impuestos.
-- `amountField` nombre del campo que contiene el importe total (antes de impuestos)
+- `taxTypesField` nombre del campo dentro de los artículos que contiene la lista de impuestos.
+- `subTotalField` nombre del campo que contiene el sub total.
+- `taxField` nombre del campo que contiene los impuestos.
 - `resultTaxTypeField` nombre del campo del tipo de impuesto (resultado).
 - `resultRateField` nombre del campo de la tasa (resultado).
 - `resultAmountField` nombre del campo del importe (resultado).
