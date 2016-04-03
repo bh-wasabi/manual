@@ -4,6 +4,7 @@
 ## Parámetros
 ##### source
 - tipo de documento
+- si no se indica el sistema intenta sacar la fuente del campo que contiene el `id`.
 
 ##### id
 - identificador del documento

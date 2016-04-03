@@ -77,6 +77,11 @@
 ##### attachSection
 - sección del documento que va administrar los archivos adjuntos.
 
+##### attachLanguage
+Define el nombre de los campos en que se van a guardar los archivos adjuntos.
+- `en` Ingles (por omisión).
+- `es` Español.
+
 ##### optionsSection
 - sección del documento que contiene las opciones del artículo.
 

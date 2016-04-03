@@ -47,7 +47,7 @@ basados en las configuración:
 - por omisión usa lo que esta definido en [field](field.md).
 
 ##### sourceFindOne
-- cuando se usa `sourceGetSection` aquí podemos especificar el campo que contiene el identificador del documento.
+- cuando se usa `getSourceSection` aquí podemos especificar el campo que contiene el identificador del documento.
 - puede ser una [expresión](expr.md), el contexto es la sección actual y el documento.
 
 ##### sourceFindOneDisableCache (true, false)
@@ -55,7 +55,7 @@ basados en las configuración:
 - con esta opción es posible des-habilitar el cache.
 - por omisión es `false`.
 
-##### sourceGetSection
+##### getSourceSection
 - es posible usar una sección especifica de un documento como ayuda en captura.
 - es necesario usar `sourceFindOne` para filtrar el documento.
 - la sección debe tener los campos `id` y `nombre`.

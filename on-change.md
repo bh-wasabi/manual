@@ -11,6 +11,12 @@
 - con esta opción es posible borrar los valores de otros campos de la misma sección y que estén visibles en ese momento en la forma de captura.
 - lista de campos separados por comas.
 
+##### getSourceDoc (true, false)
+- esta opción lee el documento completo y se tiene disponible en el contexto para hacer expresiones.
+
+##### getSourceDocAs
+- es posible cambiar el nombre del objeto obtenido, por omisión es `_source`.
+
 ##### playAudio (url)
 - en el caso de las encuestas orales, es posible lanzar un audio.
 

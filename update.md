@@ -41,3 +41,22 @@
 
 ##### [set](set.md)
 - actualiza el valor de uno o varios campos.
+
+##### [get](get.md)
+- es posible leer un documento externo para usarlo para actualizar.
+
+## Ejemplos
+En este ejemplo se actualiza directamente el campo `nombre` de la sección `sujeto`.
+````
+{{#update section="sujeto"}}
+ {{set nombre="Nombre del Sujeto"}}
+{{/update}}
+````
+En este ejemplo se actualiza el nombre de cada artículo, buscando el artículo que le corresponde.
+````
+{{#update section="articulos"}}
+  {{#get id="articulo"}}
+    {{set nombre="base.nombre"}}
+  {{/get}}
+{{/update}}
+`````
