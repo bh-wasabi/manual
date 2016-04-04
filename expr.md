@@ -10,8 +10,8 @@
 ## contextos adiciones
 - `moment` basado en la libreria de [Moment.js](http://momentjs.com).
 - `numeral` basado en la libreria de [Numeral.js](http://numeraljs.com/).
-- `fn` funciones configurables.
-- `calc` [lista de funciones del sistema](functions.md).
+- `fn` [funciones configurables](fn.md).
+- `calc` [funciones predefinidas](calc.md).
 
 ## otras consideraciones importantes
 - si se agrega un "=" previo, se forza a que el evaluador considere que es una expresión.

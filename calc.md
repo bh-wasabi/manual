@@ -1,14 +1,10 @@
 # calc
-- funciones predefinidas adicionales
+- funciones predefinidas
 
 ##### fn (id, parámetros...)
 - ejecuta una función configurable.
 - debe existir el identificador en la configuración (`_cfg`).
 - Nota: esta función también se puede ejecutar directamente sin el prefijo `calc.`
-
-##### case (id, parámetros...)
-- ejecuta una tabla de decisión configurable.
-- debe existir el identificador en la configuración (`_cfg`).
 
 ##### expireColor (fecha)
 - devuelve el los colores `green`, `yellow`, `red` o `grey`, en base al vencimiento de la fecha.
