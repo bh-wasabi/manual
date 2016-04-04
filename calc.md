@@ -9,8 +9,9 @@
 ##### expireColor (fecha)
 - devuelve el los colores `green`, `yellow`, `red` o `grey`, en base al vencimiento de la fecha.
 
-##### extract (arreglo, campo)
+##### extract (arreglo, campo, filtros)
 - extrae un campo de un arreglo y lo convierte a un texto separado por comas.
+- opcionalmente se puede agregar un filtro, debe ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`.
 
 ##### first (arreglo, filtros)
 - devuelve el primer elemento del arreglo.
