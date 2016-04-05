@@ -52,6 +52,10 @@ Ejemplo:
 - puede ser una expresión
 - si el campo es de una sección tipo arreglo, es posible asignar una lista de valores separados por comas.
 
+##### if
+- con esta opción es posible condicionar la visibilidad el campo.
+- genera un [facilitador if](helper-if.md) automáticamente, que se evalúa el contexto al momento de ejecución de la página.
+
 ##### isRules (true, false)
 - se le indica al campo donde vienen las reglas que vamos a usar en el calculo.
 

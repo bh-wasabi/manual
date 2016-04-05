@@ -8,6 +8,10 @@
 #### context
 - es posible indicar un contexto diferente de otra sección del documento.
 
+#### context="contexto"
+- si se quiere forzar un contexto especifico se puede hacer con este parámetro.
+- muy útil para cuando se esta dentro de un `with`
+- también se puede usar el prefijo `@root.` para evitar las rutas.
 
 ## Ejemplo:
 En este caso si el campo "esTarjeta" tiene es verdadero, despliega todo el bloque en la pantalla.
@@ -25,4 +29,13 @@ En este caso si el campo "esTarjeta" tiene es verdadero, despliega todo el bloqu
   {{br}}{{label tarjetaEstado}}
   {{br}}{{label tarjetaPais}}
 {{/if}}
+````
+
+````
+{{#if context="../esTarjeta"}}
+{{/if}}
+
+{{#if context="@root.pago.esTarjeta"}}
+{{/if}}
+
 ````
