@@ -99,12 +99,12 @@ Define el nombre de los campos en que se van a guardar los archivos adjuntos.
 ##### autoOpenEditors (true, false)
 - si se activa aparece la ayuda en captura automáticamente.
 
-##### configSettings 
+##### cfgLinkSettings 
 - `sección.campo` del documento que contiene la configuración externa.
 - usa el `preset` del campo para conocer cual es la fuente de su configuración externa.
 - esto funciona cuando se quiere hacer una forma dinámica basada en partes externas.
 - reemplaza algunos objetos dinámicamente en base a la configuración.
-- genera un objeto `_config` disponible para hacer expresiones en el documento.
+- genera un objeto `_cfg` disponible para hacer expresiones en el documento.
 
 ## Sub objetos
 ##### [param](param.md)
