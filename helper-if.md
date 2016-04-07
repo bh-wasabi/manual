@@ -10,7 +10,7 @@
 
 #### context="contexto"
 - si se quiere forzar un contexto especifico se puede hacer con este parámetro.
-- muy útil para cuando se esta dentro de un `with`
+- muy útil para cuando se esta dentro de un `with` o cuando la sección es temporal.
 - también se puede usar el prefijo `@root.` para evitar las rutas.
 
 ## Ejemplo:

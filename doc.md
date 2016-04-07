@@ -12,6 +12,9 @@
 ##### name
 - nombre visible del tipo de documento
 
+##### error
+- despliega un mensaje de error junto al título del documento.
+
 ##### defaultView
 - id de la vista por omisión (al usar este tipo de documento desde otros documentos)
 
