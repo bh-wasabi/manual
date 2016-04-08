@@ -48,20 +48,20 @@ Sintaxis 2:
 calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 ````
 
-#### taxAmount (preset, baseRateField, rateField, keyField, taxTypes, amount, tax)
+#### taxAmount (preset, typeAmountField, rateField, keyField, taxTypes, amount, tax)
 Esta función regresa el importe de impuestos a nivel línea.
 - `preset` tipos de impuestos.
-- `baseRateField` nombre del campo de la base del cálculo (dentro del `preset`).
+- `typeAmountField` nombre del campo del tipo de importe (dentro del `preset`).
 - `rateField` nombre del campo de la tasa (dentro del `preset`).
 - `keyField` nombre del campo del id (dentro del `preset`).
 - `taxTypes` campo que contiene la lista (separada por comas) de los impuestos asignados.
 - `amount` campo que contiene el importe.
 - `tax` campo que contiene los impuestos.
 
-#### taxBreakdown (preset, baseRateField, rateField, keyField, items, taxTypesField, amountField, taxField, resultTaxTypeField, resultRateField, resultAmountField)
+#### taxBreakdown (preset, typeAmountField, rateField, keyField, items, taxTypesField, amountField, taxField, resultTaxTypeField, resultRateField, resultBaseField, resultTaxField)
 Esta función regresa el desglose de los impuestos totales de un movimiento.
 - `preset` nombre del preset que contiene los tipos de impuestos.
-- `baseRateField` nombre del campo de la base del cálculo (dentro del `preset`).
+- `typeAmountField` nombre del campo del tipo de importe (dentro del `preset`).
 - `rateField` nombre del campo de la tasa (dentro del `preset`).
 - `keyField` nombre del campo del id (dentro del `preset`).
 - `items` sección del documento que contiene la lista de artículos.
@@ -70,4 +70,5 @@ Esta función regresa el desglose de los impuestos totales de un movimiento.
 - `taxField` nombre del campo que contiene los impuestos.
 - `resultTaxTypeField` nombre del campo del tipo de impuesto (resultado).
 - `resultRateField` nombre del campo de la tasa (resultado).
-- `resultAmountField` nombre del campo del importe (resultado).
+- `resultBaseField` nombre del campo de la base (resultado).
+- `resultTaxField` nombre del campo del importe del impuesto (resultado).
