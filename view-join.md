@@ -20,6 +20,20 @@
 - parámetros para usar en la sub vista.
 
 ## Ejemplo:
+Vista que se quiere jalar:
+````
+{{#view id="sub-conteo"}}
+  {{define type="param" id="parentType"}}
+  {{define type="param" id="parentId"}}
+  {{#pipeline}}
+    {{filter field="_parent.type" eq="parentType"}}
+    {{filter field="_parent.id" eq="parentId"}}      
+    {{group type="count" as="conteo"}}
+  {{/pipeline}}  
+{{/view}}
+````
+
+Vista principal con el `join`:
 ````
 {{#view id="lista"}}
   {{#find}}
