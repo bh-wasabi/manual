@@ -44,3 +44,6 @@
 ##### [define](view-define.md)
 - podemos definir parámetros de la vista.
 
+##### [join](view-join.md)
+- es posible unir los resultados con otros documentos y crear un resultado de múltiples fuentes.
+
