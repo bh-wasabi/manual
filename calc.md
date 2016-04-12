@@ -57,8 +57,13 @@ Sintaxis 2:
 calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 ````
 
-#### taxAmount
+#### taxAmount (preset, taxTypes, amount, filter)
 - Esta función regresa el importe de impuestos a nivel línea.
 
-#### taxBreakdown
+#### taxBreakdown (preset, items, grandTotal, action)
 - Esta función regresa el desglose de los impuestos totales de un movimiento.
+
+#### getProration (items, action)
+- Esta función sirve para extraer los prorrateos de una lista y concentrarlos en una nueva sección.
+- supone que en la lista existe un objeto tipo arreglo para cada elemento de la lista.
+- la acción es un filtro que se aplica.
