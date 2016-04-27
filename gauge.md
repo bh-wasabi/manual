@@ -20,12 +20,17 @@
 - intervalo entre puntos
 - puede ser una [expresión](expr.md).
 
-##### value (#)
+##### value
 - valor a mostrar con la aguja.
-- puede ser una [expresión](expr.md).
+
+##### valueField
+- campo que contiene el valor a mostrar con la aguja.
 
 ##### title
 - título opcional.
+
+##### subTitle
+- sub título opcional.
 
 ##### palette
 - se puede definir opcionalmente otra [paleta de colores](pallete.md) a utilizar.

@@ -31,6 +31,9 @@
 ##### [legend](chart-legend.md)
 - información de las series
 
+##### [tooltip](chart-tooltip.md)
+- configuración de la ayuda que aparece al estar sobre un punto de la gráfica.
+
 ##### [serie](chart-serie.md)
 - define una serie de la gráfica
 

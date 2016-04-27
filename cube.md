@@ -26,6 +26,9 @@
 ##### [row](cube-field.md)
 - define un renglón del cubo por omisión.
 
+##### [data](cube-field.md)
+- agrega la dimensión del cubo para un uso posterior.
+
 ##### [count](cube-field.md)
 - define una medida de tipo conteo
 
