@@ -15,5 +15,8 @@
 
 ## Sub objetos
 
+##### [push](push.md)
+- inserta manualmente un objeto al arreglo.
+
 ##### [set](set.md)
 - asigna valor a uno o varios campos.

@@ -15,7 +15,7 @@
 - `cube-view-names` inserta en esa posición del menú la lista de vistas de ese cubo.
 - `cube-view-preferences` abre la ventana para configurar las vistas del cubo.
 - `cube-view-save` permite guardar la vista actual del cubro.
-- `dash-params` si la vista es de tipo `dynamicView` con este tipo invocamos al editor de parámetros de la vista dinámica.
+- `dash-filters` si la vista es de tipo `dynamicView` con este tipo invocamos al editor de parámetros de la vista dinámica.
 
 ##### icon
 - nombre del icono a desplegar.
@@ -32,10 +32,10 @@
 - si se activa separa el menú con una linea previa.
 
 ##### source
-- cuando es `type="dash-params"` es posible ligarlo a una fuente de otro documento.
+- cuando es `type="dash-filters"` es posible ligarlo a una fuente de otro documento.
 
 ##### view
-- cuando es `type="dash-params"` aquí podemos definir la vista de la fuente.
+- cuando es `type="dash-filters"` aquí podemos definir la vista de la fuente.
 
 ## Sub objetos
 
