@@ -9,6 +9,9 @@
 ##### log (parámetros...)
 - despliega en la consola los parámetros indicados.
 
+##### in (valor, arreglo)
+- busca si existe un valor en un arreglo.
+
 ##### stringify (objeto)
 - convierte un objeto a una cadena de texto JSON.
 

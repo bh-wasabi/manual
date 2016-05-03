@@ -13,10 +13,10 @@
 `````
 {{#create section="articulos"}}              
   {{#push}}
-    {{set articulo="A1" cantidad="1" importe="=500*2"}}
+    {{set articulo="A1" cantidad="1" precio="=500*2"}}
   {{/push}}
   {{#push}}
-    {{set articulo="A2" cantidad="2" importe="=600*2"}}
+    {{set articulo="A2" cantidad="2" precio="=600*2"}}
   {{/push}}
 {{/create}}
 `````

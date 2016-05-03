@@ -41,7 +41,7 @@
 - sirve para dividir un campo en partes, por ejemplo en la fecha podemos controlar el año, mes y día, por ejemplo:
 
 `````
-{{row field="fecha" label="Año" groupInterval="year"}}
-{{row field="fecha" label="Mes" groupInterval="month"}}
-{{row field="fecha" label="Día" groupInterval="day"}}
+{{row field="fecha" type="date" label="Año" groupInterval="year"}}
+{{row field="fecha" type="date" label="Mes" groupInterval="month"}}
+{{row field="fecha" type="date" label="Día" groupInterval="day"}}
 `````
