@@ -11,6 +11,7 @@
 - `range` valida que el valor este en el rango (min y max)
 - `pattern` debe cumplir con un patrón de captura definido por una expresión regular.
 - `duplicates` valida valores duplicados, el mismo campo en otros documentos de la misma colección.
+- `expr` valida usando una expresión.
 
 ##### message
 - el mensaje de error a desplegar si no cumple con las reglas de validación
@@ -26,4 +27,7 @@
 
 ##### reevaluate (true, false)
 - Indica si la regla debe ser siempre controlada por el valor objetivo o sólo cuando el valor objetivo de los cambios.
+
+##### expr 
+- expresión a usar para validar.
 
