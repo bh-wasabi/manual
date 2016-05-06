@@ -5,6 +5,9 @@
 ##### source
 - tipo de documento
 
+##### as
+- opcionalmente lo podemos accesar usando este nombre
+
 ##### limit (#)
 - máximo de documentos a obtener
 

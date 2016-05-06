@@ -12,6 +12,9 @@
 ##### in (valor, arreglo)
 - busca si existe un valor en un arreglo.
 
+##### parse (texto)
+- convierte un texto JSON a objeto.
+
 ##### stringify (objeto)
 - convierte un objeto a una cadena de texto JSON.
 

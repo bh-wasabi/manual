@@ -10,6 +10,7 @@
 ## contextos adiciones
 - `moment` basado en la libreria de [Moment.js](http://momentjs.com).
 - `numeral` basado en la libreria de [Numeral.js](http://numeraljs.com/).
+- `_` basado en la libreria de [underscore.js](http://underscorejs.org/).
 - `fn` [funciones configurables](fn.md).
 - `calc` [funciones predefinidas](calc.md).
 
