@@ -14,6 +14,9 @@
 ##### skip (#)
 - podemos saltar algunos documentos
 
+##### one (true, false)
+- si el resultado es un objeto, extrae el primer elemento.
+
 ## Sub objetos
 - puede ser cualquiera de los objetos del [step](step.md) del flujo de trabajo.
 
