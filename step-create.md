@@ -13,6 +13,9 @@
 ##### value
 - es posible establecer el valor de toda la sección directamente.
 
+##### condition
+- con esta opción es posible condicionar la acción.
+
 ## Sub objetos
 
 ##### [push](push.md)

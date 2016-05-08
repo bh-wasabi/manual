@@ -5,6 +5,9 @@
 ##### campo
 - uno o varios campos de la sección
 
+##### condition
+- con esta opción es posible condicionar la acción.
+
 ## Sub objetos
 
 ##### [from](set-from.md)
