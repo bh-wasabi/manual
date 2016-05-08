@@ -12,6 +12,9 @@
 ##### in (valor, arreglo)
 - busca si existe un valor en un arreglo.
 
+##### email (email, nombre, apellido, ...)
+- valida que el `email` tenga el formato correcto y concatenan el texto correctamente.
+
 ##### parse (texto)
 - convierte un texto JSON a objeto.
 

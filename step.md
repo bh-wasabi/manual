@@ -56,3 +56,7 @@
 
 ##### [log](step-log.md)
 
+##### [email](step-email.md)
+
+##### [when](step-when.md)
+
