@@ -21,6 +21,9 @@
 ##### stringify (objeto)
 - convierte un objeto a una cadena de texto JSON.
 
+##### sha1 (texto)
+- genera un hash. 
+
 ##### expireColor (fecha)
 - devuelve el los colores `green`, `yellow`, `red` o `grey`, en base al vencimiento de la fecha.
 
