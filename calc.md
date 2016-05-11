@@ -12,6 +12,12 @@
 ##### in (valor, arreglo)
 - busca si existe un valor en un arreglo.
 
+##### text (valor)
+- forza el resultado como texto.
+
+##### number (valor)
+- forza el resultado como numérico.
+
 ##### email (email, nombre, apellido, ...)
 - valida que el `email` tenga el formato correcto y concatenan el texto correctamente.
 

@@ -9,6 +9,9 @@
 ##### upsert (true, false)
 - busca actualizar el documento usando los filtros.
 
+##### condition
+- con esta opción es posible condicionar la acción.
+
 ## Sub objetos
 ##### [create](step-create.md)
 - se usa para cada una de las secciones del documento nuevo.
