@@ -13,6 +13,7 @@
 - `_` basado en la libreria de [underscore.js](http://underscorejs.org/).
 - `fn` [funciones configurables](fn.md).
 - `calc` [funciones predefinidas](calc.md).
+- `user` devuelve información del usuario actual.
 
 ## otras consideraciones importantes
 - si se agrega un "=" previo, se forza a que el evaluador considere que es una expresión.
