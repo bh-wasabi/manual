@@ -3,6 +3,12 @@
 
 ## Parámetros
 
+##### consecutive
+- para obtener el siguiente consecutivo.
+- aqui se asigna la llave del consecutivo
+- puede ser una [expresión](expr.md).
+- el contexto que genera es `_value`.
+
 ##### source
 - `balance` para obtener el saldo de algún indicador.
 - `currency-rate` para obtener el tipo de cambio actualizado.
@@ -22,4 +28,9 @@
 {{from source="balance" indicator="inventario" item="alias" location="movimiento.almacen"}}
 
 {{from source="currency-rate" from="USD" to="MXN"}}
+````
+````
+{{#set folio="_value"}}
+  {{from consecutive="=base.tipo"}}
+{{/set}}
 ````

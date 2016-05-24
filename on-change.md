@@ -23,8 +23,12 @@
 ## Sub objetos
 ##### [set](set.md)
 - para asignar a nuevo valor a otro campo de la misma sección
-- se pueden usar como contexto todo el documento remoto como el documento local (cuando se usa ayudas en captura tipo `lookup`, `select` o `autocomplete`).
+- se pueden usar como contexto la sección actual, el documento remoto (cuando se usa ayudas en captura tipo `lookup`, `select` o `autocomplete`), y el documento local.
 - Nota: el campo debe estar visible en la forma para que funcione.
+
+##### [update](on-change-update.md)
+- es posible actualizar una sección completa del documento.
+- se tiene el documento remoto dentro del contexto.
 
 ##### [jQuery](jquery.md)
 - ejecuta una acción en el DOM

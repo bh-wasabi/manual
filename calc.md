@@ -18,11 +18,20 @@
 ##### number (valor)
 - forza el resultado como numérico.
 
+##### upperCase (valor)
+- forza el resultado a mayúsculas.
+
+##### lowerCase (valor)
+- forza el resultado a minúsculas.
+
 ##### email (email, nombre, apellido, ...)
 - valida que el `email` tenga el formato correcto y concatenan el texto correctamente.
 
 ##### parse (texto)
 - convierte un texto JSON a objeto.
+
+##### presetName (preset, id)
+- devuelve el nombre de un `preset` especifico con un `id` especifico.
 
 ##### stringify (objeto)
 - convierte un objeto a una cadena de texto JSON.

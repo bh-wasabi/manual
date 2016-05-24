@@ -8,6 +8,8 @@
 ##### type
 - `href` se mueve a una url interna o externa.
 - `post` ejecuta un ajax post en la url indicada.
+- `login` abre la ventana de acceso al sistema.
+- `userName` muestra el nombre del usuario.
 - `refresh` refresca la forma actual.
 - `popup` abre una ventana tipo popup.
 - `doc-add` agrega un detalle al documento en la sección que esta definida.
@@ -20,6 +22,14 @@
 ##### icon
 - nombre del icono a desplegar.
 - [lista de iconos](icons.md)
+
+##### userLevel
+- define el nivel de acceso a esta opción del menú.
+- puede ser una lista separada por comas.
+
+##### userRole
+- define el rol de acceso a esta opción del menú.
+- puede ser una lista separada por comas.
 
 ##### href (url)
 - interna (ej: `/browser/empresa/lista`)

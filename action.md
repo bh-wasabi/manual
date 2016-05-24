@@ -33,6 +33,11 @@
 ##### menu
 - identificador del menú a invocar sobre esta acción
 
+##### visibleMode
+- `open` la acción será visible únicamente al abrir el documento.
+- `close` la acción será visible únicamente con el documento cerrado.
+- `allways` la acción será visible siempre.
+
 ##### hide (true, false)
 - oculta la acción
 

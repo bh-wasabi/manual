@@ -35,6 +35,15 @@
 ##### palette
 - se puede definir opcionalmente otra [paleta de colores](pallete.md) a utilizar.
 
+##### showPct (true, false)
+- muestra el % en la escala.
+
+##### textCloud (true, false)
+- muestra el indicador con el dato exacto.
+
+##### textCloudColor
+- es posible cambiar el color cuando se usa la opción `textCloud`.
+
 ## Sub objetos
 
 ##### [range](gauge-range.md)

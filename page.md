@@ -22,6 +22,10 @@
 - muestra la página
 - se puede usar una [expresión](expr.md).
 
+##### readOnly (true, false)
+- con esta opción podemos controlar la edición de toda la página completa.
+- se puede usar una [expresión](expr.md).
+
 ## Facilitadores
 - los objetos de tipo Markup pueden contener HTML abiertamente y sin ninguna restricción.
 - [lista de facilitadores](helpers.md).

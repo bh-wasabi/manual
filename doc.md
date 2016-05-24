@@ -106,6 +106,10 @@ Define el nombre de los campos en que se van a guardar los archivos adjuntos.
 - reemplaza algunos objetos dinámicamente en base a la configuración.
 - genera un objeto `_cfg` disponible para hacer expresiones en el documento.
 
+##### getDocFromView
+- con esta opción podemos cambiar el origen de donde se obtiene un documento unitario.
+- por ejemplo podemos ir a una ruta de s3 a obtener el documento de ahí.
+
 ## Sub objetos
 ##### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.
