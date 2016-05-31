@@ -72,6 +72,9 @@
 - regresa el primer registro que coincida con el filtro.
 - si no hay resultados devuelve un objeto vacío `{}`.
 
+##### lookupAllInPreset (preset, filtros)
+- similar a `lookupInPreset` con la diferencia que trae todo los objetos que corresponden al filtro.
+
 Ejemplos: 
 
 Sintaxis 1:

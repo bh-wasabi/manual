@@ -9,7 +9,8 @@
 ##### type
 - `open` abre el documento para editarlo.
 - `close` guarda los cambios.
-- `affect` afecta el documento (tiene que estar en un proceso).
+- `affect` guarda y afecta el documento (inicia el flujo de trabajo).
+- `affect-direct` afecta y si es correcto guarda el documento, es útil para cuando se quiere validar un documento, funciona únicamente con flujos de 1 paso.
 - `add` agrega un detalle, abre la ventana modal asignada.
 - `cancel-edit` cancela la edición.
 - `geocomplete` herramienta para buscar una dirección o establecimiento y obtener la dirección. [definición del objeto obtenido por google](google-geocomplete.md).
@@ -55,6 +56,9 @@
 ##### condition
 - es una [expresión](expr.md).
 - es posible condicionar la acción usando el contexto del documento.
+
+##### workflow
+- flujo de trabajo a afectar.
 
 ## Sub objetos
 ##### [update](update.md)

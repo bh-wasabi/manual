@@ -7,6 +7,7 @@
 
 ##### type
 - `circular` por omisión.
+- `linear`
 
 ##### startValue (#)
 - valor inicial
@@ -43,6 +44,10 @@
 
 ##### textCloudColor
 - es posible cambiar el color cuando se usa la opción `textCloud`.
+
+##### animated (true, false)
+- con esta opción se puede apagar la animación.
+- por omisión es `true`.
 
 ## Sub objetos
 

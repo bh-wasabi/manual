@@ -10,6 +10,12 @@
 - `html`
 - `xml`
 
+##### source
+- es posible usar una plantilla remota (que se encuentra en otro tipo de documento).
+
+##### sourceTemplate
+- identificador de la plantilla remota.
+
 ## Facilitadores especiales
 - los objetos de tipo Markup pueden contener HTML abiertamente y sin ninguna restricción.
 - Nota: en las plantillas NO funciona la lista de facilitadores que tenemos en otros objetos como [page](page.md), [modal](modal.md) o [report](report.md).

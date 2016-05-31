@@ -16,6 +16,8 @@
 - identificador del siguiente paso.
 - el siguiente paso puede ser un sub objeto, para casos donde se necesiten expresiones para determinar cual es el siguiente paso.
 - si no hay un siguiente paso, termina el flujo de trabajo.
+- es posible mandar varios pasos en paralelo (lista separada por comas).
+- si se indica `next="(wait)"` no se concluye el flujo de trabajo y se pone en espera a que otros pasos avancen el flujo (esto es útil cuando se tiene pasos en paralelo).
 
 ##### updateSections
 - en algunos casos se requiere actualizar el documento original parcialmente, con este parámetros podemos indicar la lista de secciones (separadas por comas) que queremos actualizar.

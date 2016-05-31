@@ -8,7 +8,7 @@
 ##### width
 - ancho en pixeles de la columna
 
-##### type (text, number, date)
+##### type (text, number, date, button)
 - el tipo de datos lo obtiene del campo, aquí también lo podemos establecer directamente.
 
 ##### label
@@ -25,6 +25,16 @@
 - muestra la columna. 
 - puede ser una [expresión](expr.md).
 - por omisión es `true`.
+
+##### buttonCaption
+- en caso de tipo `button` aquí podemos establecer título.
+- por omisión es `Ver...`
+- puede ser una [expresión](expr.md).
+
+##### buttonCondition (true, false)
+- en caso de tipo `button` aquí podemos condicionar si aparece.
+- por omisión es `true`
+- puede ser una [expresión](expr.md).
 
 ##### alignment (left, center, right)
 - alienación de la columna

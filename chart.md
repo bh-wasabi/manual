@@ -26,6 +26,10 @@
 ##### palette
 - se puede definir opcionalmente otra [paleta de colores](pallete.md) a utilizar.
 
+##### animated (true, false)
+- con esta opción se puede apagar la animación.
+- por omisión es `true`.
+
 ## Sub objetos
 
 ##### [legend](chart-legend.md)
