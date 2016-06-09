@@ -24,7 +24,7 @@
 - por ejemplo: `groupBy="alias, descripción, unidad, precio"`
 
 ##### sum
-- cuando se usan los agrupadores podemos indicar que campos hay que concentrar.
+- cuando se usan los agrupadores podemos indicar que campos hay que centrar.
 - por ejemplo: `sum="cantidad,importe"`
 
 ##### where
@@ -36,6 +36,10 @@
 
 ##### render
 - podemos usar un [template](template.md) especial.
+
+##### condition
+- es posible condicionar el `update`.
+
 
 ## Sub objetos
 
