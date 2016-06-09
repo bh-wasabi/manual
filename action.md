@@ -12,6 +12,7 @@
 - `affect` guarda y afecta el documento (inicia el flujo de trabajo).
 - `affect-direct` afecta y si es correcto guarda el documento, es útil para cuando se quiere validar un documento, funciona únicamente con flujos de 1 paso.
 - `add` agrega un detalle, abre la ventana modal asignada.
+- `copy` copia el documento.
 - `cancel-edit` cancela la edición.
 - `geocomplete` herramienta para buscar una dirección o establecimiento y obtener la dirección. [definición del objeto obtenido por google](google-geocomplete.md).
 - `menu` podemos tener una acción que invoque a un menú.
@@ -33,6 +34,14 @@
 
 ##### menu
 - identificador del menú a invocar sobre esta acción
+
+##### copyTo
+- cuando la acción es `type="copy"` aquí se especifica el tipo de documento donde se va a copiar.
+- por omisión es al mismo.
+
+##### excludeSections
+- cuando la acción es `type="copy"` aquí se especifica la lista de secciones a excluir al copiar.
+- es una lista separada por comas.
 
 ##### visibleMode
 - `open` la acción será visible únicamente al abrir el documento.

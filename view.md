@@ -24,6 +24,9 @@
 ##### [s3](view-s3.md)
 - buscar un archivo especifico en s3.
 
+##### [redis](view-redis.md)
+- hace una consulta en redis.
+
 ##### [cypher](view-cypher.md)
 - ejecuta una consulta en la base de datos GraphDB
 
