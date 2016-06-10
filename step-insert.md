@@ -12,6 +12,9 @@
 ##### condition
 - con esta opción es posible condicionar la acción.
 
+##### startWorkflow
+- con esta opción es posible iniciar un flujo de trabajo después de insertar el documento.
+
 ## Sub objetos
 ##### [create](step-create.md)
 - se usa para cada una de las secciones del documento nuevo.
