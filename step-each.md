@@ -10,6 +10,9 @@
 ##### as
 - para cada uno de los detalles del arreglo, lo podemos accesar usando este nombre.
 
+##### index
+- nombre de la variable donde vamos a almacenar el indice actual del arreglo.
+
 ## Sub objetos
 - puede ser cualquiera de los objetos del [step](step.md) del flujo de trabajo.
 
