@@ -12,6 +12,9 @@
 ##### url
 - en el caso del tipo `get`, `put`, `post` y `delete` aquí se especifica la `url` de donde va obtener o enviar el documento.
 
+##### as
+- el resultado del `request` se pone en este nombre.
+
 ##### filePath
 - en el caso del tipo `s3` aquí se especifica la ruta dentro del bucket de s3.
 - el bucket es de uso interno.
@@ -29,3 +32,11 @@
 
 ## Sub objetos
 - puede ser cualquiera de los objetos del [step](step.md) del flujo de trabajo.
+
+
+## Ejemplos:
+````
+{{#request type="get" url="http://api.demo.com/action/id" sourceType="json" as="data"}}
+	...
+{{/request}}
+````

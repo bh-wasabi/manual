@@ -183,3 +183,7 @@ basados en las configuración:
 
 - los campos de la sección se modifican directamente (y pueden usarse como base de los filtros sin necesidad de refrescar la forma) y los campos del documento cuando se acepta la forma modal.
 
+##### [grid](editor-gird.md)
+- en el caso de captura tipo `grid` es posible tener una ayuda de captura con otro `grid`.
+- por el momento únicamente funciona con preset's.
+
