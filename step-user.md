@@ -15,6 +15,7 @@
 
 ##### role
 - el rol del usuario al que se le va asignar la tarea.
+- es importante configurar correctamente `_user.hbs` para que tenga el control por roles.
 
 ##### duration
 - el tiempo en el que expira la tarea.
