@@ -29,12 +29,9 @@
 - identificador del template a usar
 - es posible agregar parámetros al template.
 
-##### s3FilePath
-- ruta s3 del archivo a enviar.
-- puede ser completa (`https://..`) o partir del `bucket` actual.
-
-##### fileName
-- es posible cambiar el nombre del archivo a enviar.
+## Sub objetos
+##### [attach](attach.md)
+- permite anexar archivos adicionales.
 
 ## Ejemplo
 ````
