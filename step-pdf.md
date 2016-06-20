@@ -37,12 +37,12 @@
 - alto en pixeles del reporte.
 
 ##### pageFormat
-- `Letter` por omisión.
-- `A3`
-- `A4`
-- `A5`
-- `Legal`
-- `Tabloid`
+- `letter` por omisión.
+- `a3`
+- `a4`
+- `a5`
+- `legal`
+- `tabloid`
 
 ##### pageTop (#)
 - margen superior de la página en pixeles.
