@@ -29,11 +29,12 @@
 - identificador del template a usar
 - es posible agregar parámetros al template.
 
-##### attachS3FilePath
-- ruta del archivo a enviar (dentro del bucket).
+##### s3FilePath
+- ruta s3 del archivo a enviar.
+- puede ser completa (`https://..`) o partir del `bucket` actual.
 
-##### attachName
-- nombre del archivo a enviar.
+##### fileName
+- es posible cambiar el nombre del archivo a enviar.
 
 ## Ejemplo
 ````
