@@ -19,3 +19,11 @@
 ## Sub objetos
 ##### param
 - es posible pasar parámetros adicionales al `template`. 
+
+## Ejemplo:
+````
+{{#pdf template="email" s3FilePath="'correos/'+base.nombre+'.pdf'" public="true" as="_url"}}
+  {{email from="<demo.wasabi@gmail.com>" to="demo@gmail.com" subject="base.nombre" s3FilePath="_url"}}
+{{/pdf}}
+````
+
