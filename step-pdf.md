@@ -12,6 +12,10 @@
 ##### public (true, false)
 - genera el archivo publico
 
+##### as
+- el nombre del archivo generado en s3 es posible ponerlo en este nombre.
+
+
 ## Sub objetos
 ##### param
 - es posible pasar parámetros adicionales al `template`. 
