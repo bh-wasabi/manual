@@ -19,17 +19,25 @@
 ##### subject
 - asunto del correo
 
-##### body
+##### text
+- cuerpo del mensaje en texto simple.
+
+##### html
 - cuerpo del mensaje en formato HTML.
 
-##### bodyTemplate
+##### template
 - identificador del template a usar
 - es posible agregar parámetros al template.
 
+##### attachS3FilePath
+- ruta del archivo a enviar (dentro del bucket).
+
+##### attachName
+- nombre del archivo a enviar.
 
 ## Ejemplo
 ````
-{{#email from="demo.wasabi@gmail.com" to="calc.email(contacto.correo, contacto.nombre)" subject="base.nombre" bodyTemplate="email"}}
+{{#email from="demo.wasabi@gmail.com" to="calc.email(contacto.correo, contacto.nombre)" subject="base.nombre" template="email"}}
   {{param _step="en Revisión Administrativa"}}
 {{/email}}
 
