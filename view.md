@@ -14,6 +14,9 @@
 ##### [find](view-find.md)
 - ejecuta una búsqueda en la colección
 
+##### [request](view-request.md)
+- ejecuta una llamada a un web service externo y de ahí obtiene los datos.
+
 ##### [pipeline](view-pipeline.md)
 - podemos hacer una consulta compleja con múltiples faces y agrupaciones.
 - cada fase debe ser un objeto independiente.
