@@ -3,7 +3,8 @@
 
 ## Parámetros
 ##### section
-- sección del documento que contiene los marcadores
+- sección del documento que contiene las rutas.
+- si no se indica va usar los datos de la vista del `widget`.
 
 ##### location
 - campo o [expresión](expr.md) que contiene la localidad.

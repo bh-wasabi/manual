@@ -8,6 +8,7 @@
 
 ##### section
 - sección del documento que contiene el arreglo con los campos necesarios.
+- si no se indica va usar los datos de la vista del `widget`.
 
 ##### views
 - lista separada por comas con las posibles vistas de la agenda.
