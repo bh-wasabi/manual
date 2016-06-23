@@ -10,6 +10,9 @@
 - campo o [expresión](expr.md) que contiene la localidad.
 - puede ser una dirección o una coordenada.
 
+##### tooltip
+- campo o [expresión](expr.md) que contiene el nombre a mostrar al pararse sobre el marcador.
+
 ##### mode
 - `driving` por omisión.
 - `walking`
