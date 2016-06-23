@@ -11,7 +11,8 @@
 
 ##### type
 - `list` incrusta una [lista](list.md).
-- `combo` incrusta un [combo](combo.md).
+- `selectBox` incrusta un [combo](selectBox.md).
+- `dateBox` incrusta una [captura de fechas](dateBox.md).
 - `cube` incrusta un [cubo](cube.md).
 - `grid` incrusta una [cuadrícula](grid.md).
 - `chart` incrusta una [gráfica](chart.md).
