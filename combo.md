@@ -2,14 +2,16 @@
 - sirve para capturar parámetros a usar en otros `widgets`.
 
 ## Parámetros
-##### id
-- identificador del combo.
-
 ##### placeholder
 - etiqueta a mostrar cuando el combo esta vacío.
 
 ##### preset
 - lista de opciones a desplegar
+
+##### type
+- `text`
+- `number`
+- `date`
 
 ##### width
 - con esta opción es posible controlar el ancho del combo.
