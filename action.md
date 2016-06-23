@@ -13,6 +13,7 @@
 - `affect-direct` afecta y si es correcto guarda el documento, es útil para cuando se quiere validar un documento, funciona únicamente con flujos de 1 paso.
 - `add` agrega un detalle, abre la ventana modal asignada.
 - `copy` copia el documento.
+- `cancel` cancela el documento, inicia un flujo de trabajo.
 - `cancel-edit` cancela la edición.
 - `geocomplete` herramienta para buscar una dirección o establecimiento y obtener la dirección. [definición del objeto obtenido por google](google-geocomplete.md).
 - `menu` podemos tener una acción que invoque a un menú.
