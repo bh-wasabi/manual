@@ -18,6 +18,10 @@
 ##### value
 - es posible modificar el valor a desplegar, pudiendo usar una [expresión](expr.md), por ejemplo: `value="=color.toUpperCase()"`.
 
+##### preset
+- es posible indicar el nombre de un `preset` y en lugar de presentar el valor, se va a presentar el nombre.
+- unicamente aplica a `column` y `row`.
+
 ##### hide (true, false)
 - oculta el campo
 
