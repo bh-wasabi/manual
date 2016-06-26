@@ -24,6 +24,9 @@
 - `xml` se parsea el resultado como XML.
 - `raw` no se parsea.
 
+##### body
+- es posible indicar directamente el `body` del `request`.
+
 ##### transformBody
 - se puede generar una [transformación](transform.md) previa del documento actual y así poder mandar el `body` del `request` con otra estructura.
 

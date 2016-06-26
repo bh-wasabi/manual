@@ -16,6 +16,9 @@
 - `google` por omisión.
 - `googleStatic`
 
+##### clustered (true, false)
+- junta los marcadores en grandes grupos.
+
 ##### controls (true, false)
 - despliega los controles nativos del mapa.
 

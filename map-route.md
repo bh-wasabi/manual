@@ -10,6 +10,12 @@
 - campo o [expresión](expr.md) que contiene la localidad.
 - puede ser una dirección o una coordenada.
 
+##### latitude
+- es posible definir la latitud directamente.
+
+##### longitude
+- es posible definir la longitud directamente.
+
 ##### tooltip
 - campo o [expresión](expr.md) que contiene el nombre a mostrar al pararse sobre el marcador.
 
