@@ -18,6 +18,9 @@
 ##### number (valor)
 - forza el resultado como numérico.
 
+##### capitalize (valor)
+- forza el resultado a la primera letra mayúsculas y las demás minúsculas (por cada palabra).
+
 ##### upperCase (valor)
 - forza el resultado a mayúsculas.
 

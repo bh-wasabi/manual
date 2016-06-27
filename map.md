@@ -16,9 +16,6 @@
 - `google` por omisión.
 - `googleStatic`
 
-##### clustered (true, false)
-- junta los marcadores en grandes grupos.
-
 ##### controls (true, false)
 - despliega los controles nativos del mapa.
 
@@ -44,6 +41,16 @@
 ##### width
 - ancho del mapa a mostrar
 - puede ser en pixeles o en porcentaje.
+
+##### clustered (true, false)
+- junta los marcadores en grandes grupos.
+
+##### clusteredMaxZoom (#)
+- nivel de `zoom` para eliminar los `clusters`.
+
+##### clusteredGridSize (#)
+- cercania en pixeles de los `clusters`.
+- por omisión es 60.
 
 ## Sub objetos
 
