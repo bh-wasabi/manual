@@ -21,7 +21,7 @@
 - `scheduler` incrusta una [agenda](scheduler.md).
 - `gallery` muestra una galería de imágenes (basado en los archivos adjuntos del documento).
 - `tileView` incrusta un [mosaico de imágenes](tileView.md).
-- `dashboard-info`
+- `info` incrusta un [cuadro informativo](info.md).
 
 ##### source
 - identificador del tipo de documento (opcional).
@@ -56,6 +56,9 @@
 ##### gauge
 - identificador de la gráfica tipo gauge a incrustar.
 
+##### info
+- identificador del cuadro informativo a incrustar.
+
 ##### map
 - identificador del mapa a incrustar.
 
@@ -76,21 +79,6 @@
 - opcionalmente se puede definir el ancho en pixeles que queremos que ocupe el widget.
 - funciona únicamente con `gallery`.
 
-##### color
-- [lista de colores](colors.md)
-- funciona únicamente con `dashboard-info`.
-
-##### icon
-- [lista de iconos](ion-icons.md)
-- funciona únicamente con `dashboard-info`.
-
-##### footer
-- leyenda visible en el pie del componente
-- funciona únicamente con `dashboard-info`.
-
 ## Sub facilitadores
 ##### [param](helper-param.md)
 - podemos pasar parámetros adicionales.
-
-##### [indicator](helper-indicator.md)
-- funciona únicamente con `dashboard-info`.
