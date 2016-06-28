@@ -25,4 +25,4 @@
 
 ##### icono
 - icono principal
-- [iconos disponibles](ion-icons.md)
+- [iconos disponibles](http://fontawesome.io/icons/)

@@ -16,6 +16,10 @@
 - `json` se parsea el resultado como JSON (por omisión).
 - `xml` se parsea el resultado como XML.
 
+##### body
+- es posible asignar en `body` del `request`.
+- puede ser una [expresión](expr.md).
+
 ## Ejemplos:
 ````
 {{#request type="get" url="http://api.demo.com/action/id" sourceType="json" as="data"}}
