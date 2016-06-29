@@ -11,14 +11,16 @@
 - `close` guarda los cambios.
 - `affect` guarda y afecta el documento (inicia el flujo de trabajo).
 - `affect-direct` afecta y si es correcto guarda el documento, es útil para cuando se quiere validar un documento, funciona únicamente con flujos de 1 paso.
+- `cancel` cancela el documento, inicia un flujo de trabajo.
 - `add` agrega un detalle, abre la ventana modal asignada.
 - `copy` copia el documento.
-- `cancel` cancela el documento, inicia un flujo de trabajo.
 - `cancel-edit` cancela la edición.
 - `geocomplete` herramienta para buscar una dirección o establecimiento y obtener la dirección. [definición del objeto obtenido por google](google-geocomplete.md).
 - `menu` podemos tener una acción que invoque a un menú.
 - `attach` con esta opción podemos adjuntar archivos al documento.
 - `subdoc`con esta opción es posible agregar un sub-documento (es necesario especificar `source` para que funcione y definir el botón sobre la forma modal usando `buttonFloat`).
+- `refresh` refresca el documento.
+- `refresh-widgets` refresca los `widgets` del documento.
 
 ##### modal
 - identificador de la forma modal a invocar
