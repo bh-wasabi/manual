@@ -18,6 +18,10 @@
 - guarda automáticamente el ultimo acomodo (vista) del cubo.
 - Nota: para poder configurar las vistas manualmente es necesario apagar esta opción porque se pueden generar conflictos.
 
+##### exportToExcel (true, false)
+- permite exportar los datos a Excel.
+- unicamente funciona en `Chrome`.
+
 ## Sub objetos
 
 ##### [column](cube-field.md)
