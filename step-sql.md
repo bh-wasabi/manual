@@ -1,6 +1,6 @@
 # Objeto: **sql** (step)
 - obtiene un arreglo como resultado de una consulta a la base de datos SQL.
-- los parametros se usan con el prefijo $.
+- los parametros se usan con el prefijo `$`, es posible usar `$tenant` y `$user` sin tener que definirlos.
 - el resultado de la consulta queda en el contexto para ser usado por un comando [each](step-each.md).
 
 ## Parámetros
