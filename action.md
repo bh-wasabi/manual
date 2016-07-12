@@ -72,6 +72,13 @@
 ##### workflow
 - flujo de trabajo a afectar.
 
+##### confirm (true, false)
+- es posible confirmar la acción previo a su ejecución.
+
+##### confirmMessage
+- es posible desplegar un mensaje distinto al confirmar.
+- puede ser una [expresión](expr.md).
+
 ## Sub objetos
 ##### [update](update.md)
 - en algunas acciones es posible cambiar los campos del documento.
