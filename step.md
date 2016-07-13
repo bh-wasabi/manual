@@ -64,3 +64,7 @@
 
 ##### [pdf](step-pdf.md)
 
+##### [docx](step-docx.md)
+
+##### [convert](step-convert.md)
+
