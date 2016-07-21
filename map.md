@@ -52,6 +52,9 @@
 - cercania en pixeles de los `clusters`.
 - por omisión es 60.
 
+##### markerInCenter (true, false)
+- pone un marcador en el centro del mapa.
+
 ## Sub objetos
 
 ##### [marker](map-marker.md)

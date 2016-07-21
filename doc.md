@@ -124,6 +124,9 @@ Define el nombre de los campos en que se van a guardar los archivos adjuntos.
 ##### [view](view.md)
 - las vistas son usadas múltiples propósitos, desde tener una consulta simple en ayudas en captura, poder tener vistas con campos específicos o calculados al vuelo, cubos, SQL, cypher, etc.
 
+##### [centralView](centralView.md)
+- esto muy útil cuando se quiere re-utilizar una misma vista en varios `widgets` y así evitar consultar innecesarias.
+
 ##### [browser](browser.md)
 - aquí se define la presentación que necesitamos para que el usuario pueda ver una vista.
 

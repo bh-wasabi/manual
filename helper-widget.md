@@ -11,6 +11,7 @@
 
 ##### type
 - `list` incrusta una [lista](list.md).
+- `textBox` incrusta un [editor de texto](textBox.md).
 - `selectBox` incrusta un [combo](selectBox.md).
 - `dateBox` incrusta una [captura de fechas](dateBox.md).
 - `cube` incrusta un [cubo](cube.md).
@@ -32,6 +33,10 @@
 - identificador de la vista a utilizar.
 - si se usa `source` por omisión toma la vista que esta definida en el tipo de documento.
 - sirve para cuando es tipo `list`,  `cube`, `grid` y `chart`.
+
+##### centralView
+- otra opción es usar una vista central para re-utilizar la misma vista en varios widgets.
+- esto unicamente funciona con un `source` externo.
 
 ##### allowOpen (true, false)
 - funciona unicamente con listas y con `source`.
@@ -78,6 +83,14 @@
 ##### width
 - opcionalmente se puede definir el ancho en pixeles que queremos que ocupe el widget.
 - funciona únicamente con `gallery`.
+
+##### center
+- opcionalmente se puede definir el centro del mapa dinámicamente.
+- puede ser una expresión.
+
+##### radius
+- opcionalmente se puede definir el radio del circulo a mostrar en el mapa.
+- puede ser una expresión.
 
 ## Sub facilitadores
 ##### [param](helper-param.md)
