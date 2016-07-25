@@ -18,6 +18,9 @@
 ##### [outputFormat](convert.md)
 - formato del archivo nuevo
 
+##### outputPublic (true, false)
+- define si el archivo nuevo queda como publico en s3.
+
 ##### quality (%)
 - porcentaje de calidad
 - por omisión `75`
@@ -25,6 +28,7 @@
 ##### removeOnFinish (true, false)
 - elimina el archivo a convertir cuando termina el proceso.
 - por omisión es `false`.
+
 
 ## Ejemplo
 ````
