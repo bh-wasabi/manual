@@ -168,6 +168,9 @@ basados en las configuración:
 - es posible agregar una ayuda adicional al campo
 - aparece si se para el cursor encima del campo después de un momento.
 
+##### sendSearchValue (true, false)
+- cuando se captura en un `grid`, con esta opción podemos mandar el parámetro `searchValue` a la consulta del servidor.
+
 ## Sub objetos
 
 ##### [item](editor-item.md)
@@ -182,6 +185,9 @@ basados en las configuración:
 2. El documento completo.
 
 - los campos de la sección se modifican directamente (y pueden usarse como base de los filtros sin necesidad de refrescar la forma) y los campos del documento cuando se acepta la forma modal.
+
+##### [param](param.md)
+- es otra forma de definir los filtros, en algunas ocaciones es más fácil definirlo así.
 
 ##### [grid](editor-gird.md)
 - en el caso de captura tipo `grid` es posible tener una ayuda de captura con otro `grid`.

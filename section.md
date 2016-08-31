@@ -16,6 +16,10 @@
 - si se activa, la sección no se guarda en la base de datos.
 - es muy útil cuando queremos guardar temporalmente los datos de un widget en la forma.
 
+##### isOpenPayCard (true, false)
+- para definir si la sección es para capturar una tarjeta de crédito con OpenPay
+- requiere mapear los campos (`card_number, holder_name, expiration_month, expiration_year, cvv2 y token`).
+
 ## Sub objetos
 
 ##### [field](field.md)

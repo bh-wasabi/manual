@@ -25,6 +25,9 @@
 ##### limit (#)
 - con esta opción es posible limitar la cantidad de registros a desplegar.
 
+##### unlink (true, false)
+- con esta opción es posible eliminar los `links` de los valores de la tabla.
+
 ##### filter
 - es posible seleccionar indicar un filtro adicional.
 - por ejemplo: `filter="tipo=foto"`.

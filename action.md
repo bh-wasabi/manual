@@ -21,6 +21,7 @@
 - `subdoc`con esta opción es posible agregar un sub-documento (es necesario especificar `source` para que funcione y definir el botón sobre la forma modal usando `buttonFloat`).
 - `refresh` refresca el documento.
 - `refresh-widgets` refresca los `widgets` del documento.
+- `post` para ejecutar un `request` tipo `post` en el backend.
 
 ##### modal
 - identificador de la forma modal a invocar
@@ -72,6 +73,11 @@
 ##### workflow
 - flujo de trabajo a afectar.
 
+##### postPath
+- la ruta donde se va hacer el `request`
+- debe ser una ruta interna.
+- esto funcionan únicamente cuando es `type="post"`.
+
 ##### confirm (true, false)
 - es posible confirmar la acción previo a su ejecución.
 
@@ -79,9 +85,19 @@
 - es posible desplegar un mensaje distinto al confirmar.
 - puede ser una [expresión](expr.md).
 
+##### sendDeviceDataId
+- envia deviceDataId al servidor, si la acción el tipo es `affect`, `affect-direct` y `post`.
+- esto sirve para poder hacer los cargos automáticos a las tarjetas de crédito.
+
 ## Sub objetos
 ##### [update](update.md)
 - en algunas acciones es posible cambiar los campos del documento.
+
+##### [ask](ask.md)
+- si la acción es `type="post"` es posible preguntar algunos parámetros manualmente.
+
+##### [param](param.md)
+- si la acción es `type="post"` es posible pasar parámetros.
 
 ## Ejemplo geocomplete
 ````

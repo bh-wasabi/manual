@@ -98,6 +98,9 @@ Ejemplo:
 - es posible definir el alto de la ventana de ayuda.
 - funciona en `helpType="popup"`.
 
+##### map
+- en algunos casos es posible indicar otro nombre del campo, para hacer ciertos mapeos especificos.
+
 ## Sub objetos
 
 ##### [editor](editor.md)
