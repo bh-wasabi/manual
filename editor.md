@@ -86,8 +86,25 @@ basados en las configuración:
 ##### placeholder
 - etiqueta a desplegar sobre el campo cuando esta vacío.
 
+##### searchEnabled (true, false)
+- en algunos editores se puede habilitar la búsqueda con esta opción.
+
 ##### showClearButton (true, false)
 - muestra un botón que permite borrar el contenido del campo.
+
+##### showSelectionControls (true, false)
+- en el caso `type="tags"` con esta opción podemos agregar la selección por `checks` adicional.
+
+##### applyValueMode
+- `instantly` valor por omisión.
+- `useButtons` aparecen los botones de aceptar y cancelar, cuando es un editor tipo: `tags, date, color, lookup`.
+
+##### hideSelectedItems (true, false)
+- escode los elementos previamente seleccionados.
+
+##### multiline (true, false)
+- si se pone `false` el campo no crece de tamaño en la forma y genera un scroll a los lados.
+- por omisión es `true`.
 
 ##### maxLength (#)
 - con esta opción se puede limitar el tamaño de un texto.

@@ -11,6 +11,10 @@
 - con esta opción es posible borrar los valores de otros campos de la misma sección y que estén visibles en ese momento en la forma de captura.
 - lista de campos separados por comas.
 
+##### clearFieldsCondition
+- es posible establecer una condición para que borre los valores.
+- actualmente únicamente funciona en los `grids`.
+
 ##### getSourceDoc (true, false)
 - esta opción lee el documento completo y se tiene disponible en el contexto para hacer expresiones.
 
