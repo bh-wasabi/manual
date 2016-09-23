@@ -15,8 +15,16 @@
 ##### text (valor)
 - forza el resultado como texto.
 
+##### concat (valor1, valor2, valorN)
+- concatena varios valores, por omisión agrega un espacio entre los valores.
+- es posible agregar comas para separar estos valores, por ejemplo: `calc.concat(@apellidoPaterno,',', @nombre)`. genera "Perez, Juan".
+
 ##### number (valor)
 - forza el resultado como numérico.
+
+##### isNull (valor, valorPorOmision)
+- checa si el valor es nulo, devuelve el valor por omisión.
+- otra forma de lograr es poner la variable entre paréntesis y hacer un "or" contra el valor por omisión, por ejemplo: `(@valor||'')`.
 
 ##### pesos (valor)
 - imprime un importe en texto (pesos).
