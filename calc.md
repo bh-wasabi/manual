@@ -18,6 +18,9 @@
 ##### number (valor)
 - forza el resultado como numérico.
 
+##### pesos (valor)
+- imprime un importe en texto (pesos).
+
 ##### capitalize (valor)
 - forza el resultado a la primera letra mayúsculas y las demás minúsculas (por cada palabra).
 
