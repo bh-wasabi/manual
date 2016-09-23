@@ -30,7 +30,8 @@
 ##### format
 - en los campos tipo number, calc y date, se puede especificar un formato especifico
 - el sistema va usar [Moment.js](http://momentjs.com) para formatear las fechas y [Numeral.js](http://numeraljs.com) para formatear los números.
-- existen algunos valores pre-definidos como: `currency`.
+- existen algunos valores pre-definidos como: `format="currency"`.
+- el si se indica `format="pesos"` convierte un importe a texto.
 
 ##### value
 - en el caso de campos calculados `calc` y expresiones `expr`, aquí se asigna la [expresión](expr.md) que se usa para calcular el valor.
