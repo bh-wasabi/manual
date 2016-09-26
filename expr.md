@@ -14,6 +14,7 @@
 - `fn` [funciones configurables](fn.md).
 - `calc` [funciones predefinidas](calc.md).
 - `user` devuelve información del usuario actual.
+- `wasabiCfg` tiene algunas variables de la configuración del servidor (appId).
 
 ## otras consideraciones importantes
 - si se agrega un "=" previo, se forza a que el evaluador considere que es una expresión.

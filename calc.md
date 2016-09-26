@@ -29,6 +29,9 @@
 ##### pesos (valor)
 - imprime un importe en texto (pesos).
 
+##### numberInText (valor)
+- imprime un importe en texto.
+
 ##### capitalize (valor)
 - forza el resultado a la primera letra mayúsculas y las demás minúsculas (por cada palabra).
 
