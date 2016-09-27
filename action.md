@@ -22,6 +22,7 @@
 - `refresh` refresca el documento.
 - `refresh-widgets` refresca los `widgets` del documento.
 - `post` para ejecutar un `request` tipo `post` en el backend.
+- `start-workflow` inicia un flujo de trabajo del documento.
 
 ##### modal
 - identificador de la forma modal a invocar
@@ -72,6 +73,9 @@
 
 ##### workflow
 - flujo de trabajo a afectar.
+
+##### message
+- mensaje a desplegar al iniciar el flujo de trabajo.
 
 ##### postPath
 - la ruta donde se va hacer el `request`
