@@ -3,9 +3,13 @@
 
 ## Parámetros
 
+##### profile
+- busca un perfil de correo de la configuración del servidor.
+
 ##### from
 - emisor
 - puede ser una [expresión](expr.md).
+- lo puede leer del perfil.
 
 ##### to
 - destinatario
