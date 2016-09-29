@@ -10,6 +10,10 @@
 - valor a asignar.
 - puede ser una [expresión](expr.md).
 
+##### pushValue
+- es posible agregar mas elementos en lugar de reemplazarlos completamente.
+- puede ser una [expresión](expr.md).
+
 ## Sub objetos
 
 ##### [set](set.md)
