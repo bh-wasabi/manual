@@ -11,6 +11,9 @@
 ##### start
 - identificador de paso donde inicia el flujo de trabajo.
 
+##### skipIsAffected (true, false)
+- con esta opción podemos controlar que el flujo no modifique la bandera `isAffected` del documento.
+
 ## Sub objetos
 
 ##### [step](step.md)
