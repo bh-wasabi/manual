@@ -17,6 +17,7 @@
 #### [p](helper-p.md)
 #### [span](helper-span.md)
 #### [render](helper-render.md)
+#### [fromNow](helper-fromNow.md)
 
 ## Campos
 #### [label](helper-label.md)
