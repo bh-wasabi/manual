@@ -41,6 +41,9 @@
 ##### beginGroup (true, false)
 - si se activa separa el menú con una linea previa.
 
+##### newTab (true, false)
+- si es una url externa con esta opción abre un nuevo `tab` en el `browser`.
+
 ##### source
 - cuando es `type="dash-filters"` es posible ligarlo a una fuente de otro documento.
 
