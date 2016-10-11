@@ -8,7 +8,7 @@
 ##### width
 - ancho en pixeles de la columna
 
-##### type (text, number, date, button)
+##### type (text, number, date, button, flag)
 - el tipo de datos lo obtiene del campo, aquí también lo podemos establecer directamente.
 
 ##### label
