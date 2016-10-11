@@ -55,6 +55,9 @@
 ##### allowTimeline (true, false)
 - presenta la linea del tiempo del documento
 
+##### confirmUnSaved (true, false)
+- confirma con el usuario si quiere ignorar los cambios del documento, antes de cambiar de registro.
+
 ##### rules
 - nombres de las reglas que queremos usar en este tipo de documento.
 - por ejemplo el calculo de impuestos, descuentos, etc.
