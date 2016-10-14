@@ -34,7 +34,7 @@
 - es posible agregar parámetros al template.
 
 ## Sub objetos
-##### [attach](attach.md)
+##### [attach](step-email-attach.md)
 - permite anexar archivos adicionales.
 
 ## Ejemplo
