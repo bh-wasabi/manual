@@ -43,6 +43,10 @@
 - cuando `pagesTabsPosition="left"` es posible controlar el ancho de la zona donde aparecen los tabuladores.
 - por omisión en `10`.
 
+##### pagesTabsHeight
+- define la altura de las páginas, para evitar problemas de `scroll`.
+- de preferencia especificar en pixeles, por ejemplo: `550px`.
+
 ##### allowEdit (true, false)
 - permite la edición
 
@@ -112,6 +116,14 @@ Define el nombre de los campos en que se van a guardar los archivos adjuntos.
 ##### getDocFromView
 - con esta opción podemos cambiar el origen de donde se obtiene un documento unitario.
 - por ejemplo podemos ir a una ruta de s3 a obtener el documento de ahí.
+
+##### postParentSection
+- si es un sub documento, con esta opción al guardar el registro se actualiza el `parent` con el contenido del sub documento.
+- aquí se indica el nombre de la sección del documento maestro.
+- esto únicamente funciona al insertar un sub documento.
+
+##### postCurrentSection
+- aquí se define la sección del documento actual a afectar en el documento maestro.
 
 ## Sub objetos
 ##### [param](param.md)

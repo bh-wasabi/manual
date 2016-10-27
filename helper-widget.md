@@ -22,6 +22,7 @@
 - `scheduler` incrusta una [agenda](scheduler.md).
 - `gallery` muestra una galería de imágenes (basado en los archivos adjuntos del documento).
 - `tileView` incrusta un [mosaico de imágenes](tileView.md).
+- `toolBar` incrusta una [barra de íconos](toolBar.md).
 - `info` incrusta un [cuadro informativo](info.md).
 
 ##### source
