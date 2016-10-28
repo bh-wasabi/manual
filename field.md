@@ -100,7 +100,20 @@ Ejemplo:
 - funciona en `helpType="popup"`.
 
 ##### map
-- en algunos casos es posible indicar otro nombre del campo, para hacer ciertos mapeos especificos.
+- en algunos casos es posible indicar otro nombre del campo, para hacer ciertos mapeos específicos.
+
+##### isImage (true, false)
+- un campo tipo texto, puede contener la url de una imagen.
+- es otra forma de anexar mas directa y con la posibilidad de editar en la misma forma de captura donde van los demás campos.
+
+##### imageHeight 
+- alto de la imagen
+
+##### imageWidth 
+- ancho de la imagen
+
+##### imageFit 
+- ajusta la imagen a los tamaños especificados.
 
 ## Sub objetos
 

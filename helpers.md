@@ -29,6 +29,7 @@
 #### [zone](helper-zone.md)
 #### [table](helper-table.md)
 #### [field](helper-field.md)
+#### [fieldImage](helper-field-image.md)
 #### [fieldSet](helper-field-set.md)
 
 ## Listas
