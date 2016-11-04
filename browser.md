@@ -29,8 +29,25 @@
 ##### view
 - [vista](view.md) a utilizar en este explorador.
 
+##### altPlaceholder
+- nombre a desplegar.
+- por omisión es "Seleccionar..."
+
 ##### altViews
 - lista de vistas alternativas.
+
+##### altSource
+- el filtro completo se genera de la colección indicada.
+
+##### altSourceView
+- vista a utilizar en `altSource`.
+- también se puede usar `altView`
+
+##### altSourceParam
+- nombre del parámetro a enviar a la vista.
+
+##### altSearchEnabled (true, false)
+- permite buscar en el filtro.
 
 ##### card
 - identificador del diseño de la [tarjeta](card.md) a usar.
