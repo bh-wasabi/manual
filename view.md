@@ -6,6 +6,10 @@
 ##### id
 - identificador de la vista
 
+##### name
+- nombre visible de la vista
+- principalmente se usa cuando hay opción de cambiar la vista en el `browser`.
+
 ## Sub objetos
 
 ##### [all](view-all.md)

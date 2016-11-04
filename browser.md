@@ -29,6 +29,9 @@
 ##### view
 - [vista](view.md) a utilizar en este explorador.
 
+##### altViews
+- lista de vistas alternativas.
+
 ##### card
 - identificador del diseño de la [tarjeta](card.md) a usar.
 

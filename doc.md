@@ -31,6 +31,7 @@
 
 ##### pagesStart (#)
 - número de pagina (tab) inicial, por omisión es 1.
+- puede ser una expresión.
 
 ##### pagesJustified (true, false)
 - justifica las páginas (tabs) del documento.

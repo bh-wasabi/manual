@@ -11,6 +11,15 @@
 - puede ser la misma que se usa para adjuntos.
 - para controlar el tamaño individual de cada imagen en el arreglo hay que incluir `widthRatio` y `heightRatio`.
 
+##### allowEdit (true, false)
+- permite la edición de documentos.
+
+##### allowSearch (true, false)
+- permite buscar.
+
+##### allowAltViews (true, false)
+- permite cambiar de vista dinámicamente, requiere que se configure `altViews` en el nodo padre.
+
 ##### itemMargin (#)
 - separación en pixeles para cada elemento del mosaico.
 

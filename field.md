@@ -79,6 +79,9 @@ Ejemplo:
 - aquí se pasa el valor que se va a mandar al filtro.
 - puede ser una [expresion](expr.md)
 
+##### helpText
+- una forma rápida de armar la ayuda en captura del campo.
+
 ##### helpType
 - `popover` aparece una ventana de ayuda volátil sobre la etiqueta.
 - `popup` aparece una ventana de ayuda que el quita al hacer click afuera de la ventana o el botón de cerrar si tiene título.

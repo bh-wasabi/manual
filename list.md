@@ -10,6 +10,9 @@
 - permite la búsqueda en la lista
 - busca sobre todo los campos de la vista
 
+##### allowAltViews (true, false)
+- permite cambiar de vista dinámicamente, requiere que se configure `altViews` en el nodo padre.
+
 ##### allowInsert (true, false)
 - permite agregar nuevos documento a la colección
 

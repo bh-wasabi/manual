@@ -26,6 +26,18 @@
 ##### preset
 - ayuda en captura para tablas pequeñas (key/value) es están en memoria).
 
+##### presetCondition
+- en el caso de un `grid` es posible condicionar la ayuda en captura en general.
+- en necesario activar `allwaysLoad="true"`.
+- puede ser una expresión.
+- muy útil cuando se necesita que algunas columnas "funcionen" en ciertos casos.
+
+##### presetElse
+- en el caso de una condición `presetCondition` es posible establecer un resultado para cuando no se cumple la condición.
+- en necesario activar `allwaysLoad="true"`.
+- puede ser una expresión.
+- puede ser una lista separada por comas.
+
 ayudas predefinidas:
 - `status`, Activo, Bloqueado, Inactivo.
 - `boolean`, Si, No.
