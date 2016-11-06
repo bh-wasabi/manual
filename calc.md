@@ -116,5 +116,6 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 - la acción es un filtro que se aplica.
 
 #### cat (importe, enganche, importePago, numPagos, periodicidad)
-- calcula el CAT (Costo Anual Total)
-
+- calcula el CAT (Costo Anual Total), según las reglas del Banco de México.
+- periodicidad puede ser `'diaria', 'semanal', 'quincenal', 'mensual', 'trimestal', 'cutrimestral', 'semestral'`, por omisión es `'mensual'`.
+- todos los demás campos son numéricos.
