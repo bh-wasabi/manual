@@ -114,3 +114,7 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 - Esta función sirve para extraer los prorrateos de una lista y concentrarlos en una nueva sección.
 - supone que en la lista existe un objeto tipo arreglo para cada elemento de la lista.
 - la acción es un filtro que se aplica.
+
+#### cat (importe, enganche, importePago, numPagos, periodicidad)
+- calcula el CAT (Costo Anual Total)
+
