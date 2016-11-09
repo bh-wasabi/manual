@@ -129,6 +129,14 @@ Define el nombre de los campos en que se van a guardar los archivos adjuntos.
 ##### postCurrentSection
 - aquí se define la sección del documento actual a afectar en el documento maestro.
 
+##### spanLabels
+- le agrega a cada etiqueta un `<span>` con un clase automática en base al id del campo.
+- sirve para poder cambiar el diseño CSS a nivel campo.
+
+##### spanValues
+- le agrega a cada valor (`value` o `name`) un `<span>` con un clase automática en base al id del campo.
+- sirve para poder cambiar el diseño CSS a nivel campo.
+
 ## Sub objetos
 ##### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.
