@@ -28,13 +28,13 @@
 
 ##### presetCondition
 - en el caso de un `grid` es posible condicionar la ayuda en captura en general.
-- en necesario activar `allwaysLoad="true"`.
+- en necesario activar `alwaysLoad="true"`.
 - puede ser una expresión.
 - muy útil cuando se necesita que algunas columnas "funcionen" en ciertos casos.
 
 ##### presetElse
 - en el caso de una condición `presetCondition` es posible establecer un resultado para cuando no se cumple la condición.
-- en necesario activar `allwaysLoad="true"`.
+- en necesario activar `alwaysLoad="true"`.
 - puede ser una expresión.
 - puede ser una lista separada por comas.
 
@@ -81,7 +81,7 @@ basados en las configuración:
 - en `select-current` se especifica el campo a usar como base del filtro.
 - en `options` se define el campo que tiene el artículo.
 
-##### allwaysLoad (true, false)
+##### alwaysLoad (true, false)
 - con esta opción forzamos que vuelva a leer la ayuda en captura.
 - es muy útil cuando se quiere hacer una ayuda en captura basada en otros campos capturados (en la misma sección) y sobre todo cuando se quiere evitar hacer el `refresh`.
 - Nota: para que funcione correctamente esta opción es necesario usar antes `clearFields` del evento `onChange` del campo padre.

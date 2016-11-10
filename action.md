@@ -52,7 +52,7 @@
 ##### visibleMode
 - `open` la acción será visible únicamente al abrir el documento.
 - `close` la acción será visible únicamente con el documento cerrado.
-- `allways` la acción será visible siempre.
+- `always` la acción será visible siempre.
 
 ##### hide (true, false)
 - oculta la acción
@@ -82,6 +82,12 @@
 - la ruta donde se va hacer el `request`
 - debe ser una ruta interna.
 - esto funcionan únicamente cuando es `type="post"`.
+
+##### postMessage
+- mensaje a desplegar cuando termina el `post`.
+
+##### postRefreshList (true, false)
+- es posible refrescar por completo la lista del `browser` después del post.
 
 ##### confirm (true, false)
 - es posible confirmar la acción previo a su ejecución.
