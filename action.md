@@ -83,6 +83,10 @@
 - debe ser una ruta interna.
 - esto funcionan únicamente cuando es `type="post"`.
 
+##### postSplash
+- mensaje a desplegar cuando se esta ejecutando el `post`.
+- por ejemplo: `postSplash="Recalculando..."`.
+
 ##### postMessage
 - mensaje a desplegar cuando termina el `post`.
 
