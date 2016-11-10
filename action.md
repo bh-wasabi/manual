@@ -90,6 +90,10 @@
 - es posible desplegar un mensaje distinto al confirmar.
 - puede ser una [expresión](expr.md).
 
+##### confirmTitle
+- titulo de la confirmación.
+- puede ser una [expresión](expr.md).
+
 ##### sendDeviceDataId
 - envia deviceDataId al servidor, si la acción el tipo es `affect`, `affect-direct` y `post`.
 - esto sirve para poder hacer los cargos automáticos a las tarjetas de crédito.
