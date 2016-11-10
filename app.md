@@ -2,6 +2,7 @@
 - define una aplicación
 
 ## Parámetros
+##### Nota: como `app` también puede ser un `doc`, los parámetros también son los de `doc`.
 
 ##### type
 - tipo de objeto, en este caso debe ser `app`
