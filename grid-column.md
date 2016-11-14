@@ -63,3 +63,16 @@
 ##### allowSorting (true, false)
 - con esta opción podemos permitir o no ordenar directamente sobre una columna
 
+##### summaryType
+- `sum`
+- `count`
+- `avg`
+- `min`
+- `max`
+
+##### summaryFormat
+- `fixedPoint`
+
+##### summaryPrecision (#)
+- precisión del formato
+

@@ -13,6 +13,7 @@
 - `refresh` refresca la forma actual.
 - `popup` abre una ventana tipo popup.
 - `doc-add` agrega un detalle al documento en la sección que esta definida.
+- `doc-edit` edita un documento.
 - `doc-refresh` refresca unicamente el documento.
 - `cube-view-names` inserta en esa posición del menú la lista de vistas de ese cubo.
 - `cube-view-preferences` abre la ventana para configurar las vistas del cubo.
@@ -45,7 +46,7 @@
 - si es una url externa con esta opción abre un nuevo `tab` en el `browser`.
 
 ##### source
-- cuando es `type="dash-filters"` es posible ligarlo a una fuente de otro documento.
+- cuando es `type="dash-filters"` o `type="doc-edit"` es posible ligarlo a una fuente de otro documento.
 
 ##### view
 - cuando es `type="dash-filters"` aquí podemos definir la vista de la fuente.
@@ -54,6 +55,9 @@
 
 ##### [popup](popup.md)
 - para abrir una ventana tipo popup al hacer click.
+
+##### [param](param.md)
+- es posible pasar parámetros en algunas acciones.
 
 ##### item
 - recursivamente
