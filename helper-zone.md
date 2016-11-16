@@ -18,6 +18,11 @@
 - cuando es un arreglo esto abre una forma modal que abre todo los detalles juntos.
 - puede ser una [expresión](expr.md).
 
+##### modalTable
+- otra forma forma de capturar un arreglo.
+- requiere del `modal` para la edición de cada registro de la tabla.
+- puede ser una [expresión](expr.md).
+
 ##### section
 - sección del documento a editar.
 - por omisión toma la sección que esta definida en `modal` o  `modalGrid`, en caso de usar expresiones es necesario indicar la sección explícitamente.

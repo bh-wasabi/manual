@@ -22,6 +22,21 @@
 - permite exportar los datos a Excel.
 - unicamente funciona en `Chrome`.
 
+##### showBorders (true, false)
+- muestra los bordes de la cuadrícula.
+
+##### showColumnTotals (true, false)
+- muestra los sub totales a nivel columna.
+
+##### showColumnGrandTotals (true, false)
+- muestra los totales a nivel columna.
+
+##### showRowTotals (true, false)
+- muestra los sub totales a nivel renglón.
+
+##### showRowGrandTotals (true, false)
+- muestra los totales a nivel renglón.
+
 ## Sub objetos
 
 ##### [column](cube-field.md)
