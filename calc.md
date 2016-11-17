@@ -119,3 +119,6 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 - calcula el CAT (Costo Anual Total), según las reglas del Banco de México.
 - periodicidad puede ser `'diaria', 'semanal', 'quincenal', 'mensual', 'trimestal', 'cutrimestral', 'semestral'`, por omisión es `'mensual'`.
 - todos los demás campos son numéricos.
+
+#### catArray (importe, enganche, pagos, periodicidad)
+- al igual que la función `cat` con la diferencia que en pagos viene un arreglo con todos los pagos específicos.

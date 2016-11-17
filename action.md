@@ -53,6 +53,7 @@
 - `open` la acción será visible únicamente al abrir el documento.
 - `close` la acción será visible únicamente con el documento cerrado.
 - `always` la acción será visible siempre.
+- `none` la acción no se muestra.
 
 ##### hide (true, false)
 - oculta la acción
