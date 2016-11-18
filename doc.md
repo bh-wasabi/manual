@@ -137,6 +137,9 @@ Define el nombre de los campos en que se van a guardar los archivos adjuntos.
 - le agrega a cada valor (`value` o `name`) un `<span>` con un clase automática en base al id del campo.
 - sirve para poder cambiar el diseño CSS a nivel campo.
 
+##### showChangeHistory (true, false)
+- muestra los cambios históricos a nivel campo, sobre la ayuda de captura de cada campo.
+
 ## Sub objetos
 ##### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.
