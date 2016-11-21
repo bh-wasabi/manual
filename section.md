@@ -28,3 +28,8 @@
 ##### [object](section-object.md)
 - se pueden generar sub objetos, como resultado de transformaciones o campos calculados, que se pueden guardar directamente sobre el documento.
 - unicamente de lectura.
+
+##### [validator](validator.md)
+- se pueden agregar una o varias validaciones de captura a nivel sección.
+- unicamente tipo `expr`. 
+

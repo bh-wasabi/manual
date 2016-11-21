@@ -22,6 +22,9 @@
 ##### number (valor)
 - forza el resultado como numérico.
 
+##### isTrue (valor)
+- evalúa si el valor es `true` o `false`.
+
 ##### isNull (valor, valorPorOmision)
 - checa si el valor es nulo, devuelve el valor por omisión.
 - otra forma de lograr es poner la variable entre paréntesis y hacer un "or" contra el valor por omisión, por ejemplo: `(@valor||'')`.
@@ -58,6 +61,10 @@
 
 ##### expireColor (fecha)
 - devuelve el los colores `green`, `yellow`, `red` o `grey`, en base al vencimiento de la fecha.
+
+##### map (arreglo, expr)
+- recorre un arreglo y evalúa la expresión para cada elemento del arreglo.
+- al final queda un arreglo con todos los valores calculados. 
 
 ##### extractToList (arreglo, campo, filtros)
 - extrae un campo de un arreglo y lo convierte a un texto separado por comas.
