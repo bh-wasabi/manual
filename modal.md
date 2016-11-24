@@ -49,6 +49,10 @@
 - `fade`
 - `scale`
 
+##### ignoreSectionValidators (true, false)
+- con esta opción es posible indicarle al sistema que no ejecute la validación de la sección del documento.
+- se usa cuando en el modal no están involucrados los campos que se usan en la validación de la sección.
+
 ## Facilitadores
 - los objetos de tipo Markup pueden contener HTML abiertamente y sin ninguna restricción.
 - [lista de facilitadores](helpers.md).
