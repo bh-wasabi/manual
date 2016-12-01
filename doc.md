@@ -194,6 +194,9 @@ Define el nombre de los campos en que se van a guardar los archivos adjuntos.
 ##### [survey](survey.md)
 - es posible definir una encuesta que se aplica sobre el documento.
 
+##### [form](form.md)
+- define una forma basada en una imagen de fondo.
+
 ## Markup
 ##### [page](page.md)
 - aquí se pone todo el diseño de cada una de las páginas (tab) del documento

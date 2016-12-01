@@ -26,6 +26,10 @@
 - con esta opción podemos controlar la edición de toda la página completa.
 - se puede usar una [expresión](expr.md).
 
+##### [form](form.md)
+- identificador de la forma a usar en esta página.
+- cuando se usa esta opción se ignora todo el contenido adicional de la página.
+
 ## Facilitadores
 - los objetos de tipo Markup pueden contener HTML abiertamente y sin ninguna restricción.
 - [lista de facilitadores](helpers.md).
