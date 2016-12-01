@@ -64,6 +64,9 @@
 ##### docOrientation (horizontal, vertical)
 - se define la orientación que queremos para el documento anexo.
 
+##### pagesTabsPosition
+- es posible cambiar este parámetro del documento desde aquí.
+
 ## Sub objetos
 
 ##### [list](list.md)
