@@ -15,6 +15,9 @@
 ##### condition
 - con esta opción es posible condicionar la acción.
 
+##### updateItem (true, false)
+- si es un arreglo no recorre los elementos y hace el `update` a toda la sección.
+
 ## Sub objetos
 
 ##### [push](push.md)
