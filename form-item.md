@@ -41,6 +41,10 @@
 - equivale a `font-family` del `css`.
 - por omisión es: `fontFamily="'Comic Sans MS', 'Comic Sans', cursive"`
 
+##### condition
+- es posible determinar una condición de despliegue de ese campo.
+- puede ser una expresión.
+
 ## Sub objetos
 
 ##### [map](form-map.md)

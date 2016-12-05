@@ -24,6 +24,8 @@
 - `refresh-widgets` refresca los `widgets` del documento.
 - `post` para ejecutar un `request` tipo `post` en el backend.
 - `start-workflow` inicia un flujo de trabajo del documento.
+- `zoom-in` aumenta el `zoom` del contenido del documento.
+- `zoom-out` disminuye el `zoom` del contenido del documento.
 
 ##### modal
 - identificador de la forma modal a invocar
@@ -108,6 +110,10 @@
 ##### sendDeviceDataId
 - envia deviceDataId al servidor, si la acción el tipo es `affect`, `affect-direct` y `post`.
 - esto sirve para poder hacer los cargos automáticos a las tarjetas de crédito.
+
+##### icon
+- es posible agregar un icono a la acción.
+- [iconos](ion-icons.md)
 
 ## Sub objetos
 ##### [update](update.md)
