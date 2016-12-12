@@ -4,7 +4,13 @@
 
 ## Parámetros
 ##### id
-- identificador del menu
+- identificador del menú
+
+##### name
+- nombre del menú
+
+##### shortName
+- nombre corto del menú
 
 ##### startHref
 - es posible que inicie el menú directamente en una opción.

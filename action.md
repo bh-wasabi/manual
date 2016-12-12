@@ -47,7 +47,7 @@
 - cuando la acción es `type="copy"` aquí se especifica el tipo de documento donde se va a copiar.
 - por omisión es al mismo.
 
-##### exclude
+##### exclude o excludeSections
 - cuando la acción es `type="copy"` aquí se especifica la lista de secciones o la lista de `seccion.campo` a excluir en la copia.
 - es una lista separada por comas.
 

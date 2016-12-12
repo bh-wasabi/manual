@@ -85,6 +85,9 @@
 ##### addLabel
 - etiqueta a desplegar en el botón de agregar.
 
+##### zoomInbox (#)
+- % de zoom por omisión cuando se abre el documento vía 
+
 ##### attachSection
 - sección del documento que va administrar los archivos adjuntos.
 
