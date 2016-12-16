@@ -146,6 +146,16 @@ Define el nombre de los campos en que se van a guardar los archivos adjuntos.
 ##### ignoreDefaultDisplayValidation (true, false)
 - con esta opción no valida que el documento tenga un nombre.
 
+##### pdfPageSize
+- `letter`
+- `legal`
+- `folio`
+- `tabloid`
+- `executive`
+- `a3`
+- `a4`
+- etc.
+
 ## Sub objetos
 ##### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.
@@ -196,6 +206,9 @@ Define el nombre de los campos en que se van a guardar los archivos adjuntos.
 
 ##### [survey](survey.md)
 - es posible definir una encuesta que se aplica sobre el documento.
+
+##### [report](report.md)
+- define un reporte PDF del documento.
 
 ##### [form](form.md)
 - define una forma basada en una imagen de fondo.

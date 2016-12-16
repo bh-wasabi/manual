@@ -62,7 +62,11 @@
 
 ##### [when](step-when.md)
 
-##### [pdf](step-pdf.md)
+##### [htmlToPdf](step-html-pdf.md)
+
+##### [reportToPdf](step-report-pdf.md)
+
+##### [formToPdf](step-form-pdf.md)
 
 ##### [docx](step-docx.md)
 

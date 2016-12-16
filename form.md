@@ -8,6 +8,9 @@
 ##### backgroundImage
 - `url` de la imagen de fondo a usar.
 
+##### backgroundColor
+- color de fondo.
+
 ##### width (#)
 - ancho de la imagen del fondo.
 - en pixeles.
@@ -24,25 +27,31 @@
 - posición inicial vertical.
 - en pixeles.
 
+##### pdfX (#)
+- posición inicial horizontal (cuando va a PDF).
+- en pixeles.
+
+##### pdfY (#)
+- posición inicial vertical (cuando va a PDF).
+- en pixeles.
+
 ##### color
 - nombre del color.
 - por omision es: `color="black"`.
 
-##### backgroundColor
-- color de fondo.
+##### class
+- clase a poner en ese campo.
+- por omisión es `field-comic`.
 
 ##### fontSize (#)
 - define el tamaño de la letra.
 - en pixeles.
-- por omisión es: `fontSize="25"`
 
 ##### fontWeight (normal, bold, bolder, lighter, etc.)
 - equivale a `font-weight` del `css`.
-- por omisión es: `fontWeight="normal"`
 
 ##### fontFamily
 - equivale a `font-family` del `css`.
-- por omisión es: `fontFamily="'Comic Sans MS', 'Comic Sans', cursive"`
 
 ## Sub objetos
 

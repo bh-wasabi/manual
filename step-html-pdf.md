@@ -1,5 +1,5 @@
-# Objeto: **pdf** (step)
-- genera un archivo PDF a partir de una plantilla
+# Objeto: **htmlToPdf** (step)
+- genera un archivo PDF a partir de una plantilla HTML.
 - lo almacena en una ruta de s3
 
 ## Parámetros

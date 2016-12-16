@@ -29,6 +29,7 @@
 ##### [form](form.md)
 - identificador de la forma a usar en esta página.
 - cuando se usa esta opción se ignora todo el contenido adicional de la página.
+- puede ser una expresión.
 
 ## Facilitadores
 - los objetos de tipo Markup pueden contener HTML abiertamente y sin ninguna restricción.

@@ -17,8 +17,12 @@
 - ancho máximo del elemento.
 - en pixeles.
 
+##### interSpace (true, false)
+- pone un espacio entre las letras.
+
 ##### letterSpacing (#)
 - espacio entre letras.
+- usa el CSS para generar esto, si se quiere que funcione en HTML y PDF usar interSpace.
 - en pixeles.
 
 ##### color

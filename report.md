@@ -5,10 +5,13 @@
 ##### id
 - identificador del reporte
 
-##### name
-- nombre visible del reporte
+## Sub objetos
 
+##### row
+- imprime un renglón del reporte
 
-## Facilitadores
-- los objetos de tipo Markup pueden contener HTML abiertamente y sin ninguna restricción.
-- [lista de facilitadores](helpers.md).
+##### record
+- imprime en forma de objeto.
+
+##### table
+- imprime en forma de tabla.

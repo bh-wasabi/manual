@@ -27,6 +27,14 @@
 - sección del documento a editar.
 - por omisión toma la sección que esta definida en `modal` o  `modalGrid`, en caso de usar expresiones es necesario indicar la sección explícitamente.
 
+##### readOnly
+- es posible bloquear una zona
+- puede ser una expresión
+
+##### condition
+- es posible establecer una condición para abrir una zona
+- puede ser una expresión
+
 ## Ejemplos:
 ````
 {{#zone id="base" modal="base"}}

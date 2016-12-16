@@ -26,6 +26,7 @@
 - `start-workflow` inicia un flujo de trabajo del documento.
 - `zoom-in` aumenta el `zoom` del contenido del documento.
 - `zoom-out` disminuye el `zoom` del contenido del documento.
+- `form-pdf` genera un archivo PDF de la forma.
 
 ##### modal
 - identificador de la forma modal a invocar
@@ -114,6 +115,10 @@
 ##### icon
 - es posible agregar un icono a la acción.
 - [iconos](ion-icons.md)
+
+##### fileName
+- en el caso de algunas acciones como `form-pdf` es posible indicar el nombre del archivo a generar.
+- puede ser una [expresión](expr.md).
 
 ## Sub objetos
 ##### [update](update.md)
