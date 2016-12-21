@@ -20,6 +20,10 @@
 - para definir si la sección es para capturar una tarjeta de crédito con OpenPay
 - requiere mapear los campos (`card_number, holder_name, expiration_month, expiration_year, cvv2 y token`).
 
+##### defaultValue
+- es posible establecer una valor por omisión a una sección completa.
+- puede ser un preset.
+
 ## Sub objetos
 
 ##### [field](field.md)
