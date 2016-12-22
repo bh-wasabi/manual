@@ -24,6 +24,7 @@
 - `tileView` incrusta un [mosaico de imágenes](tileView.md).
 - `toolBar` incrusta una [barra de íconos](toolBar.md).
 - `info` incrusta un [cuadro informativo](info.md).
+- `timeline` incrusta un [línea del tiempo](timeline.md).
 
 ##### source
 - identificador del tipo de documento (opcional).
