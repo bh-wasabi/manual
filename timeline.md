@@ -21,6 +21,10 @@
 ##### max
 - fecha máxima
 
+##### height (#)
+- forza a que el componente aparezca de una altura específica.
+- en pixeles.
+
 ##### zoomable (true, false)
 - permite hacer zoom.
 
