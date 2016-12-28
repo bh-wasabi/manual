@@ -60,6 +60,9 @@
 ##### [marker](map-marker.md)
 - define los marcadores en el mapa.
 
+##### [line](map-line.md)
+- une los marcadores en el mapa.
+
 ##### [route](map-route.md)
 - define la ruta en el mapa.
 
