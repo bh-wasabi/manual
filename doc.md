@@ -12,6 +12,9 @@
 ##### name
 - nombre visible del tipo de documento
 
+##### collection
+- es posible apuntar a otra colección de datos, por omisión usa el `id` como colección.
+
 ##### error
 - despliega un mensaje de error junto al título del documento.
 
@@ -47,6 +50,10 @@
 ##### pagesTabsHeight
 - define la altura de las páginas, para evitar problemas de `scroll`.
 - de preferencia especificar en pixeles, por ejemplo: `550px`.
+
+##### bannerPosition
+- `top` por omisión.
+- `right`
 
 ##### allowEdit (true, false)
 - permite la edición
