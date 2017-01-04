@@ -3,6 +3,11 @@
 - pude ser multiple
 
 ## Parámetros
+
+##### id
+- identificador de la validación
+- opcional
+
 ##### type
 - `required` campo requerido
 - `email` valida que el valor corresponda con un correo electrónico
@@ -30,4 +35,9 @@
 
 ##### expr 
 - expresión a usar para validar.
+
+##### log
+- es posible mandar un mensaje a la consola para buscar errores.
+- puede ser una expresión.
+- es recomendable usar la propiedad `id` para identificar la validación.
 
