@@ -36,6 +36,9 @@
 ##### expr 
 - expresión a usar para validar.
 
+##### falseIsValid (true, false)
+- si se indica el validación es correcta cuando el valor es falso.
+
 ##### log
 - es posible mandar un mensaje a la consola para buscar errores.
 - puede ser una expresión.

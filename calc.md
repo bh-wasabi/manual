@@ -129,3 +129,12 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 
 #### catArray (importe, enganche, pagos, periodicidad)
 - al igual que la función `cat` con la diferencia que en pagos viene un arreglo con todos los pagos específicos.
+
+#### mapReduce (arreglo, agrupadores, sumar)
+- `arreglo`
+- `agrupadores` lista de campos separados por comas
+- `sumar` lista de campos separados por comas
+
+#### findDuplicates (arreglo, agrupadores)
+- `arreglo`
+- `agrupadores` lista de campos separados por comas
