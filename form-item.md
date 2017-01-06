@@ -49,6 +49,25 @@
 - es posible determinar una condición de despliegue de ese campo.
 - puede ser una expresión.
 
+##### isImage (true, false)
+- define si el campo tiene la url de una imagen
+
+##### isGeoCode (true, false)
+- define si el campo tiene una geoReferencia
+
+##### zoom (#)
+- en el caso de una geoReferencia es posible definir el nivel de zoom
+- por omisión es 15
+
+##### imageWidth (#)
+- ancho de la imagen en pixeles
+
+##### imageHeight (#)
+- alto de la imagen en pixeles
+
+##### imageFit (true, false)
+- forza la imagen al tamaño definido
+
 ## Sub objetos
 
 ##### [map](form-map.md)
