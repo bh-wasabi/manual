@@ -23,6 +23,16 @@
 ##### defaultValue
 - es posible establecer una valor por omisión a una sección completa.
 - puede ser un preset.
+- puede ser una expresión.
+
+##### updateFromArray
+- actualiza la sección (tipo arreglo) basada en un arreglo.
+
+##### updateFromArrayId
+- llave del arreglo
+
+##### updateFromArrayKey
+- llave local
 
 ## Sub objetos
 

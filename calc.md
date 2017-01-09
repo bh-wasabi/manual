@@ -138,3 +138,21 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 #### findDuplicates (arreglo, agrupadores)
 - `arreglo`
 - `agrupadores` lista de campos separados por comas
+
+#### preset (id)
+- devuelve el preset completo.
+
+#### where (arreglo, attributos)
+- devuelve una lista, con los atributos que coincidan.
+
+#### notWhere (arreglo, attributos)
+- devuelve una lista, con los atributos que no coincidan.
+
+#### whereGreaterThan (arreglo, llave, valor)
+- devuelve una lista de los elementos que tienen el valor superior.
+
+#### whereLessThan (arreglo, llave, valor)
+- devuelve una lista de los elementos que tienen el valor inferior.
+
+#### tagsWherePresetHas (tags, preset, attributos)
+- devuelve los tags que cumplen con los attributos indicadas.

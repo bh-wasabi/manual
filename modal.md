@@ -31,6 +31,10 @@
 - para que aparezca o no el botón de aceptar.
 - por omisión es `true`.
 
+##### readOnly (true, false)
+- abre el modal en modo consulta.
+- puede ser una expresión.
+
 ##### size
 - `small`
 - `medium`
