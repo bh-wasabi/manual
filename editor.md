@@ -217,6 +217,7 @@ basados en las configuración:
 
 ##### [param](param.md)
 - es otra forma de definir los filtros, en algunas ocaciones es más fácil definirlo así.
+- en el caso de una ayuda en captura tipo `lookup` manda estos parámetros a la vista.
 
 ##### [grid](editor-gird.md)
 - en el caso de captura tipo `grid` es posible tener una ayuda de captura con otro `grid`.
