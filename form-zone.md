@@ -37,12 +37,25 @@
 - posición inicial vertical.
 - en pixeles.
 
+##### cols (#)
+- cantidad de columnas cuando es un arreglo.
+- por omisión es `1`
+
+##### colSpacing (#)
+- espacio entre columnas cuando es un arreglo.
+- también puede ser una lista separada por comas.
+- por omisión es `200`
+- en pixeles.
+
 ##### lineSpacing (#)
-- espacio entre lineas.
+- espacio entre lineas cuando es un arreglo.
+- también puede ser una lista separada por comas.
+- por omisión es `50`
 - en pixeles.
 
 ##### maxLines (#)
 - lineas máximas en caso de arreglos.
+- por omisión es `10`
 
 ##### color
 - nombre del color.

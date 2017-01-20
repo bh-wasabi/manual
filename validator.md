@@ -39,6 +39,14 @@
 ##### falseIsValid (true, false)
 - si se indica el validación es correcta cuando el valor es falso.
 
+##### validIf
+- expresión a usar para validar.
+- en lugar de `expr`
+
+##### notValidIf
+- expresión a usar para validar.
+- en lugar de `expr`
+
 ##### log
 - es posible mandar un mensaje a la consola para buscar errores.
 - puede ser una expresión.

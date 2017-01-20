@@ -35,6 +35,9 @@
 - abre el modal en modo consulta.
 - puede ser una expresión.
 
+##### disableFirstFocus (true, false)
+- con esta opción se usa para que no haga el auto-focus sobre el primer campo de la forma.
+
 ##### size
 - `small`
 - `medium`

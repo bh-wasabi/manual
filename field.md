@@ -118,6 +118,11 @@ Ejemplo:
 ##### imageFit 
 - ajusta la imagen a los tamaños especificados.
 
+##### boldIf
+- es posible agregar una condición para que se despliega el campo en negritas.
+- funciona únicamente en secciones tipo arreglo
+- debe ser una expresión.
+
 ## Sub objetos
 
 ##### [editor](editor.md)

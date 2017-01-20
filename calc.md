@@ -23,7 +23,10 @@
 - forza el resultado como numérico.
 
 ##### isTrue (valor)
-- evalúa si el valor es `true` o `false`.
+- evalúa si el valor es verdadero.
+
+##### isFalse (valor)
+- evalúa si el valor es false.
 
 ##### isNull (valor, valorPorOmision)
 - checa si el valor es nulo, devuelve el valor por omisión.

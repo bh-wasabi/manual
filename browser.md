@@ -26,6 +26,9 @@
 ##### tileView
 - identificador del [mosaico](tileView.md) a mostrar.
 
+##### mobile
+- identificador del documento móvil a mostrar.
+
 ##### view
 - [vista](view.md) a utilizar en este explorador.
 

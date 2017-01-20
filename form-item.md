@@ -68,6 +68,10 @@
 ##### imageFit (true, false)
 - forza la imagen al tamaño definido
 
+##### position
+- `relative` por omisión
+- `absolute` se puede usar para arreglos donde se quiere tener una posición absoluta del mapeo.
+
 ## Sub objetos
 
 ##### [map](form-map.md)
