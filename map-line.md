@@ -13,3 +13,6 @@
 - campo o [expresión](expr.md) que contiene la localidad.
 - puede ser una dirección o una coordenada.
 
+##### color
+- es posible cambiar el color de la línea
+- puede ser una expresión
