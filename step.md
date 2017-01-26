@@ -30,6 +30,8 @@
 
 ##### [update](step-update.md)
 
+##### [updateCollection](step-update-collection.md)
+
 ##### [insert](step-insert.md)
 
 ##### [request](step-request.md)
