@@ -200,6 +200,14 @@ basados en las configuración:
 ##### sendSearchValue (true, false)
 - cuando se captura en un `grid`, con esta opción podemos mandar el parámetro `searchValue` a la consulta del servidor.
 
+##### imageWidth (#)
+- ancho de la imagen en pixeles.
+- esto funciona únicamente con un preset y tiene que estar definido el campo `imagen` en el preset a nivel elemento.
+
+##### imageAndName (true, false)
+- agrega el nombre después de la imagen.
+- esto funciona únicamente si tiene definido el `imageWidth`.
+
 ## Sub objetos
 
 ##### [item](editor-item.md)

@@ -12,5 +12,8 @@
 ##### ignorePrefixes
 - con esta opción es posible eliminar prefijos de los nodos, del documento recibido.
 
+##### as
+- es posible cambiar el nombre del objeto leído.
+
 ## Sub objetos
 - puede ser cualquiera de los objetos del [step](step.md) del flujo de trabajo.
