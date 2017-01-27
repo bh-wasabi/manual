@@ -1,6 +1,7 @@
 # Objeto: **excel** (step)
 - sirve para actualizar y/o leer un archivo de excel.
 - debe ser un libro de excel 97-2004, con terminación `xls`.
+- ya soporta xlsx y xlsm también (hay que checar que las macros que las tengamos soportadas).
 - regresa un objeto donde cada una de las páginas del libro quedan como un sub objeto de tipo arreglo.
 
 por ejemplo:
@@ -50,8 +51,19 @@ por ejemplo:
 ##### pages
 - se indica los nombres de las páginas que deseamos obtener (separados por comas).
 
+##### outputType
+- `memory` por omisión se devuelve el resultado al proceso
+- `s3` se guarda en una ruta de `s3`.
+
+##### outputFileName
+- en el caso de `outputType="s3"` se debe configurar la ruta y nombre del archivo
+- es importante incluir la extensión del archivo (xls, xlsx o xlsm)
+
 ## Sub objetos
 - puede ser cualquiera de los objetos del [step](step.md) del flujo de trabajo.
 
 ##### [params](step-excel-params.md)
 - la forma como se mandan los parámetros es un poco especial por eso tiene un objeto diferente.
+
+##### [input](step-excel-input.md)
+- otra forma de pasar los parámetros seleccionado 
