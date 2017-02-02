@@ -13,6 +13,10 @@
 - el contexto es el documento y/o el detalle de la sección especifica.
 - puede ser una [expresión](expr.md).
 
+##### validIf (true, false)
+- espera un resultado positivo para que no mande el error.
+- puede ser una [expresión](expr.md).
+
 ##### error
 - el texto del error a desplegar
 - puede ser una [expresión](expr.md).

@@ -41,6 +41,14 @@ por ejemplo:
 ##### url
 - en el caso del tipo `url` aquí se especifica la `url` donde se encuentra el archivo `.xls`.
 
+##### bucket
+- en el caso de s3
+- cubeta donde se encuentra el archivo a recalcular.
+
+##### path
+- en el caso de s3
+- ruta adicional
+
 ##### fileName
 - ruta y nombre del archivo `.xls`.
 - en el caso de s3, es sobre un bucket de uso interno.
@@ -55,8 +63,14 @@ por ejemplo:
 - `memory` por omisión se devuelve el resultado al proceso
 - `s3` se guarda en una ruta de `s3`.
 
+##### outputBucket
+- por omisión es el mismo bucket
+
+##### outputPath
+- ruta opcional sobre s3.
+
 ##### outputFileName
-- en el caso de `outputType="s3"` se debe configurar la ruta y nombre del archivo
+- en el caso de `outputType="s3"` nombre del archivo
 - es importante incluir la extensión del archivo (xls, xlsx o xlsm)
 
 ## Sub objetos
