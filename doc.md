@@ -51,10 +51,6 @@
 - define la altura de las páginas, para evitar problemas de `scroll`.
 - de preferencia especificar en pixeles, por ejemplo: `550px`.
 
-##### bannerPosition
-- `top` por omisión.
-- `right`
-
 ##### allowEdit (true, false)
 - permite la edición
 
