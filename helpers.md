@@ -18,7 +18,8 @@
 #### [span](helper-span.md)
 #### [render](helper-render.md)
 #### [fromNow](helper-fromNow.md)
-#### [banner](helper-banner.md)
+#### [bannerTop](helper-banner-top.md)
+#### [bannerRight](helper-banner-right.md)
 
 ## Campos
 #### [label](helper-label.md)
