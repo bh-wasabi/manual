@@ -11,3 +11,4 @@
 ##### items
 - expresión que devuelve un arreglo con la lista de objetos.
 - los objetos debe contener `image, label, title, description`.
+- pueden contener `location` para especificar la posición (`before` o `after`)

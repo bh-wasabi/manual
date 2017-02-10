@@ -7,7 +7,7 @@
 - `text-area` area de texto multi-renglón.
 - `select` seleccionar de una lista de opciones, necesita `preset` o `source`.
 - `lookup` búsqueda avanzada sobre el campo, necesita `preset` o `source`.
-- `autocomplete` sugiere el texto en base a la lista de opciones, necesita `preset` o `source`.
+- `autocomplete` sugiere el texto en base a la lista de opciones, necesita `preset` o `source`, en este caso no se guarda el campo con el nombre no hay `id`.
 - `tags` multiples etiquetas, necesita `preset` o `source`.
 - `number`
 - `date` para capturar una fecha.

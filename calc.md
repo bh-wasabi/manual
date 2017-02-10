@@ -145,6 +145,9 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 #### preset (id)
 - devuelve el preset completo.
 
+#### fromNow (fecha)
+- calcula el tiempo desde cierta fecha en español.
+
 #### where (arreglo, attributos)
 - devuelve una lista, con los atributos que coincidan.
 

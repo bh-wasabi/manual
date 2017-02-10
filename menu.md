@@ -19,6 +19,12 @@
 ##### startName
 - si se usa la opción `startHref` aquí debemos indicar el nombre a mostrar.
 
+#### text
+- texto a desplegar
+
+#### action
+- en algunos menús es posible invocar a una acción del documento.
+
 ## Sub objetos
 
 ##### [item](menu-item.md)

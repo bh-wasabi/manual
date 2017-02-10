@@ -23,6 +23,10 @@
 - `6h` equivale a 6 horas.
 - `30m` equivale a 30 minutos.
 
+##### page (#)
+- abre el documento en la página especificada.
+- del 1 en adelante.
+
 ## Sub objetos
 
 ##### [validate](step-validate.md)
