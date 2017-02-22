@@ -59,4 +59,8 @@
 
 ##### [join](view-join.md)
 - es posible unir los resultados con otros documentos y crear un resultado de múltiples fuentes.
+- esto es sobre el mismo documento, agrega un campo o sección nuevo en base al ´join´.
 
+##### [union](view-union.md)
+- es posible unir los resultados con otros documentos y crear un resultado de múltiples fuentes.
+- esto une los resultados.
