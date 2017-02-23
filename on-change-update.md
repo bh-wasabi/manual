@@ -14,6 +14,10 @@
 - es posible agregar mas elementos en lugar de reemplazarlos completamente.
 - puede ser una [expresión](expr.md).
 
+##### condition
+- es posible establecer una condición para que se ejecute
+- puede ser una [expresión](expr.md).
+
 ## Sub objetos
 
 ##### [set](set.md)
