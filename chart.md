@@ -30,6 +30,9 @@
 - con esta opción se puede apagar la animación.
 - por omisión es `true`.
 
+##### compactValues (true, false)
+- en el caso de una sola serie, con esta opción se eliminan los datos vacíos o nulos.
+
 ## Sub objetos
 
 ##### [legend](chart-legend.md)

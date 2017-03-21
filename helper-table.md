@@ -33,6 +33,9 @@
 - por ejemplo: `filter="tipo=foto"`.
 - es posible tener multiples filtros separados por el símbolo `&`.
 
+##### removeEmptyCols (true, false)
+- elimina las columnas que no tienen datos automaticamente.
+
 ## Ejemplo:
 ````
 {{#row class="invoice-body"}}

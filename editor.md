@@ -70,7 +70,13 @@ basados en las configuración:
 ##### getSourceSection
 - es posible usar una sección especifica de un documento como ayuda en captura.
 - es necesario usar `sourceFindOne` para filtrar el documento.
-- la sección debe tener los campos `id` y `nombre`.
+- la sección debe tener los campos (`id` y `nombre`) o (`getSourceSectionId`y `getSourceSectionName`).
+
+##### getSourceSectionId
+- es posible cambiar el `id` del que identifica al registro de la sección.
+
+##### getSourceSectionName
+- es posible cambiar el `nombre` del que despliega al registro de la sección.
 
 ##### view
 - se puede indicar la vista especifica del `source`.

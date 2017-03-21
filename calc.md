@@ -32,6 +32,12 @@
 - checa si el valor es nulo, devuelve el valor por omisión.
 - otra forma de lograr es poner la variable entre paréntesis y hacer un "or" contra el valor por omisión, por ejemplo: `(@valor||'')`.
 
+##### nullIf (valor1, valor2)
+- si el valor1 es igual al valor2 devuelve un `null`.
+
+##### hasValue (valor)
+- devuelve `true` o `false` si tiene o no valor.
+
 ##### pesos (valor)
 - imprime un importe en texto (pesos).
 
@@ -148,6 +154,9 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 #### fromNow (fecha)
 - calcula el tiempo desde cierta fecha en español.
 
+#### findWhere (arreglo, attributos)
+- devuelve el primer elemento de la lista, con los atributos que coincidan.
+
 #### where (arreglo, attributos)
 - devuelve una lista, con los atributos que coincidan.
 
@@ -162,3 +171,10 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 
 #### tagsWherePresetHas (tags, preset, attributos)
 - devuelve los tags que cumplen con los attributos indicadas.
+
+#### updateArray (arreglo, llave, valor)
+- actualiza un arreglo y pone en un campo especifico un valor especifico
+
+#### getRef (objeto, referencia)
+- obtiene un valor de un objeto
+- la referencia es la llave pero puede contener sub campos separados con punto, por ejemplo: `getRef({base: {nombre: 'hola'}}, 'base.nombre')` va a devolver `hola`.

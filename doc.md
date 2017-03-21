@@ -131,9 +131,12 @@ Define el nombre de los campos en que se van a guardar los archivos adjuntos.
 - si es un sub documento, con esta opción al guardar el registro se actualiza el `parent` con el contenido del sub documento.
 - aquí se indica el nombre de la sección del documento maestro.
 - esto únicamente funciona al insertar un sub documento.
+- puede ser una lista de secciones separadas por comas (tiene que corresponder con `postCurrentSection`)
 
 ##### postCurrentSection
 - aquí se define la sección del documento actual a afectar en el documento maestro.
+- puede ser una lista de secciones separadas por comas (tiene que corresponder con `postParentSection`)
+Nota: cuando la sección es tipo objeto se actualizan únicamente los campos afectados y cuando es arreglo se copia la sección completa.
 
 ##### spanLabels
 - le agrega a cada etiqueta un `<span>` con un clase automática en base al id del campo.

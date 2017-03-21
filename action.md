@@ -120,6 +120,9 @@
 - en el caso de algunas acciones como `form-pdf` es posible indicar el nombre del archivo a generar.
 - puede ser una [expresión](expr.md).
 
+##### fullScreen (true, false)
+- cuando es un sub documento es posible abrirlo en pantalla completa.
+
 ## Sub objetos
 ##### [update](update.md)
 - en algunas acciones es posible cambiar los campos del documento.
