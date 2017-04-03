@@ -109,6 +109,10 @@ Ejemplo:
 - un campo tipo texto, puede contener la url de una imagen.
 - es otra forma de anexar mas directa y con la posibilidad de editar en la misma forma de captura donde van los demás campos.
 
+##### isImageFace (true, false)
+- tratar de obtener la cara de la persona.
+- esto funciona actualmente para la parte `mobile`.
+
 ##### imageHeight 
 - alto de la imagen
 

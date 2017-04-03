@@ -162,6 +162,11 @@ Nota: cuando la sección es tipo objeto se actualizan únicamente los campos afe
 - `a4`
 - etc.
 
+##### pdfDefaultFont
+- `Comic` por omisión.
+- `Lato`
+- `Roboto`
+
 ## Sub objetos
 ##### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.

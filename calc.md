@@ -154,6 +154,10 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 #### fromNow (fecha)
 - calcula el tiempo desde cierta fecha en español.
 
+#### fromNowShort (fecha)
+- calcula el tiempo desde cierta fecha en español.
+- en la forma mas corta.
+
 #### findWhere (arreglo, attributos)
 - devuelve el primer elemento de la lista, con los atributos que coincidan.
 
