@@ -32,6 +32,7 @@
 - el sistema va usar [Moment.js](http://momentjs.com) para formatear las fechas y [Numeral.js](http://numeraljs.com) para formatear los números.
 - existen algunos valores pre-definidos como: `format="currency"`.
 - el si se indica `format="pesos"` convierte un importe a texto.
+- el si se indica `format="phone334"` formatea un teléfono de 10 dígitos.
 
 ##### value
 - en el caso de campos calculados `calc` y expresiones `expr`, aquí se asigna la [expresión](expr.md) que se usa para calcular el valor.
