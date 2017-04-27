@@ -34,3 +34,6 @@
 
 ##### exists (true, false)
 - busca que el campo "exista" o "no exista" con valor en la colección.
+
+##### or (true, false)
+- con esto es posible generar condiciones de tipo `or` sobre un mismo campo, por omisión son de tipo `and`.
