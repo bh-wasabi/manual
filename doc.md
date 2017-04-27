@@ -164,6 +164,13 @@ Nota: cuando la sección es tipo objeto se actualizan únicamente los campos afe
 
 ##### pdfDefaultFont
 - `Comic` por omisión.
+- `OpenSans`
+- `Lato`
+- `Roboto`
+
+##### formDefaultFont
+- `Comic`
+- `OpenSans`
 - `Lato`
 - `Roboto`
 
