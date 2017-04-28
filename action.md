@@ -27,6 +27,7 @@
 - `zoom-in` aumenta el `zoom` del contenido del documento.
 - `zoom-out` disminuye el `zoom` del contenido del documento.
 - `form-pdf` genera un archivo PDF de la forma.
+- `report-pdf` genera un archivo PDF de un reporte del documento.
 
 ##### modal
 - identificador de la forma modal a invocar
@@ -117,8 +118,11 @@
 - [iconos](ion-icons.md)
 
 ##### fileName
-- en el caso de algunas acciones como `form-pdf` es posible indicar el nombre del archivo a generar.
+- en el caso de algunas acciones como `form-pdf` o `report-pdf` es posible indicar el nombre del archivo a generar.
 - puede ser una [expresión](expr.md).
+
+##### report
+- en el caso de `report-pdf` es necesario indicar el identificador del reporte.
 
 ##### fullScreen (true, false)
 - cuando es un sub documento es posible abrirlo en pantalla completa.

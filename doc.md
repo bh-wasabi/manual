@@ -174,6 +174,19 @@ Nota: cuando la sección es tipo objeto se actualizan únicamente los campos afe
 - `Lato`
 - `Roboto`
 
+
+##### confirmBeforeSave
+- es posible confirmar antes de guardar el documento
+- puede ser una [expresión](expr.md).
+
+##### confirmBeforeSaveTitle
+- título de la ventana de confirmación
+- puede ser una [expresión](expr.md).
+
+##### confirmBeforeSaveMessage
+- mensaje de la ventana de confirmación.
+- puede ser una [expresión](expr.md).
+
 ## Sub objetos
 ##### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.
