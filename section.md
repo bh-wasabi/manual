@@ -34,6 +34,18 @@
 ##### updateFromArrayKey
 - llave local
 
+##### confirmBeforeSave
+- es posible confirmar antes de guardar la sección
+- puede ser una [expresión](expr.md).
+
+##### confirmBeforeSaveTitle
+- título de la ventana de confirmación
+- puede ser una [expresión](expr.md).
+
+##### confirmBeforeSaveMessage
+- mensaje de la ventana de confirmación.
+- puede ser una [expresión](expr.md).
+
 ## Sub objetos
 
 ##### [field](field.md)
