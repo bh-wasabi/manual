@@ -46,6 +46,14 @@
 - mensaje de la ventana de confirmación.
 - puede ser una [expresión](expr.md).
 
+##### confirmBeforeSaveHeight (#)
+- alto de la ventana de confirmación
+- opcional
+
+##### confirmBeforeSaveWidth (#)
+- ancho de la ventana de confirmación
+- opcional
+
 ## Sub objetos
 
 ##### [field](field.md)

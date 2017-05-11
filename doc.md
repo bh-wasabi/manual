@@ -187,6 +187,14 @@ Nota: cuando la sección es tipo objeto se actualizan únicamente los campos afe
 - mensaje de la ventana de confirmación.
 - puede ser una [expresión](expr.md).
 
+##### confirmBeforeSaveHeight (#)
+- alto de la ventana de confirmación
+- opcional
+
+##### confirmBeforeSaveWidth (#)
+- ancho de la ventana de confirmación
+- opcional
+
 ## Sub objetos
 ##### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.

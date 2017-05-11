@@ -37,6 +37,14 @@
 - posición inicial vertical.
 - en pixeles.
 
+##### moveX (#)
+- es posible mover toda la zona horizontalmente.
+- en pixeles.
+
+##### moveY (#)
+- es posible mover toda la zona verticalmente.
+- en pixeles.
+
 ##### cols (#)
 - cantidad de columnas cuando es un arreglo.
 - por omisión es `1`
