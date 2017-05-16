@@ -25,6 +25,10 @@
 #### action
 - en algunos menús es posible invocar a una acción del documento.
 
+#### showUserName (true, false)
+- con esta opción es posible desplegar el nombre del usuario en el menú principal
+- en lugar del nombre de la acción.
+
 ## Sub objetos
 
 ##### [item](menu-item.md)
