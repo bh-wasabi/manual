@@ -29,6 +29,9 @@
 - con esta opción es posible desplegar el nombre del usuario en el menú principal
 - en lugar del nombre de la acción.
 
+#### showProyectName (true, false)
+- con esta opción es posible desplegar el nombre del proyecto del usuario en el menú principal
+
 ## Sub objetos
 
 ##### [item](menu-item.md)

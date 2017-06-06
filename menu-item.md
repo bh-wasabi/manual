@@ -10,6 +10,7 @@
 - `post` ejecuta un ajax post en la url indicada.
 - `login` abre la ventana de acceso al sistema.
 - `userName` muestra el nombre del usuario.
+- `change-proyect` abre la ventana para cambiar de proyecto del usuario.
 - `refresh` refresca la forma actual.
 - `popup` abre una ventana tipo popup.
 - `doc-add` agrega un detalle al documento en la sección que esta definida.

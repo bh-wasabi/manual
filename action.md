@@ -73,6 +73,10 @@
 - latitud y longitud para centrar en el mapa
 - esto sirve únicamente en la acción `geocomplete`
 
+##### findReference
+- busca una referencia al abrir la ayuda
+- esto sirve únicamente en la acción `geocomplete`
+
 ##### condition
 - es una [expresión](expr.md).
 - es posible condicionar la acción usando el contexto del documento.

@@ -37,5 +37,8 @@
 
 ## Sub objetos
 
-##### [insertLot](insert-lot.md)
+##### [insert](list-insert.md)
+- es posible especificar mas opciones al insertar un documento.
+
+##### [insertLot](list-insert-lot.md)
 - con esta opción es posible insertar documentos en lote.
