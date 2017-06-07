@@ -5,11 +5,6 @@
 ##### users
 - arreglo que contiene la lista de usuarios.
 
-##### template
-- template a usar para mandar el correo a nuevos usuarios
-- se tiene como `scope` el documento del nuevo usuario.
-- requiere que este configurado por lo menos un perfil de correo electrónico en `wasabi-cfg`.
-
 ##### subject
 - es el asunto del correo electrónico a enviar.
 
@@ -18,6 +13,14 @@
 
 ##### profile
 - es posible especificar un perfil de correo electrónico de envío diferente.
+
+##### template
+- template a usar para mandar el correo a nuevos usuarios
+- se tiene como `scope` el documento del nuevo usuario.
+- requiere que este configurado por lo menos un perfil de correo electrónico en `wasabi-cfg`.
+
+##### templateExistingUsers
+- es posible cambiar de template para cuando son usuarios existentes.
 
 ## Sub objetos
 

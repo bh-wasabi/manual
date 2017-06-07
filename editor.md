@@ -92,6 +92,10 @@ basados en las configuración:
 - es muy útil cuando se quiere hacer una ayuda en captura basada en otros campos capturados (en la misma sección) y sobre todo cuando se quiere evitar hacer el `refresh`.
 - Nota: para que funcione correctamente esta opción es necesario usar antes `clearFields` del evento `onChange` del campo padre.
 
+##### lookupDistinct (true, false)
+- con esta opción es posible filtrar automáticamente los valores restantes del `preset` que no estén capturados en la tabla.
+- funciona únicamente con `type="lookup"`,  usando un `preset`, en `modalTable` y con la opción de `alwaysLoad` activa.
+
 ##### visible (true, false)
 - podemos ocultar un campo con esta opción.
 
