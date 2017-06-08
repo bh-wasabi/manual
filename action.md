@@ -76,6 +76,7 @@
 ##### findReference
 - busca una referencia al abrir la ayuda
 - esto sirve únicamente en la acción `geocomplete`
+- puede ser una expresión.
 
 ##### condition
 - es una [expresión](expr.md).

@@ -94,7 +94,7 @@ basados en las configuración:
 
 ##### lookupDistinct (true, false)
 - con esta opción es posible filtrar automáticamente los valores restantes del `preset` que no estén capturados en la tabla.
-- funciona únicamente con `type="lookup"`,  usando un `preset`, en `modalTable` y con la opción de `alwaysLoad` activa.
+- funciona únicamente con `type="lookup"`,  usando un `preset`, en `modalTable` y con la opción de `alwaysLoad="true"`.
 
 ##### visible (true, false)
 - podemos ocultar un campo con esta opción.

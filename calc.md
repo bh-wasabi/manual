@@ -182,3 +182,10 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 #### getRef (objeto, referencia)
 - obtiene un valor de un objeto
 - la referencia es la llave pero puede contener sub campos separados con punto, por ejemplo: `getRef({base: {nombre: 'hola'}}, 'base.nombre')` va a devolver `hola`.
+
+#### reconcilePreset (preset, lista, listaCampo, filtro, nombreCampo)
+- concilia un preset con una lista especifica.
+- listaCampo es el nombre del campo que contiene el `id` en la lista.
+- el filtro usa la sintaxis "campo=valor&campo2=valor2" (opcional).
+- regresa la lista conciliada con el nombre del campo especifico, por omisión es `exists`.
+- por ejemplo: `reconcilePreset('app.tipoAdjunto', [{id: 'foto'}], 'id')`
