@@ -36,6 +36,18 @@
 ##### removeEmptyCols (true, false)
 - elimina las columnas que no tienen datos automaticamente.
 
+##### checkList (true, false)
+- permite cambiar la clase el en la tabla dependiendo del valor de un campo.
+
+##### checkListField
+- campo a usar, debe de ser tipo `boolean`.
+
+##### checkListTrueClass
+- clase que se pone a nivel renglón de la tabla cuando el valor en `true`.
+
+##### checkListFalseClass
+- clase que se pone a nivel renglón de la tabla cuando el valor en `false`.
+
 ## Ejemplo:
 ````
 {{#row class="invoice-body"}}
