@@ -26,6 +26,15 @@
 - con esta opción podemos controlar la edición de toda la página completa.
 - se puede usar una [expresión](expr.md).
 
+##### attachSection 
+- es posible cambiar la sección del documento al momento de generar un adjunto cuando se esta seleccionada la página.
+
+##### attachLabel
+- es posible modificar el título de la ventana de adjuntos cuando se esta seleccionada la página.
+
+##### blockAttach (true, false)
+- con esta opción se puede bloquear la acción de adjuntar de esta página.
+
 ##### [form](form.md)
 - identificador de la forma a usar en esta página.
 - cuando se usa esta opción se ignora todo el contenido adicional de la página.

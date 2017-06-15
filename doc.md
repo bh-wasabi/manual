@@ -195,6 +195,10 @@ Nota: cuando la sección es tipo objeto se actualizan únicamente los campos afe
 - ancho de la ventana de confirmación
 - opcional
 
+##### confirmAfterSaveAction
+- es posible ejecutar una acción automáticamente después de que se guarda el documento.
+- esto funciona únicamente cuando existió una confirmación previa.
+
 ## Sub objetos
 ##### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.
