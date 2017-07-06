@@ -16,6 +16,7 @@
 - `range` valida que el valor este en el rango (min y max)
 - `pattern` debe cumplir con un patrón de captura definido por una expresión regular.
 - `duplicates` valida valores duplicados, el mismo campo en otros documentos de la misma colección.
+- `rfc` valida que el RFC sea válido.
 - `expr` valida usando una expresión.
 
 ##### message

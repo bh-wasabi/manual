@@ -56,6 +56,9 @@
 ##### email (email, nombre, apellido, ...)
 - valida que el `email` tenga el formato correcto y concatenan el texto correctamente.
 
+##### rfcOk (rfc)
+- valida que el `rfc` tenga el formato correcto.
+
 ##### parse (texto)
 - convierte un texto JSON a objeto.
 
@@ -157,6 +160,10 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 #### fromNowShort (fecha)
 - calcula el tiempo desde cierta fecha en español.
 - en la forma mas corta.
+
+#### fromNowShort2 (fecha)
+- calcula el tiempo desde cierta fecha en español.
+- en la forma mas corta diferente.
 
 #### findWhere (arreglo, attributos)
 - devuelve el primer elemento de la lista, con los atributos que coincidan.
