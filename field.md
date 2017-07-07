@@ -128,6 +128,15 @@ Ejemplo:
 - funciona únicamente en secciones tipo arreglo
 - debe ser una expresión.
 
+##### isFlag (true, false)
+- define si el campo va a desplegar una bandera en las tablas.
+- requiere un preset con los `id's` de las banderas
+
+##### changeOnClick (true, false)
+- es posible hacer un cambio sin la necesidad de abrir el documento.
+- esto funciona únicamente con la opción `isFlag="true"`.
+- hace un carrusel del preset.
+
 ## Sub objetos
 
 ##### [editor](editor.md)
