@@ -1,5 +1,5 @@
 # Objeto: **serialize** (view)
-- serializa los resultados de una vista
+- serializa o pivotea los resultados de una vista
 - es muy útil para las gráficas.
 
 ## Parámetros
@@ -14,5 +14,51 @@
 
 ## Ejemplo:
 ````
-{{serialize key="color" value="amount" arguments="category"}}
+{{serialize key="estatus" value="cantidad" arguments="tienda"}}
+````
+Antes: 
+````
+[
+  {
+    "_count": 1,
+    "estatus": "pendiente",
+    "tienda": "soriana",
+    "cantidad": 9
+  },
+  {
+    "_count": 1,
+    "estatus": "efectuado",
+    "tienda": "superama",
+    "cantidad": 2
+  },
+  {
+    "_count": 1,
+    "estatus": "pagado",
+    "tienda": "superama",
+    "cantidad": 4
+  },
+  {
+    "_count": 1,
+    "estatus": "pendiente",
+    "tienda": "superama",
+    "cantidad": 12
+  }
+]
+````
+Después:
+````
+[
+  {
+    "_count": 1,
+    "tienda": "soriana",
+    "pendiente": 9
+  },
+  {
+    "_count": 3,
+    "tienda": "superama",
+    "efectuado": 2,
+    "pagado": 4,
+    "pendiente": 12
+  }
+]
 ````
