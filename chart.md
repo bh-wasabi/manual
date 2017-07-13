@@ -2,6 +2,7 @@
 - define una gráfica
 
 ## Parámetros
+
 #### id
 - identificador de la gráfica
 
@@ -16,6 +17,9 @@
 
 #### subTitle
 - sub título de la gráfica
+
+#### section
+- la gráfica puede basarse en una sección del documento.
 
 #### view
 - vista de donde sale la información
