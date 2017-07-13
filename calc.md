@@ -95,6 +95,9 @@
 - también soporta una lista de campos (separada por comas) y los valores como parámetros adicionales.
 - si no hay resultados devuelve un arreglo vacío `[]`.
 
+##### notMatch (arreglo, filtros) o (arreglo, lista de campos, valores...)
+- es igual que `match`, pero devuelve lo que no coincide.
+
 ##### lookup (arreglo, filtros) o (arreglo, lista de campos, valores...)
 - opcionalmente se puede agregar un filtro, debe ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`.
 - también soporta una lista de campos (separada por comas) y los valores como parámetros adicionales.

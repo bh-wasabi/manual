@@ -17,6 +17,12 @@
 ##### subTitle
 - sub título de la gráfica
 
+##### view
+- vista de donde sale la información
+
+##### source
+- si la fuente de la vista es diferente
+
 ##### tooltip
 - muestra una pequeña ventana mostrando el valor del punto de la gráfica.
 

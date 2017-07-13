@@ -3,10 +3,10 @@
 - esto funciona cuando el documento es editable.
 
 ## Parámetros
-##### id
+#### id
 - identificador de la acción
 
-##### type
+#### type
 - `open` abre el documento para editarlo.
 - `close` guarda los cambios.
 - `affect` guarda y afecta el documento (inicia el flujo de trabajo).
@@ -29,117 +29,117 @@
 - `form-pdf` genera un archivo PDF de la forma.
 - `report-pdf` genera un archivo PDF de un reporte del documento.
 
-##### modal
+#### modal
 - identificador de la forma modal a invocar
 
-##### label
+#### label
 - etiqueta a mostrar en el botón
 
-##### source
+#### source
 - en el caso de sub-documentos aqui se especifica el tipo de documento a agregar.
 
-##### color
+#### color
 - es posible establecer el color del botón en la acción.
 - [lista de colores](colors.md).
 
-##### menu
+#### menu
 - identificador del menú a invocar sobre esta acción
 
-##### copyTo
+#### copyTo
 - cuando la acción es `type="copy"` aquí se especifica el tipo de documento donde se va a copiar.
 - por omisión es al mismo.
 
-##### exclude o excludeSections
+#### exclude o excludeSections
 - cuando la acción es `type="copy"` aquí se especifica la lista de secciones o la lista de `seccion.campo` a excluir en la copia.
 - es una lista separada por comas.
 
-##### visibleMode
+#### visibleMode
 - `open` la acción será visible únicamente al abrir el documento.
 - `close` la acción será visible únicamente con el documento cerrado.
 - `always` la acción será visible siempre.
 - `none` la acción no se muestra.
 
-##### hide (true, false)
+#### hide (true, false)
 - oculta la acción
 
-##### btnSolid (true, false)
+#### btnSolid (true, false)
 - con esta opción es posible forzar a que el botón tenga un fondo solido y no sea transparente.
 
-##### country
+#### country
 - identificador del país
 - esto sirve únicamente en la acción `geocomplete`
 
-##### center
+#### center
 - latitud y longitud para centrar en el mapa
 - esto sirve únicamente en la acción `geocomplete`
 
-##### findReference
+#### findReference
 - busca una referencia al abrir la ayuda
 - esto sirve únicamente en la acción `geocomplete`
 - puede ser una expresión.
 
-##### condition
+#### condition
 - es una [expresión](expr.md).
 - es posible condicionar la acción usando el contexto del documento.
 
-##### workflow
+#### workflow
 - flujo de trabajo a afectar.
 
-##### message
+#### message
 - mensaje a desplegar al iniciar el flujo de trabajo.
 
-##### postPath
+#### postPath
 - la ruta donde se va hacer el `request`
 - debe ser una ruta interna.
 - esto funcionan únicamente cuando es `type="post"`.
 
-##### postSplash
+#### postSplash
 - mensaje a desplegar cuando se esta ejecutando el `post`.
 - por ejemplo: `postSplash="Recalculando..."`.
 
-##### postMessage
+#### postMessage
 - mensaje a desplegar cuando termina el `post`.
 
-##### postRefreshList (true, false)
+#### postRefreshList (true, false)
 - es posible refrescar por completo la lista del `browser` después del post.
 
-##### confirm (true, false)
+#### confirm (true, false)
 - es posible confirmar la acción previo a su ejecución.
 
-##### confirmMessage
+#### confirmMessage
 - es posible desplegar un mensaje distinto al confirmar.
 - puede ser una [expresión](expr.md).
 
-##### confirmTitle
+#### confirmTitle
 - titulo de la confirmación.
 - puede ser una [expresión](expr.md).
 
-##### sendDeviceDataId
+#### sendDeviceDataId
 - envia deviceDataId al servidor, si la acción el tipo es `affect`, `affect-direct` y `post`.
 - esto sirve para poder hacer los cargos automáticos a las tarjetas de crédito.
 
-##### icon
+#### icon
 - es posible agregar un icono a la acción.
 - [iconos](ion-icons.md)
 
-##### fileName
+#### fileName
 - en el caso de algunas acciones como `form-pdf` o `report-pdf` es posible indicar el nombre del archivo a generar.
 - puede ser una [expresión](expr.md).
 
-##### report
+#### report
 - en el caso de `report-pdf` es necesario indicar el identificador del reporte.
 
-##### fullScreen (true, false)
+#### fullScreen (true, false)
 - cuando es un sub documento es posible abrirlo en pantalla completa.
 
 ## Sub objetos
-##### [update](update.md)
+#### [update](update.md)
 - en algunas acciones es posible cambiar los campos del documento.
 
-##### [ask](ask.md)
+#### [ask](ask.md)
 - si la acción es `type="post"` es posible preguntar algunos parámetros manualmente.
 
-##### [param](param.md)
+#### [param](param.md)
 - si la acción es `type="post"` es posible pasar parámetros.
 
 ## Ejemplo geocomplete
