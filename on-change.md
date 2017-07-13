@@ -3,41 +3,41 @@
 
 ## Parámetros
 
-##### refresh (true, false)
+#### refresh (true, false)
 - se refresca el modal de captura
 - sirve para cuando necesitamos que cambie la presentación o las ayuda de captura de la forma.
 
-##### clearFields
+#### clearFields
 - con esta opción es posible borrar los valores de otros campos de la misma sección y que estén visibles en ese momento en la forma de captura.
 - lista de campos separados por comas.
 
-##### clearFieldsCondition
+#### clearFieldsCondition
 - es posible establecer una condición para que borre los valores.
 - actualmente únicamente funciona en los `grids`.
 
-##### getSourceDoc (true, false)
+#### getSourceDoc (true, false)
 - esta opción lee el documento completo y se tiene disponible en el contexto para hacer expresiones.
 
-##### getSourceDocAs
+#### getSourceDocAs
 - es posible cambiar el nombre del objeto obtenido, por omisión es `_source`.
 
-##### playAudio (url)
+#### playAudio (url)
 - en el caso de las encuestas orales, es posible lanzar un audio.
 
 ## Sub objetos
-##### [set](set.md)
+#### [set](set.md)
 - para asignar a nuevo valor a otro campo de la misma sección
 - se pueden usar como contexto la sección actual, el documento remoto (cuando se usa ayudas en captura tipo `lookup`, `select` o `autocomplete`), y el documento local.
 - Nota: el campo debe estar visible en la forma para que funcione.
 
-##### [update](on-change-update.md)
+#### [update](on-change-update.md)
 - es posible actualizar una sección completa del documento.
 - se tiene el documento remoto dentro del contexto.
 
-##### [jQuery](jquery.md)
+#### [jQuery](jquery.md)
 - ejecuta una acción en el DOM
 
-##### [log](log.md)
+#### [log](log.md)
 - muestra en la consola un mensaje
 
 ## Ejemplo:

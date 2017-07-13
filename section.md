@@ -4,66 +4,66 @@
 - las secciones no son recursivas.
 
 ## Parámetros
-##### id
+#### id
 - identificador de la sección
 
-##### type (object, array)
+#### type (object, array)
 - `object` son la secciones que contienen campos directos (por omisión).
 - `array` es una sección múltiple, para detalles.
 
-##### temp (true, false)
+#### temp (true, false)
 - define si es una sección temporal
 - si se activa, la sección no se guarda en la base de datos.
 - es muy útil cuando queremos guardar temporalmente los datos de un widget en la forma.
 
-##### isOpenPayCard (true, false)
+#### isOpenPayCard (true, false)
 - para definir si la sección es para capturar una tarjeta de crédito con OpenPay
 - requiere mapear los campos (`card_number, holder_name, expiration_month, expiration_year, cvv2 y token`).
 
-##### defaultValue
+#### defaultValue
 - es posible establecer una valor por omisión a una sección completa.
 - puede ser un preset.
 - puede ser una expresión.
 
-##### updateFromArray
+#### updateFromArray
 - actualiza la sección (tipo arreglo) basada en un arreglo.
 
-##### updateFromArrayId
+#### updateFromArrayId
 - llave del arreglo
 
-##### updateFromArrayKey
+#### updateFromArrayKey
 - llave local
 
-##### confirmBeforeSave
+#### confirmBeforeSave
 - es posible confirmar antes de guardar la sección
 - puede ser una [expresión](expr.md).
 
-##### confirmBeforeSaveTitle
+#### confirmBeforeSaveTitle
 - título de la ventana de confirmación
 - puede ser una [expresión](expr.md).
 
-##### confirmBeforeSaveMessage
+#### confirmBeforeSaveMessage
 - mensaje de la ventana de confirmación.
 - puede ser una [expresión](expr.md).
 
-##### confirmBeforeSaveHeight (#)
+#### confirmBeforeSaveHeight (#)
 - alto de la ventana de confirmación
 - opcional
 
-##### confirmBeforeSaveWidth (#)
+#### confirmBeforeSaveWidth (#)
 - ancho de la ventana de confirmación
 - opcional
 
 ## Sub objetos
 
-##### [field](field.md)
+#### [field](field.md)
 - campos de la sección
 
-##### [object](section-object.md)
+#### [object](section-object.md)
 - se pueden generar sub objetos, como resultado de transformaciones o campos calculados, que se pueden guardar directamente sobre el documento.
 - unicamente de lectura.
 
-##### [validator](validator.md)
+#### [validator](validator.md)
 - se pueden agregar una o varias validaciones de captura a nivel sección.
 - unicamente tipo `expr`. 
 

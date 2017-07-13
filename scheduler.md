@@ -3,26 +3,26 @@
 - para desplegarlas hay que usar un [widget](helper-widget.md).
 
 ## Parámetros
-##### id
+#### id
 - identificador de la agenda.
 
-##### section
+#### section
 - sección del documento que contiene el arreglo con los campos necesarios.
 - si no se indica va usar los datos de la vista del `widget`.
 
-##### views
+#### views
 - lista separada por comas con las posibles vistas de la agenda.
 - `day, week, workWeek, month, timelineDay, timelineWeek, timelineWorkWeek`
 - por omisión es `day, week`.
 
-##### currentView
+#### currentView
 - vista por omisión al abrir la agenda.
 
-##### currentDate (YYYY-MM-DD)
+#### currentDate (YYYY-MM-DD)
 - es posible abrir la agenda en una fecha especifica.
 - por omisión es la fecha actual.
 
-##### firstDayOfWeek (#)
+#### firstDayOfWeek (#)
 - `0` domingo (por omisión)
 - `1` lunes
 - `2` martes
@@ -31,19 +31,19 @@
 - `5` viernes
 - `6` sabado
 
-##### startDayHour (#)
+#### startDayHour (#)
 - hora inicial de la agenda
 - por omisión es a las 9am
 
-##### endDayHour (#)
+#### endDayHour (#)
 - hora final de la agenda
 - por omisión es a las 8pm
 
-##### height
+#### height
 - alto del mapa a mostrar
 - puede ser en pixeles o en porcentaje.
 
-##### width
+#### width
 - ancho del mapa a mostrar
 - puede ser en pixeles o en porcentaje.
 

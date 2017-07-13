@@ -2,10 +2,10 @@
 - es posible realizar alguna acción usando la librería de jQuery.
 
 ## Parámetros
-##### find
+#### find
 - elemento a buscar
 
 ## Sub objetos
 
-##### [set](jquery-set.md)
+#### [set](jquery-set.md)
 - realiza algún cambio

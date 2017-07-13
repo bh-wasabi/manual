@@ -2,23 +2,23 @@
 - define las marcas en el mapa.
 
 ## Parámetros
-##### section
+#### section
 - sección del documento que contiene los marcadores.
 - si no se indica va usar los datos de la vista del `widget`.
 
-##### location
+#### location
 - campo o [expresión](expr.md) que contiene la localidad.
 - puede ser una dirección o una coordenada.
 
-##### latitude
+#### latitude
 - es posible definir la latitud directamente.
 
-##### longitude
+#### longitude
 - es posible definir la longitud directamente.
 
-##### tooltip
+#### tooltip
 - campo o [expresión](expr.md) que contiene el nombre a mostrar al pararse sobre el marcador.
 
-##### pin
+#### pin
 - es posible asignar una url diferente para pintar las marcas.
 - por omisión es: `https://s3.amazonaws.com/mx-imagenes/pin-red/default.png`.

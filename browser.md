@@ -2,88 +2,88 @@
 - define una forma de explorar la información.
 
 ## Parámetros
-##### id
+#### id
 - identificador del explorador.
 
-##### name
+#### name
 - nombre visible del explorador.
 
-##### type
+#### type
 - `list`
 - `grid`
 - `cube`
 - `tileView`
 
-##### list
+#### list
 - identificador de la [lista](list.md), si se quiere usar una lista existente.
 
-##### grid
+#### grid
 - identificador de la [cuadrícula](grid.md), si se quiere usar una cuadrícula existente.
 
-##### cube
+#### cube
 - identificador del [cubo](cube.md), si se quiere usar un cubo existente.
 
-##### tileView
+#### tileView
 - identificador del [mosaico](tileView.md) a mostrar.
 
-##### mobile
+#### mobile
 - identificador del documento móvil a mostrar.
 
-##### view
+#### view
 - [vista](view.md) a utilizar en este explorador.
 
-##### altPlaceholder
+#### altPlaceholder
 - nombre a desplegar.
 - por omisión es "Seleccionar..."
 
-##### altViews
+#### altViews
 - lista de vistas alternativas.
 
-##### altSource
+#### altSource
 - el filtro completo se genera de la colección indicada.
 
-##### altSourceView
+#### altSourceView
 - vista a utilizar en `altSource`.
 - también se puede usar `altView`
 
-##### altSourceParam
+#### altSourceParam
 - nombre del parámetro a enviar a la vista.
 
-##### altSearchEnabled (true, false)
+#### altSearchEnabled (true, false)
 - permite buscar en el filtro.
 
-##### card
+#### card
 - identificador del diseño de la [tarjeta](card.md) a usar.
 
-##### menu
+#### menu
 - opcionalmente podemos asignar un [menú](menu.md) especifico a este explorador.
 
-##### showDoc (true, false)
+#### showDoc (true, false)
 - con esta opción podemos mostrar los detalles del documento anexo.
 
-##### docPosition (%)
+#### docPosition (%)
 - se define el porcentaje de pantalla que va ocupar el documento por omisión.
 
-##### docOrientation (horizontal, vertical)
+#### docOrientation (horizontal, vertical)
 - se define la orientación que queremos para el documento anexo.
 
-##### pagesTabsPosition
+#### pagesTabsPosition
 - es posible cambiar este parámetro del documento desde aquí.
 
 ## Sub objetos
 
-##### [list](list.md)
+#### [list](list.md)
 - aquí mismo podemos definir la lista a usar.
 - presentación del explorador tipo lista.
 
-##### [grid](grid.md)
+#### [grid](grid.md)
 - aquí mismo podemos definir la cuadrícula a usar.
 - presentación del explorador tipo cuadrícula.
 
-##### [cube](cube.md)
+#### [cube](cube.md)
 - aquí mismo podemos definir el cubo a usar.
 - presentación del explorador tipo cubo.
 
-##### [tileView](tileView.md)
+#### [tileView](tileView.md)
 - aquí mismo podemos definir el mosaico a usar.
 - presentación del explorador tipo mosaico.

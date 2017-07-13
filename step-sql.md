@@ -4,10 +4,10 @@
 - el resultado de la consulta queda en el contexto para ser usado por un comando [each](step-each.md).
 
 ## Parámetros
-##### query
+#### query
 - puede ser a multiples líneas para tener mayor claridad, hay que incluir los parámetros en la misma sentencia.
 
-##### call
+#### call
 - nombre del stored procedure con sus parametros.
 
 ## Sub objetos

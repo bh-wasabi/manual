@@ -5,14 +5,14 @@
 - no tiene
 
 ## Parámetros
-##### color
+#### color
 - [lista de colores](colors.md)
 
-##### offset (#)
+#### offset (#)
 - ejemplo: `offset="-125"`
 
-##### arc (#)
+#### arc (#)
 - ejemplo: `arc="250"`
 
 ## Sub facilitadores
-##### [indicator](helper-indicator.md)
+#### [indicator](helper-indicator.md)

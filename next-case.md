@@ -2,9 +2,9 @@
 - evalúa un caso
 
 ## Parámetros
-##### when
+#### when
 - si el valor a evaluar coincide 
 
-##### then
+#### then
 - identificador del siguiente paso del flujo de trabajo.
 

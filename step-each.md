@@ -3,14 +3,14 @@
 - Nota: Si se ejecuta este comando dentro de un `request`, `find`, `query`, etc. que genera un arreglo de documentos, no es necesario indicar el parámetro `items`.
 
 ## Parámetros
-##### items
+#### items
 - para indicar explícitamente cual es el arreglo a recorrer en el cursor.
 - por omisión toma el contexto de la acción anterior, por ejemplo: [sql](step-sql.md), [request](step-request.md), [find](step-find.md), etc.
 
-##### as
+#### as
 - para cada uno de los detalles del arreglo, lo podemos accesar usando este nombre.
 
-##### index
+#### index
 - nombre de la variable donde vamos a almacenar el indice actual del arreglo.
 
 ## Sub objetos

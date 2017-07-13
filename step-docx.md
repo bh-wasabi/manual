@@ -5,11 +5,11 @@
 - es posible recorrer arreglos de esta forma: `{#articulos}{nombre}{/articulos}`
 
 ## Parámetros
-##### inputFilePath
+#### inputFilePath
 - ruta de la plantilla en s3.
 - puede ser una expresión.
 
-##### outputFilePath
+#### outputFilePath
 - ruta donde se almacena el resultado.
 - puede ser una expresión.
 

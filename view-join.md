@@ -2,21 +2,21 @@
 - al resultado de una vista, se le puede unir información de otras vistas
 
 ## Parámetros
-##### source
+#### source
 - tipo de documento a unir.
 
-##### view
+#### view
 - nombre de la vista a unir.
 
-##### as
+#### as
 - con este nombre va a quedar anexada la información que vamos a leer.
 
-##### first (true, false)
+#### first (true, false)
 - devuelve el primer registro del arreglo.
 
 ## Sub objetos
 
-##### [param](param.md)
+#### [param](param.md)
 - parámetros para usar en la sub vista.
 
 ## Ejemplo:

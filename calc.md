@@ -1,117 +1,117 @@
 # calc
 - funciones predefinidas
 
-##### fn (id, parámetros...)
+#### fn (id, parámetros...)
 - ejecuta una función configurable.
 - debe existir el identificador en la configuración (`_cfg`).
 - Nota: esta función también se puede ejecutar directamente sin el prefijo `calc.`
 
-##### log (parámetros...)
+#### log (parámetros...)
 - despliega en la consola los parámetros indicados.
 
-##### in (valor, arreglo)
+#### in (valor, arreglo)
 - busca si existe un valor en un arreglo.
 
-##### text (valor)
+#### text (valor)
 - forza el resultado como texto.
 
-##### concat (valor1, valor2, valorN)
+#### concat (valor1, valor2, valorN)
 - concatena varios valores, por omisión agrega un espacio entre los valores.
 - es posible agregar comas para separar estos valores, por ejemplo: `calc.concat(@apellidoPaterno,',', @nombre)`. genera "Perez, Juan".
 
-##### number (valor)
+#### number (valor)
 - forza el resultado como numérico.
 
-##### isTrue (valor)
+#### isTrue (valor)
 - evalúa si el valor es verdadero.
 
-##### isFalse (valor)
+#### isFalse (valor)
 - evalúa si el valor es false.
 
-##### isNull (valor, valorPorOmision)
+#### isNull (valor, valorPorOmision)
 - checa si el valor es nulo, devuelve el valor por omisión.
 - otra forma de lograr es poner la variable entre paréntesis y hacer un "or" contra el valor por omisión, por ejemplo: `(@valor||'')`.
 
-##### nullIf (valor1, valor2)
+#### nullIf (valor1, valor2)
 - si el valor1 es igual al valor2 devuelve un `null`.
 
-##### hasValue (valor)
+#### hasValue (valor)
 - devuelve `true` o `false` si tiene o no valor.
 
-##### pesos (valor)
+#### pesos (valor)
 - imprime un importe en texto (pesos).
 
-##### numberInText (valor)
+#### numberInText (valor)
 - imprime un importe en texto.
 
-##### capitalize (valor)
+#### capitalize (valor)
 - forza el resultado a la primera letra mayúsculas y las demás minúsculas (por cada palabra).
 
-##### upperCase (valor)
+#### upperCase (valor)
 - forza el resultado a mayúsculas.
 
-##### lowerCase (valor)
+#### lowerCase (valor)
 - forza el resultado a minúsculas.
 
-##### email (email, nombre, apellido, ...)
+#### email (email, nombre, apellido, ...)
 - valida que el `email` tenga el formato correcto y concatenan el texto correctamente.
 
-##### rfcOk (rfc)
+#### rfcOk (rfc)
 - valida que el `rfc` tenga el formato correcto.
 
-##### parse (texto)
+#### parse (texto)
 - convierte un texto JSON a objeto.
 
-##### presetName (preset, id)
+#### presetName (preset, id)
 - devuelve el nombre de un `preset` especifico con un `id` especifico.
 
-##### stringify (objeto)
+#### stringify (objeto)
 - convierte un objeto a una cadena de texto JSON.
 
-##### sha1 (texto)
+#### sha1 (texto)
 - genera un hash. 
 
-##### expireColor (fecha)
+#### expireColor (fecha)
 - devuelve el los colores `green`, `yellow`, `red` o `grey`, en base al vencimiento de la fecha.
 
-##### map (arreglo, expr)
+#### map (arreglo, expr)
 - recorre un arreglo y evalúa la expresión para cada elemento del arreglo.
 - al final queda un arreglo con todos los valores calculados. 
 
-##### extractToList (arreglo, campo, filtros)
+#### extractToList (arreglo, campo, filtros)
 - extrae un campo de un arreglo y lo convierte a un texto separado por comas.
 - opcionalmente se puede agregar un filtro, debe ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`.
 
-##### extractToKeyValue (arreglo, campoLlave, campoValor)
+#### extractToKeyValue (arreglo, campoLlave, campoValor)
 - extrae objetos de un arreglo.
 
-##### first (arreglo, filtros)
+#### first (arreglo, filtros)
 - devuelve el primer elemento del arreglo.
 - opcionalmente se puede agregar un filtro, debe ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`.
 - si no hay resultados devuelve un objeto vacio `{}`.
 
-##### match (arreglo, filtros) o (arreglo, lista de campos, valores...)
+#### match (arreglo, filtros) o (arreglo, lista de campos, valores...)
 - opcionalmente se puede agregar un filtro, debe ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`.
 - también soporta una lista de campos (separada por comas) y los valores como parámetros adicionales.
 - si no hay resultados devuelve un arreglo vacío `[]`.
 
-##### notMatch (arreglo, filtros) o (arreglo, lista de campos, valores...)
+#### notMatch (arreglo, filtros) o (arreglo, lista de campos, valores...)
 - es igual que `match`, pero devuelve lo que no coincide.
 
-##### lookup (arreglo, filtros) o (arreglo, lista de campos, valores...)
+#### lookup (arreglo, filtros) o (arreglo, lista de campos, valores...)
 - opcionalmente se puede agregar un filtro, debe ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`.
 - también soporta una lista de campos (separada por comas) y los valores como parámetros adicionales.
 - a diferencia de `match` esta comando regresa el primer registro que coincida con el filtro.
 - si no hay resultados devuelve un objeto vacío `{}`.
 
-##### lookupInPreset (preset, filtros) o (preset, lista de campos, valores...)
+#### lookupInPreset (preset, filtros) o (preset, lista de campos, valores...)
 - obtiene el `preset` (con todos sus campos)
 - opcionalmente se puede agregar un filtro, debe ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`.
 - también soporta una lista de campos (separada por comas) y los valores como parámetros adicionales.
 - regresa el primer registro que coincida con el filtro.
 - si no hay resultados devuelve un objeto vacío `{}`.
 
-##### lookupAllInPreset (preset, filtros)
+#### lookupAllInPreset (preset, filtros)
 - similar a `lookupInPreset` con la diferencia que trae todo los objetos que corresponden al filtro.
 
 Ejemplos: 

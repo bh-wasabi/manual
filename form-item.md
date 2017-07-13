@@ -2,77 +2,77 @@
 - define un elemento en la forma dentro de una zona.
 
 ## Parámetros
-##### field
+#### field
 - identificador del campo de la sección de la zona.
 
-##### x (#)
+#### x (#)
 - posición inicial horizontal.
 - en pixeles.
 
-##### y (#)
+#### y (#)
 - posición inicial vertical.
 - en pixeles.
 
-##### maxWidth (#)
+#### maxWidth (#)
 - ancho máximo del elemento.
 - en pixeles.
 
-##### interSpace (true, false)
+#### interSpace (true, false)
 - pone un espacio entre las letras.
 
-##### letterSpacing (#)
+#### letterSpacing (#)
 - espacio entre letras.
 - usa el CSS para generar esto, si se quiere que funcione en HTML y PDF usar interSpace.
 - en pixeles.
 
-##### color
+#### color
 - nombre del color.
 - por omision es: `color="black"`.
 
-##### backgroundColor
+#### backgroundColor
 - color de fondo.
 
-##### fontSize (#)
+#### fontSize (#)
 - define el tamaño de la letra.
 - en pixeles.
 - por omisión es: `fontSize="25"`
 
-##### fontWeight (normal, bold, bolder, lighter, etc.)
+#### fontWeight (normal, bold, bolder, lighter, etc.)
 - equivale a `font-weight` del `css`.
 - por omisión es: `fontWeight="normal"`
 
-##### fontFamily
+#### fontFamily
 - equivale a `font-family` del `css`.
 - por omisión es: `fontFamily="'Comic Sans MS', 'Comic Sans', cursive"`
 
-##### condition
+#### condition
 - es posible determinar una condición de despliegue de ese campo.
 - puede ser una expresión.
 
-##### isImage (true, false)
+#### isImage (true, false)
 - define si el campo tiene la url de una imagen
 
-##### isGeoCode (true, false)
+#### isGeoCode (true, false)
 - define si el campo tiene una geoReferencia
 
-##### zoom (#)
+#### zoom (#)
 - en el caso de una geoReferencia es posible definir el nivel de zoom
 - por omisión es 15
 
-##### imageWidth (#)
+#### imageWidth (#)
 - ancho de la imagen en pixeles
 
-##### imageHeight (#)
+#### imageHeight (#)
 - alto de la imagen en pixeles
 
-##### imageFit (true, false)
+#### imageFit (true, false)
 - forza la imagen al tamaño definido
 
-##### position
+#### position
 - `relative` por omisión
 - `absolute` se puede usar para arreglos donde se quiere tener una posición absoluta del mapeo.
 
 ## Sub objetos
 
-##### [map](form-map.md)
+#### [map](form-map.md)
 - es posible establecer las coordenadas (x, y) a nivel valor del campo (opción).

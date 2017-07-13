@@ -2,21 +2,21 @@
 - define todos los parámetros que vamos a enviar para abrir y/o recalcular una hoja de excel.
 
 ## Parámetros
-##### page
+#### page
 - nombre de la página a enviar los parámetros.
 
-##### keys
+#### keys
 - nombres de las columnas (en el excel) que sirven como llave.
 - la lista de nombres van separados por comas.
 
-##### sourcePath
+#### sourcePath
 - posición en el documento, por omisión es `sourcePath="/"` (raíz).
 - si se posiciona en un arreglo, genera un `set` para cada detalle.
 - para evaluar los parámetros.
 
 ## Sub objetos
 
-##### set
+#### set
 - asigna el valor a los parámetros.
 - la llave es el nombre de la columna en el excel.
 - los valores pueden ser [expresiones](expr.md).

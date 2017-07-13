@@ -2,52 +2,52 @@
 - define una gráfica
 
 ## Parámetros
-##### id
+#### id
 - identificador de la gráfica
 
-##### type
+#### type
 - define el [tipo de gráfica](chart-type.md) por omisión.
 
-##### argumentField
+#### argumentField
 - especifica el campo que proporciona argumentos para los puntos de la serie.
 
-##### title
+#### title
 - título de la gráfica
 
-##### subTitle
+#### subTitle
 - sub título de la gráfica
 
-##### view
+#### view
 - vista de donde sale la información
 
-##### source
+#### source
 - si la fuente de la vista es diferente
 
-##### tooltip
+#### tooltip
 - muestra una pequeña ventana mostrando el valor del punto de la gráfica.
 
-##### valueAxisTitle
+#### valueAxisTitle
 - Especifica el título para el eje de valores.
 
-##### palette
+#### palette
 - se puede definir opcionalmente otra [paleta de colores](pallete.md) a utilizar.
 
-##### animated (true, false)
+#### animated (true, false)
 - con esta opción se puede apagar la animación.
 - por omisión es `true`.
 
-##### compactValues (true, false)
+#### compactValues (true, false)
 - en el caso de una sola serie, con esta opción se eliminan los datos vacíos o nulos.
 
 ## Sub objetos
 
-##### [legend](chart-legend.md)
+#### [legend](chart-legend.md)
 - información de las series
 
-##### [tooltip](chart-tooltip.md)
+#### [tooltip](chart-tooltip.md)
 - configuración de la ayuda que aparece al estar sobre un punto de la gráfica.
 
-##### [serie](chart-serie.md)
+#### [serie](chart-serie.md)
 - define una serie de la gráfica
 
 ## Ejemplo

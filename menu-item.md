@@ -2,10 +2,10 @@
 - puede ser recursivo, para poder tener "n" niveles de profundidad.
 
 ## Parámetros
-##### text
+#### text
 - texto a desplegar en el menú
 
-##### type
+#### type
 - `href` se mueve a una url interna o externa.
 - `post` ejecuta un ajax post en la url indicada.
 - `login` abre la ventana de acceso al sistema.
@@ -21,46 +21,46 @@
 - `cube-view-save` permite guardar la vista actual del cubro.
 - `dash-filters` si la vista es de tipo `dynamicView` con este tipo invocamos al editor de parámetros de la vista dinámica.
 
-##### icon
+#### icon
 - nombre del icono a desplegar.
 - [lista de iconos](icons.md)
 
-##### userLevel
+#### userLevel
 - define el nivel de acceso a esta opción del menú.
 - puede ser una lista separada por comas.
 
-##### userRole
+#### userRole
 - define el rol de acceso a esta opción del menú.
 - puede ser una lista separada por comas.
 
-##### href (url)
+#### href (url)
 - interna (ej: `/browser/empresa/lista`)
 - externa (ej: `http://google.com`)
 
-##### post (url)
+#### post (url)
 - ejecuta un ajax post a la url que se indique
 
-##### beginGroup (true, false)
+#### beginGroup (true, false)
 - si se activa separa el menú con una linea previa.
 
-##### newTab (true, false)
+#### newTab (true, false)
 - si es una url externa con esta opción abre un nuevo `tab` en el `browser`.
 
-##### source
+#### source
 - cuando es `type="dash-filters"` o `type="doc-edit"` es posible ligarlo a una fuente de otro documento.
 
-##### view
+#### view
 - cuando es `type="dash-filters"` aquí podemos definir la vista de la fuente.
 
 ## Sub objetos
 
-##### [popup](popup.md)
+#### [popup](popup.md)
 - para abrir una ventana tipo popup al hacer click.
 
-##### [param](param.md)
+#### [param](param.md)
 - es posible pasar parámetros en algunas acciones.
 
-##### item
+#### item
 - recursivamente
 
 ## Ejemplos:

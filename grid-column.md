@@ -2,77 +2,77 @@
 - configura una columna de la cuadrícula
 
 ## Parámetros
-##### field
+#### field
 - se indica campo de la vista a desplegar
 
-##### width
+#### width
 - ancho en pixeles de la columna
 
-##### type (text, number, date, button, flag)
+#### type (text, number, date, button, flag)
 - el tipo de datos lo obtiene del campo, aquí también lo podemos establecer directamente.
 
-##### label
+#### label
 - la etiqueta la obtiene del campo, aquí también se puede establecer directamente.
 
-##### format
+#### format
 - el formato lo obtiene del campo, aquí también se puede establecer directamente el [formato](format.md).
 
-##### hide (true, false)
+#### hide (true, false)
 - oculta la columna.
 - puede ser una [expresión](expr.md).
 
-##### show (true, false)
+#### show (true, false)
 - muestra la columna. 
 - puede ser una [expresión](expr.md).
 - por omisión es `true`.
 
-##### buttonCaption
+#### buttonCaption
 - en caso de tipo `button` aquí podemos establecer título.
 - por omisión es `Ver...`
 - puede ser una [expresión](expr.md).
 
-##### buttonCondition (true, false)
+#### buttonCondition (true, false)
 - en caso de tipo `button` aquí podemos condicionar si aparece.
 - por omisión es `true`
 - puede ser una [expresión](expr.md).
 
-##### alignment (left, center, right)
+#### alignment (left, center, right)
 - alienación de la columna
 
-##### allowEditing (true, false)
+#### allowEditing (true, false)
 - permitir la edición en esta columna
 
-##### allowFiltering (true, false)
+#### allowFiltering (true, false)
 - permitir el filtrado sobre esta columna
 
-##### allowFixing (true, false)
+#### allowFixing (true, false)
 - permite fijar la columna 
 
-##### allowGrouping (true, false)
+#### allowGrouping (true, false)
 - permite agrupar la columna
 
-##### allowHiding (true, false)
+#### allowHiding (true, false)
 - permite esconder la columna
 
-##### allowResizing (true, false)
+#### allowResizing (true, false)
 - permite ajustar el ancho de la columna
 
-##### allowSearch (true, false)
+#### allowSearch (true, false)
 - con esta opción es posible limitar la búsqueda de algunas columnas
 
-##### allowSorting (true, false)
+#### allowSorting (true, false)
 - con esta opción podemos permitir o no ordenar directamente sobre una columna
 
-##### summaryType
+#### summaryType
 - `sum`
 - `count`
 - `avg`
 - `min`
 - `max`
 
-##### summaryFormat
+#### summaryFormat
 - `fixedPoint`
 
-##### summaryPrecision (#)
+#### summaryPrecision (#)
 - precisión del formato
 

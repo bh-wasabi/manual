@@ -7,10 +7,10 @@
 
 ## Sub objetos
 
-##### node
+#### node
 - se definen todos los campos (importantes del documento) que queremos tener en el nodo, usando el comando [set](set.md).
 
-##### [relation](graph-relation.md)
+#### [relation](graph-relation.md)
 - descripcion
 
 # Ejemplo:

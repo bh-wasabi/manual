@@ -2,12 +2,12 @@
 - genera una o varias transformaciones en el documento
 
 ## Parámetros
-##### id
+#### id
 - identificador
 
 ## Sub objetos
 
-##### [update](update.md)
+#### [update](update.md)
 - actualiza una sección del documento
 
 ## Ejemplos:

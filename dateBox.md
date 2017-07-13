@@ -2,17 +2,17 @@
 - sirve para capturar parámetros a usar en otros `widgets`.
 
 ## Parámetros
-##### type
+#### type
 - `date` (por omisión).
 - `time`
 - `datetime`
 
-##### placeholder
+#### placeholder
 - etiqueta a mostrar cuando el combo esta vacío.
 
-##### width
+#### width
 - con esta opción es posible controlar el ancho del combo.
 - es mejor usar `{{row}}` y `{{col}}` para controlar las posiciones y los anchos.
 
-##### forceLastSecond (true, false)
+#### forceLastSecond (true, false)
 - le agrega 59 segundos si es `type="datetime"`

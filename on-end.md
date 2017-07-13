@@ -3,25 +3,25 @@
 
 ## Parámetros
 
-##### message
+#### message
 - mensaje a desplegar
 
-##### messageType
+#### messageType
 - `success`
 - `error`
 - `info`
 - `warning`
 
-##### messageDisplayTime (#)
+#### messageDisplayTime (#)
 - tiempo en mili-segundos que dura el mensaje visible.
 
-##### createNew (true, false)
+#### createNew (true, false)
 - crea un nuevo documento automáticamente.
 
 ## Sub objetos
 
-##### jQuery
+#### jQuery
 - ejecuta una acción en el DOM
 
-##### log
+#### log
 - muestra en la consola un mensaje

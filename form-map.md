@@ -2,33 +2,33 @@
 - define las propiedades a nivel valor del campo (opción).
 
 ## Parámetros
-##### value
+#### value
 - valor especifico.
 
-##### x (#)
+#### x (#)
 - posición inicial horizontal.
 - en pixeles.
 
-##### y (#)
+#### y (#)
 - posición inicial vertical.
 - en pixeles.
 
-##### color
+#### color
 - nombre del color.
 - por omision es: `color="black"`.
 
-##### backgroundColor
+#### backgroundColor
 - color de fondo.
 
-##### fontSize (#)
+#### fontSize (#)
 - define el tamaño de la letra.
 - en pixeles.
 - por omisión es: `fontSize="25"`
 
-##### fontWeight (normal, bold, bolder, lighter, etc.)
+#### fontWeight (normal, bold, bolder, lighter, etc.)
 - equivale a `font-weight` del `css`.
 - por omisión es: `fontWeight="normal"`
 
-##### fontFamily
+#### fontFamily
 - equivale a `font-family` del `css`.
 - por omisión es: `fontFamily="'Comic Sans MS', 'Comic Sans', cursive"`

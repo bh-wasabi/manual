@@ -2,13 +2,13 @@
 - ejecuta un evento al momento de grabar un audio
 
 ## Parámetros
-##### minWait (#)
+#### minWait (#)
 - cantidad de milisegundos mínima a grabar por el usuario.
 
 ## Sub objetos
 
-##### [jQuery](jquery.md)
+#### [jQuery](jquery.md)
 - ejecuta una acción en el DOM
 
-##### log
+#### log
 - muestra en la consola un mensaje

@@ -3,53 +3,53 @@
 - se puede usar para producir XML como HTML.
 
 ## Parámetros
-##### id
+#### id
 - identificador de la plantilla
 
-##### type
+#### type
 - `html`
 - `xml`
 
-##### source
+#### source
 - es posible usar una plantilla remota (que se encuentra en otro tipo de documento).
 
-##### sourceTemplate
+#### sourceTemplate
 - identificador de la plantilla remota.
 
 ## Facilitadores especiales
 - los objetos de tipo Markup pueden contener HTML abiertamente y sin ninguna restricción.
 - Nota: en las plantillas NO funciona la lista de facilitadores que tenemos en otros objetos como [page](page.md), [modal](modal.md) o [report](report.md).
 
-##### campos directos
+#### campos directos
 - en el caso de las plantillas se usan los campos directamente
 - por ejemplo: `{{empresa.rfc}}`
 
-##### if
+#### if
 - podemos condicionar un bloque si el contexto tiene valor
 
-##### unless
+#### unless
 - es el contrario del `if`, la condición es que no tenga valor.
 
-##### with
+#### with
 - para tener un contexto a partir de un objeto del documento
 
-##### each
+#### each
 - podemos hacer iteraciones
 - en el contexto va el campo tipo arreglo.
 
-##### date
+#### date
 - sirve para poner formato a un campo tipo fecha.
 - tiene 2 contextos: el campo y el formato, el formato debe ir entre comillas dobles.
 - se usa [Moment.js](http://momentjs.com) para formatear las fechas
 - ejemplo: `{{date base.fechaAlta "DD/MMM/YYYY"}}`
 
-##### number
+#### number
 - sirve para poner formato a un campo numérico.
 - tiene 2 contextos: el campo y el formato, el formato debe ir entre comillas dobles.
 - se usa [Numeral.js](http://numeraljs.com) para formatear los números.
 - ejemplo: `{{date importe "#,.##"}}`
 
-##### display
+#### display
 - es otra forma de formatear un numero o una fecha.
 - ejemplos: `{{display importe type="number" format="#,.##"}}`, `{{display fecha type="date" format="DD/MMM/YYYY"}}`
 

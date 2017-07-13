@@ -3,16 +3,16 @@
 
 ## Sub objetos
 
-##### [group](view-group.md)
+#### [group](view-group.md)
 - agrupa por un campo
 
-##### [unwind](view-unwind.md)
+#### [unwind](view-unwind.md)
 - puede explosionar un campo tipo arreglo
 
-##### [sort](sort.md)
+#### [sort](sort.md)
 - se puede definir el orden del resultado de la consulta
 
-##### [filter](filter.md)
+#### [filter](filter.md)
 - se puede definir filtros sobre la consulta
 
 ## Ejemplo:

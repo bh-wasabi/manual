@@ -3,29 +3,29 @@
 - funciona sobre s3
 
 ## Parámetros
-##### inputFilePath
+#### inputFilePath
 - ruta del archivo a convertir
 - puede ser una expresión.
 
-##### [inputFormat](convert.md)
+#### [inputFormat](convert.md)
 - formato del archivo a convertir
 
-##### outputFilePath
+#### outputFilePath
 - ruta del archivo nuevo
 - por omisión lo pone en el mismo lugar donde esta el archivo a convertir y le pone la nueva extensión.
 - puede ser una expresión.
 
-##### [outputFormat](convert.md)
+#### [outputFormat](convert.md)
 - formato del archivo nuevo
 
-##### outputPublic (true, false)
+#### outputPublic (true, false)
 - define si el archivo nuevo queda como publico en s3.
 
-##### quality (%)
+#### quality (%)
 - porcentaje de calidad
 - por omisión `75`
 
-##### removeOnFinish (true, false)
+#### removeOnFinish (true, false)
 - elimina el archivo a convertir cuando termina el proceso.
 - por omisión es `false`.
 

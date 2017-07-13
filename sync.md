@@ -3,22 +3,22 @@
 - así podemos usar las capturas de documentos para actualizar algunas de las tablas de SQL.
 
 ## Parámetros
-##### id
+#### id
 - identificador del sincronizador
 
-##### type
+#### type
 - `sql` base de datos tipo SQL.
 
-##### table
+#### table
 - nombre de la tabla de SQL a sincronizar.
 
 ## Sub objetos
 
-##### [select](sync-select.md)
+#### [select](sync-select.md)
 - comando para obtener los datos nuevos desde SQL.
 - se puede usar con `query` o con `call`.
 
-##### [update](sync-update.md)
+#### [update](sync-update.md)
 - comando para actualizar los datos en la base SQL.
 
 ## Ejemplos:

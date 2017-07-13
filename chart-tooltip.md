@@ -2,7 +2,7 @@
 - Configuración de la ayuda que aparece al estar sobre un punto de la gráfica.
 
 ## Parámetros
-##### format
+#### format
 - `currency`
 - `fixedPoint`
 - `percent`
@@ -26,12 +26,12 @@
 - `quarter`
 - `year`
 
-##### precision (#)
+#### precision (#)
 - decimales de precisión
 
-##### location
+#### location
 - `center`
 - `edge`
 
-##### color
+#### color
 - define el color

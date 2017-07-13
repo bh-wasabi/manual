@@ -3,38 +3,38 @@
 
 ## Secciones y Campos
 
-##### name (objeto)
+#### name (objeto)
 - `givenName`
 - `familyName`
 - `sufix`
 - `prefix`
 - `fullName`
 
-##### org (texto)
+#### org (texto)
 - nombre de la organización
 
-##### title (texto)
+#### title (texto)
 - título
 
-##### photo (url)
+#### photo (url)
 - url de la foto
 
-##### adr (arreglo)
+#### adr (arreglo)
 - `streetAddress`, calle
 - `locality`, localidad o ciudad
 - `region`, region o estado
 - `postalCode`, código postal
 - `countryName`, nombre del país
 
-##### tel (arreglo)
+#### tel (arreglo)
 - `type`
 - `data`
 
-##### email (arreglo)
+#### email (arreglo)
 - `type`
 - `data`
 
-##### label (arreglo)
+#### label (arreglo)
 - `type`
 - `data`
 

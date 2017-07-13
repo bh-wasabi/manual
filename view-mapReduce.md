@@ -2,10 +2,10 @@
 - agrupa y concentra los resultados de una vista
 
 ## Parámetros
-##### keys
+#### keys
 - lista de columnas (separadas por comas) a agrupar.
 
-##### values
+#### values
 - lista de valores (separadas por comas) a concentrar (sumar).
 
 ## Ejemplo:

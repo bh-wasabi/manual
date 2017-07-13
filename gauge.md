@@ -2,56 +2,56 @@
 - define una gráfica de tipo gauge
 
 ## Parámetros
-##### id
+#### id
 - identificador de la gráfica
 
-##### type
+#### type
 - `circular` por omisión.
 - `linear`
 
-##### startValue (#)
+#### startValue (#)
 - valor inicial
 - puede ser una [expresión](expr.md).
 
-##### endValue (#)
+#### endValue (#)
 - valor final
 - puede ser una [expresión](expr.md).
 
-##### tickInterval (#)
+#### tickInterval (#)
 - intervalo entre puntos
 - puede ser una [expresión](expr.md).
 
-##### value
+#### value
 - valor a mostrar con la aguja.
 
-##### valueField
+#### valueField
 - campo que contiene el valor a mostrar con la aguja.
 
-##### title
+#### title
 - título opcional.
 
-##### subTitle
+#### subTitle
 - sub título opcional.
 
-##### palette
+#### palette
 - se puede definir opcionalmente otra [paleta de colores](pallete.md) a utilizar.
 
-##### showPct (true, false)
+#### showPct (true, false)
 - muestra el % en la escala.
 
-##### textCloud (true, false)
+#### textCloud (true, false)
 - muestra el indicador con el dato exacto.
 
-##### textCloudColor
+#### textCloudColor
 - es posible cambiar el color cuando se usa la opción `textCloud`.
 
-##### animated (true, false)
+#### animated (true, false)
 - con esta opción se puede apagar la animación.
 - por omisión es `true`.
 
 ## Sub objetos
 
-##### [range](gauge-range.md)
+#### [range](gauge-range.md)
 - define un rango de colores
 
 ## Ejemplo

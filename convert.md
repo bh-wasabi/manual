@@ -1,6 +1,6 @@
 # Formatos de conversión de Archivos
 
-###### archivos
+##### archivos
 ````
 7z		7-Zip Compressed File
 ace		WinAce Compressed File
@@ -42,7 +42,7 @@ xz		XZ Compressed Archive
 z		Unix Compressed File
 zip		Zipped File
 ````
-###### audio
+##### audio
 ````
 aac		Advanced Audio Coding
 ac3		Audio Coding 3
@@ -64,12 +64,12 @@ wav		Waveform audio format
 weba	WebA Audio File
 wma		Windows Media Audio
 ````
-###### cad
+##### cad
 ````
 dwg		AutoCAD Drawing
 dxf		AutoCAD Drawing Interchange Format
 ````
-###### documentos
+##### documentos
 ````
 abw		AbiWord Document
 djvu	DjVu
@@ -92,7 +92,7 @@ wpd		WordPerfect Document
 wps		Microsoft Works Document
 zabw	Compressed AbiWord Document
 ````
-###### ebook
+##### ebook
 ````
 azw		Amazon Kindle eBook File
 azw3	Amazon Kindle
@@ -123,14 +123,14 @@ tcr		Psion Series 3 eBook File
 txt		Text
 txtz	TXTz
 ````
-###### fuentes
+##### fuentes
 ````
 eot		Embedded OpenType
 otf		OpenType
 ttf		TrueType
 woff	Web Open Font Format
 ````
-###### imágenes
+##### imágenes
 ````
 3fr		Hasselblad 3F RAW Image
 arw		Sony Digital Camera Image
@@ -168,7 +168,7 @@ x3f		SIGMA X3F Camera RAW File
 xcf		eXperimental Computing Facility
 xps		XML Paper Specification
 ````
-###### presentaciones
+##### presentaciones
 ````
 eps		Encapsulated PostScript
 html	HTML Document
@@ -185,7 +185,7 @@ ps		PostScript
 sda		StarDraw 5.0 (OpenOffice.org Impress)
 swf		Macromedia Flash (SWF)
 ````
-###### hojas de cálculo
+##### hojas de cálculo
 ````
 csv		CSV
 html	HTML Document
@@ -198,7 +198,7 @@ xls		Microsoft Excel 97/2000/XP
 xlsm	Microsoft Excel XML with Macros Enabled
 xlsx	Microsoft Excel XML
 ````
-###### vectores
+##### vectores
 ````
 ai		Adobe Illustrator File
 cdr		CorelDRAW Image File
@@ -214,7 +214,7 @@ svgz	Compressed Scalable Vector Graphics
 vsd		Visio Drawing File
 wmf		Windows Metafile
 ````
-###### video
+##### video
 ````
 3g2		3GPP2 file format
 3gp		3GP Multimedia File
@@ -245,7 +245,7 @@ webm	WebM Video File
 wmv		Windows Media Video
 wtv		Windows Recorded TV Show
 ````
-###### web
+##### web
 ````
 website	Website
 ````

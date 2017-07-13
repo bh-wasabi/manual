@@ -2,11 +2,11 @@
 - presenta un botón flotante en la ventana modal
 
 ## Parámetros
-##### action
+#### action
 - acción a invocar
 
-##### color
+#### color
 - [lista de colores](colors.md)
 
-##### icon
+#### icon
 - [lista de iconos](ion-icons.md)

@@ -3,10 +3,10 @@
 - normalmente van dentro de una sección
 
 ## Parámetros
-##### id
+#### id
 - identificador de la sección
 
-##### type
+#### type
 - `text` campos tipo texto (por omisión)
 - `number` campos numéricos
 - `date` fechas
@@ -19,26 +19,26 @@
 - `max` calcula el valor máximo del campo que esta definido en `value` de una sección especifica del documento.
 - `min` calcula el valor máximo del campo que esta definido en `value` de una sección especifica del documento.
 
-##### label
+#### label
 - es la etiqueta a desplegar por omisión.
 
-##### align
+#### align
 - `left`
 - `right`
 - `center`
 
-##### format
+#### format
 - en los campos tipo number, calc y date, se puede especificar un formato especifico
 - el sistema va usar [Moment.js](http://momentjs.com) para formatear las fechas y [Numeral.js](http://numeraljs.com) para formatear los números.
 - existen algunos valores pre-definidos como: `format="currency"`.
 - el si se indica `format="pesos"` convierte un importe a texto.
 - el si se indica `format="phone334"` formatea un teléfono de 10 dígitos.
 
-##### value
+#### value
 - en el caso de campos calculados `calc` y expresiones `expr`, aquí se asigna la [expresión](expr.md) que se usa para calcular el valor.
 - en el caso de agregaciones `sum`, `avg`, `min` y `max` aquí se define el campo a utilizar, es necesario indicar también la sección `section` donde esta el campo.
 
-##### section
+#### section
 - se usa para `count`, `sum`, `avg`, `min` y `max`.
 
 Ejemplo:
@@ -49,101 +49,101 @@ Ejemplo:
 {{/section}}
 ````
 
-##### defaultValue
+#### defaultValue
 - asigna el valor por omisión a un campo.
 - puede ser una expresión
 - si el campo es de una sección tipo arreglo, es posible asignar una lista de valores separados por comas.
 
-##### if
+#### if
 - con esta opción es posible condicionar la visibilidad el campo.
 - genera un [facilitador if](helper-if.md) automáticamente, que se evalúa el contexto al momento de ejecución de la página.
 
-##### isRules (true, false)
+#### isRules (true, false)
 - se le indica al campo donde vienen las reglas que vamos a usar en el calculo.
 
-##### source
+#### source
 - tipo de documento que se va usar como fuente en las capturas.
 
-##### sourceExpr
+#### sourceExpr
 - es posible basar el tipo de documento usando una expresión.
 - para que funcione correctamente es necesario hacer un [refresh](on-change.md) de la forma para que se actualice la fuente.
 
-##### view
+#### view
 - se puede indicar la vista especifica del `source`.
 - por omisión toma la vista definida en el tipo de documento en `defaultView`.
 
-##### sourceFilter
+#### sourceFilter
 - se puede especificar el campo remoto donde se va aplicar el filtro
 - este tipo de filtros pueden funcionar en tiempo real sobre la misma forma, evita hacer un "refresh".
 
-##### sourceFilterValue
+#### sourceFilterValue
 - aquí se pasa el valor que se va a mandar al filtro.
 - puede ser una [expresion](expr.md)
 
-##### helpText
+#### helpText
 - una forma rápida de armar la ayuda en captura del campo.
 
-##### helpType
+#### helpType
 - `popover` aparece una ventana de ayuda volátil sobre la etiqueta.
 - `popup` aparece una ventana de ayuda que el quita al hacer click afuera de la ventana o el botón de cerrar si tiene título.
 
-##### helpTemplate
+#### helpTemplate
 - en caso de querer usar el `helpType`
 - con esta opción es posible asignar un [template](template.md) a la ventana de ayuda.
 
-##### helpTitle
+#### helpTitle
 - es posible establecer un título sobre la ventana de ayuda.
 - funciona en `helpType="popup"`.
 
-##### helpWidth
+#### helpWidth
 - es posible definir el ancho de la ventana de ayuda.
 - funciona en `helpType="popup"`.
 
-##### helpHeight
+#### helpHeight
 - es posible definir el alto de la ventana de ayuda.
 - funciona en `helpType="popup"`.
 
-##### map
+#### map
 - en algunos casos es posible indicar otro nombre del campo, para hacer ciertos mapeos específicos.
 
-##### isImage (true, false)
+#### isImage (true, false)
 - un campo tipo texto, puede contener la url de una imagen.
 - es otra forma de anexar mas directa y con la posibilidad de editar en la misma forma de captura donde van los demás campos.
 
-##### isImageFace (true, false)
+#### isImageFace (true, false)
 - tratar de obtener la cara de la persona.
 - esto funciona actualmente para la parte `mobile`.
 
-##### imageHeight 
+#### imageHeight 
 - alto de la imagen
 
-##### imageWidth 
+#### imageWidth 
 - ancho de la imagen
 
-##### imageFit 
+#### imageFit 
 - ajusta la imagen a los tamaños especificados.
 
-##### boldIf
+#### boldIf
 - es posible agregar una condición para que se despliega el campo en negritas.
 - funciona únicamente en secciones tipo arreglo
 - debe ser una expresión.
 
-##### isFlag (true, false)
+#### isFlag (true, false)
 - define si el campo va a desplegar una bandera en las tablas.
 - requiere un preset con los `id's` de las banderas
 
-##### changeOnClick (true, false)
+#### changeOnClick (true, false)
 - es posible hacer un cambio sin la necesidad de abrir el documento.
 - esto funciona únicamente con la opción `isFlag="true"`.
 - hace un carrusel del preset.
 
 ## Sub objetos
 
-##### [editor](editor.md)
+#### [editor](editor.md)
 - el sistema soporta diferentes ayudas en captura, que se definen a travez de la configuración del editor.
 
-##### [validator](validator.md)
+#### [validator](validator.md)
 - se pueden agregar una o varias validaciones de captura.
 
-##### [onChange](on-change.md)
+#### [onChange](on-change.md)
 - se pueden configurar un evento cuando el campo cambia de valor.

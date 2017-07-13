@@ -4,7 +4,7 @@
 
 
 ## Sub objetos
-##### column
+#### column
 - define una columna de la ayuda
 - únicamente se pueden usar los parámetros: `field`, `label` y `width`.
 

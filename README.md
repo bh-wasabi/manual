@@ -1,12 +1,12 @@
 # Manual
-##### Versión 1.0.0
+#### Versión 1.0.0
 
 ## Objetos principales
-##### [app](app.md)
+#### [app](app.md)
 - aplicación
 
-##### [cfg](cfg.md)
+#### [cfg](cfg.md)
 - configuración
 
-##### [doc](doc.md)
+#### [doc](doc.md)
 - tipo de documento

@@ -3,11 +3,11 @@
 
 ## Parámetros
 Nota: los parámetros pueden ser abiertos, aunque es mejor usar los nombre estándar (id, name y group).
-##### id
+#### id
 - es el valor que se guarda en el campo
 
-##### name
+#### name
 - es la etiqueta que se desplega en pantalla
 
-##### group
+#### group
 - poder servir para hacer filtros sobre la misma lista.

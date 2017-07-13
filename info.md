@@ -2,27 +2,27 @@
 - define un cuadro informativo
 
 ## Parámetros
-##### id
+#### id
 - identificador
 
-##### type
+#### type
 - `number` por omisión.
 - `date`
 - `text`
 
-##### valueField
+#### valueField
 - campo que contiene el valor a mostrar.
 
-##### title
+#### title
 - título
 
-##### footer
+#### footer
 - comentario en el pie del cuadro.
 
-##### color
+#### color
 - color del cuadro.
 - [colores disponibles](colors.md)
 
-##### icono
+#### icono
 - icono principal
 - [iconos disponibles](http://fontawesome.io/icons/)

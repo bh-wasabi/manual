@@ -3,20 +3,20 @@
 - puede ser un menú múltiple o un menú de contexto
 
 ## Parámetros
-##### id
+#### id
 - identificador del menú
 
-##### name
+#### name
 - nombre del menú
 
-##### shortName
+#### shortName
 - nombre corto del menú
 
-##### startHref
+#### startHref
 - es posible que inicie el menú directamente en una opción.
 - opcional
 
-##### startName
+#### startName
 - si se usa la opción `startHref` aquí debemos indicar el nombre a mostrar.
 
 #### text
@@ -34,7 +34,7 @@
 
 ## Sub objetos
 
-##### [item](menu-item.md)
+#### [item](menu-item.md)
 - puede ser recursivo, para poder tener "n" niveles de profundidad.
 
 ## Ejemplos

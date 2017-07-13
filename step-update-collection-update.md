@@ -2,10 +2,10 @@
 - actualiza una sección en el documento.
 
 ## Parámetros
-##### section
+#### section
 - sección a modificar 
 
 ## Sub objetos
 
-##### [set](set.md)
+#### [set](set.md)
 - asigna valor a uno o varios campos.

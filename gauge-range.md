@@ -2,13 +2,13 @@
 - configura un rango de valores en la gráfica tipo gauge.
 
 ## Parámetros
-##### startValue (#)
+#### startValue (#)
 - valor inicial del rango
 
-##### endValue (#)
+#### endValue (#)
 - valor final del rango
 
-##### color (#)
+#### color (#)
 - es posible definir el color especifico de este rango.
 
 

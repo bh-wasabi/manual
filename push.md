@@ -5,12 +5,12 @@
 #### value
 - con esta opción es posible asignar todo el objeto junto.
 
-##### condition
+#### condition
 - con esta opción es posible condicionar la acción.
 
 ## Sub objetos
 
-##### [set](set.md)
+#### [set](set.md)
 - asigna los valores del objeto.
 
 ## Ejemplo:

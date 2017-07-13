@@ -3,47 +3,47 @@
 - para desplegarlas hay que usar un [widget](helper-widget.md).
 
 ## Parámetros
-##### id
+#### id
 - identificador de la galería
 
-##### mimeType
+#### mimeType
 - es posible seleccionar el tipo de archivo a mostrar en el carrusel.
 - por omisión es `image`.
 
-##### filter
+#### filter
 - es posible seleccionar indicar un filtro adicional.
 - por ejemplo: `filter="tipo=foto"`.
 - es posible tener multiples filtros separados por el símbolo `&`.
 - Nota: hay que tomar en cuenta si el campo esta basado en un `preset` el valor a filtrar es el `id`. 
 
-##### slideShow (true, false)
+#### slideShow (true, false)
 - activa un carrusel de fotos.
 
-##### slideShowDelay (#)
+#### slideShowDelay (#)
 - tiempo de espera (en mili-segundos) para cambiar de imagen
 - esto funciona cuando esta activo el `slideShow`.
 
-##### loop (true, false)
+#### loop (true, false)
 - el carrusel de fotos da vueltas automáticamente.
 
-##### animationEnabled (true, false)
+#### animationEnabled (true, false)
 - hace un efecto al cambiar de imagen
 
-##### animationDuration (#)
+#### animationDuration (#)
 - duración del efecto (en mili-segundos)
 
-##### showIndicator (true, false)
+#### showIndicator (true, false)
 - muestra unos puntos por cada imagen que esta visible en la galería.
 
-##### showNavButtons (true, false)
+#### showNavButtons (true, false)
 - muestra unos botones en los lados para poder cambiar de imagen manualmente.
 
-##### initialItemWidth (#)
+#### initialItemWidth (#)
 - opcionalmente se puede especificar el ancho que va ocupar cada imagen individual.
 
-##### stretchImages (true, false)
+#### stretchImages (true, false)
 - con esta opción podemos estirar las imágenes para que ocupen todo el tamaño posible.
 
-##### wrapAround (true, false)
+#### wrapAround (true, false)
 - con esta opción podemos ver en los lados las imagen previa y siguiente.
 

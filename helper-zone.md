@@ -5,33 +5,33 @@
 - no tiene
 
 ## Parámetros
-##### id
+#### id
 - es el identificador de la zona
 
-##### modal
+#### modal
 - forma modal que se abre al editar esta zona
 - cuando es un arreglo esto abre la forma modal de un detalle.
 - puede ser una [expresión](expr.md).
 - Nota: a diferencia del `modalGrid` que la expresión puede ser usando datos del documento que pueden cambiar, en este caso la expresión se calcula al inicializar la forma.
 
-##### modalGrid
+#### modalGrid
 - cuando es un arreglo esto abre una forma modal que abre todo los detalles juntos.
 - puede ser una [expresión](expr.md).
 
-##### modalTable
+#### modalTable
 - otra forma forma de capturar un arreglo.
 - requiere del `modal` para la edición de cada registro de la tabla.
 - puede ser una [expresión](expr.md).
 
-##### section
+#### section
 - sección del documento a editar.
 - por omisión toma la sección que esta definida en `modal` o  `modalGrid`, en caso de usar expresiones es necesario indicar la sección explícitamente.
 
-##### readOnly
+#### readOnly
 - es posible bloquear una zona
 - puede ser una expresión
 
-##### condition
+#### condition
 - es posible establecer una condición para abrir una zona
 - puede ser una expresión
 

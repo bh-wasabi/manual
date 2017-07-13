@@ -3,23 +3,23 @@
 - en el caso de `upsert` reemplaza la sección completa.
 
 ## Parámetros
-##### section
+#### section
 - sección a modificar 
 
-##### sourcePath
+#### sourcePath
 - ruta base del documento, por omisión `"/"`
 - las expresiones toman en cuenta esta ruta.
 
-##### value
+#### value
 - es posible establecer el valor de toda la sección directamente.
 
-##### condition
+#### condition
 - con esta opción es posible condicionar la acción.
 
 ## Sub objetos
 
-##### [push](push.md)
+#### [push](push.md)
 - inserta manualmente un objeto al arreglo.
 
-##### [set](set.md)
+#### [set](set.md)
 - asigna valor a uno o varios campos.

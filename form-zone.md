@@ -2,94 +2,94 @@
 - define una zona en la forma.
 
 ## Parámetros
-##### id
+#### id
 - identificador de la zona.
 
-##### section
+#### section
 - sección del documento.
 
-##### readOnly (true, false)
+#### readOnly (true, false)
 - define si la zona es editable.
 - puede ser una expresión.
 
-##### modal
+#### modal
 - identificador de la ventana modal a abrir.
 
-##### modalGrid
+#### modalGrid
 - identificador de la ventana modal (tipo cuadricula) a abrir.
 
-##### modalTable
+#### modalTable
 - identificador de la ventana modal (tipo tabla) a abrir.
 
-##### width (#)
+#### width (#)
 - ancho de la imagen de la zona.
 - en pixeles.
 
-##### height (#)
+#### height (#)
 - alto de la imagen de la zona.
 - en pixeles.
 
-##### x (#)
+#### x (#)
 - posición inicial horizontal.
 - en pixeles.
 
-##### y (#)
+#### y (#)
 - posición inicial vertical.
 - en pixeles.
 
-##### moveX (#)
+#### moveX (#)
 - es posible mover toda la zona horizontalmente.
 - en pixeles.
 
-##### moveY (#)
+#### moveY (#)
 - es posible mover toda la zona verticalmente.
 - en pixeles.
 
-##### cols (#)
+#### cols (#)
 - cantidad de columnas cuando es un arreglo.
 - por omisión es `1`
 
-##### colSpacing (#)
+#### colSpacing (#)
 - espacio entre columnas cuando es un arreglo.
 - también puede ser una lista separada por comas.
 - por omisión es `200`
 - en pixeles.
 
-##### lineSpacing (#)
+#### lineSpacing (#)
 - espacio entre lineas cuando es un arreglo.
 - también puede ser una lista separada por comas.
 - por omisión es `50`
 - en pixeles.
 
-##### maxLines (#)
+#### maxLines (#)
 - lineas máximas en caso de arreglos.
 - por omisión es `10`
 
-##### color
+#### color
 - nombre del color.
 - por omision es: `color="black"`.
 
-##### backgroundColor
+#### backgroundColor
 - color de fondo.
 
-##### fontSize (#)
+#### fontSize (#)
 - define el tamaño de la letra.
 - en pixeles.
 - por omisión es: `fontSize="25"`
 
-##### fontWeight (normal, bold, bolder, lighter, etc.)
+#### fontWeight (normal, bold, bolder, lighter, etc.)
 - equivale a `font-weight` del `css`.
 - por omisión es: `fontWeight="normal"`
 
-##### fontFamily
+#### fontFamily
 - equivale a `font-family` del `css`.
 - por omisión es: `fontFamily="'Comic Sans MS', 'Comic Sans', cursive"`
 
-##### condition
+#### condition
 - es posible determinar una condición de despliegue de la zona.
 - puede ser una expresión.
 
 ## Sub objetos
 
-##### [item](form-item.md)
+#### [item](form-item.md)
 - define un elemento de la forma.

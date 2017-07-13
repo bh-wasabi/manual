@@ -3,67 +3,67 @@
 - para desplegarlas hay que usar un [widget](helper-widget.md).
 
 ## Parámetros
-##### id
+#### id
 - identificador del mapa
 
-##### type
+#### type
 - `roadmap` por omisión.
 - `satellite`
 - `hybrid`
 
-##### provider
+#### provider
 - `bing`
 - `google` por omisión.
 - `googleStatic`
 
-##### controls (true, false)
+#### controls (true, false)
 - despliega los controles nativos del mapa.
 
-##### autoAdjust (true, false)
+#### autoAdjust (true, false)
 - con esta opción se ajusta automáticamente al centro y al nivel del zoom.
 - por omisión es `true`.
 
-##### zoom (#)
+#### zoom (#)
 - nivel de zoom 
 
-##### center
+#### center
 - coordenada o dirección donde se va centrar el mapa.
 - por ejemplo: `center="19.4326068,-99.1353936"`
 
-##### markerIconSrc (url)
+#### markerIconSrc (url)
 - es posible especificar la dirección url de símbolo a usar como marcador.
 - esta dirección debe ser publica y accesible desde otros servidores (Google o Bing).
 
-##### height
+#### height
 - alto del mapa a mostrar
 - puede ser en pixeles o en porcentaje.
 
-##### width
+#### width
 - ancho del mapa a mostrar
 - puede ser en pixeles o en porcentaje.
 
-##### clustered (true, false)
+#### clustered (true, false)
 - junta los marcadores en grandes grupos.
 
-##### clusteredMaxZoom (#)
+#### clusteredMaxZoom (#)
 - nivel de `zoom` para eliminar los `clusters`.
 
-##### clusteredGridSize (#)
+#### clusteredGridSize (#)
 - cercania en pixeles de los `clusters`.
 - por omisión es 60.
 
-##### markerInCenter (true, false)
+#### markerInCenter (true, false)
 - pone un marcador en el centro del mapa.
 
 ## Sub objetos
 
-##### [marker](map-marker.md)
+#### [marker](map-marker.md)
 - define los marcadores en el mapa.
 
-##### [line](map-line.md)
+#### [line](map-line.md)
 - une los marcadores en el mapa.
 
-##### [route](map-route.md)
+#### [route](map-route.md)
 - define la ruta en el mapa.
 
 ## Ejemplo

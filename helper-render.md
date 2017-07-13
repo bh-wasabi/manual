@@ -5,19 +5,19 @@
 - no tiene
 
 ## Parámetros
-##### template
+#### template
 - identificador del template a usar.
 
-##### source
+#### source
 - es posible llenar el template usando una colección remota.
 - parámetro opcional
 
-##### view
+#### view
 - identificador de la vista, local o remota.
 
 ## Sub objetos
 
-##### [param](helper-param.md)
+#### [param](helper-param.md)
 - es posible asignar valores a los parámetros que necesita la vista.
 
 ## Ejemplo:

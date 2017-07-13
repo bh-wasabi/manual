@@ -2,68 +2,68 @@
 - despliega un cubo en el explorador
 
 ## Parámetros
-##### allowSorting (true, false)
+#### allowSorting (true, false)
 - le permite al usuario cambiar el orden sobre las dimensiones.
 
-##### allowSortingBySummary (true, false)
+#### allowSortingBySummary (true, false)
 - le permite al usuario cambiar el orden sobre las medidas.
 
-##### allowFiltering (true, false)
+#### allowFiltering (true, false)
 - le permite al usuario establecer filtros
 
-##### allowExpandAll (true, false)
+#### allowExpandAll (true, false)
 - le permite al usuario expandir y colapsar todo el cubo
 
-##### autoSaveView (true, false)
+#### autoSaveView (true, false)
 - guarda automáticamente el ultimo acomodo (vista) del cubo.
 - Nota: para poder configurar las vistas manualmente es necesario apagar esta opción porque se pueden generar conflictos.
 
-##### exportToExcel (true, false)
+#### exportToExcel (true, false)
 - permite exportar los datos a Excel.
 - unicamente funciona en `Chrome`.
 
-##### showBorders (true, false)
+#### showBorders (true, false)
 - muestra los bordes de la cuadrícula.
 
-##### showColumnTotals (true, false)
+#### showColumnTotals (true, false)
 - muestra los sub totales a nivel columna.
 
-##### showColumnGrandTotals (true, false)
+#### showColumnGrandTotals (true, false)
 - muestra los totales a nivel columna.
 
-##### showRowTotals (true, false)
+#### showRowTotals (true, false)
 - muestra los sub totales a nivel renglón.
 
-##### showRowGrandTotals (true, false)
+#### showRowGrandTotals (true, false)
 - muestra los totales a nivel renglón.
 
 ## Sub objetos
 
-##### [column](cube-field.md)
+#### [column](cube-field.md)
 - define una columna del cubo por omisión.
 
-##### [row](cube-field.md)
+#### [row](cube-field.md)
 - define un renglón del cubo por omisión.
 
-##### [data](cube-field.md)
+#### [data](cube-field.md)
 - agrega la dimensión del cubo para un uso posterior.
 
-##### [count](cube-field.md)
+#### [count](cube-field.md)
 - define una medida de tipo conteo
 
-##### [sum](cube-field.md)
+#### [sum](cube-field.md)
 - define una medida de tipo suma
 - el campo debe ser tipo numérico
 
-##### [avg](cube-field.md)
+#### [avg](cube-field.md)
 - define una medida de tipo promedio
 - el campo debe ser tipo numérico
 
-##### [min](cube-field.md)
+#### [min](cube-field.md)
 - define una medida de tipo valor mínimo
 - el campo debe ser tipo numérico
 
-##### [max](cube-field.md)
+#### [max](cube-field.md)
 - define una medida de tipo valor máximo
 - el campo debe ser tipo numérico
 

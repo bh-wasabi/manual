@@ -2,7 +2,7 @@
 - muestra en la consola un mensaje
 
 ## Parámetros
-##### id
+#### id
 - identificador o nombre a mostrar
 
 ## Otros parámetros

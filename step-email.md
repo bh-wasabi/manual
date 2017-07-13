@@ -3,38 +3,38 @@
 
 ## Parámetros
 
-##### profile
+#### profile
 - busca un perfil de correo de la configuración del servidor.
 
-##### from
+#### from
 - emisor
 - puede ser una [expresión](expr.md).
 - lo puede leer del perfil.
 
-##### to
+#### to
 - destinatario
 
-##### cc
+#### cc
 - con copia a
 
-##### bcc
+#### bcc
 - con copia oculta a
 
-##### subject
+#### subject
 - asunto del correo
 
-##### text
+#### text
 - cuerpo del mensaje en texto simple.
 
-##### html
+#### html
 - cuerpo del mensaje en formato HTML.
 
-##### template
+#### template
 - identificador del template a usar
 - es posible agregar parámetros al template.
 
 ## Sub objetos
-##### [attach](step-email-attach.md)
+#### [attach](step-email-attach.md)
 - permite anexar archivos adicionales.
 
 ## Ejemplo

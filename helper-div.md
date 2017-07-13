@@ -5,15 +5,15 @@
 - puede llevar un contexto opcional
 
 ## Parámetros
-##### class
+#### class
 - clases CSS a utilizar
 - se pueden agregar multiples clases separadas por espacio.
 
-##### align
+#### align
 - `left`
 - `right`
 - `center`
 - `justify`
 
-##### noWrap (true, false)
+#### noWrap (true, false)
 - elimina el ajuste de línea (word wrap=) del bloque de texto.

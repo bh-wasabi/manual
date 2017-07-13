@@ -2,7 +2,7 @@
 - podemos ejecutar una consulta directa a la base de datos GraphDB.
 
 ## Parámetros
-##### query
+#### query
 - puede ser a multiples líneas para tener mayor claridad, hay que incluir los parámetros en la misma sentencia.
 
 ## Ejemplo:

@@ -7,35 +7,35 @@
 
 ## Parámetros
 
-##### xsmall (%)
+#### xsmall (%)
 - se define el % de la pantalla a utilizar cuando la pantalla es muy pequeña.
 
-##### small (%)
+#### small (%)
 - se define el % de la pantalla a utilizar cuando la pantalla es pequeña.
 
-##### medium (%)
+#### medium (%)
 - se define el % de la pantalla a utilizar cuando la pantalla es mediana.
 
-##### large (%)
+#### large (%)
 - se define el % de la pantalla a utilizar cuando la pantalla es grande.
 
-##### vertical (%)
+#### vertical (%)
 - se define el % de la pantalla a utilizar cuando la orientación del documento es vertical.
 
-##### dock
+#### dock
 - `start` se indica en la primera columna que deseamos pegar, elimina la separación de lado derecho.
 - `true` se indica para las columnas centrales, elimina la separación de lado derecho y de lado izquierdo.
 - `end` se indica para la ultima columna que deseamos pegar, elimina la separación del lado izquierdo.
 
-##### class
+#### class
 - clases CSS a utilizar
 - se pueden agregar multiples clases separadas por espacio.
 
-##### align
+#### align
 - `left`
 - `right`
 - `center`
 - `justify`
 
-##### noWrap (true, false)
+#### noWrap (true, false)
 - elimina el ajuste de línea (word wrap=) del bloque de texto.

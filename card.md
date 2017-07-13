@@ -2,10 +2,10 @@
 - diseño HTML de una tarjeta.
 
 ## Parámetros
-##### id
+#### id
 - identificador de la tarjeta
 
-##### type
+#### type
 - `image`
 - `quote`
 - `event`
@@ -17,16 +17,16 @@
 - `meal`
 
 ## Sub markup's:
-##### back
+#### back
 - define el diseño de la parte de atrás de la tarjeta
 
-##### heading
+#### heading
 - define el diseño del encabezado de la tarjeta
 
-##### body
+#### body
 - define el diseño del cuerpo de la tarjeta
 
-##### footer
+#### footer
 - define el diseño del pie de la tajeta
 
 ## Ejemplos:

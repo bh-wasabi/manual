@@ -4,11 +4,11 @@
 
 ## Parámetros
 
-##### id
+#### id
 - identificador de la validación
 - opcional
 
-##### type
+#### type
 - `required` campo requerido
 - `email` valida que el valor corresponda con un correo electrónico
 - `numeric` valida que el valor sea numérico
@@ -19,36 +19,36 @@
 - `rfc` valida que el RFC sea válido.
 - `expr` valida usando una expresión.
 
-##### message
+#### message
 - el mensaje de error a desplegar si no cumple con las reglas de validación
 
-##### min (#)
+#### min (#)
 - valor mínimo aceptable
 
-##### max (#)
+#### max (#)
 - valor máximo aceptable
 
-##### trim (true, false)
+#### trim (true, false)
 - elimina los espacios iniciales y finales antes de validar.
 
-##### reevaluate (true, false)
+#### reevaluate (true, false)
 - Indica si la regla debe ser siempre controlada por el valor objetivo o sólo cuando el valor objetivo de los cambios.
 
-##### expr 
+#### expr 
 - expresión a usar para validar.
 
-##### falseIsValid (true, false)
+#### falseIsValid (true, false)
 - si se indica el validación es correcta cuando el valor es falso.
 
-##### validIf
+#### validIf
 - expresión a usar para validar.
 - en lugar de `expr`
 
-##### notValidIf
+#### notValidIf
 - expresión a usar para validar.
 - en lugar de `expr`
 
-##### log
+#### log
 - es posible mandar un mensaje a la consola para buscar errores.
 - puede ser una expresión.
 - es recomendable usar la propiedad `id` para identificar la validación.

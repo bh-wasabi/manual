@@ -3,49 +3,49 @@
 - esta pensado en presentar una lista de sub documentos.
 
 ## Parámetros
-##### id
+#### id
 - identificador
 
-##### view
+#### view
 - identificador de la vista a usar
 
-##### start
+#### start
 - fecha inicial
 
-##### end
+#### end
 - fecha final
 
-##### min
+#### min
 - fecha mínima
 
-##### max
+#### max
 - fecha máxima
 
-##### height (#)
+#### height (#)
 - forza a que el componente aparezca de una altura específica.
 - en pixeles.
 
-##### zoomable (true, false)
+#### zoomable (true, false)
 - permite hacer zoom.
 
-##### moveable (true, false)
+#### moveable (true, false)
 - permite mover las fechas del visor.
 
-##### selectable (true, false)
+#### selectable (true, false)
 - permite seleccionar un elemento.
 
-##### editable (true, false)
+#### editable (true, false)
 - permite editar un elemento.
 
-##### showDoc (true, false)
+#### showDoc (true, false)
 - a hacer click muestra el documento.
 
 ## Sub objetos
 
-##### [map](map.md)
+#### [map](map.md)
 - mapea el resultado de la vista a los campos que necesita la línea del tiempo.
 
-##### Campos a mapear:
+#### Campos a mapear:
 - content (name/label), nombre a presentar.
 - start (date), fecha inicial.
 - end, fecha final.

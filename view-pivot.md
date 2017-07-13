@@ -3,22 +3,22 @@
 - para usarse en reportes con matrices (es como una vista de un cubo estática)
 
 ## Parámetros
-##### cols
+#### cols
 - lista de columnas
 
-##### cols
+#### cols
 - lista de columnas separadas por comas.
 
-##### rows
+#### rows
 - lista de renglones separadas por comas.
 
-##### measures
+#### measures
 - lista de medidas separadas por comas.
 
-##### totals (true, false)
+#### totals (true, false)
 - incluye información para generar totales y subtotales en la matriz.
 
-##### totalsLabel
+#### totalsLabel
 - nombre a mostrar para los totales.
 
 ## Ejemplo:

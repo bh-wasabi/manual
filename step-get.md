@@ -2,17 +2,17 @@
 - obtiene un documento de una colección interna.
 
 ## Parámetros
-##### source
+#### source
 - tipo de documento
 - si no se indica el sistema intenta sacar la fuente del campo que contiene el `id`.
 
-##### id
+#### id
 - identificador del documento
 
-##### ignorePrefixes
+#### ignorePrefixes
 - con esta opción es posible eliminar prefijos de los nodos, del documento recibido.
 
-##### as
+#### as
 - es posible cambiar el nombre del objeto leído.
 
 ## Sub objetos

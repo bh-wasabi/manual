@@ -2,38 +2,38 @@
 - a una consulta se le pueden agregar filtros
 
 ## Parámetros
-##### condition
+#### condition
 - es posible condicionar el filtro.
 
-##### field
+#### field
 - ruta del campo dentro del documento, normalmente es "seccion.campo"
 
-##### eq
+#### eq
 - busca que el valor o la expresión indicada sea "igual" al campo indicado.
 
-##### neq
+#### neq
 - busca que el valor o la expresión indicada sea "diferente" al campo indicado.
 
-##### in
+#### in
 - busca que el valor o la expresión indicada este en la lista (separada por comas) definida.
 
-##### nin
+#### nin
 - busca que el valor o la expresión indicada no este en la lista (separada por comas) definida.
 
-##### gt
+#### gt
 - busca que el valor o la expresión indicada sea "mayor que" al campo indicado.
 
-##### gte
+#### gte
 - busca que el valor o la expresión indicada sea "mayor o igual" al campo indicado.
 
-##### lt
+#### lt
 - busca que el valor o la expresión indicada sea "menor que" al campo indicado.
 
-##### lte
+#### lte
 - busca que el valor o la expresión indicada sea "menor o igual" al campo indicado.
 
-##### exists (true, false)
+#### exists (true, false)
 - busca que el campo "exista" o "no exista" con valor en la colección.
 
-##### or (true, false)
+#### or (true, false)
 - con esto es posible generar condiciones de tipo `or` sobre un mismo campo, por omisión son de tipo `and`.

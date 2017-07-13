@@ -2,12 +2,12 @@
 - define un parametro de la vista
 
 ## Parámetros
-##### type
+#### type
 - `param` para definir un parámetro de la vista
 
-##### id
+#### id
 - identificador del parámetro
 
-##### value
+#### value
 - valor por omisión del parámetro, puede ser una [expresión](expr.md).
 

@@ -2,33 +2,33 @@
 - obtiene un arreglo de documentos de una colección interna.
 
 ## Parámetros
-##### source
+#### source
 - tipo de documento
 
-##### as
+#### as
 - opcionalmente lo podemos accesar usando este nombre
 
-##### limit (#)
+#### limit (#)
 - máximo de documentos a obtener
 
-##### skip (#)
+#### skip (#)
 - podemos saltar algunos documentos
 
-##### one (true, false)
+#### one (true, false)
 - si el resultado es un objeto, extrae el primer elemento.
 
 ## Sub objetos
 - puede ser cualquiera de los objetos del [step](step.md) del flujo de trabajo.
 
-##### [include](view-include.md)
+#### [include](view-include.md)
 - se define el campo a incluir en la vista
 
-##### [exclude](view-exclude.md)
+#### [exclude](view-exclude.md)
 - se define el campo a excluir en la vista
 
-##### [sort](sort.md)
+#### [sort](sort.md)
 - se puede definir el orden del resultado de la consulta
 
-##### [filter](filter.md)
+#### [filter](filter.md)
 - se puede definir filtros sobre la consulta
 

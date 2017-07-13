@@ -5,18 +5,18 @@
 - no tiene
 
 ## Parámetros
-##### colors
+#### colors
 - [lista de colores](colors.md) separados por comas.
 
-##### max (#)
+#### max (#)
 - valor máximo
 
-##### speed (#)
+#### speed (#)
 - velocidad a la llega al 100%
 
-##### percents
+#### percents
 - lista de porcentajes
 - separada por comas
 
 ## Sub facilitadores
-##### [indicator](helper-indicator.md)
+#### [indicator](helper-indicator.md)

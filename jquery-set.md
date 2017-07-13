@@ -2,15 +2,15 @@
 - aplica un cambio al DOM.
 
 ## Parámetros
-##### type
+#### type
 - `css`
 - `attr`
 - `prop`
 - `addClass`
 - `removeClass`
 
-##### name
+#### name
 - nombre a modificar
 
-##### value
+#### value
 - nuevo valor

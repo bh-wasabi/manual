@@ -2,19 +2,19 @@
 - define un campo de la tabla SQL.
 
 ## Parámetros
-##### id
+#### id
 - identificador del campo
 
-##### type
+#### type
 - `text` campos tipo texto (por omisión)
 - `number` campos numéricos
 - `date` fechas
 - `boolean` lógicos (true, false)
 
-##### notNull (false, true)
+#### notNull (false, true)
 - define si el campo acepta o no valores nulos.
 
-##### case
+#### case
 - `upper`
 - `lower`
 - `capitalize`

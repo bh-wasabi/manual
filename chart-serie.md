@@ -2,19 +2,19 @@
 - configura una serie de la gráfica.
 
 ## Parámetros
-##### type
+#### type
 - define el [tipo de gráfica](chart-type.md).
 - por omisión toma el tipo de gráfica que esta configurado en la gráfica.
 
-##### valueField
+#### valueField
 - campo que contiene el valor de la serie.
 
-##### name
+#### name
 - nombre a mostrar de la serie.
 
-##### stack
+#### stack
 - en el caso de `stackedBar` o `fullStackedBar` es el nombre que se usa para agrupar las gráficas.
 
-##### color
+#### color
 - define el color de la serie 
 - opcional

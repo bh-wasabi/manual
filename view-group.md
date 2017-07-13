@@ -3,18 +3,18 @@
 
 ## Parámetros
 
-##### field
+#### field
 - nombre del campo a agrupar.
 
-##### type
+#### type
 - `count` cuenta los registros
 - `sum` suma el valor del campo
 - `avg` promedio del valor del campo
 - `min` valor mínimo encontrado
 - `max` valor máximo encontrado
 
-##### as
+#### as
 - nuevo nombre del campo
 
-##### label
+#### label
 - etiqueta a desplegar.

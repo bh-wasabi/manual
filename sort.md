@@ -2,9 +2,9 @@
 - define el orden de la consulta
 
 ## Parámetros
-##### field
+#### field
 - ruta del campo dentro del documento, normalmente es "seccion.campo"
 
-##### direction
+#### direction
 - `asc` ascendente
 - `desc` descendente

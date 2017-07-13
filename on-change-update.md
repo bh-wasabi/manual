@@ -3,24 +3,24 @@
 - se pueden usar como contexto la sección actual, el documento remoto (cuando se usa ayudas en captura tipo `lookup`, `select` o `autocomplete`), y el documento local.
 
 ## Parámetros
-##### section
+#### section
 - sección del documento a actualizar.
 
-##### value
+#### value
 - valor a asignar.
 - puede ser una [expresión](expr.md).
 
-##### pushValue
+#### pushValue
 - es posible agregar mas elementos en lugar de reemplazarlos completamente.
 - puede ser una [expresión](expr.md).
 
-##### condition
+#### condition
 - es posible establecer una condición para que se ejecute
 - puede ser una [expresión](expr.md).
 
 ## Sub objetos
 
-##### [set](set.md)
+#### [set](set.md)
 - actualiza el valor de uno o varios campos.
 
 ## Ejemplos:

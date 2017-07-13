@@ -2,21 +2,21 @@
 - sirve para generar una solicitud a un recurso externo.
 
 ## Parámetros
-##### type
+#### type
 - `get` (por omisión)
 - `put`
 - `post`
 
-##### url
+#### url
 - en el caso del tipo `get`, `put`, `post` aquí se especifica la `url` de donde va obtener o enviar el documento.
 - es posible agregar los parámetros de la vista directamente usando `$`.
 - puede ser una [expresión](expr.md).
 
-##### sourceType
+#### sourceType
 - `json` se parsea el resultado como JSON (por omisión).
 - `xml` se parsea el resultado como XML.
 
-##### body
+#### body
 - es posible asignar en `body` del `request`.
 - puede ser una [expresión](expr.md).
 

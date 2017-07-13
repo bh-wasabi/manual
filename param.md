@@ -2,7 +2,7 @@
 - asigna uno o mútiples parámetros
 
 ## Parámetros
-##### parametro="valor"
+#### parametro="valor"
 - nombre del parámetro y su valor a pasar
 - el valor puede ser una [expresión](expr.md)
 - se pueden pasar múltiples parámetros juntos sobre el mismo objeto, separados por un espacio.

@@ -2,10 +2,10 @@
 - sirve para normalizar los resultados antes de hacer un set.
 
 ## Parámetros
-##### set
+#### set
 - nuevo valor a poner, puede ser una [expresión](expr.md).
 
-##### in
+#### in
 - lista de posibles valores a reemplazar
 - separados por comas
 

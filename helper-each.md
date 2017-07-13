@@ -8,7 +8,7 @@
 
 ## Parámetros
 
-##### limit (#)
+#### limit (#)
 - con esta opción es posible limitar la cantidad de registros a desplegar.
 
 ## Ejemplo:

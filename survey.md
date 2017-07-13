@@ -3,88 +3,88 @@
 - **Nota: por el momento el audio unicamente funciona en "Google Chrome".**
 
 ## Parámetros
-##### id
+#### id
 - identificador de la encuesta
 
-##### type
+#### type
 - `oral` encuesta oral.
 
-##### source
+#### source
 - tipo de documento que contiene la encuesta a aplicar.
 
-##### vista
+#### vista
 - vista del tipo documento que contiene la encuesta a aplicar.
 - necesitamos mapear mínimo el nombre y las preguntas.
 
-##### width
+#### width
 - ancho de la ventana de la encuesta
 - puede ser en pixeles o en porcentaje
 
-##### height
+#### height
 - alto de la ventana de la encuesta
 - puede ser en pixeles o en porcentaje
 
-##### itemHeight
+#### itemHeight
 - alto del espacio para cada pregunta 
 - puede ser en pixeles o en porcentaje
 
-##### itemTemplate
+#### itemTemplate
 - [template](template.md) a mostrar para cada pregunta.
 - el contexto es el de cada pregunta de la vista.
 - adicionalmente se agregan los campos calculados por `itemMap` ademas de: `_index`, `_length` y `_position`.
 
-##### title
+#### title
 - título a mostrar en la ventana.
 
-##### showTitle (true, false)
+#### showTitle (true, false)
 - es posible controlar si se muestra o no el título.
 - por omisión es `true`.
 
-##### loop (true, false)
+#### loop (true, false)
 - con esta opción el cuestionario cicla, hasta que el usuario cierra la ventana.
 - por omisión es `false`.
 
-##### animationEnabled (true, false)
+#### animationEnabled (true, false)
 - genera una animación al momento de cambiar la pregunta del cuestionario.
 - por omisión es `true`.
 
-##### swipeEnabled (true, false)
+#### swipeEnabled (true, false)
 - permite que el usuario cambie las preguntas al hacer un swipe (touch).
 - por omisión es `false`.
 
-##### closeOnBackButton (true, false)
+#### closeOnBackButton (true, false)
 - se cierra el cuestionario al oprimir el botón de regresar.
 - por omisión es `false`.
 
-##### closeOnOutsideClick (true, false)
+#### closeOnOutsideClick (true, false)
 - se cierra el cuestionario al hacer un click fuera del cuestionario.
 - por omisión es `false`.
 
-##### showCloseButton (true, false)
+#### showCloseButton (true, false)
 - muestra un botón para cerrar manualmente el cuestionario.
 - por omisión es `false`.
 
 ## Sub objetos
 
-##### [param](param.md)
+#### [param](param.md)
 - para mandar parámetros a la vista.
 
-##### [map](set.md)
+#### [map](set.md)
 - es necesario mapear: `name`y `items`.
 
-##### [itemMap](set.md)
+#### [itemMap](set.md)
 - es necesario mapear: `isQuestion`, `isFirst` y `isLast`.
 
-##### [onChange](on-change.md)
+#### [onChange](on-change.md)
 - dispara el evento cuando cambia un `item`.
 
-##### [onPlay](on-play.md)
+#### [onPlay](on-play.md)
 - dispara el evento cuando inicia la reproducción del audio.
 
-##### [onRecord](on-record.md)
+#### [onRecord](on-record.md)
 - dispara el evento cuando inicia la grabación.
 
-##### [onEnd](on-end.md)
+#### [onEnd](on-end.md)
 - dispara el evento al terminar la encuesta.
 
 ## Ejemplo

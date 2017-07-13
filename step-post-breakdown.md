@@ -2,18 +2,18 @@
 - se define el prorrateo a generar
 
 ## Parámetros
-##### type
+#### type
 - `manual` prorrateo automático entre la cantidad de elementos del arreglo (por omisión)
 - `div` prorrateo sobre una cantidad especifica.
 - `inc-`[time](time.md) para incrementar una fecha en la unidad de tiempo seleccionada.
 - `dec-`[time](time.md) para decrementar una fecha en la unidad de tiempo seleccionada.
 
-##### value
+#### value
 - es el arreglo a recorrer.
 
 ## Sub objetos
 
-##### [set](set.md)
+#### [set](set.md)
 - campo a afectar.
 
 ## Ejemplo:

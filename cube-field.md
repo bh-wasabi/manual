@@ -3,45 +3,45 @@
 - column, row, count, sum, avg, min y max.
 
 ## Parámetros
-##### field
+#### field
 - identificador del campo de la vista
 
-##### label
+#### label
 - etiqueta a desplegar, por omisión toma la del campo
 
-##### width
+#### width
 - ancho de la columna, por omisión toma la del campo
 
-##### format
+#### format
 - formato a usar, por omisión toma el [formato](format.md) del campo
 
-##### value
+#### value
 - es posible modificar el valor a desplegar, pudiendo usar una [expresión](expr.md), por ejemplo: `value="=color.toUpperCase()"`.
 
-##### preset
+#### preset
 - es posible indicar el nombre de un `preset` y en lugar de presentar el valor, se va a presentar el nombre.
 - unicamente aplica a `column` y `row`.
 
-##### hide (true, false)
+#### hide (true, false)
 - oculta el campo
 
-##### sortOrder
+#### sortOrder
 - `desc` orden descendente
 - `asc` orden ascendente
 
-##### expanded (true, false)
+#### expanded (true, false)
 - abre el cubo con este campo expandido.
 
-##### displayFolder
+#### displayFolder
 - sirve para agrupar varios campos y al momento de seleccionar los campos a presentar aparecen como sub campos de esta carpeta virtual.
 
-##### showTotals (true, false)
+#### showTotals (true, false)
 - podemos controlar si queremos el cubo totalize por esta dimensión.
 
-##### showGrandTotals (true, false)
+#### showGrandTotals (true, false)
 - podemos controlar el gran total de esa dimensión.
 
-##### groupInterval
+#### groupInterval
 - sirve para dividir un campo en partes, por ejemplo en la fecha podemos controlar el año, mes y día, por ejemplo:
 
 `````

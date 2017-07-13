@@ -2,16 +2,16 @@
 - diseño HTML de la presentación preliminar de un documento para efectos de impresión.
 
 ## Parámetros
-##### id
+#### id
 - identificador del reporte
 
 ## Sub objetos
 
-##### row
+#### row
 - imprime un renglón del reporte
 
-##### record
+#### record
 - imprime en forma de objeto.
 
-##### table
+#### table
 - imprime en forma de tabla.

@@ -3,10 +3,10 @@
 - los parametros se usan con el prefijo $.
 
 ## Parámetros
-##### query
+#### query
 - puede ser a multiples líneas para tener mayor claridad, hay que incluir los parámetros en la misma sentencia.
 
-##### call
+#### call
 - nombre del stored procedure con sus parametros.
 
 ## Ejemplos:

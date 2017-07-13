@@ -5,11 +5,11 @@
 - no tiene
 
 ## Parámetros
-##### class
+#### class
 - clases CSS a utilizar
 - se pueden agregar multiples clases separadas por espacio.
 
-##### align
+#### align
 - `left`
 - `right`
 - `center`

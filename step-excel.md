@@ -33,51 +33,51 @@ por ejemplo:
 ````
 
 ## Parámetros
-##### type
+#### type
 - `url`
 - `local`
 - `s3`
 
-##### url
+#### url
 - en el caso del tipo `url` aquí se especifica la `url` donde se encuentra el archivo `.xls`.
 
-##### bucket
+#### bucket
 - en el caso de s3
 - cubeta donde se encuentra el archivo a recalcular.
 
-##### path
+#### path
 - en el caso de s3
 - ruta adicional
 
-##### fileName
+#### fileName
 - ruta y nombre del archivo `.xls`.
 - en el caso de s3, es sobre un bucket de uso interno.
 
-##### headers
+#### headers
 - se indica la primera celda donde inicia el encabezado, por omisión es `A1`.
 
-##### pages
+#### pages
 - se indica los nombres de las páginas que deseamos obtener (separados por comas).
 
-##### outputType
+#### outputType
 - `memory` por omisión se devuelve el resultado al proceso
 - `s3` se guarda en una ruta de `s3`.
 
-##### outputBucket
+#### outputBucket
 - por omisión es el mismo bucket
 
-##### outputPath
+#### outputPath
 - ruta opcional sobre s3.
 
-##### outputFileName
+#### outputFileName
 - en el caso de `outputType="s3"` nombre del archivo
 - es importante incluir la extensión del archivo (xls, xlsx o xlsm)
 
 ## Sub objetos
 - puede ser cualquiera de los objetos del [step](step.md) del flujo de trabajo.
 
-##### [params](step-excel-params.md)
+#### [params](step-excel-params.md)
 - la forma como se mandan los parámetros es un poco especial por eso tiene un objeto diferente.
 
-##### [input](step-excel-input.md)
+#### [input](step-excel-input.md)
 - otra forma de pasar los parámetros seleccionado 

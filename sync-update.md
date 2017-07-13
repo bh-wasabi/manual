@@ -6,12 +6,12 @@
 
 ## Sub objetos
 
-##### where
+#### where
 - campos llaves de la tabla.
 - tipo campo="valor", puede ser multiple y el valor puede tener [expresiones](expr.md).
 - Nota: hay que tener mucho cuidado para no actualizar cosas que no corresponde.
 
-##### set
+#### set
 - aquí vamos a actualizar los campos de la tabla parados en la sección del documento, las llaves que vamos a indicar son los nombres de los campos de la tabla SQL y los valores salen de la sección del documento.
 - tipo campo="valor", puede ser multiple y el valor puede tener [expresiones](expr.md).
 
