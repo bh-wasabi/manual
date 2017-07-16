@@ -43,6 +43,18 @@
 #### compactValues (true, false)
 - en el caso de una sola serie, con esta opción se eliminan los datos vacíos o nulos.
 
+#### saveImage (true, false)
+- guarda la gráfica en el documento
+- esto sirve para poder imprimir en PDF la gráfica
+
+#### imageWidth (#)
+- ancho de la gráfica guardada en pixeles
+- por omisión es 500
+
+#### imageHeight (#)
+- alto de la gráfica guardada en pixeles
+- por omisión es 500
+
 ## Sub objetos
 
 #### [legend](chart-legend.md)

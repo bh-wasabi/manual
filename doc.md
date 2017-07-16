@@ -177,6 +177,9 @@ Nota: cuando la sección es tipo objeto se actualizan únicamente los campos afe
 - `Lato`
 - `Roboto`
 
+#### pdfUseImagePlaceHolder (true, false)
+- usa una imágen por omisión en los espacios vacíos.
+
 #### formDefaultFont
 - `Comic`
 - `OpenSans`
