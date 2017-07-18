@@ -46,6 +46,7 @@
 #### saveImage (true, false)
 - guarda la gráfica en el documento
 - esto sirve para poder imprimir en PDF la gráfica
+- esto tiene algunas restricciones, y por el momento funciona únicamente al guardar el documento y se tienen que visitar previamente las secciones donde hay gráficos.
 
 #### imageWidth (#)
 - ancho de la gráfica guardada en pixeles
