@@ -42,10 +42,27 @@
 #### height
 - alto del mapa a mostrar
 - puede ser en pixeles o en porcentaje.
+- en la vista del mes es necesario especificar el alto en pixeles.
 
 #### width
 - ancho del mapa a mostrar
 - puede ser en pixeles o en porcentaje.
+
+#### useDropDownViewSwitcher (true, false)
+- otra forma de presentar el menú para cambiar de vista.
+
+#### multiResources (true, false)
+- permite mostrar una agenda con multiples recursos al mismo tiempo
+- la vista debe regresar una lista de recursos, cada uno con su agenda.
+
+#### resourceLabel
+- nombre del recurso
+
+#### resourceName
+- campo que contiene el nombre del recurso
+
+#### resourceColor
+- campo que contiene el color del recurso
 
 ## Ejemplo
 Sección del documento con la agenda:
