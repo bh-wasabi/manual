@@ -55,3 +55,4 @@
 #### [comment](helper-comment.md)
 #### [video](helper-video.md)
 #### [audio](helper-audio.md)
+#### [image](helper-image.md)
