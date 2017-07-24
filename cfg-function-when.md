@@ -8,7 +8,8 @@
 - es posible analizar uno o varios parámetros directamente, para tener una sintaxis mas simple.
 - si hay varios parámetros juntos todos se consideran `and`.
 - los valores pueden contener operadores `=`, `<`, `>`, `<=`, `>=`, `<>`.
-- también es posible separar valores por comas y checar en una lista o un arreglo directamente.
+- es posible separar valores por comas y checar en una lista o un arreglo directamente.
+- es posible definir un rango numérico, por ejemplo `100..200`.
 - puede ser una expresión.
 
 #### return

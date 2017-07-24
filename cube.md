@@ -2,6 +2,15 @@
 - despliega un cubo en el explorador
 
 ## Parámetros
+#### section
+- la gráfica puede basarse en una sección del documento.
+
+#### view
+- vista de donde sale la información
+
+#### source
+- si la fuente de la vista es diferente
+
 #### allowSorting (true, false)
 - le permite al usuario cambiar el orden sobre las dimensiones.
 
