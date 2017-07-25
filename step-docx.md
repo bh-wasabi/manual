@@ -10,7 +10,7 @@
 - puede ser una expresión.
 
 #### outputFilePath
-- ruta donde se almacena el resultado.
+- ruta donde se almacena el resultado en s3.
 - puede ser una expresión.
 
 ## Ejemplo:

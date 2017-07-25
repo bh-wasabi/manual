@@ -34,8 +34,11 @@
 - puede ser una lista separada por comas.
 
 #### href (url)
-- interna (ej: `/browser/empresa/lista`)
+- interna (ej: `/browser/empresa/lista`), si es una ruta interna la hace en la misma sesión que esta corriendo.
 - externa (ej: `http://google.com`)
+
+#### redirect (url)
+- forza el navegador a visitar la url interna o externa.
 
 #### post (url)
 - ejecuta un ajax post a la url que se indique
