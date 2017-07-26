@@ -24,3 +24,5 @@
 - ruta donde se almacena el resultado en Dropbox.
 - puede ser una expresión.
 
+#### condition
+- con esta opción es posible condicionar la acción.

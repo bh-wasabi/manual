@@ -33,6 +33,9 @@
 - identificador del template a usar
 - es posible agregar parámetros al template.
 
+#### condition
+- con esta opción es posible condicionar la acción.
+
 ## Sub objetos
 #### [attach](step-email-attach.md)
 - permite anexar archivos adicionales.

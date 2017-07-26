@@ -13,6 +13,9 @@
 - ruta donde se almacena el resultado en s3.
 - puede ser una expresión.
 
+#### condition
+- con esta opción es posible condicionar la acción.
+
 ## Ejemplo:
 ````
 {{docx inputFilePath="plantillas/contrato.docx" outputFilePath="'docs/'+base.nombre+'.docx'"}}

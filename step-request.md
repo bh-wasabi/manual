@@ -20,7 +20,7 @@
 - el bucket es de uso interno.
 
 #### sourceType
-- `json` se parsea el resultado como JSON.
+- `json` se parsea el resultado como JSON (por omisión).
 - `xml` se parsea el resultado como XML.
 - `raw` no se parsea.
 
