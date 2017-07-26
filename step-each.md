@@ -13,6 +13,12 @@
 #### index
 - nombre de la variable donde vamos a almacenar el indice actual del arreglo.
 
+#### inParallel (true, false)
+- ejecuta las acciones en paralelo.
+- en algunos casos puede aumentar la velocidad de procesamiento considerablemente.
+- hay que tener cuidado con mandar lotes muy grandes.
+- Nota: si se usa el `as` genera una nueva instancia a partir de este punto.
+
 ## Sub objetos
 - puede ser cualquiera de los objetos del [step](step.md) del flujo de trabajo.
 

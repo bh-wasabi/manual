@@ -29,6 +29,11 @@
 
 #### transformBody
 - se puede generar una [transformación](transform.md) previa del documento actual y así poder mandar el `body` del `request` con otra estructura.
+- puede ser una expresión.
+
+#### transformResponse
+- se puede generar una [transformación](transform.md) del body obtenido en el request.
+- puede ser una expresión.
 
 #### ignorePrefixes
 - con esta opción es posible eliminar prefijos de los nodos, del documento recibido.
