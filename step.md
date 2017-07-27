@@ -40,6 +40,8 @@
 
 #### [find](step-find.md)
 
+#### [findOne](step-findOne.md)
+
 #### [sql](step-sql.md)
 
 #### [excel](step-excel.md)
