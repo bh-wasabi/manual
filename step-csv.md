@@ -7,7 +7,6 @@
 - por omisión toma el contexto de la acción anterior, por ejemplo: [sql](step-sql.md), [request](step-request.md), [find](step-find.md), etc.
 - puede ser una expresión.
 
-
 #### fields
 - campos a seleccionar del arreglo.
 - lista separada por comas.

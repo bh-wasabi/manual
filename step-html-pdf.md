@@ -60,6 +60,10 @@
 - `portrait` por omisión.
 - `landscape`
 
+#### context
+- es posible cambiar el contexto a usar en el reporte.
+- por omisión toma el documento actual.
+
 ## Sub objetos
 #### param
 - es posible pasar parámetros adicionales al `template`. 

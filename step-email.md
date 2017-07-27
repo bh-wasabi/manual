@@ -36,6 +36,10 @@
 #### condition
 - con esta opción es posible condicionar la acción.
 
+#### context
+- es posible cambiar el contexto a usar en el reporte.
+- por omisión toma el documento actual.
+
 ## Sub objetos
 #### [attach](step-email-attach.md)
 - permite anexar archivos adicionales.
