@@ -6,6 +6,7 @@
 ## Parámetros
 #### report
 - identificador del reporte a utilizar.
+- puede ser una expresión.
 
 #### s3FilePath
 - ruta donde se va almacenar el archivo PDF.

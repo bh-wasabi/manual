@@ -19,6 +19,9 @@
 - hay que tener cuidado con mandar lotes muy grandes.
 - Nota: si se usa el `as` genera una nueva instancia a partir de este punto.
 
+#### isDropboxBatch (true, false)
+
+
 ## Sub objetos
 - puede ser cualquiera de los objetos del [step](step.md) del flujo de trabajo.
 
