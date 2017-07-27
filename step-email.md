@@ -8,8 +8,8 @@
 
 #### from
 - emisor
-- puede ser una [expresión](expr.md).
 - lo puede leer del perfil.
+- puede ser una [expresión](expr.md).
 
 #### to
 - destinatario
@@ -32,6 +32,7 @@
 #### template
 - identificador del template a usar
 - es posible agregar parámetros al template.
+- puede ser una [expresión](expr.md).
 
 #### condition
 - con esta opción es posible condicionar la acción.
