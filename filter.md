@@ -37,3 +37,6 @@
 
 #### or (true, false)
 - con esto es posible generar condiciones de tipo `or` sobre un mismo campo, por omisión son de tipo `and`.
+
+#### isObjectId (true, false)
+- convierte el valor a ObjectId de mongodb.
