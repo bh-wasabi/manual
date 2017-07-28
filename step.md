@@ -78,3 +78,5 @@
 
 #### [csv](step-csv.md)
 
+#### [stockQuote](step-stockQuote)
+
