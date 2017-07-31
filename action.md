@@ -142,6 +142,9 @@
 #### [param](param.md)
 - si la acción es `type="post"` es posible pasar parámetros.
 
+#### [attachType](attachType.md)
+- si la acción es `type="attach"` es posible definir el tipo de documento.
+
 ## Ejemplo geocomplete
 ````
 {{#action id="cliente-direccion" hide="true" type="geocomplete" county="mx" center="23.634501,-102.552784"}}
