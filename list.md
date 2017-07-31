@@ -32,19 +32,24 @@
 #### allowChangeProyect (true, false)
 - permite cambiar de proyecto.
 
-#### proyectLabel
-- es posible cambiar la etiqueta del botón de "Proyecto".
-
 #### items
 - si la lista se va usar dentro de un documento como widget, es necesario especificar la sección del documento que contiene la lista (debe ser tipo arreglo).
 
 #### selectItem (#)
 - es posible presentar la lista (como widget), indicando en que posición queremos que se posiciona.
 
+#### autoRefresh (#)
+- segundos para auto refrescar lista.
+- se vuelve a iniciar el cronómetro cuando se abre un documento.
+- si el documento esta en modo edición se detiene cronómetro y se vuelve iniciar cuando se guarda o cancela los cambios.
+
 ## Sub objetos
 
 #### [insert](list-insert.md)
 - es posible especificar mas opciones al insertar un documento.
+
+#### [proyect](list-proyect.md)
+- es posible especificar mas opciones del botón para cambiar de proyecto.
 
 #### [insertLot](list-insert-lot.md)
 - con esta opción es posible insertar documentos en lote.

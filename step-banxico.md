@@ -1,10 +1,7 @@
-# Objeto: **stockQuote** (step)
+# Objeto: **banxico** (step)
 - obtiene un valor externo
 
 ## Parámetros
-#### source
-- `banxico` Banco de México
-
 #### id
 - identificador del símbolo, dependido de la fuente del mismo.
 
@@ -31,12 +28,12 @@
 
 # Ejemplo:
 ````
-{{#stockQuote source="banxico" id="dolar-fix" as="_quote"}}
+{{#banxico id="dolar-fix" as="_quote"}}
   {{log id="banxico" quote="_quote"}}
-{{/stockQuote}}
+{{/banxico}}
 ````
 
 regresa:
 ````
-{"id":"dolar-fix", "source":"banxico", "symbol":"SF43718", "value":17.6886, "date":"2017-07-27"}
+{"id":"dolar-fix", "code":"SF43718", "value":17.6886, "date":"2017-07-27"}
 ````
