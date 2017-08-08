@@ -228,6 +228,9 @@ Nota: cuando la sección es tipo objeto se actualizan únicamente los campos afe
 #### [centralView](centralView.md)
 - esto muy útil cuando se quiere re-utilizar una misma vista en varios `widgets` y así evitar consultar innecesarias.
 
+#### [show](show.md)
+- es posible publicar abiertamente información HTML usando templates y vistas.
+
 #### [browser](browser.md)
 - aquí se define la presentación que necesitamos para que el usuario pueda ver una vista.
 

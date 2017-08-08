@@ -68,3 +68,6 @@
 #### [union](view-union.md)
 - es posible unir los resultados con otros documentos y crear un resultado de múltiples fuentes.
 - esto une los resultados.
+
+#### [outerJoin](view-outerJoin.md)
+- es posible unir el resultado de la vista con un preset y así poder obtener todos los registros del preset, junto con el documento que le corresponde.

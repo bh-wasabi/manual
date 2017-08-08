@@ -38,6 +38,10 @@
 #### ignorePrefixes
 - con esta opción es posible eliminar prefijos de los nodos, del documento recibido.
 
+#### copyToDropboxFilePath
+- copia el resultado a esta ruta del Dropbox vinculado.
+- puede ser una expresión.
+
 ## Sub objetos
 - puede ser cualquiera de los objetos del [step](step.md) del flujo de trabajo.
 

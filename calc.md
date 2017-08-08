@@ -71,8 +71,10 @@
 #### sha1 (texto)
 - genera un hash. 
 
-#### expireColor (fecha)
+#### expireColor (fecha, cantidad, unidad)
 - devuelve el los colores `green`, `yellow`, `red` o `grey`, en base al vencimiento de la fecha.
+- en el momento que esta vencido sale en rojo.
+- es posible controlar el periodo amarillo con (cantidad y unidad), por omisión es `cantidad=1`, `unidad=d`, es decir el ultimo día aparece en amarillo el color.
 
 #### map (arreglo, expr)
 - recorre un arreglo y evalúa la expresión para cada elemento del arreglo.
@@ -193,9 +195,14 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 - obtiene un valor de un objeto
 - la referencia es la llave pero puede contener sub campos separados con punto, por ejemplo: `getRef({base: {nombre: 'hola'}}, 'base.nombre')` va a devolver `hola`.
 
-#### reconcilePreset (preset, lista, listaCampo, filtro, nombreCampo)
+#### reconcilePreset (preset, lista, listaCampo, filtro, nombreCampo, camposCopiar)
 - concilia un preset con una lista especifica.
 - listaCampo es el nombre del campo que contiene el `id` en la lista.
 - el filtro usa la sintaxis "campo=valor&campo2=valor2" (opcional).
 - regresa la lista conciliada con el nombre del campo especifico, por omisión es `exists`.
+- es posible poner una lista de campos separadas por comas de campos adicionales a copiar.
 - por ejemplo: `reconcilePreset('app.tipoAdjunto', [{id: 'foto'}], 'id')`
+
+#### getHost ()
+- devuelve el host donde esta corriendo la página
+- por ejemplo: `https://demo.com`
