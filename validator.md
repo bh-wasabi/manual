@@ -53,3 +53,5 @@
 - puede ser una expresión.
 - es recomendable usar la propiedad `id` para identificar la validación.
 
+#### isWarning (true, false)
+- en el caso de validaciones tipo `expr`, es posible mostrar únicamente una advertencia en caso de error.

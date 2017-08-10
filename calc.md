@@ -59,6 +59,9 @@
 #### rfcOk (rfc)
 - valida que el `rfc` tenga el formato correcto.
 
+#### rfcPhysicalPerson (nombre, apellidoPaterno, apellidoMaterno, fechaNacimiento)
+- calcula el RFC de la persona Física.
+
 #### parse (texto)
 - convierte un texto JSON a objeto.
 
