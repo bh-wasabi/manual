@@ -20,6 +20,7 @@
 - `cube-view-preferences` abre la ventana para configurar las vistas del cubo.
 - `cube-view-save` permite guardar la vista actual del cubro.
 - `dash-filters` si la vista es de tipo `dynamicView` con este tipo invocamos al editor de parámetros de la vista dinámica.
+- `report` genera un reporte PDF (únicamente funciona sobre `_app`)
 
 #### icon
 - nombre del icono a desplegar.
@@ -50,10 +51,19 @@
 - si es una url externa con esta opción abre un nuevo `tab` en el `browser`.
 
 #### source
-- cuando es `type="dash-filters"` o `type="doc-edit"` es posible ligarlo a una fuente de otro documento.
+- cuando es `type="dash-filters"`, `type="doc-edit"` o `type="report"` es posible ligarlo a una fuente de otro documento.
 
 #### view
 - cuando es `type="dash-filters"` aquí podemos definir la vista de la fuente.
+
+#### report
+- identificador del reporte.
+- cuando es `type="report"`.
+- únicamente funciona con el tipo de documento _app, `source="_app"`.
+
+#### fileName
+- nombre del archivo a generar 
+- cuando es `type="report"`
 
 ## Sub objetos
 

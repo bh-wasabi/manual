@@ -34,6 +34,9 @@
 - el si se indica `format="pesos"` convierte un importe a texto.
 - el si se indica `format="phone334"` formatea un teléfono de 10 dígitos.
 
+#### saveFormat
+- en el caso de las fechas es posible definir el formato al guardar.
+
 #### value
 - en el caso de campos calculados `calc` y expresiones `expr`, aquí se asigna la [expresión](expr.md) que se usa para calcular el valor.
 - en el caso de agregaciones `sum`, `avg`, `min` y `max` aquí se define el campo a utilizar, es necesario indicar también la sección `section` donde esta el campo.
