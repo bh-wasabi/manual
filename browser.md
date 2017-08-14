@@ -29,6 +29,9 @@
 #### mobile
 - identificador del documento móvil a mostrar.
 
+#### source
+- con esta opción es posible definir un tipo de documento diferente del actual.
+
 #### view
 - [vista](view.md) a utilizar en este explorador.
 
@@ -60,6 +63,16 @@
 
 #### showDoc (true, false)
 - con esta opción podemos mostrar los detalles del documento anexo.
+
+#### docId
+- es posible especificar donde esta el `id` del documento a abrir.
+- por omisión es `_id`
+- puede ser una expresión.
+
+#### docType
+- es posible especificar donde esta el `type` del documento a abrir.
+- por omisión es `_type`
+- puede ser una expresión.
 
 #### docPosition (%)
 - se define el porcentaje de pantalla que va ocupar el documento por omisión.
