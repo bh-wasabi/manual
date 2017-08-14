@@ -62,8 +62,9 @@
 - únicamente funciona con el tipo de documento _app, `source="_app"`.
 
 #### fileName
-- nombre del archivo a generar 
-- cuando es `type="report"`
+- es posible cambiar nombre del archivo a generar
+- aplica cuando es `type="report"`
+- por omisión es el nombre del menú
 
 ## Sub objetos
 

@@ -51,5 +51,8 @@
 #### [proyect](list-proyect.md)
 - es posible especificar mas opciones del botón para cambiar de proyecto.
 
+#### [action](list-action.md)
+- es posible especificar un menú adicional sobre la lista.
+
 #### [insertLot](list-insert-lot.md)
 - con esta opción es posible insertar documentos en lote.
