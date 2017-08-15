@@ -85,6 +85,10 @@
 
 ## Sub objetos
 
+#### [param](param.md)
+- es posible definir parámetros de que se pueden usar en la vista o documento como valores por omisión.
+- puede ser una expresión.
+
 #### [list](list.md)
 - aquí mismo podemos definir la lista a usar.
 - presentación del explorador tipo lista.
