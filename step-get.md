@@ -8,6 +8,7 @@
 
 #### id
 - identificador del documento
+- puede ser una expresión.
 
 #### ignorePrefixes
 - con esta opción es posible eliminar prefijos de los nodos, del documento recibido.

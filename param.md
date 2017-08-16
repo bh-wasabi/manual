@@ -14,6 +14,10 @@
 #### format
 - es posible aplicar un formato antes de generar el parámetro
 
+#### preset
+- es posible especificar a que preset corresponde el valor a asignar.
+- se genera automáticamente el nombre.
+
 ## Ejemplos
 
 - parámetros unitarios
