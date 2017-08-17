@@ -1,4 +1,4 @@
-# Objeto: **updateCollection**
+# Objeto: **upsertCollection**
 - actualiza directamente un documento en una colección especifica.
 
 ## Parámetros
@@ -10,12 +10,16 @@
 #### id
 - id del documento a modificar
 - puede ser una expresión.
+- si el id viene vacío ejecuta `insert`.
 
 ## Sub objetos
 
 #### [update](step-update-collection-update.md)
 - define la sección del documento a modificar.
 
+#### [create](step-upsert-collection-create.md)
+- define la sección del documento a insertar.
+
 ## Nota
 - cuando se ejecuta `update` no efectúa recálculos, ya que actualiza únicamente los campos que cambian.
-- si no existe el documento, no hace nada.
+- cuando se ejecuta `insert` si genera todos los campos por omisión y recálculos.

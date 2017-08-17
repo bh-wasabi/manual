@@ -150,3 +150,7 @@ Ejemplo:
 
 #### [onChange](on-change.md)
 - se pueden configurar un evento cuando el campo cambia de valor.
+
+#### [style](style.md)
+- es posible cambiar algunas cosas adicionales de diseño.
+- esta opción actualmente funciona únicamente en formas PDF.

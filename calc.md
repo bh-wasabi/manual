@@ -19,6 +19,12 @@
 - concatena varios valores, por omisión agrega un espacio entre los valores.
 - es posible agregar comas para separar estos valores, por ejemplo: `calc.concat(@apellidoPaterno,',', @nombre)`. genera "Perez, Juan".
 
+#### toArray (valor1, valor2, valorN)
+- convierte los parámetros a un arreglo.
+
+#### repeat (valor, veces)
+- genera un texto con el texto repetido la veces indicadas.
+
 #### number (valor)
 - forza el resultado como numérico.
 

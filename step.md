@@ -32,6 +32,8 @@
 
 #### [updateCollection](step-update-collection.md)
 
+#### [upsertCollection](step-upsert-collection.md)
+
 #### [insert](step-insert.md)
 
 #### [request](step-request.md)
