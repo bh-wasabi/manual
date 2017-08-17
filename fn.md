@@ -7,7 +7,7 @@
 - identificador de la función
 
 ## Sub objetos
-#### [define](define.md)
+#### [define](fn-define.md)
 - define un parámetro de la función.
 
 #### [default](default.md)
