@@ -16,6 +16,7 @@
 #### role
 - el rol del usuario al que se le va asignar la tarea.
 - es importante configurar correctamente `_user.hbs` para que tenga el control por roles.
+- debe ser un usuario con estatus activo.
 - puede ser una expresión.
 
 #### division
