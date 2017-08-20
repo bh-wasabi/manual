@@ -16,6 +16,12 @@
 #### role
 - el rol del usuario al que se le va asignar la tarea.
 - es importante configurar correctamente `_user.hbs` para que tenga el control por roles.
+- puede ser una expresión.
+
+#### division
+- la división del usuario al que se le va asignar la tarea.
+- es importante configurar correctamente `_user.hbs` para que tenga divisiones.
+- puede ser una expresión.
 
 #### duration
 - el tiempo en el que expira la tarea.
