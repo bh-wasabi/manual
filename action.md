@@ -114,6 +114,9 @@
 - titulo de la confirmación.
 - puede ser una [expresión](expr.md).
 
+#### validateSections (true, false)
+- valida las secciones antes de ejecutar la acción.
+
 #### sendDeviceDataId
 - envia deviceDataId al servidor, si la acción el tipo es `affect`, `affect-direct` y `post`.
 - esto sirve para poder hacer los cargos automáticos a las tarjetas de crédito.
