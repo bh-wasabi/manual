@@ -21,6 +21,10 @@
 
 #### templateExistingUsers
 - es posible cambiar de template para cuando son usuarios existentes.
+- por omisión usa el `template`.
+
+#### alwaysResetPassword (true, false)
+- con esta opción siempre se genera una nueva contraseña y le pide al usuario que la cambie.
 
 ## Sub objetos
 
