@@ -34,7 +34,7 @@
 - es posible tener multiples filtros separados por el símbolo `&`.
 
 #### removeEmptyCols (true, false)
-- elimina las columnas que no tienen datos automaticamente.
+- elimina las columnas que no tienen datos automáticamente.
 
 #### checkList (true, false)
 - permite cambiar la clase el en la tabla dependiendo del valor de un campo.
