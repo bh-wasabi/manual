@@ -18,6 +18,7 @@
 
 #### beforeStart (true, false)
 - se recalcula la sección al abrir el documento, siempre.
+- es mejor que sean temp="true" este tipo de secciones.
 
 #### isOpenPayCard (true, false)
 - para definir si la sección es para capturar una tarjeta de crédito con OpenPay

@@ -15,9 +15,11 @@
 #### startHref
 - es posible que inicie el menú directamente en una opción.
 - opcional
+- puede ser una expresión 
 
 #### startName
 - si se usa la opción `startHref` aquí debemos indicar el nombre a mostrar.
+- puede ser una expresión 
 
 #### text
 - texto a desplegar
