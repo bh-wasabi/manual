@@ -60,6 +60,7 @@ Ejemplo:
 #### if
 - con esta opción es posible condicionar la visibilidad el campo.
 - genera un [facilitador if](helper-if.md) automáticamente, que se evalúa el contexto al momento de ejecución de la página.
+- Nota: no se pueden poner expresiones aquí, lo que se puede es tener un campo calculado con la expresión necesario y aquí evaluar el campo.
 
 #### isRules (true, false)
 - se le indica al campo donde vienen las reglas que vamos a usar en el calculo.
