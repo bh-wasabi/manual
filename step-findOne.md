@@ -1,4 +1,4 @@
-# Objeto: **get** (step)
+# Objeto: **findOne** (step)
 - obtiene el primer documento de una colección y filtros específicos.
 
 ## Parámetros

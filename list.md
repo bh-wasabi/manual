@@ -15,6 +15,7 @@
 
 #### allowInsert (true, false)
 - permite agregar nuevos documento a la colección
+- puede ser una expresión.
 
 #### allowInsertLot (true, false)
 - permite agregar nuevos documento a la colección en [lote](insert-lot.md).
