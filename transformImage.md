@@ -9,9 +9,9 @@
 - `fit`
 - `limit`
 - `mfit`
-- `paf`
-- `lpaf`
-- `mpaf`
+- `pad`
+- `lpad`
+- `mpad`
 - `crop`
 - `thumb`
 - `imagga_crop`
