@@ -10,7 +10,7 @@
 - `open` abre el documento para editarlo.
 - `close` guarda los cambios.
 - `affect` guarda y afecta el documento (inicia el flujo de trabajo).
-- `affect-direct` afecta y si es correcto guarda el documento, es útil para cuando se quiere validar un documento, funciona únicamente con flujos de 1 paso.
+- `affect-direct` afecta y si es correcto guarda el documento, es útil para cuando se quiere validar un documento, funciona únicamente con flujos de 1 paso, esta opción no modifica _isAffected="true".
 - `cancel` cancela el documento, inicia un flujo de trabajo.
 - `add` agrega un detalle, abre la ventana modal asignada.
 - `copy` copia el documento.

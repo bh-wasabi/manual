@@ -50,6 +50,11 @@
 - muestra la barra de scroll en el mosaico.
 - por omisión es `false`.
 
+## Sub objetos
+
+#### [transformImage](transformImage.md)
+- transforma la imágen
+
 ## Ejemplo
 ````
 {{tileView id="fotos" section="adjuntos" filter="tipo=foto" itemMargin="20" baseItemHeight="130" baseItemWidth="180" itemTemplate="foto" direction="horizontal"}}

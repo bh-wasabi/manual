@@ -47,3 +47,7 @@
 #### wrapAround (true, false)
 - con esta opción podemos ver en los lados las imagen previa y siguiente.
 
+## Sub objetos
+
+#### [transformImage](transformImage.md)
+- transforma la imágen
