@@ -80,6 +80,10 @@
 #### sha1 (texto)
 - genera un hash. 
 
+#### format (tipo, valor, formato)ç
+- tipo (number/date) 
+- aplica el formato según el tipo de datos del valor.
+
 #### expireColor (fecha, cantidad, unidad)
 - devuelve el los colores `green`, `yellow`, `red` o `grey`, en base al vencimiento de la fecha.
 - en el momento que esta vencido sale en rojo.
