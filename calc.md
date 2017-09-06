@@ -219,3 +219,7 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 #### getHost ()
 - devuelve el host donde esta corriendo la página
 - por ejemplo: `https://demo.com`
+
+#### transformImage (url, opciones)
+- url de la imágen a transformar.
+- las opciones deben ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`, son las opciones de [transformImage](transformImage).

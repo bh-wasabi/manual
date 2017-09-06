@@ -20,6 +20,13 @@
 - se recalcula la sección al abrir el documento, siempre.
 - es mejor que sean temp="true" este tipo de secciones.
 
+#### afterAffect (true, false)
+- se actualiza esta sección leyendo de una vista, después de correr spAffect.
+
+#### afterAffectView
+- nombre de la vista a leer.
+- si la vista tiene parámetros hay que usar `param`.
+
 #### isOpenPayCard (true, false)
 - para definir si la sección es para capturar una tarjeta de crédito con OpenPay
 - requiere mapear los campos (`card_number, holder_name, expiration_month, expiration_year, cvv2 y token`).
@@ -71,3 +78,6 @@
 - se pueden agregar una o varias validaciones de captura a nivel sección.
 - unicamente tipo `expr`. 
 
+#### [param](param.md)
+- parámetros 
+- se usa cuando en `afterAffect="true"`

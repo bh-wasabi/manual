@@ -28,6 +28,7 @@
 - `zoom-out` disminuye el `zoom` del contenido del documento.
 - `form-pdf` genera un archivo PDF de la forma.
 - `report-pdf` genera un archivo PDF de un reporte del documento.
+- `image-map` despliega una imágen de fondo.
 
 #### modal
 - identificador de la forma modal a invocar
@@ -135,6 +136,16 @@
 #### fullScreen (true, false)
 - cuando es un sub documento es posible abrirlo en pantalla completa.
 
+#### reload (true, false)
+- forza a recargar el documento al afectar.
+
+#### backgroundImage
+- imagen a desplegar
+- es una ruta del bucket actual de s3.
+
+#### roundedCorners (true, false)
+- en el caso de mapear, es posible redondear las esquinas.
+
 ## Sub objetos
 #### [update](update.md)
 - en algunas acciones es posible cambiar los campos del documento.
@@ -147,6 +158,9 @@
 
 #### [attachType](attachType.md)
 - si la acción es `type="attach"` es posible definir el tipo de documento.
+
+#### [map](action-map.md)
+- si la acción es `type="image-map"` definir las posibilidades.
 
 ## Ejemplo geocomplete
 ````

@@ -24,6 +24,10 @@
 - es importante configurar correctamente `_user.hbs` para que tenga divisiones.
 - puede ser una expresión.
 
+#### userId
+- usuario especifico al que se le asigna la tarea.
+- puede ser una expresión.
+
 #### duration
 - el tiempo en el que expira la tarea.
 - `1d` equivale a 1 día.
