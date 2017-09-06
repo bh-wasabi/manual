@@ -136,15 +136,15 @@
 #### fullScreen (true, false)
 - cuando es un sub documento es posible abrirlo en pantalla completa.
 
-#### reload (true, false)
-- forza a recargar el documento al afectar.
-
 #### backgroundImage
 - imagen a desplegar
 - es una ruta del bucket actual de s3.
 
 #### roundedCorners (true, false)
 - en el caso de mapear, es posible redondear las esquinas.
+
+#### reload (true, false)
+- al afectar es posible volver a cargar el documento completamente.
 
 ## Sub objetos
 #### [update](update.md)
