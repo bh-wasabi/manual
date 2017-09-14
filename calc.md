@@ -80,9 +80,17 @@
 #### sha1 (texto)
 - genera un hash. 
 
-#### format (tipo, valor, formato)ç
+#### format (tipo, valor, formato)
 - tipo (number/date) 
 - aplica el formato según el tipo de datos del valor.
+
+#### split (texto, separador)
+- convierte un text (separado por comas) a un arreglo
+- por omisión el separador es `,`
+
+#### join (arreglo, control)
+- convierte un arreglo a un texto separado por comas
+- el control es un segundo arreglo que nos indica si generar el elemento o no.
 
 #### expireColor (fecha, cantidad, unidad)
 - devuelve el los colores `green`, `yellow`, `red` o `grey`, en base al vencimiento de la fecha.
