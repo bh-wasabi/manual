@@ -90,7 +90,7 @@
 
 #### join (arreglo, control)
 - convierte un arreglo a un texto separado por comas
-- el control es un segundo arreglo que nos indica si generar el elemento o no.
+- el control es un segundo arreglo opcional que nos indica si generar el elemento o no.
 
 #### expireColor (fecha, cantidad, unidad)
 - devuelve el los colores `green`, `yellow`, `red` o `grey`, en base al vencimiento de la fecha.
