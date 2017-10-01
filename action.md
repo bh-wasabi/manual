@@ -29,7 +29,8 @@
 - `form-pdf` genera un archivo PDF de la forma.
 - `report-pdf` genera un archivo PDF de un reporte del documento.
 - `image-map` despliega una imágen de fondo.
-
+- `link` genera un vínculo.
+ 
 #### modal
 - identificador de la forma modal a invocar
 
@@ -85,6 +86,7 @@
 
 #### workflow
 - flujo de trabajo a afectar.
+- puede ser una [expresión](expr.md).
 
 #### message
 - mensaje a desplegar al iniciar el flujo de trabajo.
@@ -161,6 +163,9 @@
 
 #### [map](action-map.md)
 - si la acción es `type="image-map"` definir las posibilidades.
+
+#### [link](action-link.md)
+- si la acción es `type="link"`, es necesario definir algunos parámetros.
 
 ## Ejemplo geocomplete
 ````

@@ -44,6 +44,9 @@
 #### [calc](view-calc.md)
 - se pueden agregar campos calculados adicionales, que se calculan sobre el resultado de la consulta.
 
+#### [acum](view-acum.md)
+- se pueden agregar campos calculados acumulados.
+
 #### [pivot](view-pivot.md)
 - es posible pivotear los resultados de la vista para generar un reporte matricial.
 

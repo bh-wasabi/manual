@@ -181,6 +181,7 @@ basados en las configuración:
 
 #### display
 - campo que contiene el nombre a desplegar dentro de la lista de opciones, por omisión es `name`.
+- Nota: no es una expresión, tiene que se el nombre del campo directamente, si se quiere una expresión hay que hacerla desde la vista.
 
 #### allowNew
 - con esta opción permite agregar valores nuevos al vuelo.

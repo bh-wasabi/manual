@@ -11,9 +11,11 @@
 
 #### condition
 - con esta opción es posible condicionar la acción.
+- puede ser una [expresión](expr.md).
 
 #### startWorkflow
 - con esta opción es posible iniciar un flujo de trabajo después de insertar el documento.
+- puede ser una [expresión](expr.md).
 
 ## Sub objetos
 #### [create](step-create.md)
