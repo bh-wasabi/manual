@@ -7,12 +7,12 @@
 - vínculo interno o externo a abrir.
 - puede ser una [expresión](expr.md).
 
-#### title
-- título a mostrar al abrir un vínculo.
+#### name
+- nombre a mostrar al abrir un vínculo.
 - puede ser una [expresión](expr.md).
 
-#### newTab
-- define si se abre un nuevo Tab al abrir el vínculo.
+#### title
+- título a mostrar al abrir un vínculo.
 - puede ser una [expresión](expr.md).
 
 ## Sub objetos
