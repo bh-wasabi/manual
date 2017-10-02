@@ -1,4 +1,4 @@
-# Objeto: **link**
+# Objeto: **link** (action)
 - ejecutar un vínculo desde una acción
 
 ## Parámetros
@@ -12,7 +12,7 @@
 - puede ser una [expresión](expr.md).
 
 #### title
-- título a mostrar al abrir un vínculo.
+- título del tab a mostrar al abrir un vínculo.
 - puede ser una [expresión](expr.md).
 
 ## Sub objetos

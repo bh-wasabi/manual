@@ -1,4 +1,4 @@
-# Objeto: **map**
+# Objeto: **map** (action)
 - mapea un parte de la imágen
 
 ## Parámetros
