@@ -8,7 +8,7 @@
 - identificador del parámetro
 
 #### value
-- valor por omsión
+- valor por omisión
 
 #### required (true, false)
 - define si el parámetro es requerido
