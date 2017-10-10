@@ -76,3 +76,6 @@
 
 #### [map](form-map.md)
 - es posible establecer las coordenadas (x, y) a nivel valor del campo (opción).
+
+#### [transformImage](transformImage.md)
+- es posible transformar la imagen a mostrar cuando `isImage="true"`.

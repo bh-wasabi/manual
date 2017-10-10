@@ -67,6 +67,9 @@
 #### btnSolid (true, false)
 - con esta opción es posible forzar a que el botón tenga un fondo solido y no sea transparente.
 
+#### btnFlat (true, false)
+- con esta opción es posible forzar a que el botón sea transparente.
+
 #### country
 - identificador del país
 - esto sirve únicamente en la acción `geocomplete`
