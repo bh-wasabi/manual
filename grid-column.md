@@ -17,6 +17,9 @@
 #### format
 - el formato lo obtiene del campo, aquí también se puede establecer directamente el [formato](format.md).
 
+#### showZeros (true, false)
+- muestra el valor aunque sea cero.
+
 #### hide (true, false)
 - oculta la columna.
 - puede ser una [expresión](expr.md).

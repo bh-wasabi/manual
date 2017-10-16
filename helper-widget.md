@@ -44,6 +44,9 @@
 - funciona unicamente con listas y con `source`.
 - define si es posible abrir el documento que esta ligado al detalle de la lista.
 
+#### refreshWidgets (true, false)
+- refresca los widgets de la forma.
+
 #### label
 - nombre a mostrar sobre el menú de contexto.
 - cuando se tiene un menú de contexto en las listas.
