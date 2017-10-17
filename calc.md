@@ -149,6 +149,18 @@ Sintaxis 2:
 calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 ````
 
+#### pluck (arreglo, llave)
+- genera un nuevo arreglo con las puras llaves.
+
+#### itemsInArray (arreglo1, llave, arreglo2)
+- extrae una sub lista del arreglo1 donde exista la llave (del arreglo1) en en arreglo2
+- el arreglo2 debe ser un arreglo simple.
+
+Ejemplo:
+````
+calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3])
+````
+
 #### taxAmount (preset, taxTypes, amount, filter)
 - Esta función regresa el importe de impuestos a nivel línea.
 
