@@ -6,8 +6,10 @@
 - sección a modificar 
 
 #### sourcePath
-- ruta base del documento, por omisión `"/"`
+- ruta base del documento, por omisión `"/"`, por ejemplo: `sourcePath="seccion1/seccion2"`.
 - las expresiones toman en cuenta esta ruta.
+- también es posible usar `[ ]` para dividir las rutas, sobre todo si hay caracteres especiales en las ruta, por ejemplo: `sourcePath="[seccion1][seccion2][seccion3]"`
+- Nota: Si se usan los corchetes no hay que poner `/`.
 
 #### type
 - `object` 
@@ -39,7 +41,6 @@
 
 #### condition
 - es posible condicionar el `update`.
-
 
 ## Sub objetos
 

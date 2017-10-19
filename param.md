@@ -18,6 +18,10 @@
 - es posible especificar a que preset corresponde el valor a asignar.
 - se genera automáticamente el nombre.
 
+#### notEval (true, false)
+- con esta opción es posible brincar la evaluación del resultado.
+- en algunas pocas ocaciones puede generar problemas el evaluar, por ejemplo si el parámetro es un id que contiene un número muy largo, se pueden llegar a redondear (`3840987452812410604` se convierte a `3840987452812410400`).
+
 ## Ejemplos
 
 - parámetros unitarios

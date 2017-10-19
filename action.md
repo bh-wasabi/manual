@@ -23,6 +23,7 @@
 - `refresh` refresca el documento.
 - `refresh-widgets` refresca los `widgets` del documento.
 - `post` para ejecutar un `request` tipo `post` en el backend.
+- `get` genera un get con los datos de la forma y opcionalmente la transforma a la captura.
 - `start-workflow` inicia un flujo de trabajo del documento.
 - `zoom-in` aumenta el `zoom` del contenido del documento.
 - `zoom-out` disminuye el `zoom` del contenido del documento.
@@ -30,7 +31,6 @@
 - `report-pdf` genera un archivo PDF de un reporte del documento.
 - `image-map` despliega una imágen de fondo.
 - `sub-link` genera un sub-vínculo.
-- `get-jotform-submission` genera un get con los datos de la forma y la transforma manualmente a la captura.
  
 #### modal
 - identificador de la forma modal a invocar
@@ -95,10 +95,10 @@
 #### message
 - mensaje a desplegar al iniciar el flujo de trabajo.
 
-#### postPath
+#### url o postPath
 - la ruta donde se va hacer el `request`
 - debe ser una ruta interna.
-- esto funcionan únicamente cuando es `type="post"`.
+- esto funcionan únicamente cuando es `type="post"` o `type="get"`.
 
 #### postSplash
 - mensaje a desplegar cuando se esta ejecutando el `post`.
