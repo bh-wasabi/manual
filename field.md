@@ -22,6 +22,9 @@
 #### label
 - es la etiqueta a desplegar por omisión.
 
+#### labelModalClass
+- es posible agregar una clase a la etiqueta cuando se hace el modal.
+
 #### align
 - `left`
 - `right`

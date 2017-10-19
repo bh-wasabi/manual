@@ -30,6 +30,7 @@
 - `report-pdf` genera un archivo PDF de un reporte del documento.
 - `image-map` despliega una imágen de fondo.
 - `sub-link` genera un sub-vínculo.
+- `get-jotform-submission` genera un get con los datos de la forma y la transforma manualmente a la captura.
  
 #### modal
 - identificador de la forma modal a invocar
@@ -151,15 +152,18 @@
 #### reload (true, false)
 - al afectar es posible volver a cargar el documento completamente.
 
+#### transform
+- al hacer algún tipo de `get` podemos hacer una transformación.
+
 ## Sub objetos
 #### [update](update.md)
 - en algunas acciones es posible cambiar los campos del documento.
 
 #### [ask](ask.md)
-- si la acción es `type="post"` es posible preguntar algunos parámetros manualmente.
+- si la acción es `type="post"` o `type="get"` es posible preguntar algunos parámetros manualmente.
 
 #### [param](param.md)
-- si la acción es `type="post"` es posible pasar parámetros.
+- si la acción es `type="post"` o `type="get"` es posible pasar parámetros.
 
 #### [attachType](attachType.md)
 - si la acción es `type="attach"` es posible definir el tipo de documento.
