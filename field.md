@@ -34,6 +34,7 @@
 - en los campos tipo number, calc y date, se puede especificar un formato especifico
 - el sistema va usar [Moment.js](http://momentjs.com) para formatear las fechas y [Numeral.js](http://numeraljs.com) para formatear los números.
 - existen algunos valores pre-definidos como: `format="currency"`.
+- la opción `format="currency2"` tiene la ventaja de que si el valor es cero no lo pinta.
 - el si se indica `format="pesos"` convierte un importe a texto.
 - el si se indica `format="phone334"` formatea un teléfono de 10 dígitos.
 

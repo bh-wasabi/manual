@@ -30,6 +30,7 @@
 ## Captura
 #### [zone](helper-zone.md)
 #### [table](helper-table.md)
+#### [record](helper-record.md)
 #### [field](helper-field.md)
 #### [fieldImage](helper-field-image.md)
 #### [fieldSet](helper-field-set.md)
