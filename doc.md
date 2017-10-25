@@ -246,6 +246,9 @@ Nota: cuando la sección es tipo objeto se actualizan únicamente los campos afe
 #### [action](action.md)
 - las acciones sirven para poner los botones específicos del documento.
 
+#### [webhook](webhook)
+- permite configurar una acción que se efectúa electronicamente.
+
 #### [menu](menu.md)
 - los documentos pueden contener menús específicos, estos se ligan a una acción tipo menú.
 
