@@ -12,6 +12,10 @@
 - con esta opción es posible iniciar un flujo de trabajo después de obtener el documento.
 - puede ser una [expresión](expr.md).
 
+#### startWorkflowCondition
+- es posible condicionar el inicio del flujo de trabajo.
+- puede ser una [expresión](expr.md).
+
 ## Sub objetos
 - puede ser cualquiera de los objetos del [step](step.md) del flujo de trabajo.
 

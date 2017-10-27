@@ -17,6 +17,10 @@
 - con esta opción es posible iniciar un flujo de trabajo después de insertar el documento.
 - puede ser una [expresión](expr.md).
 
+#### startWorkflowCondition
+- es posible condicionar el inicio del flujo de trabajo.
+- puede ser una [expresión](expr.md).
+
 ## Sub objetos
 #### [create](step-create.md)
 - se usa para cada una de las secciones del documento nuevo.
