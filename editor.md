@@ -180,7 +180,7 @@ basados en las configuración:
 - campo que contiene el valor dentro de la lista de opciones, por omisión es `id`.
 
 #### display
-- campo que contiene el nombre a desplegar dentro de la lista de opciones, por omisión es `name`.
+- campo que contiene el nombre a desplegar dentro de la lista de opciones, por omisión es `name` o `nombre`.
 - Nota: no es una expresión, tiene que se el nombre del campo directamente, si se quiere una expresión hay que hacerla desde la vista.
 
 #### allowNew

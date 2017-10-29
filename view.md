@@ -71,3 +71,6 @@
 #### [union](view-union.md)
 - es posible unir los resultados con otros documentos y crear un resultado de múltiples fuentes.
 - esto une los resultados.
+
+#### [display](view-display.md)
+- en el caso de ayudas en captura tipo `lookup` o `select` es posible configurar las columnas a desplegar.
