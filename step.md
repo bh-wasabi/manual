@@ -80,5 +80,7 @@
 
 #### [csv](step-csv.md)
 
-#### [banxico](step-banxico)
+#### [banxico](step-banxico.md)
+
+#### [affect](step-affect.md)
 
