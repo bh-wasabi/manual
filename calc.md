@@ -243,3 +243,6 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### transformImage (url, opciones)
 - url de la imágen a transformar.
 - las opciones deben ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`, son las opciones de [transformImage](transformImage).
+
+#### sum (arreglo, campo)
+- suma un campo del arreglo
