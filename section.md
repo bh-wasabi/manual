@@ -81,3 +81,7 @@
 #### [param](param.md)
 - parámetros 
 - se usa cuando en `afterAffect="true"`
+
+#### [onChange](on-change.md)
+- es posible generar eventos cuando se modifica la sección.
+

@@ -32,6 +32,7 @@
 - `report-pdf` genera un archivo PDF de un reporte del documento.
 - `image-map` despliega una imágen de fondo.
 - `sub-link` genera un sub-vínculo.
+- `inbox-reassign` asigna la tarea a otro usuario.
  
 #### modal
 - identificador de la forma modal a invocar
@@ -41,6 +42,10 @@
 
 #### source
 - en el caso de sub-documentos aqui se especifica el tipo de documento a agregar.
+- también funciona en el caso de `inbox-reassign`.
+
+#### view 
+- en el caso de `inbox-reassign`, es posible definir la vista.
 
 #### color
 - es posible establecer el color del botón en la acción.
