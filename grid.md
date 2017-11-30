@@ -26,6 +26,10 @@
 - por ejemplo: `filter="tipo=foto"`.
 - es posible tener multiples filtros separados por el símbolo `&`.
 
+#### rowReadOnly
+- es posible condicionar la edición a nivel renglón.
+- es una expresión, el `scope` es el renglón del arreglo.
+
 ## Sub objetos
 
 #### [column](grid-column.md)
