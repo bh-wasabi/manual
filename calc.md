@@ -246,3 +246,7 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### sum (arreglo, campo)
 - suma un campo del arreglo
+
+#### union (arreglo1, arreglo2, arregloN)
+- une todos los arreglos
+
