@@ -250,3 +250,8 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### union (arreglo1, arreglo2, arregloN)
 - une todos los arreglos
 
+#### mergeToMaster (original, nuevo, master, llave)
+- busca los cambios entre el arreglo nuevo y el original, y los aplica en master, usando el campo llave indicada
+- deben ser arreglos de objetos todos.
+
+
