@@ -255,3 +255,5 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - deben ser arreglos de objetos todos.
 - devuelve un arreglo que seria el nuevo master con los cambios.
 
+#### clone (obj)
+- clona un objeto
