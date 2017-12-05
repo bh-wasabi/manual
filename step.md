@@ -84,3 +84,4 @@
 
 #### [affect](step-affect.md)
 
+#### [merge](step-merge.md)
