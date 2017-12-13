@@ -1,14 +1,10 @@
 # Markup: **template**
 - definición de una plantilla re-utilizable
-- se puede usar para producir XML como HTML.
+- se puede usar para producir un HTML.
 
 ## Parámetros
 #### id
 - identificador de la plantilla
-
-#### type
-- `html`
-- `xml`
 
 #### source
 - es posible usar una plantilla remota (que se encuentra en otro tipo de documento).

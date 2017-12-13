@@ -221,8 +221,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### tagsWherePresetHas (tags, preset, attributos)
 - devuelve los tags que cumplen con los attributos indicadas.
 
-#### updateArray (arreglo, llave, valor)
+#### updateArray (arreglo, llave, valor, condicion)
 - actualiza un arreglo y pone en un campo especifico un valor especifico
+- es posible indicar una condición opcional.
 
 #### getRef (objeto, referencia)
 - obtiene un valor de un objeto
