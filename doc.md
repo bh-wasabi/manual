@@ -289,6 +289,3 @@ Nota: cuando la sección es tipo objeto se actualizan únicamente los campos afe
 
 #### [template](template.md)
 - aquí se puede definir una plantilla HTML genérica.
-
-#### [xml](xml.md)
-- aquí se puede definir una plantilla XML genérica.

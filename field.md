@@ -18,6 +18,7 @@
 - `avg` calcula el promedio del campo que esta definido en `value` de una sección especifica del documento.
 - `max` calcula el valor máximo del campo que esta definido en `value` de una sección especifica del documento.
 - `min` calcula el valor máximo del campo que esta definido en `value` de una sección especifica del documento.
+- `form` es posible definir un sub documento que va en el campo.
 
 #### label
 - es la etiqueta a desplegar por omisión.
@@ -144,6 +145,9 @@ Ejemplo:
 - es posible hacer un cambio sin la necesidad de abrir el documento.
 - esto funciona únicamente con la opción `isFlag="true"`.
 - hace un carrusel del preset.
+
+#### placeholder
+- cuando es `type="form"`, es posible definir el valor a mostrar en el botón.
 
 ## Sub objetos
 

@@ -15,11 +15,15 @@
 - identificador de paso donde inicia el flujo de trabajo.
 - Nota: cuando se usa BPMN no es necesario indicar `start`.
 
+#### before
+- validaciones previas al inicio del flujo de trabajo.
+- Nota: se usa con BPMN.
+
 #### skipIsAffected (true, false)
 - con esta opción podemos controlar que el flujo no modifique la bandera `isAffected` del documento.
 
 #### bpmn
-- identificador del XML que contiene el diagrama BPMN
+- nombre del archivo XML que contiene el diagrama BPMN
 
 ## Sub objetos
 
