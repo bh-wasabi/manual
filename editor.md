@@ -8,7 +8,7 @@
 - `select` seleccionar de una lista de opciones, necesita `preset` o `source`.
 - `lookup` búsqueda avanzada sobre el campo, necesita `preset` o `source`.
 - `autocomplete` sugiere el texto en base a la lista de opciones, necesita `preset` o `source`, en este caso no se guarda el campo con el nombre no hay `id`.
-- `tags` multiples etiquetas, necesita `preset` o `source`.
+- `tags` múltiples etiquetas, puede tener un `preset` o `source`.
 - `number`
 - `date` para capturar una fecha.
 - `datetime` para capturar fecha con hora.
@@ -218,6 +218,13 @@ basados en las configuración:
 #### imageAndName (true, false)
 - agrega el nombre después de la imagen.
 - esto funciona únicamente si tiene definido el `imageWidth`.
+
+#### fieldEditEnabled (true, false)
+- con esta opción es posible agregar nuevos elementos a al arreglo.
+- cuando es `type="tags"`.
+
+#### saveComplementData (true, false)
+- guarda la información complementaria del campo.
 
 ## Sub objetos
 
