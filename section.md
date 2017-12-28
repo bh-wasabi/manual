@@ -11,7 +11,7 @@
 - `object` son la secciones que contienen campos directos (por omisión).
 - `array` es una sección múltiple, para detalles.
 
-#### temp (true, false)
+#### temp o temporal (true, false)
 - define si es una sección temporal
 - si se activa, la sección no se guarda en la base de datos.
 - es muy útil cuando queremos guardar temporalmente los datos de un widget en la forma.
@@ -35,6 +35,9 @@
 - es posible establecer una valor por omisión a una sección completa.
 - puede ser un preset.
 - puede ser una expresión.
+
+#### transform
+- es posible generar la sección usando una transformación.
 
 #### updateFromArray
 - actualiza la sección (tipo arreglo) basada en un arreglo.

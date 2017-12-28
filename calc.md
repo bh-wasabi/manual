@@ -16,8 +16,12 @@
 - forza el resultado como texto.
 
 #### concat (valor1, valor2, valorN)
-- concatena varios valores, por omisión agrega un espacio entre los valores.
+- concatena varios valores, agregando un espacio entre los valores.
 - es posible agregar comas para separar estos valores, por ejemplo: `calc.concat(@apellidoPaterno,',', @nombre)`. genera "Perez, Juan".
+
+#### concat2 (valor1, valor2, valorN)
+- concatena varios valores, sin agregar espacio entre los valores.
+- es posible agregar comas para separar estos valores, por ejemplo: `calc.concatCompact(@apellidoPaterno,'/', @nombre)`. genera "Perez/Juan".
 
 #### toArray (valor1, valor2, valorN)
 - convierte los parámetros a un arreglo.
@@ -152,6 +156,14 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 #### pluck (arreglo, llave)
 - genera un nuevo arreglo con las puras llaves.
 
+#### pluckRef (arreglo, llave)
+- genera un nuevo arreglo con las puras llaves. 
+- buscando en el objeto la referencia.
+
+#### pluckExpr (arreglo, llave)
+- genera un nuevo arreglo con las puras llaves. 
+- la llave puede ser una expresión.
+
 #### itemsInArray (arreglo1, llave, arreglo2)
 - extrae una sub lista del arreglo1 donde exista la llave (del arreglo1) en en arreglo2
 - el arreglo2 debe ser un arreglo simple.
@@ -258,3 +270,6 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### clone (obj)
 - clona un objeto
+
+#### object (lista, [valores])
+- convierte arreglos en objetos.

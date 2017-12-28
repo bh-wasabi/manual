@@ -9,16 +9,17 @@
 #### type
 - `text` campos tipo texto (por omisión)
 - `number` campos numéricos
-- `date` fechas
+- `date` fechas (con o sin hora)
 - `boolean` lógicos (true, false)
 - `calc` campo calculado que regresa un valor numérico
 - `expr` campo calculado que regresa cualquier tipo de valor
+- `doc` es posible definir un sub documento que va en el campo.
+- `multiple-doc` es posible definir un arreglo de sub documentos que va en el campo.
 - `count` calcula el conteo de una sección especifica del documento
 - `sum` calcula la suma el campo que esta definido en `value` de una sección especifica del documento.
 - `avg` calcula el promedio del campo que esta definido en `value` de una sección especifica del documento.
 - `max` calcula el valor máximo del campo que esta definido en `value` de una sección especifica del documento.
 - `min` calcula el valor máximo del campo que esta definido en `value` de una sección especifica del documento.
-- `form` es posible definir un sub documento que va en el campo.
 
 #### label
 - es la etiqueta a desplegar por omisión.
@@ -147,7 +148,7 @@ Ejemplo:
 - hace un carrusel del preset.
 
 #### placeholder
-- cuando es `type="form"`, es posible definir el valor a mostrar en el botón.
+- cuando es `type="doc"` o `type="multiple-doc"`, es posible definir el valor a mostrar en el botón.
 
 ## Sub objetos
 
