@@ -40,10 +40,10 @@
 
 ayudas predefinidas:
 - `status`, Activo, Bloqueado, Inactivo.
-- `boolean`, Si, No.
+- `boolean`, Sí, No.
 - `priority`, Urgente, Alta, Normal, Baja, Muy baja.
-- `months` Enero, Febrero, Marzo, Abril, etc.
-- `countries` lista de países del mundo.
+- `month` Enero, Febrero, Marzo, Abril, etc.
+- `country` lista de países del mundo.
 
 basados en el mismo documento:
 - `doc.[section]` va a buscar específicamente en el documento actual que exista esa sección (tipo arreglo y los campos `id` y `name`).
@@ -59,7 +59,9 @@ basados en las configuración:
 - por omisión usa lo que esta definido en [field](field.md).
 
 #### sourceFindOne
-- cuando se usa `getSourceSection` aquí podemos especificar el campo que contiene el identificador del documento.
+- requiere definir `source`, para que sepa de que colección va obtener el documento.
+- aquí podemos especificar el _id del documento a buscar.
+- funciona en conjunto con `getSourceSection`.
 - puede ser una [expresión](expr.md), el contexto es la sección actual y el documento.
 
 #### sourceFindOneDisableCache (true, false)

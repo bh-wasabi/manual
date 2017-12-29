@@ -9,6 +9,15 @@
 #### nombre
 - nombre del `preset`
 
+#### source
+- es posible generar este `preset` a partir de una vista especifica.
+
+#### view
+- es posible generar este `preset` a partir de una vista especifica.
+
 ## Sub objetos
 #### item
 - debe contener por lo menos `id` y `nombre`
+
+#### default
+- valores por omisión para no repetir en cada `item`.

@@ -14,7 +14,7 @@
 - `calc` campo calculado que regresa un valor numérico
 - `expr` campo calculado que regresa cualquier tipo de valor
 - `doc` es posible definir un sub documento que va en el campo.
-- `multiple-doc` es posible definir un arreglo de sub documentos que va en el campo.
+- `docs` es posible definir un arreglo de sub documentos que va en el campo.
 - `count` calcula el conteo de una sección especifica del documento
 - `sum` calcula la suma el campo que esta definido en `value` de una sección especifica del documento.
 - `avg` calcula el promedio del campo que esta definido en `value` de una sección especifica del documento.
