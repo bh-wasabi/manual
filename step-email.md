@@ -7,7 +7,7 @@
 - busca un perfil de correo de la configuración del servidor.
 
 #### from
-- emisor
+- emisor del correo electrónico.
 - lo puede leer del perfil.
 - puede ser una [expresión](expr.md).
 

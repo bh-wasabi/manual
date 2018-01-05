@@ -25,6 +25,20 @@
 #### bpmn
 - nombre del archivo XML que contiene el diagrama BPMN
 
+#### autoEmail (true, false)
+- genera un correo electrónico al usuario que le llega la tarea de forma automática.
+
+#### autoEmailFrom
+- emisor del correo electrónico.
+- lo puede leer del perfil.
+- puede ser una [expresión](expr.md).
+
+#### autoEmailProfile
+- busca un perfil de correo de la configuración del servidor.
+
+#### autoEmailTemplate
+- identificador del `template` a usar.
+
 ## Sub objetos
 
 #### [step](step.md)
