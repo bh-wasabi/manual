@@ -1,5 +1,6 @@
 # Markup: **table**
 - dibuja una tabla en la página
+- es posible poner en el campo si tiene alguna liga (link) a otra referencia, si se agrega el folder se abre una carpeta con todo el contenido.
 
 ## Contexto
 - identificador de la sección 
@@ -57,4 +58,9 @@
         {{/zone}}
     {{/col}}
 {{/row}}
+````
+
+Ejemplo con link's y folder's.
+````
+{{table adjuntos cols="nombre[url/folder], tipo, fecha, ext, tamano, comentarios" medium="25%, 10%, 25%, 5%, 5%, 30%"}}
 ````
