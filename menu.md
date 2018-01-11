@@ -32,7 +32,10 @@
 - en lugar del nombre de la acción.
 
 #### showProyectName (true, false)
-- con esta opción es posible desplegar el nombre del proyecto del usuario en el menú principal
+- con esta opción es posible desplegar el nombre del proyecto del usuario en el menú principal.
+
+#### showCompanyName (true, false)
+- con esta opción es posible desplegar el nombre de la empresa del usuario en el menú principal.
 
 ## Sub objetos
 

@@ -10,6 +10,10 @@
 - nombre visible de la vista
 - principalmente se usa cuando hay opción de cambiar la vista en el `browser`.
 
+#### forceCache (true, false)
+- es posible indicar que haga un `cache` de esta vista.
+- por seguridad esta opción únicamente funciona cuando el `editor` es `type="select"`.
+
 #### minSearchLength (#)
 - cantidad mínima de caracteres para buscar en la vista
 - si no esta establecido devuelve sin búsqueda lo primero que encuentre (por omisión).
