@@ -2,6 +2,11 @@
 - diseño HTML de una página (o tab) del documento.
 
 ## Parámetros
+
+#### id
+- identificador de la página
+- opcional
+
 #### name
 - nombre a desplegar
 - se ve cuando hay más de una sola página
@@ -9,6 +14,10 @@
 #### icon
 - icono a desplegar
 - [lista de iconos](ion-icons.md).
+
+#### saveHtml (true, false)
+- guarda el `HTML` en el documento.
+- puede usar el `id` de la página como llave.
 
 #### render
 - se puede ligar con un [template](template.md) especifico.

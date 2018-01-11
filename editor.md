@@ -179,7 +179,7 @@ basados en las configuración:
 - ejemplo 2: `items="=[{id: 'mx', name: 'Mexico'}, {id: 'us', name: 'USA'}, {id: 'ca', name: 'Canada'}]"`
 
 #### value
-- campo que contiene el valor dentro de la lista de opciones, por omisión es `id`.
+- campo que contiene el valor dentro de la lista de opciones, por omisión es `id` o `_id` (dependiendo el caso).
 
 #### display
 - campo que contiene el nombre a desplegar dentro de la lista de opciones, por omisión es `name` o `nombre`.

@@ -20,7 +20,6 @@
 - define el rol de acceso a esta tipo de documento.
 - puede ser una lista separada por comas.
 
-
 #### collection
 - es posible apuntar a otra colección de datos, por omisión usa el `id` como colección.
 
