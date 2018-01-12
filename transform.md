@@ -5,6 +5,11 @@
 #### id
 - identificador
 
+#### items
+- es posible transformar un arreglo
+- el resultado va a ser también un arreglo
+- puede ser una expresión
+
 ## Sub objetos
 
 #### [set](set.md)
