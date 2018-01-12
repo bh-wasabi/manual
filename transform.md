@@ -7,6 +7,12 @@
 
 ## Sub objetos
 
+#### [set](set.md)
+- guarda un dato directamente.
+
+#### [push](push.md)
+- inserta un dato a un arreglo
+
 #### [update](update.md)
 - actualiza una sección del documento
 - es posible hacer transformaciones recursivas usando nuevamente `transform` en el `update`, por ejemplo:
