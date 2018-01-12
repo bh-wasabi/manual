@@ -7,6 +7,9 @@
 #### id
 - identificador de la sección
 
+#### label
+- etiqueta de la sección
+
 #### type (object, array)
 - `object` son la secciones que contienen campos directos (por omisión).
 - `array` es una sección múltiple, para detalles.

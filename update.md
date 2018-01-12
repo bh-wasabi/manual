@@ -42,6 +42,10 @@
 #### condition
 - es posible condicionar el `update`.
 
+#### transform
+- identificador de la transformación.
+- es posible hacer transformaciones recursivas, si el `update` viene de una transformación padre.
+
 ## Sub objetos
 
 #### [set](set.md)

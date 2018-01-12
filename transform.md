@@ -9,6 +9,10 @@
 
 #### [update](update.md)
 - actualiza una sección del documento
+- es posible hacer transformaciones recursivas usando nuevamente `transform` en el `update`, por ejemplo:
+````
+{{update section="contacto" transform="contacto"}}
+````
 
 ## Ejemplos:
 ````
