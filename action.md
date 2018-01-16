@@ -19,7 +19,7 @@
 - `menu` podemos tener una acción que invoque a un menú.
 - `attach` con esta opción podemos adjuntar archivos al documento.
 - `photo` abre la cámara del browser y toma una foto que se convierte en un adjunto automáticamente.
-- `subdoc`con esta opción es posible agregar un sub-documento (es necesario especificar `source` para que funcione y definir el botón sobre la forma modal usando `buttonFloat`).
+- `subdoc` con esta opción es posible agregar un sub-documento (es necesario especificar `source` para que funcione y definir el botón sobre la forma modal usando `buttonFloat`).
 - `refresh` refresca el documento.
 - `refresh-widgets` refresca los `widgets` del documento.
 - `post` para ejecutar un `request` tipo `post` en el backend.
