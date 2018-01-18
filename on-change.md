@@ -25,6 +25,10 @@
 - en el caso de las encuestas orales, es posible lanzar un audio.
 
 ## Sub objetos
+
+#### [get](get.md)
+- es posible leer el tipo de cambio o una tabla DMN antes de ejecutar el `set`.
+
 #### [set](set.md)
 - para asignar a nuevo valor a otro campo de la misma sección
 - se pueden usar como contexto la sección actual, el documento remoto (cuando se usa ayudas en captura tipo `lookup`, `select` o `autocomplete`), y el documento local.
@@ -40,10 +44,16 @@
 #### [log](log.md)
 - muestra en la consola un mensaje
 
-## Ejemplo:
+## Ejemplos:
 ````
 {{#onChange}}
     {{set nombre="=base.nombre"}}
+{{/onChange}}
+
+{{#onChange}}
+  {{#get rate="=moneda" as="_rate"}}
+    {{set tipoCambio="=_rate.value"}}
+  {{/get}}
 {{/onChange}}
 
 {{onChange refresh="true"}}

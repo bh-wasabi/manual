@@ -2,6 +2,7 @@
 - obtiene un documento
 
 ## Parámetros
+
 #### id
 - identificador del documento
 
@@ -11,6 +12,11 @@
 
 #### rate
 - es posible leer el tipo de cambio de una moneda.
+- puede ser una expresión.
+
+#### dmn
+- es posible ejecutar una tabla de decisión (DMN). 
+- puede ser una expresión.
 
 #### as
 - con esta opción es posible cambiar el nombre del objeto para el contexto.
@@ -20,11 +26,12 @@
 #### [set](set.md)
 - para modificar un campo del la sección.
 
+#### [param](param.md)
+- en el caso del `dmn` requiere parámetros.
+
 ## Ejemplos:
 `````
-{{#onChange}}
-  {{#get rate="=moneda" as="_rate"}}
-    {{set tipoCambio="=_rate.value"}}
-  {{/get}}
-{{/onChange}}
+{{#get rate="'usd'" as="_usd"}}
+  {{set tipoCambio="=_usd.value"}}
+{{/get}}
 `````
