@@ -10,6 +10,9 @@
 - tipo de documento
 - por omisión es en el mismo tipo de documento que se encuentra.
 
+#### view
+- nombre de la vista opcional.
+
 #### rate
 - es posible leer el tipo de cambio de una moneda.
 - puede ser una expresión.
@@ -27,7 +30,7 @@
 - para modificar un campo del la sección.
 
 #### [param](param.md)
-- en el caso del `dmn` requiere parámetros.
+- en algunos casos se requieren parámetros.
 
 ## Ejemplos:
 `````

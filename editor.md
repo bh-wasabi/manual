@@ -116,7 +116,7 @@ basados en las configuración:
 #### showClearButton (true, false)
 - muestra un botón que permite borrar el contenido del campo.
 
-#### showSelectionControls (true, false)
+#### showSelectionControls (true, false)
 - en el caso `type="tags"` con esta opción podemos agregar la selección por `checks` adicional.
 
 #### applyValueMode
