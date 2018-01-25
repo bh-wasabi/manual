@@ -145,6 +145,10 @@
 #### report
 - en el caso de `report-pdf` es necesario indicar el identificador del reporte.
 
+#### reportToUrl (true, false)
+- en el caso de `report-pdf` se puede configurar si el reporte se abre en una URL pública.
+- por omisión abre internamente el reporte.
+
 #### fullScreen (true, false)
 - cuando es un sub documento es posible abrirlo en pantalla completa.
 
