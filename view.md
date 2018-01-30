@@ -22,6 +22,14 @@
 - identificador del template a usar.
 - por omisión toma el template que esta en `defaultDisplayTemplate`.
 
+#### source
+- con esta opción es posible invocar a otra vista de otro documento.
+- Nota: si se usa esta opción es indispensable especificar la propiedad de `editor.display`.
+
+#### view
+- con esta opción es posible invocar a otra vista de otro documento.
+- Nota: si se usa esta opción es indispensable especificar la propiedad de `editor.display`.
+
 ## Sub objetos
 
 #### [all](view-all.md)
