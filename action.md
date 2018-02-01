@@ -33,6 +33,7 @@
 - `image-map` despliega una imágen de fondo.
 - `sub-link` genera un sub-vínculo.
 - `inbox-reassign` asigna la tarea a otro usuario.
+- `save-as` guarda un arreglo en un archivo de texto, usa `items` y `fileName`.
  
 #### modal
 - identificador de la forma modal a invocar
@@ -164,6 +165,11 @@
 
 #### transform
 - al hacer algún tipo de `get` podemos hacer una transformación.
+
+#### items
+- arreglo de elementos
+- en el caso de `save-as` debe ser un arreglo simple.
+- puede ser una [expresión](expr.md).
 
 ## Sub objetos
 #### [update](update.md)
