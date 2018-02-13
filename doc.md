@@ -210,6 +210,19 @@ Nota: cuando la sección es tipo objeto se actualizan únicamente los campos afe
 - es posible ejecutar una acción automáticamente después de que se guarda el documento.
 - esto funciona únicamente cuando existió una confirmación previa.
 
+#### findDocBy
+- con esta opción es posible abrir un documento (en una url) buscando por otro campo diferente del _id.
+- es recomendable tener un indice por este campo.
+
+Ejemplo (si se configura así): 
+````
+findDocBy="base.email"
+````
+va a ser posible visitar esta página y ver a al cliente:
+````
+https://demo.com/find/cliente/jperez@abc.com
+````
+
 ## Sub objetos
 #### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.

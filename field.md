@@ -11,6 +11,7 @@
 - `number` campos numéricos
 - `date` fechas (con o sin hora)
 - `boolean` lógicos (true, false)
+- `html` captura un campo de tipo HTML.
 - `calc` campo calculado que regresa un valor numérico
 - `expr` campo calculado que regresa cualquier tipo de valor
 - `doc` es posible definir un sub documento que va en el campo.
