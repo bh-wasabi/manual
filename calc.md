@@ -263,6 +263,14 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### union (arreglo1, arreglo2, arregloN)
 - une todos los arreglos
 
+#### mergeMasterDetail (mater, detalle, mapeo, usarDetalle)
+- sirve para generar un resultado uniforme, devuelve un arreglo.
+- master es el encabezado (objeto)
+- detalle (opcional) es un arreglo
+- mapeo (opcional) con la sintaxis campo=valor&campo=valor
+- usarDetalle (opcional), es un valor tipo `Boolean` para controlar si se usa o no el detalle, por omisión es verdadero.
+
+
 #### mergeToMaster (original, nuevo, master, llave)
 - busca los cambios entre el arreglo nuevo y el original, y los aplica en master, usando el campo llave indicada
 - deben ser arreglos de objetos todos.
