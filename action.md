@@ -20,6 +20,7 @@
 - `attach` con esta opción podemos adjuntar archivos al documento.
 - `photo` abre la cámara del browser y toma una foto que se convierte en un adjunto automáticamente.
 - `subdoc` con esta opción es posible agregar un sub-documento (es necesario especificar `source` para que funcione y definir el botón sobre la forma modal usando `buttonFloat`).
+- `add-subdoc` agrega un nuevo documento desde este documento.
 - `refresh` refresca el documento.
 - `refresh-widgets` refresca los `widgets` del documento.
 - `post` para ejecutar un `request` tipo `post` en el backend.
@@ -164,7 +165,8 @@
 - al afectar es posible volver a cargar el documento completamente.
 
 #### transform
-- al hacer algún tipo de `get` podemos hacer una transformación.
+- al hacer algún tipo de `get` podemos hacer una transformación con el resultado del `get` para afectar el documento actual.
+- en el caso de `add-subdoc` el `transform` sirve para generar el documento por omisión.
 
 #### items
 - arreglo de elementos

@@ -1,10 +1,15 @@
-# Markup: **report**
+# Objeto: **report**
 - reporte PDF de un documento
-- en algunos reportes esta disponible `_items` como parte del scope.
 
 ## Parámetros
 #### id
 - identificador del reporte
+
+#### view
+- vista (opcional) del reporte, genera `_items` como parte del scope.
+
+#### view2
+- vista (opcional) del reporte, genera `_items2` como parte del scope.
 
 #### header
 - identificador del encabezado del reporte

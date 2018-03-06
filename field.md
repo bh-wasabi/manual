@@ -151,6 +151,17 @@ Ejemplo:
 #### placeholder
 - cuando es `type="doc"` o `type="multiple-doc"`, es posible definir el valor a mostrar en el botón.
 
+#### dmn 
+- identificador de la tabla DMN, se tiene que subir previamente con un `make`.
+- se genera la sección calculada tipo arreglo automáticamente.
+- estas secciones se re-calculan únicamente en el servidor al momento que se guarda el documento.
+- requiere los parámetros `input`.
+- opcionalmente se puede especificar un `map` y/o `reduce`.
+
+#### input
+- para el caso de una sección `dmn` se debe especificar el origen de datos a usar en la tabla DMN. 
+- debe ser un objeto.
+
 ## Sub objetos
 
 #### [editor](editor.md)
