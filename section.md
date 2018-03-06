@@ -75,20 +75,26 @@
 - identificador de la tabla DMN, se tiene que subir previamente con un `make`.
 - se genera la sección calculada tipo arreglo automáticamente.
 - estas secciones se re-calculan únicamente en el servidor al momento que se guarda el documento.
-- requiere los parámetros `input`.
-- opcionalmente se puede especificar un `map` y/o `reduce`.
+- requiere los parámetros `dmnInput`.
+- opcionalmente se puede especificar un `dmnMap` y/o `dmnReduce`.
 
-#### input
+#### dmnInput
 - para el caso de una sección `dmn` se debe especificar el origen de datos a usar en la tabla DMN. 
 - puede ser un arreglo.
 
-#### map
+#### dmnOutput
+- para el caso de `dmn` se puede especificar el campo de salida unitario.
+
+#### dmnMap
 - es posible concertar los resultados de la tabla DMN.
 - lista de campos separada por comas.
 
-#### reduce
+#### dmnReduce
 - es posible reducir o concentrar los resultados de la tabla DMN.
 - lista de campos separada por comas.
+
+#### dmnPluck
+- es posible extraer un campo del resultado, cuando es tipo arreglo.
 
 ## Sub objetos
 
