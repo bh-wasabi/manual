@@ -151,30 +151,6 @@ Ejemplo:
 #### placeholder
 - cuando es `type="doc"` o `type="multiple-doc"`, es posible definir el valor a mostrar en el botón.
 
-#### dmn 
-- identificador de la tabla DMN, se tiene que subir previamente con un `make`.
-- se genera la sección calculada tipo arreglo automáticamente.
-- estas secciones se re-calculan únicamente en el servidor al momento que se guarda el documento.
-- requiere los parámetros `dmnInput`.
-
-#### dmnInput
-- para el caso de `dmn` se debe especificar el origen de datos a usar en la tabla DMN. 
-- debe ser un objeto (puede ser una sección)
-
-#### dmnOutput
-- para el caso de `dmn` se puede especificar el campo de salida unitario.
-
-#### dmnMap
-- es posible concertar los resultados de la tabla DMN.
-- lista de campos separada por comas.
-
-#### dmnReduce
-- es posible reducir o concentrar los resultados de la tabla DMN.
-- lista de campos separada por comas.
-
-#### dmnPluck
-- es posible extraer un campo del resultado, cuando es tipo arreglo.
-
 ## Sub objetos
 
 #### [editor](editor.md)
@@ -189,3 +165,7 @@ Ejemplo:
 #### [style](style.md)
 - es posible cambiar algunas cosas adicionales de diseño.
 - esta opción actualmente funciona únicamente en formas PDF.
+
+#### [valueFrom](valueFrom.md)
+- obtiene el valor de otra forma mas compleja
+- pueden ser vistas o tablas `DMN`.
