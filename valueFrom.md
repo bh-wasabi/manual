@@ -1,29 +1,35 @@
 # Objeto: **ValueFrom**
-- obtiene un valor de una forma mas compleja.
+- obtiene un valor de una forma mas compleja (desde el servidor)
 - estos se re-calculan únicamente en el servidor al momento que se guarda el documento.
 
 ## Parámetros
 
+#### view
+- vista a usar
+
+#### source
+- documento a usar en la vista
+- por omisión toma el tipo de documento actual.
+
 #### dmn 
 - identificador de la tabla DMN, se tiene que subir previamente con un `make`.
-- se genera la sección calculada tipo arreglo automáticamente.
-- requiere los parámetros `input`.
-- opcionalmente se puede especificar un `map` y/o `reduce`.
+
+#### [param](param.md)
+- parámetros
 
 #### input
-- para el caso de una sección `dmn` se debe especificar el origen de datos a usar en la tabla DMN. 
-- puede ser un arreglo.
+- es una forma de pasar los parámetros usando una sección completa, incluso puede ser un arreglo
 
 #### output
-- para el caso de `dmn` se puede especificar el campo de salida unitario.
+- se puede especificar un campo de salida unitario
 
 #### map
-- es posible concertar los resultados de la tabla DMN.
-- lista de campos separada por comas.
+- es posible concertar los resultados
+- lista de campos separada por comas
 
 #### reduce
-- es posible reducir o concentrar los resultados de la tabla DMN.
-- lista de campos separada por comas.
+- es posible reducir los resultados
+- lista de campos separada por comas
 
 #### pluck
-- es posible extraer un campo del resultado, cuando es tipo arreglo.
+- es posible extraer un campo del resultado, cuando es tipo arreglo
