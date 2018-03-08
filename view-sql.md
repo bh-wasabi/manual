@@ -8,6 +8,7 @@
 
 #### call
 - nombre del stored procedure con sus parametros.
+- es posible usar el parámetro $body si se envió en la vista.
 
 ## Ejemplos:
 ````

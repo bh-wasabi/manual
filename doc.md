@@ -31,11 +31,15 @@
 
 #### defaultDisplay
 - campo que contiene el nombre o titulo del documento por omisión (al usar este tipo de documento desde otros documentos)
-- "seccion.campo"
+- puede ser "seccion.campo", lo ideal es `_name`.
+
 
 #### defaultDisplayTemplate
 - plantilla a usar para desplegar el documento.
 - de esta forma podemos tener un mayor control de la presentación en las ayudas de captura, tipo: `select`, `lookup` y `autocomplete`.
+
+#### displayExpr
+- expresión para generar el `_name` de cada instancia del documento.
 
 #### preview
 - id del reporte por omisión

@@ -21,6 +21,9 @@
 - es posible ejecutar una tabla de decisión (DMN). 
 - puede ser una expresión.
 
+#### input o body
+- en las vistas en posible enviar un body.
+
 #### as
 - con esta opción es posible cambiar el nombre del objeto para el contexto.
 

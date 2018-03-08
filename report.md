@@ -1,15 +1,16 @@
 # Objeto: **report**
 - reporte PDF de un documento
+- Nota: los parámetros que se envian para hacer el reporte llegan bajo el contexto `_params`.
 
 ## Parámetros
 #### id
 - identificador del reporte
 
 #### view
-- vista (opcional) del reporte, genera `_items` como parte del scope.
+- vista (opcional) del reporte, genera `_items` como parte del contexto.
 
 #### view2
-- vista (opcional) del reporte, genera `_items2` como parte del scope.
+- vista (opcional) del reporte, genera `_items2` como parte del contexto.
 
 #### header
 - identificador del encabezado del reporte
