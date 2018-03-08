@@ -1,6 +1,6 @@
 # Objeto: **report**
 - reporte PDF de un documento
-- Nota: los parámetros que se envian para hacer el reporte llegan bajo el contexto `_params`.
+- Nota: los parámetros que se envían para hacer el reporte llegan bajo el contexto `_query`.
 
 ## Parámetros
 #### id
