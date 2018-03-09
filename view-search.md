@@ -2,5 +2,19 @@
 - define los campos por los que se va efectuar la búsqueda.
 
 ## Parámetros
-#### field
-- ruta del campo dentro del documento, normalmente es "seccion.campo"
+#### index
+- indice
+
+#### type
+- tipo de documento
+
+#### limit (#)
+- limite de registros
+
+#### sort
+- orden
+
+## Sub objetos
+
+#### [param](param.md)
+- parametros a enviar

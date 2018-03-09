@@ -29,7 +29,7 @@
 #### [filter](filter.md)
 - se puede definir filtros sobre la consulta
 
-#### [search](view-search.md)
+#### [search](view-find-search.md)
 - se puede definir los campos por lo que se desea buscar.
 - si no se define busca por todos los campos incluidos en la vista.
 

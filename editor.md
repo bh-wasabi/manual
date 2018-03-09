@@ -231,6 +231,9 @@ basados en las configuración:
 #### saveComplementData (true, false)
 - guarda la información complementaria del campo.
 
+#### disablePaging (true, false)
+- con esta opción es posible desactivar la opción de paginado automático.
+
 ## Sub objetos
 
 #### [item](editor-item.md)

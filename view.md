@@ -57,6 +57,9 @@
 #### [cypher](view-cypher.md)
 - ejecuta una consulta en la base de datos GraphDB
 
+#### [search](view-search.md)
+- ejecuta una consulta en la base de datos ElasticSearch.
+
 #### [calc](view-calc.md)
 - se pueden agregar campos calculados adicionales, que se calculan sobre el resultado de la consulta.
 

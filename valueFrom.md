@@ -17,7 +17,7 @@
 #### [param](param.md)
 - parámetros
 
-#### input
+#### input o body
 - es una forma de pasar los parámetros usando una sección completa, incluso puede ser un arreglo
 
 #### output
