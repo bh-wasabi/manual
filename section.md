@@ -81,9 +81,15 @@
 #### dmn 
 - identificador de la tabla DMN, se tiene que subir previamente con un `make`.
 
-#### fusionWidth
+#### fusionOnce
 - con esta opción es posible usar multiples tablas DMN para generar el resultado.
 - lista de tablas DMN separadas por comas.
+- esta opción lo hace una sola vez con el primer registro que se enviar al DMN.
+
+#### fusionAll
+- con esta opción es posible usar multiples tablas DMN para generar el resultado.
+- lista de tablas DMN separadas por comas.
+- esta opción lo hace para cada registro que se enviar al DMN.
 
 #### input o body
 - es una forma de pasar los parámetros usando una sección completa, incluso puede ser un arreglo
