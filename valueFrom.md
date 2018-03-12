@@ -19,6 +19,7 @@
 
 #### input o body
 - es una forma de pasar los parámetros usando una sección completa, incluso puede ser un arreglo
+- en el caso de dmn, se pueden mandar arreglos de arreglos y se van a considerar todo como un solo arreglo.
 
 #### output
 - se puede especificar un campo de salida unitario

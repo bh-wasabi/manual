@@ -71,6 +71,34 @@
 - ancho de la ventana de confirmación
 - opcional
 
+#### view
+- vista a usar
+
+#### source
+- documento a usar en la vista
+- por omisión toma el tipo de documento actual.
+
+#### dmn 
+- identificador de la tabla DMN, se tiene que subir previamente con un `make`.
+
+#### input o body
+- es una forma de pasar los parámetros usando una sección completa, incluso puede ser un arreglo
+- en el caso de dmn, se pueden mandar arreglos de arreglos y se van a considerar todo como un solo arreglo.
+
+#### output
+- se puede especificar un campo de salida unitario
+
+#### map
+- es posible concertar los resultados
+- lista de campos separada por comas
+
+#### reduce
+- es posible reducir los resultados
+- lista de campos separada por comas
+
+#### pluck
+- es posible extraer un campo del resultado, cuando es tipo arreglo
+
 ## Sub objetos
 
 #### [field](field.md)
