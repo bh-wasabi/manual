@@ -14,6 +14,10 @@
 #### dmn 
 - identificador de la tabla DMN, se tiene que subir previamente con un `make`.
 
+#### fusionWidth
+- con esta opción es posible usar multiples tablas DMN para generar el resultado.
+- lista de tablas DMN separadas por comas.
+
 #### [param](param.md)
 - parámetros
 
@@ -34,3 +38,6 @@
 
 #### pluck
 - es posible extraer un campo del resultado, cuando es tipo arreglo
+
+#### orderBy
+- al final es posible ordenar el resultado por algún campo.
