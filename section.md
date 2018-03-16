@@ -106,6 +106,9 @@
 - es posible reducir los resultados
 - lista de campos separada por comas
 
+#### compact (true, false)
+- si se ejecuta map/reduce elimina los registros que no tienen valor.
+
 #### pluck
 - es posible extraer un campo del resultado, cuando es tipo arreglo
 

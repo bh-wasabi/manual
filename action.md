@@ -35,6 +35,7 @@
 - `sub-link` genera un sub-vínculo.
 - `inbox-reassign` asigna la tarea a otro usuario.
 - `save-as` guarda un arreglo en un archivo de texto, usa `items` y `fileName`.
+- `openFile` abre el contenido de un archivo.
  
 #### modal
 - identificador de la forma modal a invocar
@@ -191,6 +192,9 @@
 
 #### [link](action-link.md)
 - si la acción es `type="sub-link"`, es necesario definir algunos parámetros.
+
+#### [openFile](action-openFile.md)
+- funciona cuando es `type="openFile"`.
 
 ## Ejemplo geocomplete
 ````
