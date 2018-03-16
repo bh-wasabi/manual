@@ -12,6 +12,9 @@
 #### view2
 - vista (opcional) del reporte, genera `_items2` como parte del contexto.
 
+#### view3
+- vista (opcional) del reporte, genera `_items3` como parte del contexto.
+
 #### header
 - identificador del encabezado del reporte
 - es otro reporte
