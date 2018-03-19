@@ -19,6 +19,10 @@
 - si se activa, la sección no se guarda en la base de datos.
 - es muy útil cuando queremos guardar temporalmente los datos de un widget en la forma.
 
+#### validateSignature (true, false)
+- es posible validar la firma electrónica de la sección antes de guardar el documento.
+- esto se recomienda en secciones calculadas por el servidor que regresan al cliente a modo de consulta o para usarse como pasos intermedios.
+
 #### beforeStart (true, false)
 - se recalcula la sección al abrir el documento, siempre.
 - es mejor que sean temp="true" este tipo de secciones.

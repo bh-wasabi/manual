@@ -24,6 +24,9 @@
 #### input o body
 - en las vistas en posible enviar un body.
 
+#### body1, body2, body3
+- en las vistas en posible enviar un body como arreglo.
+
 #### as
 - con esta opción es posible cambiar el nombre del objeto para el contexto.
 

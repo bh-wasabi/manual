@@ -31,6 +31,9 @@
 - es una forma de pasar los parámetros usando una sección completa, incluso puede ser un arreglo
 - en el caso de dmn, se pueden mandar arreglos de arreglos y se van a considerar todo como un solo arreglo.
 
+#### body1, body2, body3
+- en las vistas en posible enviar un body como arreglo.
+
 #### output
 - se puede especificar un campo de salida unitario
 
