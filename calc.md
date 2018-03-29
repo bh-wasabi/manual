@@ -197,6 +197,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - `agrupadores` lista de campos separados por comas
 - `sumar` lista de campos separados por comas
 
+#### sortArray(arreglo, campos)
+- lista de campos separados por comas.
+
 #### findDuplicates (arreglo, agrupadores)
 - `arreglo`
 - `agrupadores` lista de campos separados por comas
