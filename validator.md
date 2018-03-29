@@ -23,6 +23,10 @@
 #### message
 - el mensaje de error a desplegar si no cumple con las reglas de validación
 
+#### pattern
+- expresión regular a usar en la validación
+- por ejemplo: `pattern="[a-zA-Z]+$"`.
+
 #### min (#)
 - valor mínimo aceptable
 

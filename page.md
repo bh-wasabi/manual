@@ -27,7 +27,7 @@
 - oculta la página
 - se puede usar una [expresión](expr.md).
 
-#### show (true, false)
+#### show o condition (true, false)
 - muestra la página
 - se puede usar una [expresión](expr.md).
 

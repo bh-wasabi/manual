@@ -69,9 +69,11 @@
 #### input o body
 - es una forma de pasar los parámetros usando una sección completa, incluso puede ser un arreglo
 - en el caso de dmn, se pueden mandar arreglos de arreglos y se van a considerar todo como un solo arreglo.
+- por omisión se manda el documento actual.
 
 #### body1, body2, body3
 - en las vistas en posible enviar un body como arreglo.
+- por omisión se manda el documento actual en body1.
 
 #### output
 - se puede especificar un campo de salida unitario
@@ -92,6 +94,14 @@
 
 #### orderBy
 - al final es posible ordenar el resultado por algún campo.
+
+#### having
+- filtra los resultados si estos campos indicados tienen valor (sin hacer map/reduce)
+- lista de campos separada por comas
+
+#### copying
+- copia los campos del origen en el resultado
+- lista de campos separada por comas
 
 ## Sub objetos
 

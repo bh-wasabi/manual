@@ -16,6 +16,18 @@
 #### rate
 - es posible leer el tipo de cambio de una moneda.
 - puede ser una expresión.
+- `usd` / `dolar-fix`
+- `eur` / `euro`
+- `cad` / `dolar-canadiense`
+- `yen`
+- `udis`
+- `tiie` / `tiie-28d`
+- `tiie-91d`
+- `cetes-28d`
+- `reservas-internacionales`
+- `dolar-liquidacion`
+- `libra-esterlina`
+- `tasa-objetivo`
 
 #### dmn
 - es posible ejecutar una tabla de decisión (DMN). 
@@ -23,9 +35,11 @@
 
 #### input o body
 - en las vistas en posible enviar un body.
+- por omisión se manda el documento actual.
 
 #### body1, body2, body3
 - en las vistas en posible enviar un body como arreglo.
+- por omisión se manda el documento actual en body1.
 
 #### as
 - con esta opción es posible cambiar el nombre del objeto para el contexto.
