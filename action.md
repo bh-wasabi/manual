@@ -36,6 +36,7 @@
 - `inbox-reassign` asigna la tarea a otro usuario.
 - `save-as` guarda un arreglo en un archivo de texto, usa `items` y `fileName`.
 - `openFile` abre el contenido de un archivo.
+- `openFolder` abre el contenido de un "carpeta" de adjuntos en s3, usa `path` para saber la ruta.
  
 #### modal
 - identificador de la forma modal a invocar
@@ -173,6 +174,10 @@
 - arreglo de elementos
 - en el caso de `save-as` debe ser un arreglo simple.
 - puede ser una [expresión](expr.md).
+
+
+#### path
+- ruta de `s3` a mostrar en la acción `openFolder`.
 
 ## Sub objetos
 #### [update](update.md)
