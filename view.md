@@ -93,3 +93,7 @@
 
 #### [display](view-display.md)
 - en el caso de ayudas en captura tipo `lookup` o `select` es posible configurar las columnas a desplegar.
+
+#### [syncUser](view-syncUser.md)
+- permite hacer una sincronización previa a obtener la vista.
+- es necesario hacer un filtro a `_user` con el ID del usuario actual.
