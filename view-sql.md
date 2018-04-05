@@ -10,6 +10,17 @@
 - nombre del stored procedure con sus parametros.
 - es posible usar el parámetro $body si se envió en la vista.
 
+#### mssql
+- ejecuta una consulta a MS-SQL (si esta configurado), devuelve el `recordset`.
+- puede ser una expresión.
+- no funcionan los parámetros con `$`.
+
+#### mssqlMultiple
+- ejecuta una consulta a MS-SQL (si esta configurado), devuelve el `recordsets` (mútiples arreglos).
+- puede ser una expresión.
+- no funcionan los parámetros con `$`.
+- en este caso los resultados no se pueden hacer cálculos adicionales.
+
 ## Ejemplos:
 ````
 {{#view id="articulos"}}

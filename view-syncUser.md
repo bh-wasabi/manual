@@ -8,14 +8,16 @@
 - ejecuta un `query` en la conexión actual de MS-SQL Server
 - puede ser una expresión.
 
-#### toMySqlCall 
+#### useMySqlCall 
 - ejecuta un `sp` en la conexión actual de MySQL.
 
+#### ttl (#)
+- minutos que perdura la sincronización, por ejemplo: `ttl="60"`.
 
 Ejemplo:
 ````
 {{#view id="lista"}}
-  {{syncUser fromMsSqlQuery="exec spVerDocumentos 'DEMO'" toMySqlCall="spDemoSincro($body)"}}
+  {{syncUser fromMsSqlQuery="exec spVerDocumentos 'DEMO'" useMySqlCall="spDemoSincro($body)" ttl="60"}}
   {{#find}}
     {{filter field="_user" eq="user.id"}}
   {{/find}}
