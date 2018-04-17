@@ -17,6 +17,12 @@
 #### allowSort (true, false)
 - permite ordenar (al usuario final) 
 
+#### disableEnter (true, false)
+- al oprimir `Enter` se queda en la misma posición.
+
+#### alwaysOnChange (true, false)
+- al aceptar la forma siempre manda la acción `onChange`.
+
 #### sortBy
 - es el orden por omisión que se ejecuta al abrir la cuadrícula.
 - lista de columnas separadas por comas
