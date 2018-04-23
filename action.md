@@ -153,6 +153,10 @@
 - en el caso de `report-pdf` se puede configurar si el reporte se abre en una URL pública.
 - por omisión abre internamente el reporte.
 
+#### reportDocx
+- un reporte puede estar basado en una plantilla de MS-Word
+- aqui se indica la ruta de s3 donde esta la plantilla.
+
 #### fullScreen (true, false)
 - cuando es un sub documento es posible abrirlo en pantalla completa.
 
