@@ -162,6 +162,10 @@ Ejemplo:
 #### [onChange](on-change.md)
 - se pueden configurar un evento cuando el campo cambia de valor.
 
+#### [onClick](field-on-click.md)
+- se pueden configurar un evento cuando se hace click sobre el campo.
+- por el momento unicamente funciona en arreglos.
+
 #### [style](style.md)
 - es posible cambiar algunas cosas adicionales de diseño.
 - esta opción actualmente funciona únicamente en formas PDF.
