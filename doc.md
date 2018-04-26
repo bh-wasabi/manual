@@ -189,7 +189,6 @@ Nota: cuando la sección es tipo objeto se actualizan únicamente los campos afe
 - `Lato`
 - `Roboto`
 
-
 #### confirmBeforeSave
 - es posible confirmar antes de guardar el documento
 - puede ser una [expresión](expr.md).
@@ -226,6 +225,9 @@ va a ser posible visitar esta página y ver a al cliente:
 ````
 https://demo.com/find/cliente/jperez@abc.com
 ````
+#### autoClose (true, false)
+- cierra automáticamente la ventana al aceptar la forma Modal
+- unicamente aplica a Sub Documentos
 
 ## Sub objetos
 #### [param](param.md)
