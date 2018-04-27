@@ -6,6 +6,15 @@
 - `afectar` 
 - `cancelar`
 
+#### engine
+- `mysql` por omision
+- `mssql`
+
+#### sp
+- nombre del `stored procedure` que se ejecuta
+- por omisión es `spAffect` y tiene 2 parámetros (`params` y `doc`) en el caso se `mysql` son `JSON` y en el caso de `mssql` son `XML`.
+- el sp debe regresar una consulta con los siguientes datos: `ok`, `okRef`, `message`, `type` y `reference`.
+
 ## Sub objetos
 #### update
 - es posible efectuar un `update` al documento afectado.
