@@ -26,6 +26,12 @@
 #### toArray (valor1, valor2, valorN)
 - convierte los parámetros a un arreglo.
 
+#### prorrate (arreglo, campo, valor, tipo)
+- `arreglo` arreglo a usar
+- `campo` campo a modificar
+- `valor` valor numérico a prorratear
+- `tipo` por omisión `div` (hace una división del importe entre la cantidad de elementos del arreglo).
+
 #### repeat (valor, veces)
 - genera un texto con el texto repetido la veces indicadas.
 
