@@ -189,6 +189,7 @@
 
 #### [ask](ask.md)
 - si la acción es `type="post"` o `type="get"` es posible preguntar algunos parámetros manualmente.
+- en caso de `update` es posible usar estos parámetros como `_params`
 
 #### [param](param.md)
 - si la acción es `type="post"` o `type="get"` es posible pasar parámetros.
