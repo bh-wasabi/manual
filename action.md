@@ -25,7 +25,7 @@
 - `refresh-widgets` refresca los `widgets` del documento.
 - `post` para ejecutar un `request` tipo `post` en el backend.
 - `get` genera un get con los datos de la forma y opcionalmente la transforma a la captura.
-- `update` obtiene una vista y ejecuta un `update` en el documento, usa `source`, `view`y `update`.
+- `update` obtiene una vista y ejecuta un `update` en el documento, usa `source`, `view`y `update`, si no tiene vista usa el mismo documento como contexto.
 - `start-workflow` inicia un flujo de trabajo del documento.
 - `zoom-in` aumenta el `zoom` del contenido del documento.
 - `zoom-out` disminuye el `zoom` del contenido del documento.
