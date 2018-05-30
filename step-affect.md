@@ -6,6 +6,9 @@
 - `afectar` 
 - `cancelar`
 
+#### condition
+- es posible determinar una condición
+
 #### engine
 - `mysql` por omision
 - `mssql`

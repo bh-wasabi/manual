@@ -15,6 +15,9 @@
 #### text (valor)
 - forza el resultado como texto.
 
+#### removeEmptyRows (arreglo, campo)
+- elimina los renglones que no tienen valor en el campo indicado.
+
 #### concat (valor1, valor2, valorN)
 - concatena varios valores, agregando un espacio entre los valores.
 - es posible agregar comas para separar estos valores, por ejemplo: `calc.concat(@apellidoPaterno,',', @nombre)`. genera "Perez, Juan".

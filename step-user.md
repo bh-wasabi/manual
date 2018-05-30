@@ -3,8 +3,14 @@
 - a los usuarios les aparecerá en su bandeja de entrada el pendiente.
 
 ## Parámetros
+#### name
+- nombre a desplegar en la bandeja de entrada.
+
 #### subject
 - se define el asunto del mensaje que le va aparecer al usuario en us bandeja de entrada.
+
+#### topic
+- tema de la tarea pendiente, se puede hacer para hacer tableros que vayan por tema en lugar de por usuario.
 
 #### icon
 - el icono que deseamos que aparezca.

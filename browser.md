@@ -83,6 +83,10 @@
 #### pagesTabsPosition
 - es posible cambiar este parámetro del documento desde aquí.
 
+#### showActions
+- lista de acciones a mostrar
+- puede ser una expresión
+
 ## Sub objetos
 
 #### [param](param.md)
