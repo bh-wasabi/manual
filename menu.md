@@ -37,6 +37,10 @@
 #### showCompanyName (true, false)
 - con esta opción es posible desplegar el nombre de la empresa del usuario en el menú principal.
 
+#### color
+- define el color del menú principal
+- se puede hacer una expresión usando el perfil del usuario como contexto.
+
 ## Sub objetos
 
 #### [item](menu-item.md)
