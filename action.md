@@ -103,7 +103,7 @@
 - puede ser una [expresión](expr.md).
 
 #### message
-- mensaje a desplegar al iniciar el flujo de trabajo.
+- mensaje a desplegar al iniciar el flujo de trabajo o cuando se termina de afectar.
 
 #### url o postPath
 - la ruta donde se va hacer el `request`
