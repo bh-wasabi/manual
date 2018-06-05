@@ -11,7 +11,8 @@
 - `login` abre la ventana de acceso al sistema.
 - `userName` muestra el nombre del usuario.
 - `change-proyect` abre una ventana para cambiar de proyecto del usuario.
-- `change-company` abre una ventana para cambiar de la empresa del usuario.
+- `change-company` abre una ventana para cambiar la empresa del usuario.
+- `change-reference` abre una ventana para cambiar la referencia del usuario.
 - `refresh` refresca la forma actual.
 - `popup` abre una ventana tipo popup.
 - `doc-add` agrega un detalle al documento en la sección que esta definida.
@@ -70,6 +71,9 @@
 - es posible cambiar nombre del archivo a generar
 - aplica cuando es `type="report"`
 - por omisión es el nombre del menú
+
+#### title
+- cuando se esta cambiando referencia, proyecto o empresa es posible cambiar el título.
 
 ## Sub objetos
 
