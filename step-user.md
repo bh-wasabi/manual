@@ -6,11 +6,20 @@
 #### name
 - nombre a desplegar en la bandeja de entrada.
 
+#### topic
+- tema de la tarea pendiente, se puede hacer para hacer tableros que vayan por tema en lugar de por usuario.
+
 #### subject
 - se define el asunto del mensaje que le va aparecer al usuario en us bandeja de entrada.
 
-#### topic
-- tema de la tarea pendiente, se puede hacer para hacer tableros que vayan por tema en lugar de por usuario.
+#### subject2
+- se define el segundo asunto del mensaje que le va aparecer al usuario en us bandeja de entrada.
+
+#### amount
+- importe
+
+#### unit
+- unidad del importe
 
 #### icon
 - el icono que deseamos que aparezca.

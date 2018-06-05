@@ -35,6 +35,10 @@
 - define el rol de acceso a esta opción del menú.
 - puede ser una lista separada por comas.
 
+#### companyModule
+- define los módulos de acceso a esta opción del menú.
+- puede ser una lista separada por comas.
+
 #### href (url)
 - interna (ej: `/browser/empresa/lista`), si es una ruta interna la hace en la misma sesión que esta corriendo.
 - externa (ej: `http://google.com`)
