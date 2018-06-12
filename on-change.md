@@ -24,6 +24,9 @@
 #### playAudio (url)
 - en el caso de las encuestas orales, es posible lanzar un audio.
 
+#### refreshApplyStatus (true, false)
+- debe ser el mismo campo que tenga `applyTo` en el `grid`, para que actualice los totales.
+
 ## Sub objetos
 
 #### [get](get.md)

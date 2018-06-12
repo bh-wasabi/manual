@@ -9,6 +9,9 @@
 #### topic
 - tema de la tarea pendiente, se puede hacer para hacer tableros que vayan por tema en lugar de por usuario.
 
+#### topic2
+- sub tema de la tarea pendiente.
+
 #### subject
 - se define el asunto del mensaje que le va aparecer al usuario en us bandeja de entrada.
 

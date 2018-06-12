@@ -9,6 +9,9 @@
 #### condition
 - es posible determinar una condición
 
+#### stopNotify
+- si no pudo continuar por la condición, emite una notificación al usuario.
+
 #### engine
 - `mysql` por omision
 - `mssql`

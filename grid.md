@@ -36,6 +36,16 @@
 - es posible condicionar la edición a nivel renglón.
 - es una expresión, el `scope` es el renglón del arreglo.
 
+#### applyBase
+- importe base a aplicar
+
+#### applyTo
+- campo de aplicación
+- para que actualice los totales hay que activar el `refreshApplyStatus` en el `onChange` de este campo.
+
+#### applyMax
+- máximo a aplicar
+
 ## Sub objetos
 
 #### [column](grid-column.md)
