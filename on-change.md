@@ -27,6 +27,9 @@
 #### refreshApplyStatus (true, false)
 - debe ser el mismo campo que tenga `applyTo` en el `grid`, para que actualice los totales.
 
+#### forceRecalc (true, false)
+- forza el recálculo de la sección en algunos casos.
+
 ## Sub objetos
 
 #### [get](get.md)

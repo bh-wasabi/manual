@@ -10,6 +10,7 @@
 - `post` ejecuta un ajax post en la url indicada.
 - `login` abre la ventana de acceso al sistema.
 - `userName` muestra el nombre del usuario.
+- `compileTime` muestra la fecha y hora de compilación.
 - `change-proyect` abre una ventana para cambiar de proyecto del usuario.
 - `change-company` abre una ventana para cambiar la empresa del usuario.
 - `change-reference` abre una ventana para cambiar la referencia del usuario.

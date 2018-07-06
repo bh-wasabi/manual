@@ -103,6 +103,9 @@
 - copia los campos del origen en el resultado
 - lista de campos separada por comas
 
+#### forceRecalc (true, false)
+- forza el recálculo de la sección en algunos casos.
+
 ## Sub objetos
 
 #### [param](param.md)

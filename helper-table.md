@@ -34,6 +34,9 @@
 - por ejemplo: `filter="tipo=foto"`.
 - es posible tener multiples filtros separados por el símbolo `&`.
 
+#### notFilter
+- es el inverso del filter
+
 #### removeEmptyCols (true, false)
 - elimina las columnas que no tienen datos automáticamente.
 

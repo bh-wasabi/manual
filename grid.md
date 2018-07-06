@@ -46,6 +46,18 @@
 #### applyMax
 - máximo a aplicar
 
+#### inputBox
+- define si aparece una captura para agregar renglones 
+- puede ser una expresión
+
+#### inputBoxField
+- campo a capturar
+- puede ser una expresión
+
+#### inputBoxPlaceholder
+- etiqueta a mostrar
+- puede ser una expresión
+
 ## Sub objetos
 
 #### [column](grid-column.md)
