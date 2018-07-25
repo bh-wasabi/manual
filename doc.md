@@ -229,6 +229,14 @@ https://demo.com/find/cliente/jperez@abc.com
 - cierra automáticamente la ventana al aceptar la forma Modal
 - unicamente aplica a Sub Documentos
 
+#### bannerTopTemplate
+- es otra forma de definir el `banner` en una página, usando `templates`.
+- identificador del `template` que contiene el `banner` superior.
+
+#### bannerRightTemplate
+- es otra forma de definir el `banner` en una página, usando `templates`.
+- identificador del `template` que contiene el `banner` derecho.
+
 ## Sub objetos
 #### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.

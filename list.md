@@ -30,6 +30,9 @@
 - permite hacer click en la lista para visualizar el documento.
 - por omisión es `true`.
 
+#### allowFilter (true, false)
+- permite agregar filtros.
+
 #### allowChangeProyect (true, false)
 - permite cambiar de proyecto.
 
