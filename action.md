@@ -185,6 +185,10 @@
 #### path
 - ruta de `s3` a mostrar en la acción `openFolder`.
 
+#### refreshList (true, false)
+- refresca la lista de documentos
+- esto funciona únicamente en la acción tipo `affect-direct`.
+
 ## Sub objetos
 #### [update](update.md)
 - en algunas acciones es posible cambiar los campos del documento.

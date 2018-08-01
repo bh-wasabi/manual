@@ -293,3 +293,6 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### object (lista, [valores])
 - convierte arreglos en objetos.
+
+#### newId (tipo)
+- genera un nuevo ID, se pueden usar los siguientes tipos (`uuid`, `shortid`, `shortid32`).
