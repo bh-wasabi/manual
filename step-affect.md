@@ -25,3 +25,8 @@
 #### update
 - es posible efectuar un `update` al documento afectado.
 - se tiene en el `scope` las siguientes variables (`ok, okRef, message, type, reference`).
+
+#### split
+- siempre y cuando la afectación no mande errores previos.
+- permite dividir un documento en múltiples documentos.
+- puede tener un `condition`.

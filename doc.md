@@ -33,7 +33,6 @@
 - campo que contiene el nombre o titulo del documento por omisión (al usar este tipo de documento desde otros documentos)
 - puede ser "seccion.campo", lo ideal es `_name`.
 
-
 #### defaultDisplayTemplate
 - plantilla a usar para desplegar el documento.
 - de esta forma podemos tener un mayor control de la presentación en las ayudas de captura, tipo: `select`, `lookup` y `autocomplete`.
@@ -231,11 +230,11 @@ https://demo.com/find/cliente/jperez@abc.com
 
 #### bannerTopTemplate
 - es otra forma de definir el `banner` en una página, usando `templates`.
-- identificador del `template` que contiene el `banner` superior.
+- identificador del `template` que contiene el `banner` superior, si no lo encuentra en el documento lo busca en `_app`.
 
 #### bannerRightTemplate
 - es otra forma de definir el `banner` en una página, usando `templates`.
-- identificador del `template` que contiene el `banner` derecho.
+- identificador del `template` que contiene el `banner` derecho, si no lo encuentra en el documento lo busca en `_app`.
 
 ## Sub objetos
 #### [param](param.md)
