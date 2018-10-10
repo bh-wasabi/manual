@@ -20,6 +20,11 @@
 #### disableEnter (true, false)
 - al oprimir `Enter` se queda en la misma posición.
 
+#### sortingMode
+- single (por omisión)
+- multiple
+- none
+
 #### execOnChangeAlways (true, false)
 - al aceptar la forma siempre ejecuta la acción `onChange`.
 

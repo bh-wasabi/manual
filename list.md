@@ -36,6 +36,12 @@
 #### allowChangeProyect (true, false)
 - permite cambiar de proyecto.
 
+#### allowCopy (true, false)
+- permite copiar de la misma collección
+
+#### allowCopyFilter
+- define los parámetros tipo campo=valor
+
 #### items
 - si la lista se va usar dentro de un documento como widget, es necesario especificar la sección del documento que contiene la lista (debe ser tipo arreglo).
 
