@@ -84,7 +84,11 @@
 - es posible cambiar este parámetro del documento desde aquí.
 
 #### showActions
-- lista de acciones a mostrar
+- lista separada por comas, de acciones a mostrar
+- puede ser una expresión
+
+#### hideWidgets
+- lista separada por comas, de widgets a ocultar
 - puede ser una expresión
 
 ## Sub objetos

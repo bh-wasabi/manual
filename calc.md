@@ -296,3 +296,7 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### newId (tipo)
 - genera un nuevo ID, se pueden usar los siguientes tipos (`uuid`, `shortid`, `shortid32`).
+
+#### printIf (condicion, texto)
+- si la condiciones es verdadera imprime el texto, 
+- si no devuelve ''
