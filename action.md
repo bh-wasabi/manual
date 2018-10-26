@@ -37,6 +37,7 @@
 - `save-as` guarda un arreglo en un archivo de texto, usa `items` y `fileName`.
 - `openFile` abre el contenido de un archivo.
 - `openFolder` abre el contenido de un "carpeta" de adjuntos en s3, usa `path` para saber la ruta, puede usar `sort` y `limit` adicionalmente.
+- `view-scheduler` despliega un calendario, requiere definir `scheduler`.
  
 #### modal
 - identificador de la forma modal a invocar
@@ -211,6 +212,9 @@
 
 #### [openFile](action-openFile.md)
 - funciona cuando es `type="openFile"`.
+
+#### [scheduler](action-scheduler.md)
+- configuración del visor del calendario.
 
 ## Ejemplo geocomplete
 ````
