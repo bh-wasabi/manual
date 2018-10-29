@@ -3,6 +3,10 @@
 
 ## Parámetros
 
+#### type
+- `plan` muestra el calendario planeado
+- `busy´ muestra el calendario reservado
+
 #### plan
 - lista de planeación anual.
 
@@ -22,10 +26,17 @@
 - lista de recursos (agendas)
 - es una expresión que se obtiene de cada plan.
 
+#### resourceField
+- campo que contiene el recurso
+
+#### views
+- posibles vistas del calendario
+- `month`, `week`, `day`.
+
+#### currentView
+- vista por omisión
+
 #### color
-- color de elemento
+- color del recurso (agenda)
 - es una expresión que se obtiene de cada recurso.
 
-#### status
-- lista de estatus separada por comas
-- `busy, free, busy-unavailable, busy-tentative, entered-in-error`
