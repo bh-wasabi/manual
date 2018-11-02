@@ -38,7 +38,8 @@
 - `openFile` abre el contenido de un archivo.
 - `openFolder` abre el contenido de un "carpeta" de adjuntos en s3, usa `path` para saber la ruta, puede usar `sort` y `limit` adicionalmente.
 - `view-scheduler` despliega un calendario, requiere definir `scheduler`.
- 
+- `suggest` se envía el documento a una rutina interna de sugerencia, se puede usar el `as` para usar el resultado como `scope` de un `update`.
+
 #### modal
 - identificador de la forma modal a invocar
 
@@ -185,6 +186,9 @@
 
 #### path
 - ruta de `s3` a mostrar en la acción `openFolder`.
+
+#### as 
+- en algunas ocaciones se puede cambiar el scope.
 
 #### refreshList (true, false)
 - refresca la lista de documentos
