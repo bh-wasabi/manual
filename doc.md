@@ -299,6 +299,9 @@ https://demo.com/find/cliente/jperez@abc.com
 #### [form](form.md)
 - define una forma basada en una imagen de fondo.
 
+#### addClass
+- agrega una clase a esta página
+
 ## Markup
 #### [page](page.md)
 - aquí se pone todo el diseño de cada una de las páginas (tab) del documento

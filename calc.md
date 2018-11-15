@@ -15,6 +15,9 @@
 #### text (valor)
 - forza el resultado como texto.
 
+#### tpl (template, datos)
+- ejecuta un template de Handlebars.
+
 #### removeEmptyRows (arreglo, campo)
 - elimina los renglones que no tienen valor en el campo indicado.
 
@@ -25,6 +28,12 @@
 #### concat2 (valor1, valor2, valorN)
 - concatena varios valores, sin agregar espacio entre los valores.
 - es posible agregar comas para separar estos valores, por ejemplo: `calc.concatCompact(@apellidoPaterno,'/', @nombre)`. genera "Perez/Juan".
+
+#### concat3  (valor1, valor2, valorN)
+- concatena varios valores, agregando comas entre los valores.
+
+#### pair (etiqueta, valor, valor2, valor3)
+- concatena un campo/valor si tiene valor
 
 #### toArray (valor1, valor2, valorN)
 - convierte los parámetros a un arreglo.

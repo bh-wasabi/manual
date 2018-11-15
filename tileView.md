@@ -50,6 +50,9 @@
 - muestra la barra de scroll en el mosaico.
 - por omisión es `false`.
 
+#### orderBy
+- es posible cambiar el orden de los mosaicos, especificar el nombre del campo a usar como orden.
+
 ## Sub objetos
 
 ## Ejemplo
