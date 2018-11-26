@@ -281,6 +281,10 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### sum (arreglo, campo)
 - suma un campo del arreglo
 
+#### sumArgs (argumentos)
+- suma todos los argumentos
+- por ejemplo: calc.sumArgs(1,2,3,'4') = 10
+
 #### union (arreglo1, arreglo2, arregloN)
 - une todos los arreglos
 
