@@ -236,6 +236,9 @@ https://demo.com/find/cliente/jperez@abc.com
 - es otra forma de definir el `banner` en una página, usando `templates`.
 - identificador del `template` que contiene el `banner` derecho, si no lo encuentra en el documento lo busca en `_app`.
 
+#### disableSaveButton (true, false)
+- es posible quitar el botón de guardar.
+
 ## Sub objetos
 #### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.

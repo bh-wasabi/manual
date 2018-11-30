@@ -99,6 +99,7 @@
 #### condition
 - es una [expresión](expr.md).
 - es posible condicionar la acción usando el contexto del documento.
+- tambíen es posible usar el contexto de `current` como `current.pageIndex`
 
 #### workflow
 - flujo de trabajo a afectar.
