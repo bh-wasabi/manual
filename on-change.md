@@ -30,6 +30,9 @@
 #### forceRecalc (true, false)
 - forza el recálculo de la sección en algunos casos.
 
+#### action
+- identificador de la acción a ejecutar.
+
 ## Sub objetos
 
 #### [get](get.md)

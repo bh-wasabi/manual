@@ -60,6 +60,9 @@
 #### [search](view-search.md)
 - ejecuta una consulta en la base de datos ElasticSearch.
 
+#### [unwind](view-unwind.md)
+- se pueden explosionar algunos campos tipo arreglo para que lleguen como un solo resultado.
+
 #### [calc](view-calc.md)
 - se pueden agregar campos calculados adicionales, que se calculan sobre el resultado de la consulta.
 
