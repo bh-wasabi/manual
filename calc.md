@@ -50,6 +50,9 @@
 #### number (valor)
 - forza el resultado como numérico.
 
+#### round(importe, decimales)
+- redondea el importe a la decimales indicadas
+
 #### isTrue (valor)
 - evalúa si el valor es verdadero.
 
@@ -278,8 +281,14 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - url de la imágen a transformar.
 - las opciones deben ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`, son las opciones de [transformImage](transformImage).
 
+#### count (arreglo, campo)
+- suma un los valores o campos de un objeto que tienen valor.
+
+#### countArgs (argumentos)
+- cuenta todos los argumentos con valor
+
 #### sum (arreglo, campo)
-- suma un campo del arreglo
+- suma un campo del arreglo o los campos de un objeto numericos
 
 #### sumArgs (argumentos)
 - suma todos los argumentos
