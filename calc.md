@@ -228,6 +228,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### preset (id)
 - devuelve el preset completo.
 
+#### duration (desde, hasta)
+- calcula la duración del rango de tiempos.
+
 #### fromNow (fecha)
 - calcula el tiempo desde cierta fecha en español.
 
