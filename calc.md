@@ -32,6 +32,12 @@
 #### concat3  (valor1, valor2, valorN)
 - concatena varios valores, agregando comas entre los valores.
 
+#### concat4  (valor1, valor2, valorN)
+- concatena varios valores, agregando / entre los valores.
+
+#### concat5  (valor1, valor2, valorN)
+- concatena varios valores, agregando ^ entre los valores sin espacios.
+
 #### pair (etiqueta, valor, valor2, valor3)
 - concatena un campo/valor si tiene valor
 
