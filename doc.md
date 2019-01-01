@@ -239,6 +239,18 @@ https://demo.com/find/cliente/jperez@abc.com
 #### disableSaveButton (true, false)
 - es posible quitar el botón de guardar.
 
+#### addClass
+- agrega una clase a esta página
+
+#### param1
+- guarda el `_param1` del documento.
+
+#### param2
+- guarda el `_param2` del documento.
+
+#### param3
+- guarda el `_param3` del documento.
+
 ## Sub objetos
 #### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.
@@ -301,9 +313,6 @@ https://demo.com/find/cliente/jperez@abc.com
 
 #### [form](form.md)
 - define una forma basada en una imagen de fondo.
-
-#### addClass
-- agrega una clase a esta página
 
 ## Markup
 #### [page](page.md)
