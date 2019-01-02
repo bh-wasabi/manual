@@ -86,10 +86,12 @@
 #### showActions
 - lista separada por comas, de acciones a mostrar
 - puede ser una expresión
+- también se puede pasar esto vía el metadata de excel
 
-#### hideWidgets
-- lista separada por comas, de widgets a ocultar
+#### showWidgets
+- lista separada por comas, de widgets a mostrar
 - puede ser una expresión
+- también se puede pasar esto vía el metadata de excel
 
 ## Sub objetos
 
