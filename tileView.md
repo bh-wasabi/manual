@@ -53,6 +53,9 @@
 #### orderBy
 - es posible cambiar el orden de los mosaicos, especificar el nombre del campo a usar como orden.
 
+#### controlFromMetadata (true, false)
+- es posible controlar este widget desde el metadata excel.
+
 ## Sub objetos
 
 ## Ejemplo

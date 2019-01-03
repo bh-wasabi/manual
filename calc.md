@@ -248,6 +248,12 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - calcula el tiempo desde cierta fecha en español.
 - en la forma mas corta diferente.
 
+#### fromNowTime (fecha)
+- devuelve las horas de una fecha a hoy en formato hh:mm
+
+#### fromNowDays (fecha)
+- devuelve la cantidad de días de una fecha a hoy.
+
 #### findWhere (arreglo, attributos)
 - devuelve el primer elemento de la lista, con los atributos que coincidan.
 
