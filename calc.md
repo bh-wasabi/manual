@@ -254,6 +254,12 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### fromNowDays (fecha)
 - devuelve la cantidad de días de una fecha a hoy.
 
+#### fromNowMonths (fecha)
+- devuelve la cantidad de meses de una fecha a hoy.
+
+#### fromNowYears (fecha)
+- devuelve la cantidad de años de una fecha a hoy.
+
 #### findWhere (arreglo, attributos)
 - devuelve el primer elemento de la lista, con los atributos que coincidan.
 

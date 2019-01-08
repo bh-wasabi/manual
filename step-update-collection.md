@@ -12,6 +12,9 @@
 - puede ser una expresión.
 - tambien es posible usar `filter` para buscar el documento a actualizar.
 
+#### condition
+- es posible definir una condición de ejecución.
+
 ## Sub objetos
 
 #### [update](step-update-collection-update.md)
