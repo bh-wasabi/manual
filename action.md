@@ -36,6 +36,7 @@
 - `inbox-reassign` asigna la tarea a otro usuario.
 - `save-as` guarda un arreglo en un archivo de texto, usa `items` y `fileName`.
 - `openFile` abre el contenido de un archivo.
+- `viewData` ejecuta una vista y abre un campo de `items`.
 - `openFolder` abre el contenido de un "carpeta" de adjuntos en s3, usa `path` para saber la ruta, puede usar `sort` y `limit` adicionalmente.
 - `view-scheduler` despliega un calendario, requiere definir `scheduler`.
 - `suggest` se envía el documento a una rutina interna de sugerencia, se puede usar el `as` para usar el resultado como `scope` de un `update`.
