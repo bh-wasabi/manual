@@ -60,6 +60,9 @@
 #### [search](view-search.md)
 - ejecuta una consulta en la base de datos ElasticSearch.
 
+#### [slots](view-slots.md)
+- ejecuta una consulta para obtener los `slots` disponibles.
+
 #### [unwind](view-unwind.md)
 - se pueden explosionar algunos campos tipo arreglo para que lleguen como un solo resultado.
 

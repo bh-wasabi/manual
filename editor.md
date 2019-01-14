@@ -84,6 +84,10 @@ basados en las configuración:
 - se puede indicar la vista especifica del `source`.
 - por omisión toma la vista definida en el tipo de documento en `defaultView`.
 
+#### viewMethod
+- `post` es posible usar un método `post` para obtener la lista
+- por omisión es `get`.
+
 #### parent
 - campo padre 
 - en `select-current` se especifica el campo a usar como base del filtro.
@@ -257,3 +261,5 @@ basados en las configuración:
 - en el caso de captura tipo `grid` es posible tener una ayuda de captura con otro `grid`.
 - por el momento únicamente funciona con preset's.
 
+#### itemTemplate
+- es posible indicar un `template` especial cuando se despliega la lista
