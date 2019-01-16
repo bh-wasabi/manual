@@ -12,6 +12,9 @@
 #### from 
 - fecha inicial de la búsqueda (opcional)
 
+#### days (#)
+- horizonte en días de la búsqueda (opcional)
+
 #### key
 - llave única del sub documento actual
 - básicamente se usa para tener un llave única en redis
