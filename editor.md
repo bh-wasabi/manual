@@ -69,6 +69,10 @@ basados en las configuración:
 - con esta opción es posible des-habilitar el cache.
 - por omisión es `false`.
 
+#### sourceFromTagBox
+- obtiene la lista del campo tipo tags que debe estar presente en el modal (aunque este hide)
+- esto puede funcionar junto con un preset del campo.
+
 #### getSourceSection
 - es posible usar una sección especifica de un documento como ayuda en captura.
 - es necesario usar `sourceFindOne` para filtrar el documento.

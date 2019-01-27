@@ -52,8 +52,17 @@
 - otra forma de presentar el menú para cambiar de vista.
 
 #### multiResources (true, false)
-- permite mostrar una agenda con multiples recursos al mismo tiempo
+- permite mostrar una agenda con múltiples recursos al mismo tiempo
 - la vista debe regresar una lista de recursos, cada uno con su agenda.
+
+#### resourceSource
+- tipo de documento que tiene los recursos
+
+#### resourceView
+- vista
+
+#### resourceField
+- campo
 
 #### resourceLabel
 - nombre del recurso
