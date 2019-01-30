@@ -15,8 +15,11 @@
 #### text (valor)
 - forza el resultado como texto.
 
-#### tpl (template, datos)
-- ejecuta un template de Handlebars.
+#### tpl (templateId, datos)
+- ejecuta un templateId de la configuración `_app` de Handlebars.
+
+#### hbsMarkdown (plantilla, datos)
+- ejecuta una plantilla de forma manual con Handlebars.
 
 #### removeEmptyRows (arreglo, campo)
 - elimina los renglones que no tienen valor en el campo indicado.

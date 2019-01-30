@@ -37,8 +37,9 @@
 - `save-as` guarda un arreglo en un archivo de texto, usa `items` y `fileName`.
 - `openFile` abre el contenido de un archivo.
 - `viewData` ejecuta una vista y abre un campo de `items`.
-- `openFolder` abre el contenido de un "carpeta" de adjuntos en s3, usa `path` para saber la ruta, puede usar `sort` y `limit` adicionalmente.
+- `openFolder` abre el contenido de un "carpeta" de adjuntos en s3, usa `path` para saber la ruta, puede usar `sort` y `limit` adicionalmente, también se le puede pasar un arreglo directo a `items`, con la lista de url's a abrir.
 - `view-scheduler` despliega un calendario, requiere definir `scheduler`.
+- `report-markdown` abre un PDF con el `markdown` de un campo, requiere `value`, `templateSource` y `templateId` para saber que tipo documento contiene la plantilla.
 - `suggest` se envía el documento a una rutina interna de sugerencia, se puede usar el `as` para usar el resultado como `scope` de un `update`.
 
 #### modal
@@ -150,7 +151,7 @@
 - [iconos](ion-icons.md)
 
 #### fileName
-- en el caso de algunas acciones como `form-pdf` o `report-pdf` es posible indicar el nombre del archivo a generar.
+- en el caso de algunas acciones como `form-pdf` o `report-pdf`, 'report-markdown' es posible indicar el nombre del archivo a generar.
 - puede ser una [expresión](expr.md).
 
 #### report
