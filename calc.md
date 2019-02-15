@@ -4,6 +4,7 @@
 #### fn (id, parámetros...)
 - ejecuta una función configurable.
 - debe existir el identificador en la configuración (`_cfg`).
+- puede tener algunos parámetros múltiples.
 - Nota: esta función también se puede ejecutar directamente sin el prefijo `calc.`
 
 #### log (parámetros...)
@@ -58,6 +59,9 @@
 
 #### number (valor)
 - forza el resultado como numérico.
+
+#### objectId (valor)
+- regresa un ObjectID de mongo con el valor opcional.
 
 #### round(importe, decimales)
 - redondea el importe a la decimales indicadas
@@ -190,9 +194,15 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 - genera un nuevo arreglo con las puras llaves. 
 - buscando en el objeto la referencia.
 
+#### pluckRefHasValue (arreglo, llave)
+- busca sí en los resultados existe alguno `true`.
+
 #### pluckExpr (arreglo, llave)
 - genera un nuevo arreglo con las puras llaves. 
 - la llave puede ser una expresión.
+
+#### pluckExprHasValue (arreglo, llave)
+- busca sí en los resultados existe alguno `true`.
 
 #### itemsInArray (arreglo1, llave, arreglo2)
 - extrae una sub lista del arreglo1 donde exista la llave (del arreglo1) en en arreglo2

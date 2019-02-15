@@ -103,3 +103,7 @@
 #### [syncUser](view-syncUser.md)
 - permite hacer una sincronización previa a obtener la vista.
 - es necesario hacer un filtro a `_user` con el ID del usuario actual.
+
+#### [map](view-map.md)
+- es posible generar re-mapear el resultado de la vista a nuevos campos y valores
+- esto se corre al final, después de todo buscar, cálculos, mapReduce, etc.
