@@ -242,6 +242,10 @@ https://demo.com/find/cliente/jperez@abc.com
 #### addClass
 - agrega una clase a esta página
 
+#### getBalances (true, false)
+- obtiene todos los saldos SQL del documento
+- puede ser una `persona`, `asunto`, `articulo`
+
 #### param1
 - guarda el `_param1` del documento.
 

@@ -97,6 +97,10 @@
 - opcionalmente se puede definir el radio del circulo a mostrar en el mapa.
 - puede ser una expresión.
 
+#### controlFromMetadata (true, false)
+- esta opción permite tener los widgets administrados en el metadata (excel) y poder tener algunos más dinámicos.
+
+
 ## Sub facilitadores
 #### [param](helper-param.md)
 - podemos pasar parámetros adicionales.

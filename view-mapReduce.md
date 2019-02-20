@@ -8,6 +8,9 @@
 #### values
 - lista de valores (separadas por comas) a concentrar (sumar).
 
+#### compact (true, false)
+- comprime los resultados finales
+
 ## Ejemplo:
 ````
 {{mapReduce keys="color, category" values="amount"}}
