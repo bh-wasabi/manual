@@ -51,6 +51,16 @@
 #### applyMax
 - máximo a aplicar
 
+#### applySuggest
+- sugerencia a copiar
+
+#### applySplit
+- permite dividir una linea, copia el renglón y divide la columna de applySuggest y applyTo.
+
+#### applySplitKey
+- se puede copiar algún campo que no este visible, como una llave interna.
+- puede ser una lista separada por comas.
+
 #### inputBox
 - define si aparece una captura para agregar renglones 
 - puede ser una expresión

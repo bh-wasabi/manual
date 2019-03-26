@@ -30,6 +30,9 @@
 - con esta opción es posible invocar a otra vista de otro documento.
 - Nota: si se usa esta opción es indispensable especificar la propiedad de `editor.display`.
 
+#### removeNulls (true, false)
+- elimina los valores vacios
+
 ## Sub objetos
 
 #### [all](view-all.md)
