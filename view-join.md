@@ -12,7 +12,10 @@
 - con este nombre va a quedar anexada la información que vamos a leer.
 
 #### first (true, false)
-- devuelve el primer registro del arreglo.
+- devuelve el primer registro del arreglo, cuando son múltiples.
+
+#### id
+- se puede definir el parámetro _id directamente para que el `join` sea más directo.
 
 ## Sub objetos
 

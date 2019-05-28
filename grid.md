@@ -61,6 +61,9 @@
 - se puede copiar algún campo que no este visible, como una llave interna.
 - puede ser una lista separada por comas.
 
+#### applyValidate (true, false)
+- valida que no se exceda al monto sugerido
+
 #### inputBox
 - define si aparece una captura para agregar renglones 
 - puede ser una expresión
@@ -72,6 +75,19 @@
 #### inputBoxPlaceholder
 - etiqueta a mostrar
 - puede ser una expresión
+
+#### columnAutoWidth (true, false, wordWrapEnabled)
+- permite controlar el tamaño automático de las columnas.
+
+#### wordWrapEnabled (true, false)
+- esto hace que todos los datos salgan a mas renglones si no caben en una línea.
+
+#### pdfFontSize (#)
+- cuando se tienen los `quickReports` se puede definir el tamaño de la letra por omisión
+
+#### showDates
+- lista de filtros en `quickReports`, separada por comas.
+- `next7, next3, tomorrow, today, yesterday, last3, last7, last15, last30`
 
 ## Sub objetos
 

@@ -13,6 +13,7 @@
 - `_` basado en la libreria de [underscore.js](http://underscorejs.org/).
 - `fn` [funciones configurables](fn.md).
 - `calc` [funciones predefinidas](calc.md).
+- `edi` [funciones predefinidas](edi.md).
 - `user` devuelve información del usuario actual.
 - `wasabiCfg` tiene algunas variables de la configuración del servidor (appId).
 

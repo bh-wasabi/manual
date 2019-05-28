@@ -242,6 +242,9 @@ https://demo.com/find/cliente/jperez@abc.com
 #### addClass
 - agrega una clase a esta página
 
+#### excludeClosedRequest (true, false)
+- al momento de ejecutar una acción de tipo `add-subdoc` con este parámetro se checan que los id's de las solicitudes, si están cerradas no se copian para edición.
+
 #### getBalances (true, false)
 - obtiene todos los saldos SQL del documento
 - puede ser una `persona`, `asunto`, `articulo`

@@ -16,8 +16,9 @@
 #### text (valor)
 - forza el resultado como texto.
 
-#### tpl (templateId, datos)
+#### tpl (templateId, datos, [seccionId])
 - ejecuta un templateId de la configuración `_app` de Handlebars.
+- datos puede ser un arreglo de documentos, y se puede poner el nombre de la sección a extraer.
 
 #### hbsMarkdown (plantilla, datos)
 - ejecuta una plantilla de forma manual con Handlebars.
@@ -264,6 +265,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### fromNowTime (fecha)
 - devuelve las horas de una fecha a hoy en formato hh:mm
 
+#### fromNowHours (fecha)
+- devuelve la cantidad de horas de una fecha a hoy.
+
 #### fromNowDays (fecha)
 - devuelve la cantidad de días de una fecha a hoy.
 
@@ -272,6 +276,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### fromNowYears (fecha)
 - devuelve la cantidad de años de una fecha a hoy.
+
+#### fromNowFloat (fecha)
+- devuelve las horas de una fecha a hoy en numérico flotante
 
 #### findWhere (arreglo, attributos)
 - devuelve el primer elemento de la lista, con los atributos que coincidan.
