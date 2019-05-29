@@ -12,9 +12,14 @@
 #### stopNotify
 - si no pudo continuar por la condición, emite una notificación al usuario.
 
+#### url
+- en el caso del `engine="post"`
+
 #### engine
 - `mysql` por omision
 - `mssql`
+- `node`
+- `post`
 
 #### sp
 - nombre del `stored procedure` que se ejecuta
