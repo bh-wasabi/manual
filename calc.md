@@ -366,3 +366,6 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### printIf (condicion, texto)
 - si la condiciones es verdadera imprime el texto, 
 - si no devuelve ''
+
+#### quotes (texto, comilla)
+- pone el texto entre comillas dobles por omisión

@@ -33,6 +33,9 @@
 #### removeNulls (true, false)
 - elimina los valores vacios
 
+#### onlyMapped (true, false)
+- unicamente regresa los valores mapeados
+
 ## Sub objetos
 
 #### [all](view-all.md)
@@ -110,3 +113,7 @@
 #### [map](view-map.md)
 - es posible generar re-mapear el resultado de la vista a nuevos campos y valores
 - esto se corre al final, después de todo buscar, cálculos, mapReduce, etc.
+
+#### [transform](transform.md)
+- en casos muy especificos
+- es posible transformar el resultado arreglo (items) a un documento con secciones usando `tranform`.

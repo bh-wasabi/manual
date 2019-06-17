@@ -44,6 +44,9 @@
 #### applyBase
 - importe base a aplicar
 
+#### applyBaseColumn
+- columna que contiene el saldo
+
 #### applyTo
 - campo de aplicación
 - para que actualice los totales hay que activar el `refreshApplyStatus` en el `onChange` de este campo.
@@ -63,6 +66,10 @@
 
 #### applyValidate (true, false)
 - valida que no se exceda al monto sugerido
+
+#### applyFilter
+- campo a filtar
+- elimina todo lo que no es de esa selección.
 
 #### inputBox
 - define si aparece una captura para agregar renglones 
