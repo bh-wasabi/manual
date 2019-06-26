@@ -79,6 +79,12 @@
 #### summaryPrecision (#)
 - precisión del formato
 
+#### validateDate (true, false)
+- valida que el texto capturado sea una fecha válida en formato YYYY-MM-DD o YYYY/MM/DD
+
+#### validateHour (true, false)
+- valida que el texto capturado sea una hora válida en formato HH:mm
+
 
 ## Sub objetos
 
