@@ -67,6 +67,9 @@
 #### applyValidate (true, false)
 - valida que no se exceda al monto sugerido
 
+#### applyValidateAllOrNothing (true, false)
+- valida que sea todo o nada
+
 #### applyFilter
 - campo a filtar
 - elimina todo lo que no es de esa selección.

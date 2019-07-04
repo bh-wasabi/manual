@@ -113,6 +113,9 @@
 #### presetName (preset, id)
 - devuelve el nombre de un `preset` especifico con un `id` especifico.
 
+#### presetToArray (preset, key)
+- convierte un preset a un arreglo donde `key` es el nombre del `id`.
+
 #### stringify (objeto)
 - convierte un objeto a una cadena de texto JSON.
 
@@ -337,6 +340,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### sumArgs (argumentos)
 - suma todos los argumentos
 - por ejemplo: calc.sumArgs(1,2,3,'4') = 10
+
+#### sumRef (arreglo, referencia)
+- suma las referencias del arreglo
 
 #### union (arreglo1, arreglo2, arregloN)
 - une todos los arreglos
