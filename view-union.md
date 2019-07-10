@@ -8,3 +8,8 @@
 
 #### view
 - nombre de la vista a unir.
+
+#### leftOuterJoin
+- lista separada por comas.
+- hace el `LEFT OUTER JOIN` con los campos señalados.
+- tienen que tener el mismo nombre del campo de los 2 lados para que se pueda hacer la unión.
