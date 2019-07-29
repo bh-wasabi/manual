@@ -162,6 +162,9 @@ Ejemplo:
 #### [onChange](on-change.md)
 - se pueden configurar un evento cuando el campo cambia de valor.
 
+#### [onContentReady](on-content-ready.md)
+- similar a ´onChange´, pero al crearse el campo (no aplican los 2 juntos porque se cicla).
+
 #### [onClick](field-on-click.md)
 - se pueden configurar un evento cuando se hace click sobre el campo.
 - por el momento unicamente funciona en arreglos.

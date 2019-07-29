@@ -13,3 +13,7 @@
 - lista separada por comas.
 - hace el `LEFT OUTER JOIN` con los campos señalados.
 - tienen que tener el mismo nombre del campo de los 2 lados para que se pueda hacer la unión.
+
+#### merge
+- lista separada por comas.
+- se pueden definir la lista de campos a unir.
