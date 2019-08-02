@@ -375,3 +375,6 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### quotes (texto, comilla)
 - pone el texto entre comillas dobles por omisión
+
+#### zeroFill (numero, dígitos)
+- pone un numero relleno de ceros.
