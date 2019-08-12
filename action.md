@@ -31,6 +31,7 @@
 - `zoom-out` disminuye el `zoom` del contenido del documento.
 - `form-pdf` genera un archivo PDF de la forma.
 - `report-pdf` genera un archivo PDF de un reporte del documento.
+- `report-all` genera un archivo PDF de un reporte de todas los registros de una vista.
 - `image-map` despliega una imágen de fondo.
 - `sub-link` genera un sub-vínculo.
 - `inbox-reassign` asigna la tarea a otro usuario.

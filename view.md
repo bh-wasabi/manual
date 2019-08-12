@@ -85,6 +85,9 @@
 - en algunos casos se puede necesitar agrupar y concentrar los resultados de la vista.
 - es una alternativa al pipeline.
 
+#### [reprocess](view-reprocess.md)
+- hace un recalculo de los elementos usando algún proceso particular.
+
 #### [serialize](view-serialize.md)
 - es posible serializar los resultados.
 - esto es muy útil en el caso de gráficas que se necesitan así los datos.

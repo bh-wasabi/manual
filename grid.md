@@ -57,6 +57,9 @@
 #### applySuggest
 - sugerencia a copiar
 
+#### applyContinue (true, false)
+- pone `si` en el campo.
+
 #### applySplit
 - permite dividir una linea, copia el renglón y divide la columna de applySuggest y applyTo.
 
