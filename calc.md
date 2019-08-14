@@ -11,7 +11,10 @@
 - despliega en la consola los parámetros indicados.
 
 #### in (valor, arreglo)
-- busca si existe un valor en un arreglo.
+- busca sí existe un valor en un arreglo.
+
+#### arrayInArray (valores, arreglo)
+- busca sí existe alguno de los valores en un arreglo.
 
 #### text (valor)
 - forza el resultado como texto.
