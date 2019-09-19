@@ -70,6 +70,9 @@
 #### resourceName
 - campo que contiene el nombre del recurso
 
+#### resourceRemovePrefix
+- texto con el prefijo de todos los nombres a eliminar, para que queden mas cortos los nombres de las columnas.
+
 #### resourceColor
 - campo que contiene el color del recurso
 

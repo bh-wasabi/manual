@@ -40,3 +40,6 @@
 
 #### isObjectId (true, false)
 - convierte el valor a ObjectId de mongodb.
+
+#### orInPresetPartOf
+- revisa el preset para ver si este valor es `partOf` de mas opciones, en ese caso el filtro se hace `in`.

@@ -258,6 +258,12 @@ https://demo.com/find/cliente/jperez@abc.com
 #### param3
 - guarda el `_param3` del documento.
 
+#### removeIfEmptySection
+- antes de guardar revisa esta sección (tipo arreglo)
+
+#### removeIfEmptyField
+- elimina los registros que tienen vacío este campo.
+
 ## Sub objetos
 #### [param](param.md)
 - los parámetros del documento se pueden asignar de forma unitaria también, para que se puedan agregar comentarios a un lado y sea mas claro.

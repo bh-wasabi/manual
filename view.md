@@ -36,6 +36,9 @@
 #### onlyMapped (true, false)
 - unicamente regresa los valores mapeados
 
+#### distinct (true, false)
+- regresa los valores únicos, eliminando el _id de la lista.
+
 ## Sub objetos
 
 #### [all](view-all.md)
