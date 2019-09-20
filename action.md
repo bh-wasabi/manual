@@ -203,6 +203,27 @@
 - refresca la lista de documentos
 - esto funciona únicamente en la acción tipo `affect-direct`.
 
+#### fromSource
+- tipo documento
+- es posible leer una vista (con parámetros) previo a ejecutar la acción
+
+#### fromView
+- vista 
+
+#### toSection
+- modificar la sección indicada con la vista
+
+#### fromSource2
+- tipo documento
+- es posible leer una segunda vista
+
+#### fromView2
+- vista 
+
+#### toSection2
+- modificar la sección indicada con la vista
+
+
 ## Sub objetos
 #### [update](update.md)
 - en algunas acciones es posible cambiar los campos del documento.
