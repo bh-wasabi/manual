@@ -77,6 +77,12 @@
 #### title
 - cuando se esta cambiando referencia, proyecto o empresa es posible cambiar el título.
 
+#### confirm (true, false)
+- permite confirmar antes de ejecutar la acción.
+
+#### message
+- permite desplegar un mensaje cuando termina el proceso.
+
 ## Sub objetos
 
 #### [popup](popup.md)
