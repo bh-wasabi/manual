@@ -85,6 +85,9 @@
 #### validateHour (true, false)
 - valida que el texto capturado sea una hora válida en formato HH:mm
 
+#### validateDuplicate (true, false)
+- valida que no se duplique el valor
+
 
 ## Sub objetos
 

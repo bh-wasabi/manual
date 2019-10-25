@@ -7,6 +7,9 @@
 #### id
 - identificador del parámetro
 
+#### default
+- valor por omisión
+
 #### value
 - valor por omisión
 

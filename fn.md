@@ -9,6 +9,9 @@
 #### multi
 - es posible definir un parámetro que sea un arreglo y esto genera múltiples resultados de la función.
 
+#### debug (true, false)
+- manda a la consola mensajes para poder debuggear la función.
+
 ## Sub objetos
 #### [define](fn-define.md)
 - define un parámetro de la función.

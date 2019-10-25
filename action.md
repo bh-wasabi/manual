@@ -40,7 +40,7 @@
 - `quickReport` abre una ventana con un reporte.
 - `openFile` abre el contenido de un archivo.
 - `openFolder` abre el contenido de un "carpeta" de adjuntos en s3, usa `path` para saber la ruta, puede usar `sort` y `limit` adicionalmente, también se le puede pasar un arreglo directo a `items`, con la lista de url's a abrir, otra opción puede tener un `source` y `view` para leer los `items`.
-- `openPreview` abre un archivo adjunto.
+- `openPreview` abre un archivo adjunto, si tiene `else` abre una url.
 - `view-scheduler` despliega un calendario, requiere definir `scheduler`.
 - `report-markdown` abre un PDF con el `markdown` de un campo, requiere `value`, `templateSource` y `templateId` para saber que tipo documento contiene la plantilla.
 - `suggest` se envía el documento a una rutina interna de sugerencia, se puede usar el `as` para usar el resultado como `scope` de un `update`.

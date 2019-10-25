@@ -43,3 +43,9 @@
 
 #### orInPresetPartOf
 - revisa el preset para ver si este valor es `partOf` de mas opciones, en ese caso el filtro se hace `in`.
+
+#### userRole
+- se aplica este filtro si el usuario tiene esos roles.
+
+#### notUserRole
+- se aplica este filtro si el usuario no tiene esos roles.

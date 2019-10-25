@@ -123,3 +123,7 @@
 #### [transform](transform.md)
 - en casos muy especificos
 - es posible transformar el resultado arreglo (items) a un documento con secciones usando `tranform`.
+
+### filter
+- es posible agregar un filtro al final de la consulta
+- usar `{{filter having="expr"}}`.
