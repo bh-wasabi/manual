@@ -46,11 +46,17 @@
 #### concat5  (valor1, valor2, valorN)
 - concatena varios valores, agregando ^ entre los valores sin espacios.
 
+#### concatValueKey  (valor1, valor2)
+- concatena 2 valores descripción y clave entre paréntesis.
+
 #### pair (etiqueta, valor, valor2, valor3)
 - concatena un campo/valor si tiene valor
 
 #### toArray (valor1, valor2, valorN)
 - convierte los parámetros a un arreglo.
+
+#### arrayToLines (arreglo)
+- separa un arreglo en lineas por enter.
 
 #### prorrate (arreglo, campo, valor, tipo)
 - `arreglo` arreglo a usar
