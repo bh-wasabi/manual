@@ -39,6 +39,12 @@
 #### distinct (true, false)
 - regresa los valores únicos, eliminando el _id de la lista.
 
+#### mergeSource
+#### mergeView
+#### mergeSort
+#### mergeRedis
+#### mergeSql
+
 ## Sub objetos
 
 #### [all](view-all.md)

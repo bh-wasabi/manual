@@ -119,6 +119,12 @@
 #### parse (texto)
 - convierte un texto JSON a objeto.
 
+#### getPreset (preset, id)
+- devuelve el objeto del preset con un `id` especifico.
+
+#### getPresetPersona (preset, id, personaId)
+- devuelve el objeto del preset con un `id` especifico y con la posibilidad de que exista a nivel persona (como primera opción).
+
 #### presetName (preset, id)
 - devuelve el nombre de un `preset` especifico con un `id` especifico.
 
