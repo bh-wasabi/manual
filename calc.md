@@ -275,8 +275,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### toYearMonth (año, mes)
 - pone el ultimo momento de un mes especifico.
 
-#### fromNow (fecha)
+#### fromNow (fecha, hora)
 - calcula el tiempo desde cierta fecha en español.
+- hora opcional 
 
 #### fromNowShort (fecha)
 - calcula el tiempo desde cierta fecha en español.
@@ -301,8 +302,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### fromNowYears (fecha)
 - devuelve la cantidad de años de una fecha a hoy.
 
-#### fromNowFloat (fecha)
+#### fromNowFloat (fecha, hora)
 - devuelve las horas de una fecha a hoy en numérico flotante
+- hora opcional 
 
 #### findWhere (arreglo, attributos)
 - devuelve el primer elemento de la lista, con los atributos que coincidan.

@@ -3,6 +3,10 @@
 
 ## Parámetros
 
+#### actorId
+- es posible definir el campo se encuentra el `id` del actor de la agenda.
+- por omisión toma el `_id` del documento.
+
 #### type
 - `plan` muestra el calendario planeado
 - `busy´ muestra el calendario reservado

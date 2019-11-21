@@ -55,6 +55,12 @@
 - en el caso de sub-documentos aqui se especifica el tipo de documento a agregar.
 - también funciona en el caso de `inbox-reassign`.
 
+#### subType
+- puede generar un folio con otro tipo diferente a `source`, tambien se puede controlar la afectación de diferente forma.
+
+#### subTypeName
+- nombre del `subType`.
+
 #### view 
 - en el caso de `inbox-reassign`, es posible definir la vista.
 
