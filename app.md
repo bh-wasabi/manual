@@ -28,6 +28,9 @@
 #### [menu](menu.md)
 - es el menu principal de la aplicación.
 
+#### [mapPreset](mapPreset.md)
+- es posible hacer un mapeo de un `preset` con alguna vista del sistema.
+
 #### [css](http://www.w3schools.com/css/)
 - es posible agregar estilos adicionales a la aplicación.
 
