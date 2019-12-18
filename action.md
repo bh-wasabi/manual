@@ -229,6 +229,8 @@
 #### toSection2
 - modificar la sección indicada con la vista
 
+#### redirect
+- después de afectar es posible, re direccionar el browser a la siguiente dirección.
 
 ## Sub objetos
 #### [update](update.md)

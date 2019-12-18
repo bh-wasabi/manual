@@ -102,6 +102,9 @@
 - lista de filtros en `quickReports`, separada por comas.
 - `next7, next3, tomorrow, today, yesterday, last3, last7, last15, last30`
 
+#### keyField 
+- sirve para definir cuál es el campo importante para validar otros campos requeridos, deberia ser el mismo que se define en el parámetro: ´removeIfEmptyField´.
+
 ## Sub objetos
 
 #### [column](grid-column.md)
