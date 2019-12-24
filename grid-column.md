@@ -88,6 +88,9 @@
 #### validateDuplicate (true, false)
 - valida que no se duplique el valor
 
+#### validateExcess
+- valida que el valor no exceda al valor de otro campo.
+
 #### required (true, false)
 - define el campo como requerido
 - puede tomar en cuenta el `keyField` definido en el `grid`.
