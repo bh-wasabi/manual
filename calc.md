@@ -156,6 +156,9 @@
 - convierte un arreglo a un texto separado por comas
 - el control es un segundo arreglo opcional que nos indica si generar el elemento o no.
 
+#### unique (arreglo)
+- regresa un arreglo con valores únicos.
+
 #### expireColor (fecha, cantidad, unidad)
 - devuelve el los colores `green`, `yellow`, `red` o `grey`, en base al vencimiento de la fecha.
 - en el momento que esta vencido sale en rojo.
