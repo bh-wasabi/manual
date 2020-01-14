@@ -240,6 +240,9 @@
 #### redirect
 - después de afectar es posible, re direccionar el browser a la siguiente dirección.
 
+#### voice
+- cuando va a ejecutar una acción `speak-items` se puede cambiar la voz, por omisión en Carlos (es-CO)
+
 ## Sub objetos
 #### [update](update.md)
 - en algunas acciones es posible cambiar los campos del documento.

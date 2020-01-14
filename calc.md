@@ -128,9 +128,8 @@
 #### getPreset (preset, id)
 - devuelve el objeto del preset con un `id` especifico.
 
-#### getPresetPersona (preset, id, personaId, esCodigoParcial)
+#### getPresetPersona (preset, id, personaId)
 - devuelve el objeto del preset con un `id` especifico y con la posibilidad de que exista a nivel persona (como primera opción).
-- sí `esCodigoPacial`, busca los dígitos intermedios del código, quitando el primero y ultimo.
 
 #### presetName (preset, id)
 - devuelve el nombre de un `preset` especifico con un `id` especifico.
@@ -300,17 +299,25 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### fromNowTime (fecha)
 - devuelve las horas de una fecha a hoy en formato hh:mm
 
-#### fromNowHours (fecha)
+#### fromNowMinutes (fecha[, desde])
+- devuelve la cantidad de minutos de una fecha a hoy.
+- desde es opcional
+
+#### fromNowHours (fecha[, desde])
 - devuelve la cantidad de horas de una fecha a hoy.
+- desde es opcional
 
-#### fromNowDays (fecha)
+#### fromNowDays (fecha[, desde])
 - devuelve la cantidad de días de una fecha a hoy.
+- desde es opcional
 
-#### fromNowMonths (fecha)
+#### fromNowMonths (fecha[, desde])
 - devuelve la cantidad de meses de una fecha a hoy.
+- desde es opcional
 
-#### fromNowYears (fecha)
+#### fromNowYears (fecha[, desde])
 - devuelve la cantidad de años de una fecha a hoy.
+- desde es opcional
 
 #### fromNowFloat (fecha, hora)
 - devuelve las horas de una fecha a hoy en numérico flotante
@@ -411,3 +418,6 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### zeroFill (numero, dígitos)
 - pone un numero relleno de ceros.
+
+#### mask (texto)
+- convierte un texto en asteriscos según su longitud.
