@@ -133,3 +133,6 @@
 ### filter
 - es posible agregar un filtro al final de la consulta
 - usar `{{filter having="expr"}}`.
+
+#### [sort](sort.md)
+- es posible agregar un orden al final de la consulta

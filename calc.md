@@ -421,3 +421,6 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### mask (texto)
 - convierte un texto en asteriscos según su longitud.
+
+#### matchIfPattern (regex, texto)
+- valida el texto con una expresión regular
