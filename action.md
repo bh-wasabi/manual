@@ -147,6 +147,7 @@
 
 #### confirm (true, false)
 - es posible confirmar la acción previo a su ejecución.
+- puede ser una [expresión](expr.md).
 
 #### confirmMessage
 - es posible desplegar un mensaje distinto al confirmar.
@@ -155,6 +156,12 @@
 #### confirmTitle
 - titulo de la confirmación.
 - puede ser una [expresión](expr.md).
+
+#### confirmHeight
+- alto de la ventana
+
+#### confirmWidth
+- ancho de la ventana
 
 #### validateSections (true, false)
 - valida las secciones antes de ejecutar la acción.
