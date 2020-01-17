@@ -162,6 +162,10 @@ Ejemplo:
 #### [onChange](on-change.md)
 - se pueden configurar un evento cuando el campo cambia de valor.
 
+#### [onCreate](on-create.md)
+- se pueden configurar un evento cuando el campo se crea un sub documento.
+- esto únicamente aplica a ´type=doc´ o ´type=docs´
+
 #### [onContentReady](on-content-ready.md)
 - similar a ´onChange´, pero al crearse el campo (no aplican los 2 juntos porque se cicla).
 
