@@ -36,6 +36,7 @@
 - `sub-link` genera un sub-vínculo.
 - `inbox-reassign` asigna la tarea a otro usuario.
 - `save-as` guarda un arreglo en un archivo de texto, usa `items` y `fileName`.
+- `flatten` en el caso `save-as` se puede usar este parámetro para que los arreglos sean planos. 
 - `quickReport` abre una ventana con un reporte.
 - `openFile` abre el contenido de un archivo.
 - `openFolder` abre el contenido de un "carpeta" de adjuntos en s3, usa `path` para saber la ruta, puede usar `sort` y `limit` adicionalmente, también se le puede pasar un arreglo directo a `items`, con la lista de url's a abrir, otra opción puede tener un `source` y `view` para leer los `items`.
@@ -201,6 +202,9 @@
 
 #### reload (true, false)
 - al afectar es posible volver a cargar el documento completamente.
+
+#### keepTempSections (true, false)
+- al momento de afectar un `workflow` es posible indicar que no borre la secciones temporales.
 
 #### transform
 - al hacer algún tipo de `get` podemos hacer una transformación con el resultado del `get` para afectar el documento actual.

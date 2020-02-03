@@ -42,6 +42,9 @@
 #### condition
 - es posible condicionar el `update`.
 
+#### unless
+- condición negativa
+
 #### transform
 - identificador de la transformación.
 - es posible hacer transformaciones recursivas, si el `update` viene de una transformación padre.

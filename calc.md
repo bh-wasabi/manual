@@ -29,6 +29,9 @@
 #### removeEmptyRows (arreglo, campo)
 - elimina los renglones que no tienen valor en el campo indicado.
 
+#### substr(texto, inicio, tamaño)
+- obtiene el `substr` del texto indicado.
+
 #### concat (valor1, valor2, valorN)
 - concatena varios valores, agregando un espacio entre los valores.
 - es posible agregar comas para separar estos valores, por ejemplo: `calc.concat(@apellidoPaterno,',', @nombre)`. genera "Perez, Juan".
@@ -411,6 +414,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### newId (tipo)
 - genera un nuevo ID, se pueden usar los siguientes tipos (`uuid`, `shortid`, `shortid32`).
+
+#### newDoc (doc o docs, [tipo])
+- genera un nuevo ID, y pone la sección `_created`.
 
 #### printIf (condicion, texto)
 - si la condiciones es verdadera imprime el texto, 
