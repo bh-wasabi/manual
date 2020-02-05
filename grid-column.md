@@ -79,6 +79,9 @@
 #### summaryPrecision (#)
 - precisión del formato
 
+#### validateNumber (true, false)
+- valida que el texto capturado sea una número válido
+
 #### validateDate (true, false)
 - valida que el texto capturado sea una fecha válida en formato YYYY-MM-DD o YYYY/MM/DD
 
