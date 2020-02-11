@@ -433,3 +433,10 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### matchIfPattern (regex, texto)
 - valida el texto con una expresión regular
+
+#### userName
+- devuelve el nombre del usuario actual.
+ 
+#### userTurn 
+- devuelve el turno del usuario actual.
+
