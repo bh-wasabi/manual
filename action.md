@@ -47,6 +47,7 @@
 - `report-markdown` abre un PDF con el `markdown` de un campo, requiere `value`, `templateSource` y `templateId` para saber que tipo documento contiene la plantilla.
 - `suggest` se envía el documento a una rutina interna de sugerencia, se puede usar el `as` para usar el resultado como `scope` de un `update`.
 - `speak-items` pregunta una lista.
+- `export` en el caso de `report-pdf` se puede cambiar el formato de exportación del reporte a `csv` o `json`.
 
 #### modal
 - identificador de la forma modal a invocar

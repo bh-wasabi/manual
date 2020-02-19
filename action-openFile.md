@@ -6,5 +6,8 @@
 #### type
 - `xlsx` Excel.
 
+#### subType (opcional)
+- `pedido-liverpool` 
+
 ## Sub objetos
 #### [update](update.md)
