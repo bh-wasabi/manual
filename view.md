@@ -18,6 +18,9 @@
 - cantidad mínima de caracteres para buscar en la vista
 - si no esta establecido devuelve sin búsqueda lo primero que encuentre (por omisión).
 
+#### searchRequired (true, false)
+- únicamente devuelve datos si tiene algo en la búsqueda.
+
 #### template
 - identificador del template a usar.
 - por omisión toma el template que esta en `defaultDisplayTemplate`.

@@ -14,3 +14,4 @@
 #### type
 - text (por Omisión)
 - number, busca el valor numérico
+- code (busca un código exacto en mayúsculas)
