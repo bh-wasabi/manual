@@ -137,6 +137,9 @@
 #### getPresetPersona (preset, id, personaId)
 - devuelve el objeto del preset con un `id` especifico y con la posibilidad de que exista a nivel persona (como primera opción).
 
+#### joinPreset (items, preset, itemKey, presetKey)
+- une una lista con un preset, usando las llaves para encontrar los id.
+
 #### presetName (preset, id)
 - devuelve el nombre de un `preset` especifico con un `id` especifico.
 
@@ -400,6 +403,8 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - mapeo (opcional) lista de campos separados por comas, y es posible renombrar el campo, por ejemplo `importe,referencia` o `importe,referencia=ref`.
 - usarDetalle (opcional), es un valor tipo `Boolean` para controlar si se usa o no el detalle, por omisión es verdadero.
 
+#### mergeArraysByKey (arreglo1, arreglo2, llaves, opciones)
+- puede hacer un `merge` entre 2 arreglos usando una o varias llaves separadas por comas.
 
 #### mergeToMaster (original, nuevo, master, llave)
 - busca los cambios entre el arreglo nuevo y el original, y los aplica en master, usando el campo llave indicada
