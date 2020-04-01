@@ -36,6 +36,7 @@
 - `sub-link` genera un sub-vínculo.
 - `inbox-reassign` asigna la tarea a otro usuario.
 - `save-as` guarda un arreglo en un archivo de texto, usa `items` y `fileName`.
+- `save-as-excel` guarda un arreglo en un archivo de excel, usa `items` y `fileName`.
 - `flatten` en el caso `save-as` se puede usar este parámetro para que los arreglos sean planos. 
 - `quickReport` abre una ventana con un reporte.
 - `openFile` abre el contenido de un archivo.

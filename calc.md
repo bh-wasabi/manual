@@ -445,3 +445,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### userTurn 
 - devuelve el turno del usuario actual.
 
+#### max (valor, maximo)
+- limita al máximo el resultado
+
+#### min (valor, minimo)
+- limita al mínimo el resultado
+

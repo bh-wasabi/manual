@@ -33,3 +33,6 @@
 - se puede definir los campos por lo que se desea buscar.
 - si no se define busca por todos los campos incluidos en la vista.
 
+#### [hint](view-hint.md)
+- se puede especificar un indice en la búsqueda.
+- si existen múltiples `hint` toma el primero.

@@ -10,7 +10,7 @@
 - es posible determinar una condición
 
 #### stopNotify
-- si no pudo continuar por la condición, emite una notificación al usuario.
+- sí no pudo continuar por la condición, emite una notificación al usuario.
 
 #### url
 - en el caso del `engine="post"`
@@ -25,6 +25,9 @@
 - nombre del `stored procedure` que se ejecuta
 - por omisión es `spAffect` y tiene 2 parámetros (`params` y `doc`) en el caso se `mysql` son `JSON` y en el caso de `mssql` son `XML`.
 - el sp debe regresar una consulta con los siguientes datos: `ok`, `okRef`, `message`, `type` y `reference`.
+
+#### as
+- en el caso del `engine="post"` es posible retornar un `scope` para hacer expresiones después de afectar.
 
 ## Sub objetos
 #### update
