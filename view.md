@@ -39,6 +39,9 @@
 #### onlyMapped (true, false)
 - unicamente regresa los valores mapeados
 
+#### scopeParams (true, false)
+- con esta opción podemos usar los parámetros en los campos calculados
+
 #### distinct (true, false)
 - regresa los valores únicos, eliminando el _id de la lista.
 
