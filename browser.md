@@ -93,6 +93,9 @@
 - puede ser una expresión
 - también se puede pasar esto vía el metadata de excel
 
+#### hideList (true, false)
+- con esta opción se puede ocular la lista
+
 ## Sub objetos
 
 #### [param](param.md)

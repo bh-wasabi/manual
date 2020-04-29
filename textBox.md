@@ -8,3 +8,18 @@
 #### width
 - con esta opción es posible controlar el ancho del combo.
 - es mejor usar `{{row}}` y `{{col}}` para controlar las posiciones y los anchos.
+
+#### showClearButton (true, false)
+
+#### case
+- upper
+- lower
+- capitalize
+
+#### mode
+- text
+- email
+- search 
+- tel 
+- url
+- password
