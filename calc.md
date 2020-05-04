@@ -457,3 +457,5 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### min (valor, minimo)
 - limita al mínimo el resultado
 
+#### safeDiv (valor, división)
+- divide de manera segura

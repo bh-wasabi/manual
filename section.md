@@ -119,6 +119,9 @@
 #### orderBy
 - al final es posible ordenar el resultado por algún campo.
 
+#### forceCalcOrder (true, false)
+- los campos calculados van con un orden específico (calcOrder).
+
 ## Sub objetos
 
 #### [field](field.md)

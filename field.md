@@ -151,6 +151,9 @@ Ejemplo:
 #### placeholder
 - cuando es `type="doc"` o `type="multiple-doc"`, es posible definir el valor a mostrar en el botón.
 
+#### calcOrder
+- en el caso de campos calculados es posible establecer el orden de cálculo.
+
 ## Sub objetos
 
 #### [editor](editor.md)
@@ -180,3 +183,4 @@ Ejemplo:
 #### [valueFrom](valueFrom.md)
 - obtiene el valor de otra forma mas compleja
 - pueden ser vistas o tablas `DMN`.
+
