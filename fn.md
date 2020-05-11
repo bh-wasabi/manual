@@ -19,6 +19,6 @@
 #### [default](default.md)
 - define el valor por omisión a regresar.
 
-#### [when](when.md)
+#### [when](fn-when.md)
 - es posible definir un criterio a regresar (usando los valores de los parámetros).
 

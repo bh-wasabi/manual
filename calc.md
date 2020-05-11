@@ -164,6 +164,9 @@
 - convierte un arreglo a un texto separado por comas
 - el control es un segundo arreglo opcional que nos indica si generar el elemento o no.
 
+#### joinArraysById (arreglos, llaves)
+- hace la union de varios arreglos por la misma llave.
+
 #### unique (arreglo)
 - regresa un arreglo con valores únicos.
 

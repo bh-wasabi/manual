@@ -1,4 +1,4 @@
-# Objeto: **vista**
+# Objeto: **view**
 - define una vista del documento
 - podemos establecer filtros y selección de campos específicos, para no estar movimiento datos de mas por la red.
 
@@ -44,6 +44,9 @@
 
 #### distinct (true, false)
 - regresa los valores únicos, eliminando el _id de la lista.
+
+#### appendHistory (true, false) 
+- anexa la colección histórica.
 
 #### mergeSource
 #### mergeView
