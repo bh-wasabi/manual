@@ -369,6 +369,10 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - actualiza un arreglo y pone en un campo especifico un valor especifico
 - es posible indicar una condición opcional.
 
+#### updateArrayExpr (arreglo, llave, expr, condicion)
+- actualiza un arreglo y pone en un campo especifico un valor especifico
+- es posible indicar una condición opcional.
+
 #### getRef (objeto, referencia)
 - obtiene un valor de un objeto
 - la referencia es la llave pero puede contener sub campos separados con punto, por ejemplo: `getRef({base: {nombre: 'hola'}}, 'base.nombre')` va a devolver `hola`.
