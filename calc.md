@@ -58,6 +58,9 @@
 #### concatTab  (valor1, valor2, valorN)
 - concatena varios valores, agregando ´tab´ entre los valores sin espacios.
 
+#### concatEnter  (valor1, valor2, valorN)
+- concatena varios valores, agregando ´enter´ entre los valores sin espacios.
+
 #### pair (etiqueta, valor, valor2, valor3)
 - concatena un campo/valor si tiene valor
 
@@ -462,3 +465,6 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### safeDiv (valor, división)
 - divide de manera segura
+
+#### arrayToFlags (arreglo)
+- convierte un arreglo plano en un objeto (true, false).
