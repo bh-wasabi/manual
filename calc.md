@@ -472,3 +472,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### arrayToFlags (arreglo)
 - convierte un arreglo plano en un objeto (true, false).
+
+#### forceNumber (#)
+- forza el valor como numérico.
+
+#### forceId (id)
+- checa sí llega un valor y en caso de vacío genera un `ObjectID` nuevo como `string`.
