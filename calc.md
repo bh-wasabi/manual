@@ -473,6 +473,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### arrayToFlags (arreglo)
 - convierte un arreglo plano en un objeto (true, false).
 
+#### trim (valor)
+- quita los espacios previos y posteriores del texto.
+
 #### forceNumber (#)
 - forza el valor como numérico.
 
