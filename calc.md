@@ -481,3 +481,6 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### forceId (id)
 - checa sí llega un valor y en caso de vacío genera un `ObjectID` nuevo como `string`.
+
+#### curp (nombres, apellidoPaterno, apellidoMaterno, genero, entidad, fechaNacimiento)
+- genera el CURP con los datos del objeto
