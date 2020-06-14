@@ -6,6 +6,9 @@
 
 #### field
 
+#### qr
+- QR a imprimir, puede ser una expresión
+
 #### margin
 
 #### align

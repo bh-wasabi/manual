@@ -61,6 +61,12 @@
 #### concatEnter  (valor1, valor2, valorN)
 - concatena varios valores, agregando ´enter´ entre los valores sin espacios.
 
+#### concatPath  (valor1, valor2, valorN)
+- concatena varios valores, agregando ´/´ entre los valores sin espacios.
+
+#### concatHost  (valor1, valor2, valorN)
+- es parecido a ´concatPath´, pero agrega de prefijo el Host
+
 #### pair (etiqueta, valor, valor2, valor3)
 - concatena un campo/valor si tiene valor
 
@@ -148,6 +154,9 @@
 
 #### presetToArray (preset, key)
 - convierte un preset a un arreglo donde `key` es el nombre del `id`.
+
+#### tagsToArray (preset, key)
+- convierte un arreglo simple donde `key` es el nombre del `id`.
 
 #### stringify (objeto)
 - convierte un objeto a una cadena de texto JSON.
