@@ -67,6 +67,9 @@
 #### concatHost  (valor1, valor2, valorN)
 - es parecido a ´concatPath´, pero agrega de prefijo el Host
 
+#### maxStringLength (texto, max)
+- limita el texto a un máximo.
+
 #### pair (etiqueta, valor, valor2, valor3)
 - concatena un campo/valor si tiene valor
 
@@ -99,6 +102,12 @@
 
 #### isFalse (valor)
 - evalúa si el valor es false.
+
+#### isEmpty (valor)
+- checa que el valor tenga datos o no sea un objeto o arreglo vacio.
+
+#### isNotEmpty (valor)
+- nega al isEmpty
 
 #### isNull (valor, valorPorOmision)
 - checa si el valor es nulo, devuelve el valor por omisión.
@@ -484,6 +493,14 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### trim (valor)
 - quita los espacios previos y posteriores del texto.
+
+#### trimTextArea (valor)
+- quita los espacios previos y posteriores del texto.
+- quita lineas vacías.
+
+#### trimArray (lista)
+- quita los espacios previos y posteriores de la lista 
+- quita lineas vacías.
 
 #### forceNumber (#)
 - forza el valor como numérico.
