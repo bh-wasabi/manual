@@ -395,6 +395,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - obtiene un valor de un objeto
 - la referencia es la llave pero puede contener sub campos separados con punto, por ejemplo: `getRef({base: {nombre: 'hola'}}, 'base.nombre')` va a devolver `hola`.
 
+#### getRefLength (objeto, referencia)
+- cantidad de elementos en un arreglo que se obtiene con `getRef`.
+
 #### reconcilePreset (preset, lista, listaCampo, filtro, nombreCampo, camposCopiar)
 - concilia un preset con una lista especifica.
 - listaCampo es el nombre del campo que contiene el `id` en la lista.
@@ -513,3 +516,13 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### mergeObj (obj1, obj2)
 - plancha los valores existentes en el objeto2 al objeto1.
+
+#### mapArray (items, mapeo)
+- recorre un arreglo y mapea los elementos a los nuevos key=value del mapeo.
+
+````
+calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
+````
+
+#### profileMatch (obj1, obj2, propiedades)
+- genera un % de macheo de los objetos en el arreglo de propiedades definido
