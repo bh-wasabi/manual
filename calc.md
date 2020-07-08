@@ -70,6 +70,9 @@
 #### maxStringLength (texto, max)
 - limita el texto a un máximo.
 
+#### length (texto)
+- número de carácteres en texto
+
 #### pair (etiqueta, valor, valor2, valor3)
 - concatena un campo/valor si tiene valor
 
@@ -513,6 +516,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### curp (nombres, apellidoPaterno, apellidoMaterno, genero, entidad, fechaNacimiento)
 - genera el CURP con los datos del objeto
+
+#### curp3Ok (curp)
+- valida que sea un CURP con letras y números (de 7 a 18 letras, sin validar más detalles)
 
 #### mergeObj (obj1, obj2)
 - plancha los valores existentes en el objeto2 al objeto1.
