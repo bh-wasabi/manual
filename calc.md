@@ -32,6 +32,10 @@
 #### substr(texto, inicio, tamaño)
 - obtiene el `substr` del texto indicado.
 
+
+#### cut (texto, llave)
+- busca la llave en el texto y si existe corta el texto hasta ese punto.
+
 #### concat (valor1, valor2, valorN)
 - concatena varios valores, agregando un espacio entre los valores.
 - es posible agregar comas para separar estos valores, por ejemplo: `calc.concat(@apellidoPaterno,',', @nombre)`. genera "Perez, Juan".
@@ -517,8 +521,17 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### curp (nombres, apellidoPaterno, apellidoMaterno, genero, entidad, fechaNacimiento)
 - genera el CURP con los datos del objeto
 
+#### curpOk (curp)
+- valida que sea un CURP válido
+
+#### curp2Ok (curp)
+- valida que sea un CURP válido (con menos detalles)
+
 #### curp3Ok (curp)
-- valida que sea un CURP con letras y números (de 7 a 18 letras, sin validar más detalles)
+- valida que sea un CURP válido (con letras y números, de 12 a 18 letras, sin validar más detalles).
+
+#### uuidOk (uuid)
+- valida que sea un UUID válido
 
 #### mergeObj (obj1, obj2)
 - plancha los valores existentes en el objeto2 al objeto1.

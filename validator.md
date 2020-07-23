@@ -18,6 +18,7 @@
 - `duplicates` valida valores duplicados, el mismo campo en otros documentos de la misma colección.
 - `rfc` valida que el RFC sea válido.
 - `curp` valida que el CURP sea válido.
+- `uuid` valida que el UUID sea válido.
 - `expr` valida usando una expresión.
 
 #### message
