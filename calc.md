@@ -13,6 +13,10 @@
 #### in (valor, arreglo)
 - busca sí existe un valor en un arreglo.
 
+#### inForce (desde, hasta, [fecha])
+- checa si está vigente.
+- la fecha es opcional, si no se define se usa `moment().format()`.
+
 #### arrayInArray (valores, arreglo)
 - busca sí existe alguno de los valores en un arreglo.
 
@@ -32,9 +36,17 @@
 #### substr(texto, inicio, tamaño)
 - obtiene el `substr` del texto indicado.
 
-
 #### cut (texto, llave)
 - busca la llave en el texto y si existe corta el texto hasta ese punto.
+
+#### keys (obj)
+- obtiene la lista de llaves
+
+#### names (obj)
+- obtiene la lista de nombres
+
+#### valores (obj)
+- obtiene la lista de valores
 
 #### concat (valor1, valor2, valorN)
 - concatena varios valores, agregando un espacio entre los valores.
@@ -52,6 +64,9 @@
 
 #### concat5  (valor1, valor2, valorN)
 - concatena varios valores, agregando ^ entre los valores sin espacios.
+
+#### arrayWithItems (valor)
+- checa que exista y que sea un arreglo con elementos
 
 #### concatValueKey  (valor1, valor2)
 - concatena 2 valores descripción y clave entre paréntesis.
@@ -262,8 +277,8 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 - genera un nuevo arreglo con las puras llaves. 
 - buscando en el objeto la referencia.
 
-#### pluckRefHasValue (arreglo, llave)
-- busca sí en los resultados existe alguno `true`.
+#### pluckRefHasValue (arreglo[, llave])
+- busca sí en los resultados existe alguno `true` o si tiene la llave opcional.
 
 #### pluckExpr (arreglo, llave)
 - genera un nuevo arreglo con las puras llaves. 
@@ -402,6 +417,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - obtiene un valor de un objeto
 - la referencia es la llave pero puede contener sub campos separados con punto, por ejemplo: `getRef({base: {nombre: 'hola'}}, 'base.nombre')` va a devolver `hola`.
 
+#### existsRef (objeto, referencia)
+- checa sí existe una referencia.
+
 #### getRefLength (objeto, referencia)
 - cantidad de elementos en un arreglo que se obtiene con `getRef`.
 
@@ -436,6 +454,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### sumRef (arreglo, referencia)
 - suma las referencias del arreglo
+
+#### sumExpr (arreglo, expresión)
+- suma las expresiones del arreglo
 
 #### union (arreglo1, arreglo2, arregloN)
 - une todos los arreglos

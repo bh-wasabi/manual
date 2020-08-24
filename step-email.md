@@ -14,6 +14,9 @@
 #### to
 - destinatario
 
+#### toName
+- nombre destinatario (opcional).
+
 #### cc
 - con copia a
 
