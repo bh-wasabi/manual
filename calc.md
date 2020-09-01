@@ -186,6 +186,9 @@
 #### presetToArray (preset, key)
 - convierte un preset a un arreglo donde `key` es el nombre del `id`.
 
+#### presetNotIn (preset, excluir, separadoComas)
+- devuelve un arreglo con la lista o separado por Comas de la lista excluyendo la lista
+
 #### tagsToArray (preset, key)
 - convierte un arreglo simple donde `key` es el nombre del `id`.
 
@@ -566,3 +569,6 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### profileMatch (obj1, obj2, propiedades)
 - genera un % de macheo de los objetos en el arreglo de propiedades definido
+
+#### errorInSequence (lista, inicia, error)
+- revisa una lista para ver que no existan hoyos, regresa el primer problema
