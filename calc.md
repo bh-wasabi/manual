@@ -83,6 +83,9 @@
 #### concatPath  (valor1, valor2, valorN)
 - concatena varios valores, agregando ´/´ entre los valores sin espacios.
 
+#### concatPipe  (valor1, valor2, valorN)
+- concatena varios valores, agregando ´|´ entre los valores sin espacios.
+
 #### concatHost  (valor1, valor2, valorN)
 - es parecido a ´concatPath´, pero agrega de prefijo el Host
 
@@ -572,3 +575,16 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### errorInSequence (lista, inicia, error)
 - revisa una lista para ver que no existan hoyos, regresa el primer problema
+
+#### filterRef (items, key, value)
+- devuelve la lista de lo que corresponde a esa referencia
+
+#### filterNotRef (items, key, value)
+- devuelve la lista de lo que no corresponde a esa referencia
+
+#### filterIfRef (items, key)
+- devuelve la lista sí existe referencia.
+
+#### itemsSetRef (items, key, value)
+- asigna el valor a la lista en la referencia indicada.
+
