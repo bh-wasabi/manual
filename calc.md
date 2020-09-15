@@ -74,6 +74,9 @@
 #### concatPoint  (valor1, valor2, valorN)
 - concatena varios valores, agregando ´.´ entre los valores sin espacios.
 
+#### concatPairs  (valor1, valor2, valor3, valor4, valorN)
+- concatena varios valores en pares, separados por comas.
+
 #### concatTab  (valor1, valor2, valorN)
 - concatena varios valores, agregando ´tab´ entre los valores sin espacios.
 
@@ -587,4 +590,7 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### itemsSetRef (items, key, value)
 - asigna el valor a la lista en la referencia indicada.
+
+#### setIndication (type, items, last, startHour, requests)
+- cambia los estatus, elimina los suspendidos o cancelados, genera nuevos id.
 
