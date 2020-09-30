@@ -470,6 +470,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### union (arreglo1, arreglo2, arregloN)
 - une todos los arreglos
 
+#### hasRole (roles)
+- checa que el usuario actual tenga alguno de los roles, separados por comas.
+
 #### mergeMasterDetail (mater, detalle, campos, mapeo, usarDetalle)
 - sirve para generar un resultado uniforme, devuelve un arreglo.
 - master es el encabezado (objeto)
@@ -591,6 +594,6 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### itemsSetRef (items, key, value)
 - asigna el valor a la lista en la referencia indicada.
 
-#### setIndication (type, items, last, startHour, requests)
+#### setIndication (type, lastIndication, startHour, requests)
 - cambia los estatus, elimina los suspendidos o cancelados, genera nuevos id.
 
