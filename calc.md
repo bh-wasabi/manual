@@ -597,3 +597,5 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### setIndication (type, lastIndication, startHour, requests)
 - cambia los estatus, elimina los suspendidos o cancelados, genera nuevos id.
 
+#### addTimeUnit (fecha, cantidad, unidad)
+- calcula una nueva fecha incrementado la cantidad y unidad
