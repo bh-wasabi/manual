@@ -279,6 +279,10 @@ Sintaxis 2:
 calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 ````
 
+#### lookupConfigException (type, field)
+- busca una excepción de la configuración (_app), que corresponde a un tipo/campo especifico
+- estas excepciones son relativas a la fecha hoy.
+
 #### pluck (arreglo, llave)
 - genera un nuevo arreglo con las puras llaves.
 
@@ -599,3 +603,6 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### addTimeUnit (fecha, cantidad, unidad)
 - calcula una nueva fecha incrementado la cantidad y unidad
+
+#### getAppParam (param)
+- obtiene el valor de algún parámetro del sistema.
