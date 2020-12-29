@@ -5,8 +5,8 @@
 #### type
 - `text` texto simple sin ayuda.
 - `text-area` area de texto multi-renglón.
-- `select` seleccionar de una lista de opciones, necesita `preset` o `source`.
-- `lookup` búsqueda avanzada sobre el campo, necesita `preset` o `source`.
+- `select` seleccionar de una lista de opciones, necesita `preset`, `source` o `items`.
+- `lookup` búsqueda avanzada sobre el campo, necesita `preset`, `source` o `items`.
 - `autocomplete` sugiere el texto en base a la lista de opciones, necesita `preset` o `source`, en este caso no se guarda el campo con el nombre no hay `id`.
 - `tags` múltiples etiquetas, puede tener un `preset` o `source`.
 - `number`
@@ -267,3 +267,6 @@ basados en las configuración:
 
 #### itemTemplate
 - es posible indicar un `template` especial cuando se despliega la lista
+
+#### includeMissing (true, false)
+- con esta opción cuando es múltiple, presenta los faltantes.
