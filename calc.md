@@ -300,6 +300,12 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 #### pluckExprHasValue (arreglo, llave)
 - busca sí en los resultados existe alguno `true`.
 
+#### deleteRef (objeto, llave)
+- elimina una campo del objeto
+
+#### deleteRefInArray (arreglo, llave)
+- elimina una campo del objeto en el arreglo
+
 #### itemsInArray (arreglo1, llave, arreglo2)
 - extrae una sub lista del arreglo1 donde exista la llave (del arreglo1) en en arreglo2
 - el arreglo2 debe ser un arreglo simple.
@@ -400,8 +406,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### findWhere (arreglo, attributos)
 - devuelve el primer elemento de la lista, con los atributos que coincidan.
 
-#### findWhereRef (arreglo, referencia, valor)
+#### findWhereRef (arreglo, referencia, valor [, referencia2, valor2])
 - devuelve el primer elemento de la lista, usando la referencia y que el valor corresponda.
+- puede tener 2 referencias (opcional).
 
 #### where (arreglo, attributos)
 - devuelve una lista, con los atributos que coincidan.
@@ -606,3 +613,8 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### getAppParam (param)
 - obtiene el valor de algún parámetro del sistema.
+
+#### semaphore (vencimiento, [horas, ahora])
+- regresa un color green, yellow o red, si ya esta vencido
+- también se pueden definir las horas de amarillo, por omisión 24.
+- opcional mente se puede definir cuál es el día base por omisión es "ahora".
