@@ -556,8 +556,17 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - quita los espacios previos y posteriores de la lista 
 - quita lineas vacías.
 
+#### number (#)
+- forza el valor como numérico.
+
 #### forceNumber (#)
 - forza el valor como numérico.
+
+#### string (valor)
+- forza el valor como texto.
+
+#### forceString (valor)
+- forza el valor como texto.
 
 #### forceId (id)
 - checa sí llega un valor y en caso de vacío genera un `ObjectID` nuevo como `string`.
@@ -618,3 +627,6 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 - regresa un color green, yellow o red, si ya esta vencido
 - también se pueden definir las horas de amarillo, por omisión 24.
 - opcional mente se puede definir cuál es el día base por omisión es "ahora".
+
+#### setTime (fecha, hora, minutos)
+- pone una hora y minutos específicos a una fecha otorgada.
