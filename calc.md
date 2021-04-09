@@ -556,6 +556,12 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - quita los espacios previos y posteriores de la lista 
 - quita lineas vacías.
 
+#### forceDataType (valor[, tipo, formato])
+- regresa el valor el tipo de datos especifico y puede incluir un formato
+
+#### appParam y getAppParam (param, tipo, formato)
+- es posible leer un parámetro de la configuración _app y regresarlo en un tipo y formato especifico.
+
 #### number (#)
 - forza el valor como numérico.
 
@@ -619,9 +625,6 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### addTimeUnit (fecha, cantidad, unidad)
 - calcula una nueva fecha incrementado la cantidad y unidad
-
-#### getAppParam (param)
-- obtiene el valor de algún parámetro del sistema.
 
 #### semaphore (vencimiento, [horas, ahora])
 - regresa un color green, yellow o red, si ya esta vencido
