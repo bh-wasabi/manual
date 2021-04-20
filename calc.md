@@ -413,6 +413,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### where (arreglo, attributos)
 - devuelve una lista, con los atributos que coincidan.
 
+#### whereRefIn (arreglo, ref, values)
+- devuelve la lista con los valores múltiples que existan en la referencia.
+
 #### notWhere (arreglo, attributos)
 - devuelve una lista, con los atributos que no coincidan.
 
@@ -588,6 +591,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### curp3Ok (curp)
 - valida que sea un CURP válido (con letras y números, de 12 a 18 letras, sin validar más detalles).
+
+#### rutOk (rut)
+- valida que sea un RUT válido
 
 #### uuidOk (uuid)
 - valida que sea un UUID válido
