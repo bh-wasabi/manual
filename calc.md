@@ -617,6 +617,9 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### filterRef (items, key, value)
 - devuelve la lista de lo que corresponde a esa referencia
 
+#### filterInRef (items, key, values)
+- devuelve la lista de lo que corresponde a esa referencia y valores
+
 #### filterNotRef (items, key, value)
 - devuelve la lista de lo que no corresponde a esa referencia
 
@@ -639,3 +642,6 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### setTime (fecha, hora, minutos)
 - pone una hora y minutos específicos a una fecha otorgada.
+
+#### findDuplicatesWhereRefIn (items, ref, key, values, key2, values2)
+- obtiene una lista con diferentes criterios de filtrado
