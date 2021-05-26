@@ -173,6 +173,10 @@
 - mensaje de Error a desplegar (y parar la ejecución de la acción)
 - puede ser una [expresión](expr.md).
 
+#### warning
+- mensaje de Advertencia a desplegar (sin frenan la ejecución de la acción)
+- puede ser una [expresión](expr.md).
+
 #### sendDeviceDataId
 - envia deviceDataId al servidor, si la acción el tipo es `affect`, `affect-direct` y `post`.
 - esto sirve para poder hacer los cargos automáticos a las tarjetas de crédito.
