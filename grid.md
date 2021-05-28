@@ -105,6 +105,13 @@
 #### keyField 
 - sirve para definir cuál es el campo importante para validar otros campos requeridos, deberia ser el mismo que se define en el parámetro: ´removeIfEmptyField´.
 
+
+#### fixedRowsTop (#)
+- fija renglones superiores
+
+#### fixedColumnsLeft
+- fija columnas a la izquierda
+
 ## Sub objetos
 
 #### [column](grid-column.md)
