@@ -646,11 +646,17 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### setTime (fecha, hora, minutos)
 - pone una hora y minutos específicos a una fecha otorgada.
 
+#### setTimeStr (fecha, tiempo)
+- pone una hora (formato fecha) específico a una fecha otorgada.
+
 #### findDuplicatesWhereRefIn (items, ref, key, values, key2, values2)
 - obtiene una lista con diferentes criterios de filtrado
 
 #### getRange (desde, hasta)
 - devuelve una lista de fechas
+
+#### explodeRange (fromDate, toDate, expr)
+- explosiona un rango de fechas ejecutando la expresión con el scope 
 
 #### explodeRangePreset (fromDate, toDate, preset, expr)
 - explosiona un preset en un rango de fechas ejecutando la expresión con el scope 
