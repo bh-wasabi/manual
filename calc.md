@@ -514,7 +514,7 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### newId (tipo)
 - genera un nuevo ID, se pueden usar los siguientes tipos (`uuid`, `shortid`, `shortid32`).
 
-#### newDoc (doc o docs, [tipo])
+#### newDoc (doc o docs, [tipo, deleteRef, untilRef])
 - genera un nuevo ID, y pone la sección `_created`.
 
 #### printIf (condicion, texto)
