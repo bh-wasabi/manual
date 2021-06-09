@@ -10,6 +10,14 @@
 - `date` pregunta una fecha
 - `text` por omisión un texto.
 
+#### mode
+- email 
+- password
+- search
+- tel
+- text
+- url
+
 #### label
 - nombre a desplegar
 - puede ser una [expresión](expr.md).
