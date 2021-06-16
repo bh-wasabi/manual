@@ -120,6 +120,13 @@
 #### [get](get.md)
 - es posible leer un documento externo para usarlo para actualizar.
 
+#### [setRef] (ref, value)
+- es posible poner un valor en una referencia más profunda.
+
+#### [pushRef] (id, ref, value)
+- es posible poner un valor en una referencia más profunda de tipo arreglo 
+- el id es un identificador del grupo del arreglo.
+
 ## Ejemplos
 En este ejemplo se actualiza directamente el campo `nombre` de la sección `sujeto`.
 ````
