@@ -189,6 +189,9 @@
 #### presetName (preset, id)
 - devuelve el nombre de un `preset` especifico con un `id` especifico.
 
+#### presetInfo (preset, id)
+- devuelve los datos de un `preset` especifico con un `id` especifico.
+
 #### presetToArray (preset, key)
 - convierte un preset a un arreglo donde `key` es el nombre del `id`.
 
@@ -317,6 +320,17 @@ Ejemplo:
 ````
 calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3])
 ````
+#### tax (amount, percent[, decimales])
+- calcula el impuesto directo de un porcentaje en enteros
+- opcionalmente se puede redondear el resultado
+
+#### taxExcluded (amount, percent[, decimales])
+- calcula el importe sin el impuesto incluido
+- opcionalmente se puede redondear el resultado
+
+#### taxIncluded (amount, percent[, decimales])
+- calcula el impuesto incluido de un precio que incluye impuestos
+- opcionalmente se puede redondear el resultado
 
 #### taxAmount (preset, taxTypes, amount, filter)
 - Esta función regresa el importe de impuestos a nivel línea.
