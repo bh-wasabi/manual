@@ -324,6 +324,10 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - calcula el impuesto directo de un porcentaje en enteros
 - opcionalmente se puede redondear el resultado
 
+#### addTax (amount, percent[, decimales])
+- calcula el importe Total directo de un porcentaje en enteros
+- opcionalmente se puede redondear el resultado
+
 #### taxExcluded (amount, percent[, decimales])
 - calcula el importe sin el impuesto incluido
 - opcionalmente se puede redondear el resultado

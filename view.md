@@ -56,6 +56,7 @@
 
 ## Sub objetos
 
+
 #### [all](view-all.md)
 - lee todo la colección
 
@@ -145,3 +146,6 @@
 
 #### [sort](sort.md)
 - es posible agregar un orden al final de la consulta
+
+#### [connect](view-connect.md)
+- es posible conectarse a otro servidor de mongoDB
