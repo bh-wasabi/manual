@@ -147,5 +147,11 @@
 #### [sort](sort.md)
 - es posible agregar un orden al final de la consulta
 
-#### [connect](view-connect.md)
-- es posible conectarse a otro servidor de mongoDB
+#### [remote](view-remote.md)
+- es posible conectarse a otro servidor remoto de mongoDB
+- debe estar previamente configurado en wasabi-cfg.json
+
+#### [proxy](view-proxy.md)
+- es posible conectarse a otro servidor remoto de mongoDB usando un servidor proxy de intermediario 
+- debe estar previamente configurado en wasabi-cfg.json
+

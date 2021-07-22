@@ -650,6 +650,10 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### itemsSetRef (items, key, value)
 - asigna el valor a la lista en la referencia indicada.
 
+#### itemsSetExpr (items, key, expr)
+- asigna el valor de la expresión a la lista en la referencia indicada.
+- usa el scope del mismo registro
+
 #### setIndication (type, lastIndication, startHour, requests)
 - cambia los estatus, elimina los suspendidos o cancelados, genera nuevos id.
 
@@ -678,3 +682,12 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### explodeRangePreset (fromDate, toDate, preset, expr)
 - explosiona un preset en un rango de fechas ejecutando la expresión con el scope 
+
+#### isBetween (value, from, to)
+- checa si esta en el rango
+
+#### isBetweenDateTime (value, from, to)
+- checa si esta en el rango convirtiendo a fechas
+
+#### isBetweenDateAndTime (value, from, to, fromTime, toTime)
+- checa si esta en el rango convirtiendo a fechas y checando el rango de horas
