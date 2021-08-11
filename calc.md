@@ -671,7 +671,7 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### setTimeStr (fecha, tiempo)
 - pone una hora (formato fecha) específico a una fecha otorgada.
 
-#### findDuplicatesWhereRefIn (items, ref, key, values, key2, values2)
+#### findDuplicatesWhereRefIn (items, ref, key, values, key2, values2, key3, values3)
 - obtiene una lista con diferentes criterios de filtrado
 
 #### getRange (desde, hasta)
