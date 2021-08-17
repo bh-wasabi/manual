@@ -328,6 +328,10 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - calcula el importe Total directo de un porcentaje en enteros
 - opcionalmente se puede redondear el resultado
 
+#### addTaxRetention (amount, percent, retention1, retention2, [, decimales])
+- calcula el importe Total directo de un porcentaje en enteros, quitando retenciones
+- opcionalmente se puede redondear el resultado
+
 #### taxExcluded (amount, percent[, decimales])
 - calcula el importe sin el impuesto incluido
 - opcionalmente se puede redondear el resultado
@@ -649,6 +653,9 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### itemsSetRef (items, key, value)
 - asigna el valor a la lista en la referencia indicada.
+
+#### itemsSetRefIfNotExists (items, key, value)
+- asigna el valor a la lista en la referencia indicada si no tiene valor.
 
 #### itemsSetExpr (items, key, expr)
 - asigna el valor de la expresión a la lista en la referencia indicada.
