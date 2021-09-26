@@ -8,8 +8,15 @@
 #### width
 - ancho en pixeles de la columna
 
-#### type (text, number, date, button, flag)
+#### type (text, number, date, button, flag, image)
 - el tipo de datos lo obtiene del campo, aquí también lo podemos establecer directamente.
+
+#### boldIf 
+- se puede definir una expresión para condicionar el Bold
+
+#### image
+- se puede desplegar una imagen en esa celda usando una URL.
+- puede ser una expresión.
 
 #### label
 - la etiqueta la obtiene del campo, aquí también se puede establecer directamente.
@@ -97,6 +104,12 @@
 #### required (true, false)
 - define el campo como requerido
 - puede tomar en cuenta el `keyField` definido en el `grid`.
+
+#### items
+- se puede definir la ayuda en captura directamente sobre esa columna
+
+#### image
+- se puede definir una URL que contenga una imagen para esa columna.
 
 ## Sub objetos
 

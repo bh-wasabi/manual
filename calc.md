@@ -198,6 +198,9 @@
 #### presetNotIn (preset, excluir, separadoComas)
 - devuelve un arreglo con la lista o separado por Comas de la lista excluyendo la lista
 
+#### presetIdWhere (preset, filtro)
+- devuelve la lista de id, del preset que corresponde al filtro.
+
 #### tagsToArray (preset, key)
 - convierte un arreglo simple donde `key` es el nombre del `id`.
 
@@ -345,6 +348,12 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### taxBreakdown (preset, items, grandTotal, action)
 - Esta función regresa el desglose de los impuestos totales de un movimiento.
+
+#### deductible (amount, type, percent, top)
+- determina la parte deducible de un importe, ya sea por porcentaje o tope
+
+#### notDeductible (amount, type, percent, top)
+- determina la parte no deducible de un importe, ya sea por porcentaje o tope
 
 #### getProration (items, action)
 - Esta función sirve para extraer los prorrateos de una lista y concentrarlos en una nueva sección.
@@ -672,6 +681,9 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 - también se pueden definir las horas de amarillo, por omisión 24.
 - opcional mente se puede definir cuál es el día base por omisión es "ahora".
 
+#### semaforo (vencimiento, [horas, ahora])
+- es la misma rutina que `semaphore` pero devuelve los colores en español.
+
 #### setTime (fecha, hora, minutos)
 - pone una hora y minutos específicos a una fecha otorgada.
 
@@ -698,3 +710,7 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### isBetweenDateAndTime (value, from, to, fromTime, toTime)
 - checa si esta en el rango convirtiendo a fechas y checando el rango de horas
+
+#### translate (value)
+- traduce un texto usando el idioma del usuario
+

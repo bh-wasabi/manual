@@ -29,6 +29,9 @@
 - `desc` orden descendente
 - `asc` orden ascendente
 
+### fixedOrder
+- es posibile definir el orden en base a lista de nombres, separadas por comas.
+
 #### expanded (true, false)
 - abre el cubo con este campo expandido.
 
