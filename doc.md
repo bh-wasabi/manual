@@ -113,6 +113,9 @@ Define el nombre de los campos en que se van a guardar los archivos adjuntos.
 #### attachDisableDragAndDrop (true, false)
 - con esta opción es posible desactivar el "arrastrar y soltar" los archivos.
 
+#### attachName
+- nombre por omisión del adjunto
+
 #### optionsSection
 - sección del documento que contiene las opciones del artículo.
 

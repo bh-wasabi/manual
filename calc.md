@@ -23,6 +23,9 @@
 #### text (valor)
 - forza el resultado como texto.
 
+#### normalize (valor)
+- normalize el resultado como texto.
+
 #### tpl (templateId, datos, [seccionId])
 - ejecuta un templateId de la configuración `_app` de Handlebars.
 - datos puede ser un arreglo de documentos, y se puede poner el nombre de la sección a extraer.
@@ -446,6 +449,10 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### where (arreglo, attributos)
 - devuelve una lista, con los atributos que coincidan.
+
+#### whereExists (arreglo, llave, valor)
+- devuelve una lista, con los valores que existan dentro del texto
+- puede ser una arreglo de valores
 
 #### whereRefIn (arreglo, ref, values)
 - devuelve la lista con los valores múltiples que existan en la referencia.
