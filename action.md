@@ -304,3 +304,13 @@
     {{/update}}
 {{/action}}
 ````
+
+
+#### subProcess
+- en caso de bpmn se pueden pasar la lista de sub procesos (activos o generales)
+
+#### subProcessLabel
+- etiqueta a mostrar en la ventana del diagrama
+
+#### subProcessAction
+- acción a ejecutar en caso de sub procesos activos
