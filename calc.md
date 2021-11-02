@@ -1,6 +1,10 @@
 # calc
 - funciones predefinidas
 
+#### _ (underscore)
+- https://underscorejs.org
+- esta disponible todo el tiempo.
+
 #### fn (id, parámetros...)
 - ejecuta una función configurable.
 - debe existir el identificador en la configuración (`_cfg`).
@@ -107,9 +111,6 @@
 #### toArray (valor1, valor2, valorN)
 - convierte los parámetros a un arreglo.
 
-#### arrayToLines (arreglo)
-- separa un arreglo en lineas por enter.
-
 #### prorrate (arreglo, campo, valor, tipo)
 - `arreglo` arreglo a usar
 - `campo` campo a modificar
@@ -188,6 +189,12 @@
 
 #### joinPreset (items, preset, itemKey, presetKey)
 - une una lista con un preset, usando las llaves para encontrar los id.
+
+#### arrayToItems (items, key)
+- convierte un arreglo simple en una lista de objetos
+
+#### arrayToLines (arreglo)
+- separa un arreglo en lineas por enter.
 
 #### presetName (preset, id)
 - devuelve el nombre de un `preset` especifico con un `id` especifico.

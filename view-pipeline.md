@@ -1,6 +1,9 @@
 # Objeto: **pipeline**
 - consultas avanzadas sobre una colección de documentos.
 
+#### default 
+- es posible definir una lista de valores por omisión
+
 ## Sub objetos
 
 #### [filter](filter.md)
