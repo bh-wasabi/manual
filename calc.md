@@ -450,6 +450,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### findWhere (arreglo, attributos)
 - devuelve el primer elemento de la lista, con los atributos que coincidan.
 
+#### findWhere2 (arreglo, attributos)
+- es similar al anterior, pero si no encuentra nada devuelve un objeto vacío.
+
 #### findWhereRef (arreglo, referencia, valor [, referencia2, valor2])
 - devuelve el primer elemento de la lista, usando la referencia y que el valor corresponda.
 - puede tener 2 referencias (opcional).
