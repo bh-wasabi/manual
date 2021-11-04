@@ -99,6 +99,9 @@
 #### concatHost  (valor1, valor2, valorN)
 - es parecido a ´concatPath´, pero agrega de prefijo el Host
 
+#### concatCommaDot  (valor1, valor2, valorN)
+- concatena varios valores, agregando comas entre los valores, al final pone un '.' si es más de 1 valor.
+
 #### maxStringLength (texto, max)
 - limita el texto a un máximo.
 
