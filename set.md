@@ -8,6 +8,10 @@
 #### condition
 - con esta opción es posible condicionar la acción.
 
+#### forceMapValue (campo)
+- aquí va una expresión con el nombre del campo
+- en caso de estar en un grid, es posible leer el nombre del campo y actualizar correctamente el grid.
+
 ## Sub objetos
 
 #### [from](set-from.md)

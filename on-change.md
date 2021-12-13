@@ -28,7 +28,10 @@
 - debe ser el mismo campo que tenga `applyTo` en el `grid`, para que actualice los totales.
 
 #### forceRecalc (true, false)
-- forza el recálculo de la sección en algunos casos.
+- forzar el recálculo de la sección en algunos casos.
+
+#### forceRecalcSection
+- nombre de la sección a recalcular sí es otra sección.
 
 #### action
 - identificador de la acción a ejecutar.
@@ -46,6 +49,9 @@
 #### [update](on-change-update.md)
 - es posible actualizar una sección completa del documento.
 - se tiene el documento remoto dentro del contexto.
+
+#### [touch](on-change-touch.md)
+- es posible actualizar una sección tipo arreglo.
 
 #### [jQuery](jquery.md)
 - ejecuta una acción en el DOM

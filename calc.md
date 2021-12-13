@@ -578,6 +578,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### zeroFill (numero, dígitos)
 - pone un numero relleno de ceros.
 
+#### zeroFillCode (code, dígitos)
+- pone un código relleno de ceros en las partes numéricas
+
 #### mask (texto)
 - convierte un texto en asteriscos según su longitud.
 
