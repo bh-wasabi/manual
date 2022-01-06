@@ -265,6 +265,9 @@
 - opcionalmente se puede agregar un filtro, debe ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`.
 - si no hay resultados devuelve un objeto vacio `{}`.
 
+#### firstValidSchedule (arreglo, campoHorario)
+- devuleve el primer objeto del arreglo que tiene un horario valido
+
 #### match (arreglo, filtros) o (arreglo, lista de campos, valores...)
 - opcionalmente se puede agregar un filtro, debe ser tipo `key=value` y puede ser múltiple agregando el separador `&`, ej: `key1=value1&key2=value2`.
 - también soporta una lista de campos (separada por comas) y los valores como parámetros adicionales.
@@ -736,4 +739,10 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### translate (value)
 - traduce un texto usando el idioma del usuario
+
+#### clearFields (items, fields)
+- elimina los campos separados por comas de la lista
+
+#### clearFieldsWhen (items, fields, attrs)
+- elimina los campos separados por comas de la lista, cuando cumple la condición 
 
