@@ -497,6 +497,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - obtiene un valor de un objeto
 - la referencia es la llave pero puede contener sub campos separados con punto, por ejemplo: `getRef({base: {nombre: 'hola'}}, 'base.nombre')` va a devolver `hola`.
 
+#### existsKeys (objeto, campos)
+- checa sí todos los campos tienen valor.
+
 #### existsRef (objeto, referencia)
 - checa sí existe una referencia.
 
