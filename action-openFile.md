@@ -9,5 +9,8 @@
 #### subType (opcional)
 - `pedido-liverpool` 
 
+#### touch
+- sección que cambia
+
 ## Sub objetos
 #### [update](update.md)

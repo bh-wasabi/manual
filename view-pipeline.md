@@ -21,6 +21,12 @@
 #### [match](filter.md)
 - se puede definir filtros adicionales sobre el resultado de la consulta
 
+#### [calc]
+- se pueden hacer campos calculados al final del pipeline
+
+#### [mapRedude]
+- se pueden hacer un Map Reduce al final de todo
+
 
 ## Ejemplo:
 ````

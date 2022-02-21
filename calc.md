@@ -482,6 +482,12 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### whereLessThan (arreglo, llave, valor)
 - devuelve una lista de los elementos que tienen el valor inferior.
 
+#### whereHasValue (arreglo, llave)
+- devuelve una lista, con los registros que tienen valor en ese campo
+
+#### whereNotHasValue (arreglo, llave)
+- devuelve una lista, con los registros que no tienen valor en ese campo
+
 #### tagsWherePresetHas (tags, preset, attributos)
 - devuelve los tags que cumplen con los attributos indicadas.
 
@@ -529,7 +535,7 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - cuenta todos los argumentos con valor
 
 #### sum (arreglo, campo)
-- suma un campo del arreglo o los campos de un objeto numericos
+- suma un campo del arreglo o los campos de un objeto numéricos
 
 #### sumArgs (argumentos)
 - suma todos los argumentos
@@ -749,3 +755,5 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### clearFieldsWhen (items, fields, attrs)
 - elimina los campos separados por comas de la lista, cuando cumple la condición 
 
+#### itemsToIdName (items)
+- regresa una arreglo en una lista de objetos id y nombre.

@@ -89,6 +89,9 @@
 #### validateNumber (true, false)
 - valida que el texto capturado sea una número válido
 
+#### validatePositiveNumber (true, false)
+- valida que el texto capturado sea una número válido y mayor de cero
+
 #### validateDate (true, false)
 - valida que el texto capturado sea una fecha válida en formato YYYY-MM-DD o YYYY/MM/DD
 
