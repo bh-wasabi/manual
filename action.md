@@ -31,6 +31,7 @@
 - `zoom-out` disminuye el `zoom` del contenido del documento.
 - `form-pdf` genera un archivo PDF de la forma.
 - `report-pdf` genera un archivo PDF de un reporte del documento.
+- `report-docx` genera un archivo docx (Word) de un reporte del documento.
 - `report-all` genera un archivo PDF de un reporte de todas los registros de una vista.
 - `image-map` despliega una imágen de fondo.
 - `sub-link` genera un sub-vínculo.
@@ -40,6 +41,7 @@
 - `flatten` en el caso `save-as` se puede usar este parámetro para que los arreglos sean planos. 
 - `quickReport` abre una ventana con un reporte.
 - `openFile` abre el contenido de un archivo.
+- `attachTemplate` abre el contenido de un archivo y abre el resultado en una url.
 - `openFolder` abre el contenido de un "carpeta" de adjuntos en s3, usa `path` para saber la ruta, puede usar `sort` y `limit` adicionalmente, también se le puede pasar un arreglo directo a `items`, con la lista de url's a abrir, otra opción puede tener un `source` y `view` para leer los `items`.
 - `openPreview` abre un archivo adjunto, si tiene `else` abre una url.
 - `viewScheduler` despliega un calendario, requiere definir `scheduler`.

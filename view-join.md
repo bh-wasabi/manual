@@ -17,6 +17,9 @@
 #### id
 - se puede definir el parámetro _id directamente para que el `join` sea más directo.
 
+#### filter
+- en algunos casos es posible poner un filtro adicional, tipo campo=valor,campo2=valor2
+
 ## Sub objetos
 
 #### [param](param.md)

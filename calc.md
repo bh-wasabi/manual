@@ -126,8 +126,13 @@
 #### number (valor)
 - forza el resultado como numérico.
 
-#### objectId (valor)
-- regresa un ObjectID de mongo con el valor opcional.
+#### objectId ()
+- regresa un ObjectID de mongo nuevo.
+- regresa un texto
+
+#### forceObjectId (valor)
+- regresa un ObjectID con el valor opcional.
+- esto únicamente funciona desde Node (Back)
 
 #### round(importe, decimales)
 - redondea el importe a la decimales indicadas
@@ -544,6 +549,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### sumRef (arreglo, referencia)
 - suma las referencias del arreglo
 
+#### sumRefWhere (arreglo, referencia, filtro)
+- suma las referencias del arreglo, aplicando un filtro previo
+
 #### sumExpr (arreglo, expresión)
 - suma las expresiones del arreglo
 
@@ -718,6 +726,10 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### semaforo (vencimiento, [horas, ahora])
 - es la misma rutina que `semaphore` pero devuelve los colores en español.
+
+#### addTimeZone (fecha)
+- a una fecha hora sin la zona horaria le pone la zona horaria.
+- por ejemplo: 2013-04-01T00:00:00, lo pone 2013-04-01T00:00:00-06:00
 
 #### setTime (fecha, hora, minutos)
 - pone una hora y minutos específicos a una fecha otorgada.

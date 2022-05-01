@@ -48,6 +48,12 @@
 #### appendHistory (true, false) 
 - anexa la colección histórica.
 
+#### removeIfNotValue
+- al final de la vista sí no tiene valor el campo seleccionado elimina los renglones.
+
+#### removeIfNotValueCondition
+- se puede poner una condición para definir en qué casos aplica esto.
+
 #### mergeSource
 #### mergeView
 #### mergeSort

@@ -29,3 +29,14 @@
 #### required (true, false)
 - define si el parámetro es requerido
 
+#### source
+- puede apuntar a una colección
+
+#### view
+- vista especifica 
+
+#### displayExpr
+- campo a desplegar por omisión _name
+
+#### valueExpr
+- valor a tomar por omisión _id

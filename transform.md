@@ -20,6 +20,10 @@
 - lista de segmentos que contiene el detalle, pueden estar anidados, separados por comas.
 - por ejemplo: `ediDetailSegments="OBR,OBX"`, en este caso hay un detalle `OBR` que contiene un subDetalle `OBX`.
 
+
+#### readOnly
+- puede generar el nuevo documento con la bandera _readOnly
+
 ## Sub objetos
 
 #### [set](set.md)
