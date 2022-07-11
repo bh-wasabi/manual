@@ -149,6 +149,9 @@
 #### isNotEmpty (valor)
 - nega al isEmpty
 
+#### isJson (valor)
+- checa si el JSON válido
+
 #### isNull (valor, valorPorOmision)
 - checa si el valor es nulo, devuelve el valor por omisión.
 - otra forma de lograr es poner la variable entre paréntesis y hacer un "or" contra el valor por omisión, por ejemplo: `(@valor||'')`.
@@ -719,10 +722,11 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### addTimeUnit (fecha, cantidad, unidad)
 - calcula una nueva fecha incrementado la cantidad y unidad
 
-#### semaphore (vencimiento, [horas, ahora])
+#### semaphore (vencimiento, [horas, ahora, esVigenciaVerde])
 - regresa un color green, yellow o red, si ya esta vencido
 - también se pueden definir las horas de amarillo, por omisión 24.
 - opcional mente se puede definir cuál es el día base por omisión es "ahora".
+- si esVerde todo el periodo de vigencia es Verde, de la otra forma es azul hasta 1 día antes del vencimiento
 
 #### semaforo (vencimiento, [horas, ahora])
 - es la misma rutina que `semaphore` pero devuelve los colores en español.
@@ -769,3 +773,14 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### itemsToIdName (items)
 - regresa una arreglo en una lista de objetos id y nombre.
+
+#### paymentPlan (prestamo)
+- regresa una arreglo con la tabla de amortización
+
+#### paymentApply (prestamo, saldos, cobro)
+- aplica un pago al préstamo
+- regresa un objeto con 2 arreglos
+
+#### checkList (preset, nombres)
+- regresa una arreglo el check list palomeado
+

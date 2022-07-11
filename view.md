@@ -160,4 +160,3 @@
 #### [proxy](view-proxy.md)
 - es posible conectarse a otro servidor remoto de mongoDB usando un servidor proxy de intermediario 
 - debe estar previamente configurado en wasabi-cfg.json
-

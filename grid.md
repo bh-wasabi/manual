@@ -54,6 +54,12 @@
 #### applyMax
 - máximo a aplicar
 
+#### applySumExpr
+- Suma la Expresión
+
+#### applySumDiv
+- Divide la Suma
+
 #### applySuggest
 - sugerencia a copiar
 
