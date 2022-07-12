@@ -784,3 +784,5 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### checkList (preset, nombres)
 - regresa una arreglo el check list palomeado
 
+#### valueMap (items, key, value)
+- regresa un objeto con las llaves y valores mapeados
