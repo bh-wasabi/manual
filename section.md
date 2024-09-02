@@ -141,6 +141,8 @@
 
 #### [onChange](on-change.md)
 - es posible generar eventos cuando se modifica la sección.
+- es posible poner forceRecalc (como parámetro)
+- es posible user suggestTo (como parámetro)
 
 #### [valueFrom](valueFrom.md)
 - obtiene el valor de otra forma mas compleja

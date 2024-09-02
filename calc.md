@@ -90,6 +90,9 @@
 #### concatEnter  (valor1, valor2, valorN)
 - concatena varios valores, agregando ´enter´ entre los valores sin espacios.
 
+#### concatItemsEnter  (items, key, value, prefix, sufix)
+- genera un texto separado por Enter del campo valor con prefijo o sufijos opcionales
+
 #### concatPath  (valor1, valor2, valorN)
 - concatena varios valores, agregando ´/´ entre los valores sin espacios.
 
@@ -323,6 +326,9 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 - genera un nuevo arreglo con las puras llaves. 
 - buscando en el objeto la referencia.
 
+#### pluckRefKeys (arreglo, llaves[, nombres, tipoDatos])
+- genera un nuevo arreglo con múltiples referencias con la opción de cambiar de nombre la llave.
+
 #### pluckRefHasValue (arreglo[, llave])
 - busca sí en los resultados existe alguno `true` o si tiene la llave opcional.
 
@@ -332,6 +338,9 @@ calc.lookupInPreset('app.subTipoSujeto', 'tipo, id', tipo, subTipo).cuenta
 
 #### pluckExprHasValue (arreglo, llave)
 - busca sí en los resultados existe alguno `true`.
+
+#### itemsToLines (arreglo)
+- genera un texto separado por Enter para cada línea.
 
 #### deleteRef (objeto, llave)
 - elimina una campo del objeto
@@ -784,5 +793,9 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### checkList (preset, nombres)
 - regresa una arreglo el check list palomeado
 
+#### checkListMerge (checkList, vistosBuenos, vistosRegulares, vistosMalos, estaCompleto)
+- regresa una arreglo el check list para ver el estatus en la solicitud
+
 #### valueMap (items, key, value)
 - regresa un objeto con las llaves y valores mapeados
+

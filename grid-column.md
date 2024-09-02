@@ -89,6 +89,9 @@
 #### validateNumber (true, false)
 - valida que el texto capturado sea una número válido
 
+#### validateInteger (true, false)
+- valida que el texto capturado sea una número integro válido
+
 #### validatePositiveNumber (true, false)
 - valida que el texto capturado sea una número válido y mayor de cero
 
