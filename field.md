@@ -2,7 +2,7 @@
 - define un campo del documento
 - normalmente van dentro de una sección
 
-## Parámetros
+# Parámetros
 #### id
 - identificador de la sección
 

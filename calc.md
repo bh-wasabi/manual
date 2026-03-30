@@ -30,17 +30,17 @@
 #### normalize (valor)
 - normalize el resultado como texto.
 
-#### tpl (templateId, datos, [seccionId])
+#### tpl (templateId, datos, [seccionId])
 - ejecuta un templateId de la configuración `_app` de Handlebars.
 - datos puede ser un arreglo de documentos, y se puede poner el nombre de la sección a extraer.
 
-#### hbsMarkdown (plantilla, datos)
+#### hbsMarkdown (plantilla, datos)
 - ejecuta una plantilla de forma manual con Handlebars.
 
 #### removeEmptyRows (arreglo, campo)
 - elimina los renglones que no tienen valor en el campo indicado.
 
-#### substr(texto, inicio, tamaño)
+#### substr (texto, inicio, tamaño)
 - obtiene el `substr` del texto indicado.
 
 #### cut (texto, llave)
@@ -262,7 +262,7 @@
 
 #### map (arreglo, expr)
 - recorre un arreglo y evalúa la expresión para cada elemento del arreglo.
-- al final queda un arreglo con todos los valores calculados. 
+- al final queda un arreglo con todos los valores calculados. 
 
 #### extractToList (arreglo, campo, filtros)
 - extrae un campo de un arreglo y lo convierte a un texto separado por comas.
@@ -406,7 +406,7 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - `agrupadores` lista de campos separados por comas
 - `sumar` lista de campos separados por comas
 
-#### sortArray(arreglo, campos)
+#### sortArray(arreglo, campos)
 - lista de campos separados por comas.
 
 #### findDuplicates (arreglo, agrupadores)
