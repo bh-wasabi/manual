@@ -198,6 +198,19 @@
 #### numberInText (valor)
 - imprime un importe en texto.
 
+#### strToNumber (texto)
+- convierte un texto a numerico, incluso forzando el valor si tiene comas.
+- por ejemplo `calc.strToNumber('123,456.78')` devuelve `123456.78`
+
+#### strToDateFormat (valor, formato)
+- convierte un texto a fecha usando momentjs para que tenga mucho mas tolerancia en el valor que llega.
+- el formato puede ayudar a definir en que formato llega la fecha y en que formato se devuelve el resultado.
+
+#### strToDateTimeFormat (fechaStr, horaStr, formato)
+- convierte una fecha y hora por separando en una fecha y hora juntos
+- puede tener un formato específico la fecha.
+- por ejemplo `calc.strToDateTimeFormat('2026-12-31','19:20')` devuelve `'2026-12-31T19:20:00-06:00'`
+
 #### formatCurrency (valor)
 - imprime un importe en texto con formato monetario.
 
