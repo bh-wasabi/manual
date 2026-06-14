@@ -164,8 +164,14 @@
 #### isTrue (valor)
 - evalúa si el valor es verdadero.
 
+#### isAllTrueFalse (valor1, valor2, valorN)
+- evalúa todos los argumentos y regresa un `true` si todos los valores son verdaderos o falsos.
+
 #### isFalse (valor)
-- evalúa si el valor es false.
+- evalúa si el valor es `false`.
+
+#### notFalse (valor)
+- evalúa si el valor no es `false`, `'no'`, `'false'`, `'falso'`.
 
 #### isEmpty (valor)
 - checa que el valor tenga datos o no sea un objeto o arreglo vacio.
@@ -191,6 +197,9 @@
 
 #### numberInText (valor)
 - imprime un importe en texto.
+
+#### formatCurrency (valor)
+- imprime un importe en texto con formato monetario.
 
 #### capitalize (valor)
 - forza el resultado a la primera letra mayúsculas y las demás minúsculas (por cada palabra).
@@ -618,6 +627,13 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### newId (tipo)
 - genera un nuevo ID, se pueden usar los siguientes tipos (`uuid`, `shortid`, `shortid32`).
 
+#### sha512 (texto)
+- genera un hash tipo `sha512` del texto indicado.
+
+#### newUuid ()
+- genera un uuid nuevo.
+- es similar a usar `calc.newId('uuid')`
+
 #### newDoc (doc o docs, [tipo, deleteRef, untilRef])
 - genera un nuevo ID, y pone la sección `_created`.
 
@@ -625,14 +641,20 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - si la condiciones es verdadera imprime el texto, 
 - si no devuelve ''
 
+#### isNumeric (valor)
+- evalua el valor para ver si puede ser un numérico, incluso si es un texto busca si es completamente númerico.
+- regresa true o false.
+
 #### quotes (texto, comilla)
 - pone el texto entre comillas dobles por omisión
 
 #### zeroFill (numero, dígitos)
-- pone un numero relleno de ceros.
+- pone un numero relleno de ceros, por ejemplo `calc.zeroFill(123,6)` devuelve `000123`.
 
 #### zeroFillCode (code, dígitos)
 - pone un código relleno de ceros en las partes numéricas
+- esta función es muy util para convertir cuentas contables a un texto que se pueda ordenar con seguridad
+- por ejemplo: `calc.zeroFillCode('100-01-001',5)` devuelve: `'00100-00001-00001'`.
 
 #### mask (texto)
 - convierte un texto en asteriscos según su longitud.
@@ -640,6 +662,16 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### matchIfPattern (regex, texto)
 - valida el texto con una expresión regular
 
+#### prefixIf (texto, prefijo)
+- si tiene un valor en `texto` retorna el `prefijo`+`texto`
+
+#### addIf (texto, prefijo)
+- similar a la función `calc.prefixIf`
+
+#### enter (texto, titulo)
+ - genera un texto con el enter `\n` como prefijo.
+ - por ejemplo `calc.enter('juan','hola')` genera `'\nhola juan'`
+ 
 #### userName
 - devuelve el nombre del usuario actual.
  
