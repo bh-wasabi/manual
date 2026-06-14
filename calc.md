@@ -27,6 +27,9 @@
 #### in (valor, arreglo)
 - busca sí existe un valor en un arreglo.
 
+#### notIn (valor, arreglo)
+- busca no existe un valor en un arreglo.
+
 #### inForce (desde, hasta, [fecha])
 - checa si está vigente.
 - la fecha es opcional, si no se define se usa `moment().format()`.
@@ -44,8 +47,11 @@
 - ejecuta un templateId de la configuración `_app` de Handlebars.
 - datos puede ser un arreglo de documentos, y se puede poner el nombre de la sección a extraer.
 
-#### hbsMarkdown (plantilla, datos)
-- ejecuta una plantilla de forma manual con Handlebars.
+#### hbs (plantilla, datos)
+- ejecuta una plantilla de forma manual con Handlebars y regresa el HTML o XML ya parseado.
+
+#### if (expresion, verdadero, falso)
+- ejecuta una expresión, si el resutaldo es verdadero devuelve el primer valor en caso contrario regresa el segundo valor, por ejemplo: `Utils.if(1==2, 2*2, 3*3)`. genera 9.
 
 #### removeEmptyRows (arreglo, campo)
 - elimina los renglones que no tienen valor en el campo indicado.
@@ -121,8 +127,13 @@
 #### length (texto)
 - número de carácteres en texto
 
-#### pair (etiqueta, valor, valor2, valor3)
+#### pair (campo, valor, valor2, valor3)
 - concatena un campo/valor si tiene valor
+- puede concatenar hasta 3 valores
+- por ejemplo: `calc.pair('nombre','juan','perez','lopez')`. genera 'nombre: juan perez lopez'.
+
+#### pairIf (condicion, campo, valor, valor2, valor3)
+- similar a la función calc.pair con la opción de agregar una condicion al principio.
 
 #### toArray (valor1, valor2, valorN)
 - convierte los parámetros a un arreglo.
