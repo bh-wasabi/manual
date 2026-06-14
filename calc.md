@@ -1,9 +1,19 @@
 # calc
-- funciones predefinidas
 
+## disponibles todo el tiempo
 #### _ (underscore)
 - https://underscorejs.org
-- esta disponible todo el tiempo.
+
+#### $ (jquery)
+- https://jquery.com
+
+#### moment
+- https://momentjs.com
+
+#### numeral
+- http://numeraljs.com
+
+## funciones predefinidas
 
 #### fn (id, parámetros...)
 - ejecuta una función configurable.
