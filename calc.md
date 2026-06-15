@@ -166,8 +166,7 @@
 - regresa un texto
 
 #### forceObjectId (valor)
-- regresa un ObjectID con el valor opcional.
-- esto únicamente funciona desde Node (Back)
+- funciona igual que `objectId`.
 
 #### round(importe, decimales)
 - redondea el importe a la decimales indicadas
@@ -304,7 +303,18 @@
 - convierte un objeto a una cadena de texto JSON.
 
 #### sha1 (texto)
-- genera un hash. 
+- genera un hash.
+
+#### splitAndTrim (texto, separador) 
+- convierte un texto a un arreglo
+- por omisión usa la coma como separador
+- si lo valores tienen espacios el aplica un `trim`.
+
+#### split (texto, separador) 
+- hace lo mismo que `splitAndTrim`.
+
+#### splitAndTrimFirst (texto, separador) 
+- es igual que `splitAndTrim` pero devulve unicamente el primer valor del arreglo.
 
 #### format (tipo, valor, formato)
 - tipo (number/date) 
@@ -321,8 +331,14 @@
 #### joinItems (arreglo, separador)
 - convierte un arreglo a un texto con un separador especial.
 
-#### joinArraysById (arreglos, llaves)
-- hace la union de varios arreglos por la misma llave.
+#### joinAndTrimItems (arreglo, separador)
+- hace lo mismo que `joinItems` pero le aplica un `trim` a cada valor.
+
+#### joinArraysByKey (arreglo1, arreglo2, llave)
+- une 2 arreglos usando una campo llave en común.
+
+#### joinArraysById (arreglo1, arreglo2, arregloN)
+- une n arreglos usando el campo `id` como llave.
 
 #### unique (arreglo)
 - regresa un arreglo con valores únicos.
@@ -335,6 +351,11 @@
 #### map (arreglo, expr)
 - recorre un arreglo y evalúa la expresión para cada elemento del arreglo.
 - al final queda un arreglo con todos los valores calculados. 
+
+#### mapKeyValue (arreglo, keyValue)
+- para un arreglo ejecuta una transformacion de una llave en particular
+- el valor puede ser una expresion usando el contexto del elemento del arreglo.
+- key value es un objeto tipo `{"campo":"valor"}`.
 
 #### extractToList (arreglo, campo, filtros)
 - extrae un campo de un arreglo y lo convierte a un texto separado por comas.
@@ -764,9 +785,6 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### forceString (valor)
 - hace lo mismo `string`.
 
-#### forceId (id)
-- checa sí llega un valor y en caso de vacío genera un `ObjectID` nuevo como `string`.
-
 #### forceArray (valor)
 - forza el valor como un arreglo.
 
@@ -778,6 +796,12 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### forceJoin (arreglo, separador)
 - separa un arreglo a un texto usando el separador indicado.
 - por ejemplo `calc.forceJoin(['a','b','c'],'|')` regresa `'a|b|c'`.
+
+#### forceJson (valor)
+- forza el valor ya sea texto u objeto a regresarlo como un objeto.
+
+#### forceId (id)
+- checa sí llega un valor y en caso de vacío genera un `ObjectID` nuevo como `string`.
 
 #### sortSimple (arreglo [, direccion, limite])
 - ordena un arreglo simple de valores, no de objetos.
