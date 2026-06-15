@@ -1048,506 +1048,506 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### meetsSexLimitSeul (limiteSexo, genero)
 
-#### meetsAgeLimit
+#### meetsAgeLimit (valor, desde, fechaNacimiento, checarInferior, hoy, edadDesconocida)
 
-#### recalcLimiteEdadDiagnostico
+#### recalcLimiteEdadDiagnostico (arreglo, fechaNacimiento, hoy, edadDesconocida)
 
-#### recalcLimitesDiagnostico
+#### recalcLimitesDiagnostico (arreglo, fechaNacimiento, genero, hoy, edadDesconocida)
 
-#### hasDecimals
+#### hasDecimals (numero)
 
-#### hasDuplicates
+#### hasDuplicates (arreglo, excepciones, valorARevisar)
 
-#### whereRef
+#### whereRef (arreglo, referencia, valor, referencia2, valor2)
 
-#### whereRefIn
+#### whereRefIn (arreglo, referencia, valores)
 
-#### findDuplicatesWhereRefIn
+#### findDuplicatesWhereRefIn (arreglo, referencia, llave, valores, llave2, valores2, llave3, valores3)
 
-#### findDuplicates
+#### findDuplicates (arreglo, llaves)
 
-#### getDuplicates
+#### getDuplicates (arreglo)
 
-#### findDuplicatesMultiple
+#### findDuplicatesMultiple (arreglo, llaves)
 
-#### forceNumberCurrency
+#### forceNumberCurrency (texto)
 
-#### removeKeys
+#### removeKeys (arreglo, llaves)
 
-#### removeEnters
+#### removeEnters (texto)
 
-#### removePrefix
+#### removePrefix 
 
-#### removeSuffix
+#### removeSuffix 
 
-#### itemsLength
+#### itemsLength 
 
-#### getFolioFromReference
+#### getFolioFromReference 
 
-#### getAccount
+#### getAccount 
 
-#### isWorkingDay
+#### isWorkingDay 
 
-#### getTermName
+#### getTermName 
 
-#### getNextLaborDay
+#### getNextLaborDay 
 
-#### rangeTable
+#### rangeTable 
 
-#### taxTable
+#### taxTable 
 
-#### taxTablePyramidal
+#### taxTablePyramidal 
 
-#### inflation
+#### inflation 
 
-#### setInflation
+#### setInflation 
 
-#### searchItemsInItems
+#### searchItemsInItems 
 
-#### factor
+#### factor 
 
-#### subItemsMap
+#### subItemsMap 
 
-#### getFilterDateRange
+#### getFilterDateRange 
 
-#### getFilterDateRangeFrom
+#### getFilterDateRangeFrom 
 
-#### getFilterDateRangeTo
+#### getFilterDateRangeTo 
 
-#### getURLParameter
+#### getURLParameter 
 
-#### urlFromBucket
+#### urlFromBucket 
 
-#### eq
+#### eq 
 
-#### eq2
+#### eq2 
 
-#### gt
+#### gt 
 
-#### major
+#### major 
 
-#### lt
+#### lt 
 
-#### minor
+#### minor 
 
-#### abs
+#### abs 
 
-#### arrayLength
+#### arrayLength 
 
-#### isArrayLength
+#### isArrayLength 
 
-#### isPositive
+#### isPositive 
 
-#### isNegative
+#### isNegative 
 
-#### r3
+#### r3 
 
-#### dimensionsToVolume
+#### dimensionsToVolume 
 
-#### dimensionsToLengthWidthHeight
+#### dimensionsToLengthWidthHeight 
 
-#### ledgerCurrency
+#### ledgerCurrency 
 
-#### isHiddenTenant
+#### isHiddenTenant 
 
-#### topKeyValue
+#### topKeyValue 
 
-#### replaceAll
+#### replaceAll 
 
-#### proyectDate
+#### proyectDate 
 
-#### translate
+#### translate 
 
-#### nextDate
+#### nextDate 
 
-#### addTimeZone
+#### addTimeZone 
 
-#### concatDash
+#### concatDash 
 
-#### concatSlash
+#### concatSlash 
 
-#### concatSlash2
+#### concatSlash2 
 
-#### concatLodash
+#### concatLodash 
 
-#### concatPairs
+#### concatPairs 
 
-#### concatPairsEnter
+#### concatPairsEnter 
 
-#### concatItemsEnter
+#### concatItemsEnter 
 
-#### concatPipe
+#### concatPipe 
 
-#### concatDot
+#### concatDot 
 
-#### concatTab
+#### concatTab 
 
-#### concatProductName
+#### concatProductName 
 
-#### breadCrumb
+#### breadCrumb 
 
-#### validarCurp
+#### validarCurp 
 
-#### curpDate
+#### curpDate 
 
-#### mergeScanner
+#### mergeScanner 
 
-#### mergeArrays
+#### mergeArrays 
 
-#### mergeArraysByKey
+#### mergeArraysByKey 
 
-#### existsRefIn
+#### existsRefIn 
 
-#### min
+#### min 
 
-#### minArgs
+#### minArgs 
 
-#### minItems
+#### minItems 
 
-#### minLimit
+#### minLimit 
 
-#### max
+#### max 
 
-#### maxArgs
+#### maxArgs 
 
-#### maxItems
+#### maxItems 
 
-#### maxLimit
+#### maxLimit 
 
-#### getMin
+#### getMin 
 
-#### getMax
+#### getMax 
 
-#### missingOver
+#### missingOver 
 
-#### leftOver
+#### leftOver 
 
-#### safeDivCeil
+#### safeDivCeil 
 
-#### safeDivTrunc
+#### safeDivTrunc 
 
-#### safeDivRound
+#### safeDivRound 
 
-#### differenceError
+#### differenceError 
 
-#### forceUpperCase
+#### forceUpperCase 
 
-#### forceLowerCase
+#### forceLowerCase 
 
-#### addDuration
+#### addDuration 
 
-#### addDurationFormat
+#### addDurationFormat 
 
-#### rangeFromYearMonth
+#### rangeFromYearMonth 
 
-#### fromYearMonthDay
+#### fromYearMonthDay 
 
-#### fromYearMonth
+#### fromYearMonth 
 
-#### toYearMonth
+#### toYearMonth 
 
-#### reconcileMarketSales
+#### reconcileMarketSales 
 
-#### blowInt
+#### blowInt 
 
-#### blowLot
+#### blowLot 
 
-#### inList
+#### inList 
 
-#### notInList
+#### notInList 
 
-#### itemsToCode
+#### itemsToCode 
 
-#### itemsToUrlKeyValue
+#### itemsToUrlKeyValue 
 
-#### urlKeyValueToItems
+#### urlKeyValueToItems 
 
-#### tipoServicioSis
+#### tipoServicioSis 
 
-#### rfcPhysicalPerson
+#### rfcPhysicalPerson 
 
-#### nom50Ok
+#### nom50Ok 
 
-#### nomEspecialesOk
+#### nomEspecialesOk 
 
-#### nomEspeciales2Ok
+#### nomEspeciales2Ok 
 
-#### nomNoEspecialesOk
+#### nomNoEspecialesOk 
 
-#### nomNoEspeciales2Ok
+#### nomNoEspeciales2Ok 
 
-#### nomNoEspeciales3Ok
+#### nomNoEspeciales3Ok 
 
-#### round2
+#### round2 
 
-#### amountDiff
+#### amountDiff 
 
-#### trunc
+#### trunc 
 
-#### preset
+#### preset 
 
-#### momentName
+#### momentName 
 
-#### momentDefinition
+#### momentDefinition 
 
-#### momentInfo
+#### momentInfo 
 
-#### presetNames
+#### presetNames 
 
-#### presetNamesList
+#### presetNamesList 
 
-#### presetDefinition
+#### presetDefinition 
 
-#### setValueInArray
+#### setValueInArray 
 
-#### setFactorInArray
+#### setFactorInArray 
 
-#### validateCfdiTotals
+#### validateCfdiTotals 
 
-#### getLayoutInfo
+#### getLayoutInfo 
 
-#### case
+#### case 
 
-#### bigger
+#### bigger 
 
-#### smaller
+#### smaller 
 
-#### addDays
+#### addDays 
 
-#### addMonths
+#### addMonths 
 
-#### year
+#### year 
 
-#### years
+#### years 
 
-#### yearsToDate
+#### yearsToDate 
 
-#### month
+#### month 
 
-#### monthName
+#### monthName 
 
-#### nextMonth
+#### nextMonth 
 
-#### elapsedTime
+#### elapsedTime 
 
-#### diffDays
+#### diffDays 
 
-#### diffHours
+#### diffHours 
 
-#### diffMinutes
+#### diffMinutes 
 
-#### day
+#### day 
 
-#### days
+#### days 
 
-#### dayName
+#### dayName 
 
-#### isoWeek
+#### isoWeek 
 
-#### isLeapYear
+#### isLeapYear 
 
-#### isBimester
+#### isBimester 
 
-#### bimester
+#### bimester 
 
-#### nextBimester
+#### nextBimester 
 
-#### bimesterDays
+#### bimesterDays 
 
-#### lastDayBimester
+#### lastDayBimester 
 
-#### isAnniversary
+#### isAnniversary 
 
-#### firstDayOfMonth
+#### firstDayOfMonth 
 
-#### firstDayOfPeriod
+#### firstDayOfPeriod 
 
-#### lastDayOfMonth
+#### lastDayOfMonth 
 
-#### lastDayOfPeriod
+#### lastDayOfPeriod 
 
-#### firstDayOfYear
+#### firstDayOfYear 
 
-#### lastDayOfYear
+#### lastDayOfYear 
 
-#### dateDMY
+#### dateDMY 
 
-#### dateMDY
+#### dateMDY 
 
-#### dateYMD
+#### dateYMD 
 
-#### getDate
+#### getDate 
 
-#### getTime
+#### getTime 
 
-#### incDatetime
+#### incDatetime 
 
-#### passwordOk
+#### passwordOk 
 
-#### retention
+#### retention 
 
-#### setRef
+#### setRef 
 
-#### getPresetKeyValue
+#### getPresetKeyValue 
 
-#### prefixItems
+#### prefixItems 
 
-#### pluckWhere
+#### pluckWhere 
 
-#### pluckWhereIsEmpty
+#### pluckWhereIsEmpty 
 
-#### pluckEq
+#### pluckEq 
 
-#### pluckUniq
+#### pluckUniq 
 
-#### pluckRefMerge
+#### pluckRefMerge 
 
-#### pluckRefs
+#### pluckRefs 
 
-#### pluckRefKeys
+#### pluckRefKeys 
 
-#### pluckRef2
+#### pluckRef2 
 
-#### compareArrays
+#### compareArrays 
 
-#### itemsSet
+#### itemsSet 
 
-#### setPlan
+#### setPlan 
 
-#### itemsToLines
+#### itemsToLines 
 
-#### deleteFieldsFromArray
+#### deleteFieldsFromArray 
 
-#### unDeleteFieldsFromArray
+#### unDeleteFieldsFromArray 
 
-#### first
+#### first 
 
-#### firstValue
+#### firstValue 
 
-#### firstObj
+#### firstObj 
 
-#### firstDef
+#### firstDef 
 
-#### firstSeparator
+#### firstSeparator 
 
-#### firstValidSchedule
+#### firstValidSchedule 
 
-#### rest
+#### rest 
 
-#### expireColor
+#### expireColor 
 
-#### cat
+#### cat 
 
-#### catArray
+#### catArray 
 
-#### dueTimes
+#### dueTimes 
 
-#### dueDate
+#### dueDate 
 
-#### dueText
+#### dueText 
 
-#### addPct
+#### addPct 
 
-#### addMargin
+#### addMargin 
 
-#### subtractMargin
+#### subtractMargin 
 
-#### amountPct
+#### amountPct 
 
-#### decPct
+#### decPct 
 
-#### incPct
+#### incPct 
 
-#### globalVariable
+#### globalVariable 
 
-#### globalVariableIsTrue
+#### globalVariableIsTrue 
 
-#### globalVariableIsFalse
+#### globalVariableIsFalse 
 
-#### globalVariableToArray
+#### globalVariableToArray 
 
-#### globalVariableToNumber
+#### globalVariableToNumber 
 
-#### globalVariableIn
+#### globalVariableIn 
 
-#### globalVariableWhereValue
+#### globalVariableWhereValue 
 
-#### consecutiveType
+#### consecutiveType 
 
-#### alertDate
+#### alertDate 
 
-#### paymentPlan
+#### paymentPlan 
 
-#### paymentApply
+#### paymentApply 
 
-#### paymentPlanSchool
+#### paymentPlanSchool 
 
-#### scholarshipSchool
+#### scholarshipSchool 
 
-#### subsidySchool
+#### subsidySchool 
 
-#### benefitSchool
+#### benefitSchool 
 
-#### paletMove
+#### paletMove 
 
-#### saveAsText
+#### saveAsText 
 
-#### saveAsTextFromText
+#### saveAsTextFromText 
 
-#### saveFieldsAsCsv
+#### saveFieldsAsCsv 
 
-#### saveLayoutAsText
+#### saveLayoutAsText 
 
-#### periodFrom
+#### periodFrom 
 
-#### periodTo
+#### periodTo 
 
-#### isPair
+#### isPair 
 
-#### isOdd
+#### isOdd 
 
-#### validarFechaEventoAtencion
+#### validarFechaEventoAtencion 
 
-#### inc
+#### inc 
 
-#### incLetter
+#### incLetter 
 
-#### dec
+#### dec 
 
-#### decLetter
+#### decLetter 
 
-#### now
+#### now 
 
-#### today
+#### today 
 
-#### time
+#### time 
 
-#### factorial
+#### factorial 
 
-#### random
+#### random 
 
-#### error
+#### error 
 
-#### warning
+#### warning 
 
-#### info
+#### info 
 
-#### success
+#### success 
 
-#### breakdownDenoms
+#### breakdownDenoms 
 
-#### mdPrecioSucio
+#### mdPrecioSucio 
 
-#### serieToDate
+#### serieToDate 
 
-#### cubage
+#### cubage 
 
-#### docToTokens
+#### docToTokens 
 
-#### jsonValuesToText
+#### jsonValuesToText 
 
-#### itemPassFilter
+#### itemPassFilter 
 
-#### itemsPassFilter
+#### itemsPassFilter 
 
-#### scapeRegExp
+#### scapeRegExp 
