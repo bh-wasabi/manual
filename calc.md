@@ -1044,257 +1044,510 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### valueMap (items, key, value)
 - regresa un objeto con las llaves y valores mapeados
 
-#### meetsSexLimit
-#### meetsSexLimitSeul
+#### meetsSexLimit (limiteSexo, genero)
+
+#### meetsSexLimitSeul (limiteSexo, genero)
+
 #### meetsAgeLimit
+
 #### recalcLimiteEdadDiagnostico
+
 #### recalcLimitesDiagnostico
+
 #### hasDecimals
+
 #### hasDuplicates
+
 #### whereRef
+
 #### whereRefIn
+
 #### findDuplicatesWhereRefIn
+
 #### findDuplicates
+
 #### getDuplicates
+
 #### findDuplicatesMultiple
+
 #### forceNumberCurrency
+
 #### removeKeys
+
 #### removeEnters
+
 #### removePrefix
+
 #### removeSuffix
+
 #### itemsLength
+
 #### getFolioFromReference
+
 #### getAccount
+
 #### isWorkingDay
+
 #### getTermName
+
 #### getNextLaborDay
+
 #### rangeTable
+
 #### taxTable
+
 #### taxTablePyramidal
+
 #### inflation
+
 #### setInflation
+
 #### searchItemsInItems
+
 #### factor
+
 #### subItemsMap
+
 #### getFilterDateRange
+
 #### getFilterDateRangeFrom
+
 #### getFilterDateRangeTo
+
 #### getURLParameter
+
 #### urlFromBucket
+
 #### eq
+
 #### eq2
+
 #### gt
+
 #### major
+
 #### lt
+
 #### minor
+
 #### abs
+
 #### arrayLength
+
 #### isArrayLength
+
 #### isPositive
+
 #### isNegative
+
 #### r3
+
 #### dimensionsToVolume
+
 #### dimensionsToLengthWidthHeight
+
 #### ledgerCurrency
+
 #### isHiddenTenant
+
 #### topKeyValue
+
 #### replaceAll
+
 #### proyectDate
+
 #### translate
+
 #### nextDate
+
 #### addTimeZone
+
 #### concatDash
+
 #### concatSlash
+
 #### concatSlash2
+
 #### concatLodash
+
 #### concatPairs
+
 #### concatPairsEnter
+
 #### concatItemsEnter
+
 #### concatPipe
+
 #### concatDot
+
 #### concatTab
+
 #### concatProductName
+
 #### breadCrumb
+
 #### validarCurp
+
 #### curpDate
+
 #### mergeScanner
+
 #### mergeArrays
+
 #### mergeArraysByKey
+
 #### existsRefIn
+
 #### min
+
 #### minArgs
+
 #### minItems
+
 #### minLimit
+
 #### max
+
 #### maxArgs
+
 #### maxItems
+
 #### maxLimit
+
 #### getMin
+
 #### getMax
+
 #### missingOver
+
 #### leftOver
+
 #### safeDivCeil
+
 #### safeDivTrunc
+
 #### safeDivRound
+
 #### differenceError
+
 #### forceUpperCase
+
 #### forceLowerCase
+
 #### addDuration
+
 #### addDurationFormat
+
 #### rangeFromYearMonth
+
 #### fromYearMonthDay
+
 #### fromYearMonth
+
 #### toYearMonth
+
 #### reconcileMarketSales
+
 #### blowInt
+
 #### blowLot
+
 #### inList
+
 #### notInList
+
 #### itemsToCode
+
 #### itemsToUrlKeyValue
+
 #### urlKeyValueToItems
+
 #### tipoServicioSis
+
 #### rfcPhysicalPerson
+
 #### nom50Ok
+
 #### nomEspecialesOk
+
 #### nomEspeciales2Ok
+
 #### nomNoEspecialesOk
+
 #### nomNoEspeciales2Ok
+
 #### nomNoEspeciales3Ok
+
 #### round2
+
 #### amountDiff
+
 #### trunc
+
 #### preset
+
 #### momentName
+
 #### momentDefinition
+
 #### momentInfo
+
 #### presetNames
+
 #### presetNamesList
+
 #### presetDefinition
+
 #### setValueInArray
+
 #### setFactorInArray
+
 #### validateCfdiTotals
+
 #### getLayoutInfo
+
 #### case
+
 #### bigger
+
 #### smaller
+
 #### addDays
+
 #### addMonths
+
 #### year
+
 #### years
+
 #### yearsToDate
+
 #### month
+
 #### monthName
+
 #### nextMonth
+
 #### elapsedTime
+
 #### diffDays
+
 #### diffHours
+
 #### diffMinutes
+
 #### day
+
 #### days
+
 #### dayName
+
 #### isoWeek
+
 #### isLeapYear
+
 #### isBimester
+
 #### bimester
+
 #### nextBimester
+
 #### bimesterDays
+
 #### lastDayBimester
+
 #### isAnniversary
+
 #### firstDayOfMonth
+
 #### firstDayOfPeriod
+
 #### lastDayOfMonth
+
 #### lastDayOfPeriod
+
 #### firstDayOfYear
+
 #### lastDayOfYear
+
 #### dateDMY
+
 #### dateMDY
+
 #### dateYMD
+
 #### getDate
+
 #### getTime
+
 #### incDatetime
+
 #### passwordOk
+
 #### retention
+
 #### setRef
+
 #### getPresetKeyValue
+
 #### prefixItems
+
 #### pluckWhere
+
 #### pluckWhereIsEmpty
+
 #### pluckEq
+
 #### pluckUniq
+
 #### pluckRefMerge
+
 #### pluckRefs
+
 #### pluckRefKeys
+
 #### pluckRef2
+
 #### compareArrays
+
 #### itemsSet
+
 #### setPlan
+
 #### itemsToLines
+
 #### deleteFieldsFromArray
+
 #### unDeleteFieldsFromArray
+
 #### first
+
 #### firstValue
+
 #### firstObj
+
 #### firstDef
+
 #### firstSeparator
+
 #### firstValidSchedule
+
 #### rest
+
 #### expireColor
+
 #### cat
+
 #### catArray
+
 #### dueTimes
+
 #### dueDate
+
 #### dueText
+
 #### addPct
+
 #### addMargin
+
 #### subtractMargin
+
 #### amountPct
+
 #### decPct
+
 #### incPct
+
 #### globalVariable
+
 #### globalVariableIsTrue
+
 #### globalVariableIsFalse
+
 #### globalVariableToArray
+
 #### globalVariableToNumber
+
 #### globalVariableIn
+
 #### globalVariableWhereValue
+
 #### consecutiveType
+
 #### alertDate
+
 #### paymentPlan
+
 #### paymentApply
+
 #### paymentPlanSchool
+
 #### scholarshipSchool
+
 #### subsidySchool
+
 #### benefitSchool
+
 #### paletMove
+
 #### saveAsText
+
 #### saveAsTextFromText
+
 #### saveFieldsAsCsv
+
 #### saveLayoutAsText
+
 #### periodFrom
+
 #### periodTo
+
 #### isPair
+
 #### isOdd
+
 #### validarFechaEventoAtencion
+
 #### inc
+
 #### incLetter
+
 #### dec
+
 #### decLetter
+
 #### now
+
 #### today
+
 #### time
+
 #### factorial
+
 #### random
+
 #### error
+
 #### warning
+
 #### info
+
 #### success
+
 #### breakdownDenoms
+
 #### mdPrecioSucio
+
 #### serieToDate
+
 #### cubage
+
 #### docToTokens
+
 #### jsonValuesToText
+
 #### itemPassFilter
+
 #### itemsPassFilter
+
 #### scapeRegExp
