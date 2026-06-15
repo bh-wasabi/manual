@@ -1076,85 +1076,85 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### removeEnters (texto)
 
-#### removePrefix 
+#### removePrefix (texto, prefijo)
 
-#### removeSuffix 
+#### removeSuffix (texto, sufijo)
 
-#### itemsLength 
+#### itemsLength (arreglo)
 
-#### getFolioFromReference 
+#### getFolioFromReference (texto)
 
-#### getAccount 
+#### getAccount (cuenta, separador, nivel)
 
-#### isWorkingDay 
+#### isWorkingDay (fecha)
 
-#### getTermName 
+#### getTermName (vencimiento, fecha)
 
-#### getNextLaborDay 
+#### getNextLaborDay (fecha, duracion)
 
-#### rangeTable 
+#### rangeTable (tabla, valor)
 
-#### taxTable 
+#### taxTable (tabla, importe)
 
-#### taxTablePyramidal 
+#### taxTablePyramidal (tabla, importe, importe2)
 
-#### inflation 
+#### inflation (tabla, desde, ajusteInflacion, mensualidad)
 
-#### setInflation 
+#### setInflation (arreglo, campo, inflacion)
 
-#### searchItemsInItems 
+#### searchItemsInItems (arreglo, arreglo2, prefijo)
 
-#### factor 
+#### factor (valor, factor)
 
-#### subItemsMap 
+#### subItemsMap (arreglo, referenciaSubItem, exprId, exprNombre)
 
-#### getFilterDateRange 
+#### getFilterDateRange (valor)
 
-#### getFilterDateRangeFrom 
+#### getFilterDateRangeFrom (valor)
 
-#### getFilterDateRangeTo 
+#### getFilterDateRangeTo (valor)
 
-#### getURLParameter 
+#### getUrlParameter (nombre)
 
-#### urlFromBucket 
+#### urlFromBucket (req, nombreArchivo)
 
-#### eq 
+#### eq (valor1, valor2)
 
-#### eq2 
+#### eq2 (valor1, valor2)
 
-#### gt 
+#### gt (valor1, valor2)
 
-#### major 
+#### major (valor1, valor2)
 
-#### lt 
+#### lt (valor1, valor2)
 
-#### minor 
+#### minor (valor1, valor2)
 
-#### abs 
+#### abs (valor)
 
-#### arrayLength 
+#### arrayLength (argumentos)
 
-#### isArrayLength 
+#### isArrayLength (arreglo)
 
-#### isPositive 
+#### isPositive (valor, factor)
 
-#### isNegative 
+#### isNegative (valor, factor)
 
-#### r3 
+#### r3 (importe, total, importe2)
 
-#### dimensionsToVolume 
+#### dimensionsToVolume (dimensiones)
 
-#### dimensionsToLengthWidthHeight 
+#### dimensionsToLengthWidthHeight (dimensiones)
 
-#### ledgerCurrency 
+#### ledgerCurrency (mayor, moneda)
 
-#### isHiddenTenant 
+#### isHiddenTenant ()
 
-#### topKeyValue 
+#### topKeyValue (datos)
 
-#### replaceAll 
+#### replaceAll (buscar, reemplazar, texto)
 
-#### proyectDate 
+#### proyectDate (fecha, hora, unidadTiempo, fechaMaxima, hora, diasHabiles)
 
 #### translate 
 
