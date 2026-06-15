@@ -67,6 +67,33 @@
 - obtiene los caracteres a la izquierda de la posición en el texto.
 - por ejemplo `calc.rightStr('hola mundo!', 6)` devuelve `' mundo!'`.
 
+#### posStr (texto1, texto2)
+- obtiene la poisición si existe el texto2 dentro del texto1
+- por ejemplo `calc.posStr('hola como estas', 'como')` devuelve `5`.
+
+#### delStr (texto, posicion, tamaño)
+- elimina dentro de un texto a partir de una posición, un tamaño de caracteres.
+- por ejemplo `calc.delStr('hola como estas', 5, 3)` devuelve `'hola o estas'`.
+
+#### insStr (texto1, texto2, posicion)
+- inserta el texto2 dentro del texto1 a partir de la posición indicada.
+- por ejemplo `calc.insStr('hola mundo!', ' como estas', 10)` devuelve `'hola mundo como estas!'`.
+
+#### alignLeft (texto, ancho, relleno)
+- alinea el texto a la izquierda y le rellena todo el ancho sobrante con un caracter.
+- por omisión el relleno es un espacio.
+- por ejemplo `calc.alignLeft('hola', 10, '*')` devuelve `'hola******'`.
+
+#### alignRight (texto, ancho, relleno)
+- alinea el texto a la derecha y le rellena todo el ancho sobrante con un caracter.
+- por omisión el relleno es un espacio.
+- por ejemplo `calc.alignRight('hola', 10, '*')` devuelve `'******hola'`.
+
+#### alignCenter (texto, ancho, relleno)
+- alinea el texto centrado y le rellena todo el ancho sobrante con un caracter.
+- por omisión el relleno es un espacio.
+- por ejemplo `calc.alignCenter('hola', 10, '*')` devuelve `'***hola***'`.
+
 #### cut (texto, llave)
 - busca la llave en el texto y si existe corta el texto hasta ese punto.
 - por ejemplo `calc.cut('hola mundo!', 'mundo')` regresa `' hola'`.
