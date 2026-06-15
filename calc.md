@@ -1388,77 +1388,77 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### setRef (objeto, llave, valor, opciones)
 
-#### getPresetKeyValue 
+#### getPresetKeyValue (preset, nombreCampo, presetPartOf, nombrePartOf) 
 
-#### prefixItems 
+#### prefixItems (prefijo, arreglo) 
 
-#### pluckWhere 
+#### pluckWhere (arreglo, llave, atributos) 
 
-#### pluckWhereIsEmpty 
+#### pluckWhereIsEmpty (arreglo, llave, atributos) 
 
-#### pluckEq 
+#### pluckEq (arreglo, llave, valor)
 
-#### pluckUniq 
+#### pluckUniq (arreglo, llave)
 
-#### pluckRefMerge 
+#### pluckRefMerge (arreglo, referencia)
 
-#### pluckRefs 
+#### pluckRefs (arreglo, llaves)
 
-#### pluckRefKeys 
+#### pluckRefKeys (arreglo, llaves, nombres, tiposDatos) 
 
-#### pluckRef2 
+#### pluckRef2 (doc, llave1, llave2) 
 
-#### compareArrays 
+#### compareArrays (arreglo1, arreglo2, llaves) 
 
-#### itemsSet 
+#### itemsSet (arreglo, llave, valor)
 
-#### setPlan 
+#### setPlan (tipo, ultimoPlan, seRepite, horaInicial, solicitudes)
 
-#### itemsToLines 
+#### itemsToLines (arreglo)
 
-#### deleteFieldsFromArray 
+#### deleteFieldsFromArray (arreglo, campos)
 
-#### unDeleteFieldsFromArray 
+#### unDeleteFieldsFromArray (arreglo, campos)
 
-#### first 
+#### first (arreglo, filtros)
 
-#### firstValue 
+#### firstValue (arreglo)
 
-#### firstObj 
+#### firstObj (arreglo)
 
-#### firstDef 
+#### firstDef (arreglo, valorPorOmision)
 
-#### firstSeparator 
+#### firstSeparator (texto, separador)
 
-#### firstValidSchedule 
+#### firstValidSchedule (arreglo, campo, fecha)
 
-#### rest 
+#### rest (arreglo)
 
-#### expireColor 
+#### expireColor (fecha, periodo, unidad)
 
-#### cat 
+#### cat (importe, enganche, importePago, numPagos, periodicidad)
 
-#### catArray 
+#### catArray (importe, enganche, pagos, periodicidad)
 
-#### dueTimes 
+#### dueTimes (servicio, subTipoSolicitud, motivo, momentoDieta, criticidadZona, tiempos)
 
-#### dueDate 
+#### dueDate (vencimientoActual, tipoVencimiento, tiempo)
 
-#### dueText 
+#### dueText (fechaVencimiento)
 
-#### addPct 
+#### addPct (valor, pct)
 
-#### addMargin 
+#### addMargin (valor, pct)
 
-#### subtractMargin 
+#### subtractMargin (valor, pct)
 
-#### amountPct 
+#### amountPct (valor, pct)
 
-#### decPct 
+#### decPct (valor, pct)
 
-#### incPct 
+#### incPct (valor, pct)
 
-#### globalVariable 
+#### globalVariable (llave, valorPorOmision)
 
 #### globalVariableIsTrue 
 
