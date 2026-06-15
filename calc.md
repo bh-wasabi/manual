@@ -59,6 +59,14 @@
 #### substr (texto, inicio, tamaño)
 - obtiene el `substr` del texto indicado.
 
+#### leftStr (texto, posicion)
+- obtiene los caracteres a la izquierda de la posición en el texto.
+- por ejemplo `calc.leftStr('hola mundo!', 6)` devuelve `'hola m'`.
+
+#### rightStr (texto, posicion)
+- obtiene los caracteres a la izquierda de la posición en el texto.
+- por ejemplo `calc.rightStr('hola mundo!', 6)` devuelve `' mundo!'`.
+
 #### cut (texto, llave)
 - busca la llave en el texto y si existe corta el texto hasta ese punto.
 - por ejemplo `calc.cut('hola mundo!', 'mundo')` regresa `' hola'`.
@@ -500,6 +508,7 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - `sumar` lista de campos separados por comas
 
 #### sortArray(arreglo, campos)
+- ordena un arreglo de objetos
 - lista de campos separados por comas.
 
 #### findDuplicates (arreglo, agrupadores)
@@ -643,6 +652,12 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### countArgs (argumentos)
 - cuenta todos los argumentos con valor
+
+#### countItems (arreglo)
+- cuenta todos los elementos del arreglo
+
+#### countDiff (arreglo, llave)
+- cuenta todos los elementos del arreglo que tienen la llave especificada.
 
 #### sum (arreglo, campo)
 - suma un campo del arreglo o los campos de un objeto numéricos
