@@ -51,7 +51,7 @@
 - ejecuta una plantilla de forma manual con Handlebars y regresa el HTML o XML ya parseado.
 
 #### if (expresion, verdadero, falso)
-- ejecuta una expresión, si el resutaldo es verdadero devuelve el primer valor en caso contrario regresa el segundo valor, por ejemplo: `Utils.if(1==2, 2*2, 3*3)`. genera 9.
+- ejecuta una expresión, si el resutaldo es verdadero devuelve el primer valor en caso contrario regresa el segundo valor, por ejemplo: `calc.if(1==2, 2*2, 3*3)`. genera 9.
 
 #### removeEmptyRows (arreglo, campo)
 - elimina los renglones que no tienen valor en el campo indicado.
@@ -93,6 +93,19 @@
 - alinea el texto centrado y le rellena todo el ancho sobrante con un caracter.
 - por omisión el relleno es un espacio.
 - por ejemplo `calc.alignCenter('hola', 10, '*')` devuelve `'***hola***'`.
+
+#### netDiscount (argumentos)
+- calcula un descuento neto en cascada usando cada parametro como un descuento adicional.
+- por ejemplo `calc.netDiscount(10,20,30)` devuelve `49.6`.
+
+#### promoDiscount
+- calcula los descuentos usando las promociones aplicadas
+  
+#### promoId
+- devuelve el id de la promoción aplicada
+
+#### promoName
+- devuelve el nombre de la promoción aplicada
 
 #### cut (texto, llave)
 - busca la llave en el texto y si existe corta el texto hasta ese punto.
@@ -605,6 +618,10 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### findWhere2 (arreglo, attributos)
 - es similar al anterior, pero si no encuentra nada devuelve un objeto vacío.
 
+#### findWhereOptional (arreglo, atributos)
+- busca el primer elemento de un arreglo que cumpla con los atributos indicados
+- en este caso se eliminan los atributos falsos o vacios antes de hacer la busqueda.
+
 #### findWhereRef (arreglo, referencia, valor [, referencia2, valor2])
 - devuelve el primer elemento de la lista, usando la referencia y que el valor corresponda.
 - puede tener 2 referencias (opcional).
@@ -615,6 +632,9 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### whereExists (arreglo, llave, valor)
 - devuelve una lista, con los valores que existan dentro del texto
 - puede ser una arreglo de valores
+
+#### whereExpr (arreglo, expr)
+- devuelve una lista donde se cumplen las expresiones en cada uno de los elementos.
 
 #### whereRefIn (arreglo, ref, values)
 - devuelve la lista con los valores múltiples que existan en la referencia.
@@ -628,8 +648,14 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### whereLessThan (arreglo, llave, valor)
 - devuelve una lista de los elementos que tienen el valor inferior.
 
+#### whereNotValue (arreglo, llave, valor)
+- devuelve la lista de todos los elementos que no corresponde el valor con la llave indicada.
+
 #### whereHasValue (arreglo, llave)
 - devuelve una lista, con los registros que tienen valor en ese campo
+
+#### whereIsFalse (arreglo, llave)
+- devuelve una lista, con los registros que tienen un valor falso en ese campo
 
 #### whereNotHasValue (arreglo, llave)
 - devuelve una lista, con los registros que no tienen valor en ese campo
@@ -691,7 +717,11 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### sumArgs (argumentos)
 - suma todos los argumentos
-- por ejemplo: calc.sumArgs(1,2,3,'4') = 10
+- por ejemplo: `calc.sumArgs(1,2,3,'4')` devuelve `10`
+
+#### sumItems (arreglo)
+- suma la lista de todos los elementos del arreglo
+- por ejemplo: `calc.sumItems([1,2,3,'4'])` devuelve `10`
 
 #### sumRef (arreglo, referencia)
 - suma las referencias del arreglo
@@ -701,6 +731,14 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 
 #### sumExpr (arreglo, expresión)
 - suma las expresiones del arreglo
+
+#### avgArgs (argumentos)
+- hace un promedio de todos los argumentos
+- por ejemplo: `calc.avgArgs(1,2,3,'4')` devuelve `2.5`
+
+#### avgItems (argumentos)
+- hace un promedio de todos los elementos del arreglo
+- por ejemplo: `calc.avgItems([1,2,3,'4'])` devuelve `2.5`
 
 #### union (arreglo1, arreglo2, arregloN)
 - une todos los arreglos
