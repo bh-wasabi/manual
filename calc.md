@@ -61,6 +61,11 @@
 
 #### cut (texto, llave)
 - busca la llave en el texto y si existe corta el texto hasta ese punto.
+- por ejemplo `calc.cut('hola mundo!', 'mundo')` regresa `' hola'`.
+
+#### cut2 (texto, llave)
+- parecedio a `cut` pero regresa el texto que sigue a ese punto.
+- por ejemplo `calc.cut2('hola mundo!', 'mundo')` regresa `'undo!'`.
 
 #### keys (obj)
 - obtiene la lista de llaves
@@ -147,6 +152,12 @@
 #### repeat (valor, veces)
 - genera un texto con el texto repetido la veces indicadas.
 
+#### int (valor)
+- forza el resultado como integro.
+
+#### integer (valor)
+- funciona igual que `int`.
+
 #### number (valor)
 - forza el resultado como numérico.
 
@@ -210,6 +221,24 @@
 - convierte una fecha y hora por separando en una fecha y hora juntos
 - puede tener un formato específico la fecha.
 - por ejemplo `calc.strToDateTimeFormat('2026-12-31','19:20')` devuelve `'2026-12-31T19:20:00-06:00'`
+
+#### formatDate (valor, formato)
+- convierte un valor a fecha usando un formato opcional.
+
+#### dateToStrFormat (valor, formato)
+- funciona igual que `formatDate`
+
+#### strToItems (texto, separador)
+- desglosa una lista de un texto, en el fondo usa la función `splitAndTrim`.
+- por omisión usa la coma como separador.
+- por ejemplo `calc.strToItems('a,b,c,d,e')` devuelve un arreglo de textos `['a','b','c','d','e']`.
+
+#### strToItemsQuotes (texto, separador, comilla)
+- hace algo similar a `strToItems` pero adicionalmente le agrega comillas al resultado.
+- por ejemplo `calc.strToItemsQuotes('1,2,3,4',',','"')` regresa `['"1"', '"2"', '"3"', '"4"']`.
+
+#### booleanToBit (valor)
+- convierte un valor logico `true` o `false` a `1` o `0`.
 
 #### formatCurrency (valor)
 - imprime un importe en texto con formato monetario.
@@ -706,12 +735,12 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### trim (valor)
 - quita los espacios previos y posteriores del texto.
 
-#### trimTextArea (valor)
-- quita los espacios previos y posteriores del texto.
-- quita lineas vacías.
-
 #### trimArray (lista)
 - quita los espacios previos y posteriores de la lista 
+- quita lineas vacías.
+
+#### trimTextArea (valor)
+- quita los espacios previos y posteriores del texto.
 - quita lineas vacías.
 
 #### forceDataType (valor[, tipo, formato])
@@ -726,18 +755,43 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 #### forceNumber (#)
 - forza el valor como numérico.
 
+#### forceNumber2 (#)
+- igual que `forceNumber`, pero tiene tolerancia a las comas.
+
 #### string (valor)
 - forza el valor como texto.
 
 #### forceString (valor)
-- forza el valor como texto.
+- hace lo mismo `string`.
 
 #### forceId (id)
 - checa sí llega un valor y en caso de vacío genera un `ObjectID` nuevo como `string`.
 
-#### curp (nombres, apellidoPaterno, apellidoMaterno, genero, entidad, fechaNacimiento)
-- genera el CURP con los datos del objeto
+#### forceArray (valor)
+- forza el valor como un arreglo.
 
+#### forceObject (valor)
+- forza el valor como un objecto.
+- si es un arreglo respeta el valor
+- si no es un objeto regresa `null`.
+
+#### forceJoin (arreglo, separador)
+- separa un arreglo a un texto usando el separador indicado.
+- por ejemplo `calc.forceJoin(['a','b','c'],'|')` regresa `'a|b|c'`.
+
+#### sortSimple (arreglo [, direccion, limite])
+- ordena un arreglo simple de valores, no de objetos.
+- la dirección puede ser `asc` (por omisión) o `desc`.
+- se puede limitar la cantidad de elementos del resultado.
+
+#### curp (nombres, apellidoPaterno, apellidoMaterno, genero, entidad, fechaNacimiento, anchoMaximo, noRemoverMalasPalabras)
+- genera el CURP con los datos del objeto
+- el `anchoMaximo` limita los caracteres del resultado, el CURP mide 18 digitos, pero tal vez se quiere sugerir todo menos el digito verificador en ese caso se pone 17.
+- el parámetro `noRemoverMalasPalabras` es un `true` o `false` para modificar el CURP con la lista de palabras que se especifica en la RENAPO, por omision es `true`.
+
+#### contieneMalaPalabra (texto)
+- devuelte un `true` o `false` si el texto indicado coincide con la lista de malas palabras de la RENAPO.
+  
 #### curpOk (curp)
 - valida que sea un CURP válido
 
