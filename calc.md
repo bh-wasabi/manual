@@ -1460,94 +1460,94 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### globalVariable (llave, valorPorOmision)
 
-#### globalVariableIsTrue 
+#### globalVariableIsTrue (llave, valorPorOmision)
 
-#### globalVariableIsFalse 
+#### globalVariableIsFalse (llave, valorPorOmision)
 
-#### globalVariableToArray 
+#### globalVariableToArray (llave, valorPorOmision)
 
-#### globalVariableToNumber 
+#### globalVariableToNumber (llave, valorPorOmision)
 
-#### globalVariableIn 
+#### globalVariableIn (llave, valor)
 
-#### globalVariableWhereValue 
+#### globalVariableWhereValue (llaves, valor)
 
-#### consecutiveType 
+#### consecutiveType (llave, valor)
 
-#### alertDate 
+#### alertDate (vencimientoActual, tipoVencimiento, tiempo)
 
-#### paymentPlan 
+#### paymentPlan (operacion, opciones)
 
-#### paymentApply 
+#### paymentApply (operacion, tabla, abono, recalcular)
 
-#### paymentPlanSchool 
+#### paymentPlanSchool (doc, articulos)
 
-#### scholarshipSchool 
+#### scholarshipSchool (base, precioUnitario, cantidad, beca, subsidio, prestacion, precioAjustado)
 
-#### subsidySchool 
+#### subsidySchool (base, precioUnitario, cantidad, subsidio)
 
-#### benefitSchool 
+#### benefitSchool (base, precioUnitario, cantidad, prestacion)
 
-#### paletMove 
+#### paletMove (arreglo, posicionOrigen, posicionDestino)
 
-#### saveAsText 
+#### saveAsText (arreglo, nombreArchivo, encoding)
 
-#### saveAsTextFromText 
+#### saveAsTextFromText (texto, nombreArchivo, encoding)
 
-#### saveFieldsAsCsv 
+#### saveFieldsAsCsv (arreglo, campos, textos, nombreArchivo, encoding)
 
-#### saveLayoutAsText 
+#### saveLayoutAsText (arreglo, tipo, nombreArchivo, encoding)
 
-#### periodFrom 
+#### periodFrom (tipo, periodo, ejercicio)
 
-#### periodTo 
+#### periodTo (tipo, periodo, ejercicio)
 
-#### isPair 
+#### isPair (numero)
 
-#### isOdd 
+#### isOdd (numero)
 
-#### validarFechaEventoAtencion 
+#### validarFechaEventoAtencion (fechaEvento, fechaAtencion, conHoras)
 
-#### inc 
+#### inc (numero, valor)
 
-#### incLetter 
+#### incLetter (texto)
 
-#### dec 
+#### dec (numero, valor)
 
-#### decLetter 
+#### decLetter (texto)
 
-#### now 
+#### now (formato)
 
-#### today 
+#### today (formato)
 
-#### time 
+#### time (formato)
 
-#### factorial 
+#### factorial (numero)
 
-#### random 
+#### random (factor, decimales)
 
-#### error 
+#### error (mensaje)
 
-#### warning 
+#### warning (mensaje)
 
-#### info 
+#### info (mensaje)
 
-#### success 
+#### success (mensaje)
 
-#### breakdownDenoms 
+#### breakdownDenoms (importe, denominaciones)
 
-#### mdPrecioSucio 
+#### mdPrecioSucio (parametros) 
 
-#### serieToDate 
+#### serieToDate (serie)
 
-#### cubage 
+#### cubage (tiposCajas, articulos)
 
-#### docToTokens 
+#### docToTokens (doc, campos)
 
-#### jsonValuesToText 
+#### jsonValuesToText (obj)
 
-#### itemPassFilter 
+#### itemPassFilter (elemento, filtro)
 
-#### itemsPassFilter 
+#### itemsPassFilter (arreglo, filtro)
 
-#### scapeRegExp 
+#### scapeRegExp (texto)
