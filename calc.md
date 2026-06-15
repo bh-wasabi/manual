@@ -121,7 +121,7 @@
 #### names (obj)
 - obtiene la lista de nombres
 
-#### valores (obj)
+#### values (obj)
 - obtiene la lista de valores
 
 #### concat (valor1, valor2, valorN)
@@ -132,14 +132,17 @@
 - concatena varios valores, sin agregar espacio entre los valores.
 - es posible agregar comas para separar estos valores, por ejemplo: `calc.concatCompact(@apellidoPaterno,'/', @nombre)`. genera "Perez/Juan".
 
-#### concat3  (valor1, valor2, valorN)
+#### concat3 (valor1, valor2, valorN)
 - concatena varios valores, agregando comas entre los valores.
 
-#### concat4  (valor1, valor2, valorN)
+#### concat4 (valor1, valor2, valorN)
 - concatena varios valores, agregando / entre los valores.
 
-#### concat5  (valor1, valor2, valorN)
+#### concat5 (valor1, valor2, valorN)
 - concatena varios valores, agregando ^ entre los valores sin espacios.
+
+#### concat6 (valor1, valor2, valorN)
+- concatena varios valores, agregando > entre los valores sin espacios.
 
 #### arrayWithItems (valor)
 - checa que exista y que sea un arreglo con elementos
@@ -237,6 +240,9 @@
 #### isNotEmpty (valor)
 - nega al isEmpty
 
+#### ifEmpty (valor1, valor2)
+- si el valor1 esta vacio regresa el valor2
+
 #### isJson (valor)
 - checa si el JSON válido
 
@@ -249,6 +255,12 @@
 
 #### hasValue (valor)
 - devuelve `true` o `false` si tiene o no valor.
+
+#### hasValues (arreglo)
+- devuelve `true` o `false` todos los elementos del arreglo tienen valor.
+
+#### hasValueRef (doc, arregloReferencias)
+- devuelve `true` o `false` si todas las referencias indicadas tienen valor.
 
 #### pesos (valor)
 - imprime un importe en texto (pesos).
@@ -626,6 +638,12 @@ calc.itemsInArray([{id:1, nombre:'uno'}, {id:4, nombre: 'cuatro'}], 'id', [1,2,3
 - devuelve el primer elemento de la lista, usando la referencia y que el valor corresponda.
 - puede tener 2 referencias (opcional).
 
+#### findWhereNotFalse (arreglo, llave)
+- devuelve el primer elemento de la lista donde el campo llave no sea falso.
+
+#### firstLike (arreglo, llave, prefijo)
+- devuelve el primer elemento de la lista donde el campo llave coincide con el prefijo indicado.
+
 #### where (arreglo, attributos)
 - devuelve una lista, con los atributos que coincidan.
 
@@ -961,6 +979,9 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 - opcional mente se puede definir cuál es el día base por omisión es "ahora".
 - si esVerde todo el periodo de vigencia es Verde, de la otra forma es azul hasta 1 día antes del vencimiento
 
+#### semaphore2 (vencimiento, [horas, ahora, esVigenciaVerde])
+- es la misma rutina que `semaphore` antes le agrega un dia al vencimiento.
+
 #### semaforo (vencimiento, [horas, ahora])
 - es la misma rutina que `semaphore` pero devuelve los colores en español.
 
@@ -1023,3 +1044,62 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### valueMap (items, key, value)
 - regresa un objeto con las llaves y valores mapeados
 
+#### meetsSexLimit
+#### meetsSexLimitSeul
+#### meetsAgeLimit
+#### recalcLimiteEdadDiagnostico
+#### recalcLimitesDiagnostico
+#### hasDecimals
+#### hasDuplicates
+#### whereRef
+#### whereRefIn
+#### findDuplicatesWhereRefIn
+#### findDuplicates
+#### getDuplicates
+#### findDuplicatesMultiple
+#### forceNumberCurrency
+#### removeKeys
+#### removeEnters
+#### removePrefix
+#### removeSuffix
+#### itemsLength
+#### getFolioFromReference
+#### getAccount
+#### isWorkingDay
+#### getTermName
+#### getNextLaborDay
+#### rangeTable
+#### taxTable
+#### taxTablePyramidal
+#### inflation
+#### setInflation
+#### searchItemsInItems
+#### factor
+#### subItemsMap
+#### getFilterDateRange
+#### getFilterDateRangeFrom
+#### getFilterDateRangeTo
+#### getURLParameter
+#### urlFromBucket
+#### eq
+#### eq2
+#### gt
+#### major
+#### lt
+#### minor
+#### abs
+#### arrayLength
+#### isArrayLength
+#### isPositive
+#### isNegative
+#### r3
+#### dimensionsToVolume
+#### dimensionsToLengthWidthHeight
+#### ledgerCurrency
+#### isHiddenTenant
+#### topKeyValue
+#### replaceAll
+#### proyectDate
+#### translate
+#### nextDate
+#### addTimeZone
