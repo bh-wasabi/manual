@@ -1156,237 +1156,237 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### proyectDate (fecha, hora, unidadTiempo, fechaMaxima, hora, diasHabiles)
 
-#### translate 
+#### translate (valor)
 
-#### nextDate 
+#### nextDate (fecha, diaSemana)
 
-#### addTimeZone 
+#### addTimeZone (fecha)
 
-#### concatDash 
+#### concatDash (argumentos)
 
-#### concatSlash 
+#### concatSlash (argumentos)
 
-#### concatSlash2 
+#### concatSlash2 (argumentos)
 
-#### concatLodash 
+#### concatLodash (argumentos)
 
-#### concatPairs 
+#### concatPairs (argumentos)
 
-#### concatPairsEnter 
+#### concatPairsEnter (argumentos)
 
-#### concatItemsEnter 
+#### concatItemsEnter (argumentos)
 
-#### concatPipe 
+#### concatPipe (argumentos)
 
-#### concatDot 
+#### concatDot (argumentos)
 
-#### concatTab 
+#### concatTab (argumentos)
 
-#### concatProductName 
+#### concatProductName (argumentos)
 
-#### breadCrumb 
+#### breadCrumb (arreglo)
 
-#### validarCurp 
+#### validarCurp (curp)
 
-#### curpDate 
+#### curpDate (fecha)
 
-#### mergeScanner 
+#### mergeScanner (arreglo, textoScanner)
 
-#### mergeArrays 
+#### mergeArrays (argumentos)
 
-#### mergeArraysByKey 
+#### mergeArraysByKey (arreglo1, arreglo2, llave, opciones)
 
-#### existsRefIn 
+#### existsRefIn (datos, referencia, valores)
 
-#### min 
+#### min (valor, minimo)
 
-#### minArgs 
+#### minArgs (argumentos)
 
-#### minItems 
+#### minItems (arreglo)
 
-#### minLimit 
+#### minLimit (valor, limite)
 
-#### max 
+#### max (valor, maximo)
 
-#### maxArgs 
+#### maxArgs (argumentos)
 
-#### maxItems 
+#### maxItems (arreglo)
 
-#### maxLimit 
+#### maxLimit (valor, limite)
 
-#### getMin 
+#### getMin (valor1, valor2)
 
-#### getMax 
+#### getMax (valor1, valor2)
 
-#### missingOver 
+#### missingOver (valor)
 
-#### leftOver 
+#### leftOver (valor)
 
-#### safeDivCeil 
+#### safeDivCeil (valor1, valor2, deshabilitado)
 
-#### safeDivTrunc 
+#### safeDivTrunc (valor1, valor2, deshabilitado)
 
-#### safeDivRound 
+#### safeDivRound (valor1, valor2, decimales)
 
-#### differenceError 
+#### differenceError (arreglo1, arreglo2, error)
 
-#### forceUpperCase 
+#### forceUpperCase (texto)
 
-#### forceLowerCase 
+#### forceLowerCase (texto)
 
-#### addDuration 
+#### addDuration (fecha, duracion, opciones)
 
-#### addDurationFormat 
+#### addDurationFormat (fecha, duracion, formato, opciones)
 
-#### rangeFromYearMonth 
+#### rangeFromYearMonth (fecha, mes)
 
-#### fromYearMonthDay 
+#### fromYearMonthDay (año, mes, dia)
 
-#### fromYearMonth 
+#### fromYearMonth (año, mes)
 
-#### toYearMonth 
+#### toYearMonth (año, mes)
 
-#### reconcileMarketSales 
+#### reconcileMarketSales (renglones, ventas)
 
-#### blowInt 
+#### blowInt (integro)
 
-#### blowLot 
+#### blowLot (cantidad, lote, tolerancia)
 
-#### inList 
+#### inList (arreglo, llave, lista)
 
-#### notInList 
+#### notInList (arreglo, llave, lista)
 
-#### itemsToCode 
+#### itemsToCode (arreglo)
 
-#### itemsToUrlKeyValue 
+#### itemsToUrlKeyValue (arreglo, llave, valor)
 
-#### urlKeyValueToItems 
+#### urlKeyValueToItems (texto, llave, valor, opciones)
 
-#### tipoServicioSis 
+#### tipoServicioSis (tipoServicioSis, tipoPersonalNom, genero, rangoEdad, tipoCode)
 
-#### rfcPhysicalPerson 
+#### rfcPhysicalPerson (nombre, apellidoPaterno, apellidoMaterno, fechaNacimiento)
 
-#### nom50Ok 
+#### nom50Ok (texto)
 
-#### nomEspecialesOk 
+#### nomEspecialesOk (texto)
 
-#### nomEspeciales2Ok 
+#### nomEspeciales2Ok (texto)
 
-#### nomNoEspecialesOk 
+#### nomNoEspecialesOk (texto)
 
-#### nomNoEspeciales2Ok 
+#### nomNoEspeciales2Ok (texto)
 
-#### nomNoEspeciales3Ok 
+#### nomNoEspeciales3Ok (texto)
 
-#### round2 
+#### round2 (numerico)
 
-#### amountDiff 
+#### amountDiff (numero1, numero2)
 
-#### trunc 
+#### trunc (valor)
 
-#### preset 
+#### preset (preset)
 
-#### momentName 
+#### momentName (id)
 
-#### momentDefinition 
+#### momentDefinition (id)
 
-#### momentInfo 
+#### momentInfo (id)
 
-#### presetNames 
+#### presetNames (preset, arreglo)
 
-#### presetNamesList 
+#### presetNamesList (preset, arreglo)
 
-#### presetDefinition 
+#### presetDefinition (preset, id)
 
-#### setValueInArray 
+#### setValueInArray (objeto, campos)
 
-#### setFactorInArray 
+#### setFactorInArray (arreglo, llaves, factor)
 
-#### validateCfdiTotals 
+#### validateCfdiTotals (base, importes, descuentos, subTotal, descuento, impuestos, retenciones, total)
 
-#### getLayoutInfo 
+#### getLayoutInfo (tipo)
 
-#### case 
+#### case (valor, filtro, default)
 
-#### bigger 
+#### bigger (valor1, valor2)
 
-#### smaller 
+#### smaller (valor1, valor2)
 
-#### addDays 
+#### addDays (fecha, dias, formato)
 
-#### addMonths 
+#### addMonths (fecha, meses, formato)
 
-#### year 
+#### year (decha)
 
-#### years 
+#### years (desde, hasta)
 
-#### yearsToDate 
+#### yearsToDate (fecha, ahora)
 
-#### month 
+#### month (fecha)
 
-#### monthName 
+#### monthName (fecha, verCorto)
 
-#### nextMonth 
+#### nextMonth (fecha, dia)
 
-#### elapsedTime 
+#### elapsedTime (desde, hasta, unidad)
 
-#### diffDays 
+#### diffDays (desde, hasta)
 
-#### diffHours 
+#### diffHours (desde, hasta)
 
-#### diffMinutes 
+#### diffMinutes (desde, hasta)
 
-#### day 
+#### day (fecha)
 
-#### days 
+#### days (desde, hasta)
 
-#### dayName 
+#### dayName (fecha)
 
-#### isoWeek 
+#### isoWeek (fecha)
 
-#### isLeapYear 
+#### isLeapYear (fecha)
 
-#### isBimester 
+#### isBimester (fecha)
 
-#### bimester 
+#### bimester (fecha)
 
-#### nextBimester 
+#### nextBimester (fecha, dia)
 
-#### bimesterDays 
+#### bimesterDays (fecha)
 
-#### lastDayBimester 
+#### lastDayBimester (fecha)
 
-#### isAnniversary 
+#### isAnniversary (fecha, desde, hasta)
 
-#### firstDayOfMonth 
+#### firstDayOfMonth (fecha)
 
-#### firstDayOfPeriod 
+#### firstDayOfPeriod (año, mes)
 
-#### lastDayOfMonth 
+#### lastDayOfMonth (fecha)
 
-#### lastDayOfPeriod 
+#### lastDayOfPeriod (año, mes)
 
-#### firstDayOfYear 
+#### firstDayOfYear (fecha)
 
-#### lastDayOfYear 
+#### lastDayOfYear (fecha)
 
-#### dateDMY 
+#### dateDMY (fecha)
 
-#### dateMDY 
+#### dateMDY (fecha)
 
-#### dateYMD 
+#### dateYMD (fecha)
 
-#### getDate 
+#### getDate (fecha)
 
-#### getTime 
+#### getTime (fecha)
 
-#### incDatetime 
+#### incDatetime (fecha, cantidad, unidad)
 
-#### passwordOk 
+#### passwordOk (contraseña, metodoAcceso)
 
-#### retention 
+#### retention (importe, retencion1, retencion2, decimales)
 
-#### setRef 
+#### setRef (objeto, llave, valor, opciones)
 
 #### getPresetKeyValue 
 
