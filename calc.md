@@ -1238,24 +1238,34 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 - por ejemplo `calc.addTimeZone('2026-05-15T19:36:12')` regresa `'2026-05-15T19:36:12-06:00'`
 
 #### concatDash (argumentos)
+- devuelve un texto concatenando los argumentos con `' - '`
 
 #### concatSlash (argumentos)
+- devuelve un texto concatenando los argumentos con `' / '`
 
 #### concatSlash2 (argumentos)
+- devuelve un texto concatenando los argumentos con `'/'`
 
 #### concatLodash (argumentos)
-
+- devuelve un texto concatenando los argumentos con `'_'`
+   
 #### concatPairs (argumentos)
+- devuelve un texto concatenando los argumentos por pares separando `campo: valor` y comas entre pares.
 
 #### concatPairsEnter (argumentos)
+- similar a `concatPairs` pero en lugar de comas le pone enter `\n`.
 
-#### concatItemsEnter (argumentos)
+#### concatItemsEnter (arreglo, campo, valor, prefijo, sufijo)
+- similar a `concatPairsEnter` usando un arrelgo donde se define el `campo` y `valor`.
 
 #### concatPipe (argumentos)
+- devuelve un texto concatenando los argumentos con `'|'`
 
 #### concatDot (argumentos)
-
+- devuelve un texto concatenando los argumentos con `'.'`
+  
 #### concatTab (argumentos)
+- devuelve un texto concatenando los argumentos con tabs `\t`
 
 #### concatProductName (argumentos)
 
