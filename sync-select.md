@@ -37,3 +37,4 @@ En este ejemplo, primero se ejecuta `sp_refresh_articulos($tenant, $empresa)` us
   {{/select}}
 {{/sync}}
 ````
+

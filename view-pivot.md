@@ -29,3 +29,4 @@
   {{pivot cols="category" rows="country" measures="quantity" totals="true" totalsLabel="Total"}}
 {{/view}}
 ````
+

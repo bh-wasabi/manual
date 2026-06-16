@@ -4,3 +4,4 @@
 ## Parámetros
 #### date (YYYY-MM-DD)
 - fecha a la que se quiere generar el corte de los saldos.
+

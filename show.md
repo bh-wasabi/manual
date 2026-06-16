@@ -39,3 +39,4 @@
 https://<sitio>/show/<showId>/<docType>
 https://<sitio>/show/<showId>/<docType>/<id>
 ````
+

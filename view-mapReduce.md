@@ -15,3 +15,4 @@
 ````
 {{mapReduce keys="color, category" values="amount"}}
 ````
+

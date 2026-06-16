@@ -32,3 +32,4 @@
 #### fontFamily
 - equivale a `font-family` del `css`.
 - por omisión es: `fontFamily="'Comic Sans MS', 'Comic Sans', cursive"`
+

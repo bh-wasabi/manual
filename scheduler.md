@@ -93,3 +93,4 @@ Definición de una agenda simple:
 ````
 {{scheduler id="agenda" section="agenda" views="month, week, day" currentView="week" firstDayOfWeek="0" startDayHour="9" endDayHour="20"}}
 ````
+

@@ -52,3 +52,4 @@
 {{row field="fecha" type="date" label="Mes" groupInterval="month"}}
 {{row field="fecha" type="date" label="Día" groupInterval="day"}}
 `````
+

@@ -88,3 +88,4 @@
   {{count field="quantity" label="Conteo" format="#"}}
 {{/cube}}
 ````
+

@@ -52,3 +52,4 @@
 ## Facilitadores
 - los objetos de tipo Markup pueden contener HTML abiertamente y sin ninguna restricción.
 - [lista de facilitadores](helpers.md).
+

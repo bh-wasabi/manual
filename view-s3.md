@@ -12,3 +12,4 @@
 - `json` convierte el resultado a un json.
 - `xml`
 - `pdf`	devuelve el binario del PDF en base64.
+

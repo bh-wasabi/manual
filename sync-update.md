@@ -28,3 +28,4 @@ Este ejemplo genera la siguiente sentencia de SQL: `UPDATE art SET descripcion=$
   {{/update}}
 {{/sync}}
 ````
+

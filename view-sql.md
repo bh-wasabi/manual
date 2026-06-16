@@ -36,3 +36,4 @@
   {{sql call="sp_ver_resumen($tenant)"}}
 {{/view}}
 ````
+

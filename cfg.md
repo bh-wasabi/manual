@@ -22,3 +22,4 @@
 
 #### [function](cfg-function.md)
 - es posible definir funciones en la aplicación.
+

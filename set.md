@@ -25,3 +25,4 @@
 {{set total="totales.total"}}
 {{set nombre="movimiento.nombre" fecha="movimiento.fecha" moneda="movimiento.moneda"}}
 `````
+

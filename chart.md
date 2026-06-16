@@ -75,3 +75,4 @@
   {{serie valueField="importe" name="Importe"}}
 {{/chart}}
 ````
+

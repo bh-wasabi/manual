@@ -11,3 +11,4 @@
     {{cypher query="MATCH (p:Person{name:{name}})-[r]-() RETURN p,r LIMIT 100"}}
 {{/view}}
 ````
+

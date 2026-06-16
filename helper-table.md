@@ -67,3 +67,4 @@ Ejemplo con link's y folder's.
 ````
 {{table adjuntos cols="nombre[url/folder], tipo, fecha, ext, tamano, comentarios" medium="25%, 10%, 25%, 5%, 5%, 30%"}}
 ````
+

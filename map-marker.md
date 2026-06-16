@@ -22,3 +22,5 @@
 #### pin
 - es posible asignar una url diferente para pintar las marcas.
 - por omisión es: `https://s3.amazonaws.com/mx-imagenes/pin-red/default.png`.
+
+

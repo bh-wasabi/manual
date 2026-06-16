@@ -79,3 +79,4 @@
 
 #### [transformImage](transformImage.md)
 - es posible transformar la imagen a mostrar cuando `isImage="true"`.
+

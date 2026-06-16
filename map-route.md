@@ -34,3 +34,4 @@
 #### opacity
 - define el nivel de opacidad de la línea que marca la ruta.
 - por omisión es `0.5`
+

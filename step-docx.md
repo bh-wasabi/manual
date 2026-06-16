@@ -25,3 +25,4 @@
 {{docx inputFilePath="plantillas/contrato.docx" outputFilePath="'docs/'+base.nombre+'.docx'"}}
 ````
 
+

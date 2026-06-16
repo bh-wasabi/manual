@@ -26,3 +26,4 @@ stackedSpLineArea
 fullStackedSpLineArea
 pie
 ````
+

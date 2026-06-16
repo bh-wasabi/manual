@@ -25,3 +25,4 @@
   {{push value="{articulo: 'A3', cantidad: 3, precio: 1500}"}}
 {{/create}}
 `````
+

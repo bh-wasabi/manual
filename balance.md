@@ -19,3 +19,4 @@ factor			float
 inc				decimal(36,9)
 dec				decimal(36,9)
 ````
+

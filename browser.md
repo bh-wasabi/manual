@@ -117,3 +117,4 @@
 #### [tileView](tileView.md)
 - aquí mismo podemos definir el mosaico a usar.
 - presentación del explorador tipo mosaico.
+

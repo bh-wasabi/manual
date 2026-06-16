@@ -58,3 +58,4 @@ Menú con opción de cambiar las vistas del cubo:
   {{item text="Refrescar" icon="refresh" type="refresh"}}
 {{/menu}}
 ````
+

@@ -44,3 +44,4 @@
 - color del recurso (agenda)
 - es una expresión que se obtiene de cada recurso.
 
+

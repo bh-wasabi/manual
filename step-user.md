@@ -60,3 +60,4 @@
 
 #### [validate](step-validate.md)
 - se pueden configurar validaciones adicionales, al momento de que el usuario le oprime afectar.
+

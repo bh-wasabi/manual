@@ -20,3 +20,4 @@
 #### copyToDropbox (true, false)
 - con esta opción es posible copiar el reporte en el Dropbox vinculado con el usuario.
 - esta opción se puede usar sin la necesidad de definir la ruta en Dropbox, supone que la primera parte de la ruta es el tenant.
+

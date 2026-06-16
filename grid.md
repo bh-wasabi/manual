@@ -122,3 +122,4 @@
 
 #### [column](grid-column.md)
 - columna a desplegar en la cuadrícula
+

@@ -16,3 +16,4 @@
 - etiqueta a mostrar sobre el botón de "Guardar lote"
 - por omisión pone "Guardar lote".
 
+

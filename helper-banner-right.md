@@ -5,3 +5,4 @@
 
 Notas:
 - por el momento el bannerRight funciona únicamente cuando se manejan tabs verticales.
+
