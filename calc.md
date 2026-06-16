@@ -1508,32 +1508,47 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 - agrega un mes y lo pone en un dia en particular.
 
 #### elapsedTime (desde, hasta, unidad)
+- calcula un tiempo entre 2 fechas y lo pone en la unidad especificada.
 
 #### diffDays (desde, hasta)
+- calcula la diferencia de dias entre 2 fechas
 
 #### diffHours (desde, hasta)
+- calcula la diferencia de horas entre 2 fechas
 
 #### diffMinutes (desde, hasta)
+- calcula la diferencia de minutos entre 2 fechas
 
 #### day (fecha)
+- devuelve el número de día de una fecha específica.
 
 #### days (desde, hasta)
-
+- calcula la diferencia de dias entre 2 fechas
+  
 #### dayName (fecha)
+- devuelve del nombre del día de la semana que corresponde esa fecha.
 
 #### isoWeek (fecha)
-
+-  devuelve el número de semana segun la ISO.
+  
 #### isLeapYear (fecha)
+- devuelve `true` o `false` si la fecha corresponde a un año bisiesto.
 
 #### isBimester (fecha)
+- devuelve `true` o `false` si la fecha corresponde a un mes que sea fin de bimestre, los meses `2,4,6,8,10,12`.
 
 #### bimester (fecha)
+- regresa el número de bimestre al que corresponde esa fecha.
+- por ejemplo el bimestre 1 corresponde a los meses de enero y febrero.
 
 #### nextBimester (fecha, dia)
+- regresa la fecha en el día específico del siguiente bimestre.
 
 #### bimesterDays (fecha)
+- regresa la cantidad de dias que hay en el bimestre de la fecha específica.
 
 #### lastDayBimester (fecha)
+- regresa el último día del bimestre de la fecha específica.
 
 #### isAnniversary (fecha, desde, hasta)
 
