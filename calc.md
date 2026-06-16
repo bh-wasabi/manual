@@ -1157,35 +1157,56 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### getFilterDateRangeTo (parametro)
 - devuelve unicamente `to` usando `getFilterDateRange`.
 
-#### getUrlParameter (nombre)
+#### getUrlParameter (parametro)
+- busca un parámetro de la url y devuelve el valor.
 
 #### urlFromBucket (req, nombreArchivo)
+- devuelve la url completa que corresponde al archivo y usando el bucket que esta configurado en ese servidor.
 
 #### eq (valor1, valor2)
+- devuelve `true` o `false` si los valores son iguales.
 
 #### eq2 (valor1, valor2)
+- es similar a `eq`, pero tiene mas tolerancia con los vacios, falsos, nulos, etc.
 
 #### gt (valor1, valor2)
+- devuelve `true` o `false` si los valor1 es mayor que valor2.
+- tienen que tener valor ambos parámetros.
 
 #### major (valor1, valor2)
+- es igual que `gt`.
 
 #### lt (valor1, valor2)
-
+- devuelve `true` o `false` si los valor1 es menor que valor2.
+- tienen que tener valor ambos parámetros.
+  
 #### minor (valor1, valor2)
-
-#### abs (valor)
+- es igual que `lt`.
+  
+#### abs (numero)
+- devuelve el valor absoluto númerico.
 
 #### arrayLength (argumentos)
+- suma la cantidad de elementos de los todos los arreglos especificados.
 
 #### isArrayLength (arreglo)
+- devuelve `true` o `false` si el arreglo tiene o no elementos.
 
 #### isPositive (valor, factor)
+- devuelve `true` o `false` si el valor es positivo.
+- puede tener un factor adicional.
 
 #### isNegative (valor, factor)
+- devuelve `true` o `false` si el valor es negativo.
+- puede tener un factor adicional.
 
-#### r3 (importe, total, importe2)
+#### r3 (cantidad1, total, cantidad2)
+- calcula una regla de tres, asi `cantidad2*total/cantidad1`
+- debe tener valor en los 3 valores.
 
 #### dimensionsToVolume (dimensiones)
+- calcula el volumen usando el texto largo x ancho x alto.
+- por ejemplo `10x20x3` = `600`.
 
 #### dimensionsToLengthWidthHeight (dimensiones)
 
