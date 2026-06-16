@@ -1267,63 +1267,98 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### concatTab (argumentos)
 - devuelve un texto concatenando los argumentos con tabs `\t`
 
-#### concatProductName (argumentos)
+#### concatProductName (codigo, descripcion, modelo, talla, color, estilo)
+- devuelve una descripcion de un producto tomando en cuenta posibles campos extras.
 
 #### breadCrumb (arreglo)
-
+- devuelve un texto concatenando los argumentos con `' > '`
+  
 #### validarCurp (curp)
+- devuelve `true` o `false` si el curp indicado cubre con las validaciones simples de tamaño y bloques de letras o números.
 
 #### curpDate (fecha)
+- devuelve la fecha con el formato que pide el CURP.
 
 #### mergeScanner (arreglo, textoScanner)
+- esta función sirve para agregar al detalle de una operación tipo artículos, un texto que contiene lo scaneado con las herramientas del sistema.
+- hay una logica especial para el scanner que se usa para surtir o recibir productos en el almacén.
 
 #### mergeArrays (argumentos)
+- esta función concatena múltiples arreglos que se pueden pasar como parámetros.
 
 #### mergeArraysByKey (arreglo1, arreglo2, llave, opciones)
+- esta función une 2 arreglos que tienen una llave en común.
+- la llave puede ser una referencia con puntos entre las secciones y campos.
 
 #### existsRefIn (datos, referencia, valores)
-
+- devuelve `true` o `false` si los valores existen en los datos usando la referencia indicada.
+  
 #### min (valor, minimo)
-
+- si el valor indicado es menor que el minímo devuelve el valor en caso contrario el devuelve el mínimo.
+  
+#### minLimit (valor, limite)
+- funciona igual que `min`.
+  
 #### minArgs (argumentos)
+- analiza todos los argumentos y devuelve el valor minímo encontrado.
 
 #### minItems (arreglo)
-
-#### minLimit (valor, limite)
-
-#### max (valor, maximo)
-
-#### maxArgs (argumentos)
-
-#### maxItems (arreglo)
-
-#### maxLimit (valor, limite)
+- analiza todos los elementos del arreglo y devuelve el valor minímo encontrado.
 
 #### getMin (valor1, valor2)
+- devuelve el valor menor de los 2 indicados.
+
+#### max (valor, maximo)
+- si el valor indicado es mayor que el máximo devuelve el valor en caso contrario el devuelve el máximo.
+
+#### maxLimit (valor, limite)
+- funciona igual que `max`.
+
+#### maxArgs (argumentos)
+- analiza todos los argumentos y devuelve el valor máximo encontrado.
+
+#### maxItems (arreglo)
+- analiza todos los elementos del arreglo y devuelve el valor máximo encontrado.
 
 #### getMax (valor1, valor2)
+- devuelve el valor mayor de los 2 indicados.
 
 #### missingOver (valor)
+- si el valor en menor a cero regresa el valor absoluto.
 
 #### leftOver (valor)
+- si el valor en mayor a cero regresa el valor absoluto.
 
-#### safeDivCeil (valor1, valor2, deshabilitado)
+#### safeDivCeil (valor1, valor2)
+- ejecuta una división segura (si el valor2 es cero no falla).
+- redondea un número hacia arriba hasta el siguiente número entero mayor o más cercano.
 
-#### safeDivTrunc (valor1, valor2, deshabilitado)
+#### safeDivTrunc (valor1, valor2)
+- ejecuta una división segura (si el valor2 es cero no falla).
+- eliminar los decimales de un número, conservando únicamente la parte entera.
 
 #### safeDivRound (valor1, valor2, decimales)
+- ejecuta una división segura (si el valor2 es cero no falla).
+- redondea el resultado usando las decimales indicadas.
 
-#### differenceError (arreglo1, arreglo2, error)
+#### differenceError (arreglo1, arreglo2, mensajeError)
+- analiza 2 arreglos y si encuentra diferencias devuelve el mensaje error indicado.
 
 #### forceUpperCase (texto)
+- conviere un texto a mayúsculas.
 
 #### forceLowerCase (texto)
+- conviere un texto a minúsculas.
 
 #### addDuration (fecha, duracion, opciones)
+- a una fecha se le agrega una duración
+- la duración se puede definir así: `8h`, `2d`, `5d`, `1w`, `2m`, `1y`, etc.
 
 #### addDurationFormat (fecha, duracion, formato, opciones)
+- simular `addDuration` pero se puede agregar un formato específico a la fecha resultado.
 
-#### rangeFromYearMonth (fecha, mes)
+#### rangeFromYearMonth (año, mes)
+- devuelve `{from, to}` a una fecha en un mes en particular, dando el principio y fin de mes.
 
 #### fromYearMonthDay (año, mes, dia)
 
