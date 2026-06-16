@@ -1209,22 +1209,33 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 - por ejemplo `10x20x3` = `600`.
 
 #### dimensionsToLengthWidthHeight (dimensiones)
+- devuelve un objeto `{length, width, height}`
+- leyendo las dimensiones del texto largo x ancho x alto.
 
 #### ledgerCurrency (mayor, moneda)
+- devuelve una leyenda con la cuenta y mayor en minusculas usando `/` como división.
 
 #### isHiddenTenant ()
+- devuelve `true` o `false` si en la configuración del servidor esta especificado este parámetro.
 
 #### topKeyValue (datos)
+- devuelve el valor máximo de un objeto tipo campo valor.
 
 #### replaceAll (buscar, reemplazar, texto)
+- devuelve el texto con todas las coincidencias reemplazadas.
 
 #### proyectDate (fecha, hora, unidadTiempo, fechaMaxima, hora, diasHabiles)
+- proyecta una fecha a futuro con algunas restricciones como la fecha máxima o días habiles.
 
 #### translate (valor)
+- traduce algunos valores que estan definidos en el preset.
 
-#### nextDate (fecha, diaSemana)
+#### nextDate (fecha, dias)
+- calcula la siguiente fecha aumentado los dias y lo devuelve en moment.
 
 #### addTimeZone (fecha)
+- a un texto tipo fecha con el formato YYYY-MM-DDTHH:mm:ss el agrega la zona horaria.
+- por ejemplo `calc.addTimeZone('2026-05-15T19:36:12')` regresa `'2026-05-15T19:36:12-06:00'`
 
 #### concatDash (argumentos)
 
