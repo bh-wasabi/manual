@@ -1045,60 +1045,93 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 - regresa un objeto con las llaves y valores mapeados
 
 #### meetsSexLimit (limiteSexo, genero)
+- verifica que el genero especificado cumpla con los limites aceptables
 
 #### meetsSexLimitSeul (limiteSexo, genero)
+- verifica que el genero especificado cumpla con los limites aceptables para la guia Seul
 
 #### meetsAgeLimit (valor, desde, fechaNacimiento, checarInferior, hoy, edadDesconocida)
+- verifica que la edad especificada cumpla con los limites aceptables
 
 #### recalcLimiteEdadDiagnostico (arreglo, fechaNacimiento, hoy, edadDesconocida)
-
+- recalcula las edades en los diagnosticos
+  
 #### recalcLimitesDiagnostico (arreglo, fechaNacimiento, genero, hoy, edadDesconocida)
+- recalcula los limites en los diagnosticos
 
 #### hasDecimals (numero)
+- verifica si el número indicado tiene decimales
 
 #### hasDuplicates (arreglo, excepciones, valorARevisar)
+- verifica si tiene duplicados en el arreglo
+- se puede incluir una lista de excepciones
 
-#### whereRef (arreglo, referencia, valor, referencia2, valor2)
+#### whereRef (arreglo, referencia, valor)
+- devuelve los elementos del arreglo que tienen una referencia con un valor específico.
 
 #### whereRefIn (arreglo, referencia, valores)
-
+-  similar a `whereRef` con la diferencia que puede aceptar múltiples valores.
+-  los valores es un arreglo
+  
 #### findDuplicatesWhereRefIn (arreglo, referencia, llave, valores, llave2, valores2, llave3, valores3)
+- devuelve la lista de duplicados en un arreglo usando una referencia y llave.
+- puede soportar una segunda y tercera llave y referencia opcional.
 
 #### findDuplicates (arreglo, llaves)
+- devuelve la lista de duplicados en un arreglo usando lista de llaves.
 
 #### getDuplicates (arreglo)
+- devuelve la lista de duplicados en un arreglo.
 
 #### findDuplicatesMultiple (arreglo, llaves)
+- devuelve la lista de duplicados en un arreglo unicamente en la lista de llaves.
 
 #### forceNumberCurrency (texto)
+- convierte a numerico un campo que tiene formato de moneda.
 
 #### removeKeys (arreglo, llaves)
+- elimina la lista de llaves del arreglo.
 
 #### removeEnters (texto)
-
+- elimina todos los enter `\n` de un texto.
+  
 #### removePrefix (texto, prefijo)
+- elimina el prefijo del texto indicado.
 
 #### removeSuffix (texto, sufijo)
+- elimina el sufijo del texto indicado.
 
 #### itemsLength (arreglo)
-
+- obtiene el tamaño del arreglo y devuelve un cero.
+  
 #### getFolioFromReference (texto)
+- extrae el folio de una referencia compuesta.
+- por ejemplo `Pedido 1234` devuelve `1234`.
 
 #### getAccount (cuenta, separador, nivel)
+- devuelve el nivel de la cuenta contable.
+- por omisión el separador es `.`.
 
 #### isWorkingDay (fecha)
+- devuelve `true` o `false` si el dia es habil tomando en cuenta la configuración general de Días Festivos.
 
 #### getTermName (vencimiento, fecha)
+- devuelve si el plazo es `Hoy`, `24 Horas` o `48 Horas`.
 
 #### getNextLaborDay (fecha, duracion)
+- devuelve la fecha del siguiete día habil tomando en cuenta la configuración general de Días Festivos.
 
 #### rangeTable (tabla, valor)
+- devuelve todos los elementos de la configuración general `app.tablaRango` que cumplen con la tabla y valor indicado que corresponde al rango del valor.
 
 #### taxTable (tabla, importe)
+- devuelve todos los elementos de la configuración general `app.tablaImpuestos` que cumplen con la tabla y valor indicado que corresponde al rango del importe.
 
 #### taxTablePyramidal (tabla, importe, importe2)
+- hace un calculo piramidal (inverso) para buscar cual es el valor que corresponde.
 
 #### inflation (tabla, desde, ajusteInflacion, mensualidad)
+- calcula el % de inflación usando alguna de las tablas de la configuración general como el INPC.
 
 #### setInflation (arreglo, campo, inflacion)
 
