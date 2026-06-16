@@ -1134,18 +1134,28 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 - calcula el % de inflación usando alguna de las tablas de la configuración general como el INPC.
 
 #### setInflation (arreglo, campo, inflacion)
+- devulve en arreglo con la inflación aplicada al campo.
 
-#### searchItemsInItems (arreglo, arreglo2, prefijo)
+#### searchItemsInItems (arreglo1, arreglo2, prefijo)
+- busca si alguno de los elementos del arreglo2 existen en el arreglo1
+- se puede usar un prefijo opcional.
 
 #### factor (valor, factor)
+- multiplica un valor por el factor.
+- por omisión usa el factor `1`.
 
 #### subItemsMap (arreglo, referenciaSubItem, exprId, exprNombre)
+- genera un arreglo usando una sub referencia.
 
-#### getFilterDateRange (valor)
+#### getFilterDateRange (parametro)
+- devuelve un objeto `{from, to}` usando la fecha actual y un parametro de filtro de fechas.
+- parametros válidos: `all,specific,last60,last30,last15,last7,last3,yesterday,today,todayAndTomorrow,tomorrow,next3,next7,next15,next30,lastWeek,thisWeek,nextWeek,lastMonth,thisMonth,nextMonth,lastYear,thisYear,nextYear`.
 
-#### getFilterDateRangeFrom (valor)
+#### getFilterDateRangeFrom (parametro)
+- devuelve unicamente `from` usando `getFilterDateRange`.
 
-#### getFilterDateRangeTo (valor)
+#### getFilterDateRangeTo (parametro)
+- devuelve unicamente `to` usando `getFilterDateRange`.
 
 #### getUrlParameter (nombre)
 
