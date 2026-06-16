@@ -1359,24 +1359,40 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 
 #### rangeFromYearMonth (año, mes)
 - devuelve `{from, to}` a una fecha en un mes en particular, dando el principio y fin de mes.
+- por ejemplo `calc.rangeFromYearMonth(2026, 6)` regresa `{from: '2026-06-01', to: '2026-06-30'}`.
 
 #### fromYearMonthDay (año, mes, dia)
+- regresa la fecha en formato `YYYY-MM-DD`.
 
 #### fromYearMonth (año, mes)
+- regresa la fecha inicio de mes
+- por ejemplo `calc.fromYearMonth(2026, 6)` regresa `2026-06-01T00:00:00-06:00`
 
 #### toYearMonth (año, mes)
+- regresa la fecha fin de mes
+- por ejemplo `calc.toYearMonth(2026, 6)` regresa `2026-06-30T23:59:59-06:00`
 
 #### reconcileMarketSales (renglones, ventas)
+- una función interna para reconciliar la ventas del sistema vs las ventas de un Marketplace.
 
 #### blowInt (integro)
+- genera una explosión de un número.
+- por ejemplo `calc.blowInt(10)` regresa `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
 
 #### blowLot (cantidad, lote, tolerancia)
+- genera una explosión de una cantidad por el tamaño del lote indicado
+- por ejemplo `calc.blowLot(100, 30)` regresa `[30, 30, 30]`
+- puede tener un % tolerancia para redondear.
 
 #### inList (arreglo, llave, lista)
+- analiza un campo llave de un arreglo y devuelve todos los elementos que estan en la lista.
 
 #### notInList (arreglo, llave, lista)
+- analiza un campo llave de un arreglo y devuelve todos los elementos que no estan en la lista.
 
 #### itemsToCode (arreglo)
+- convierte un arreglo de valores a un arreglo de objetos `[{id, nombre}]`.
+- por ejemplo `calc.itemsToCode(['A','B','C'])` regresa `[{"id":"A","nombre":"A"},{"id":"B","nombre":"B"},{"id":"C","nombre":"C"}]`.
 
 #### itemsToUrlKeyValue (arreglo, llave, valor)
 
@@ -1385,68 +1401,111 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### tipoServicioSis (tipoServicioSis, tipoPersonalNom, genero, rangoEdad, tipoCode)
 
 #### rfcPhysicalPerson (nombre, apellidoPaterno, apellidoMaterno, fechaNacimiento)
+- calcula el RFC de una persona física.
 
 #### nom50Ok (texto)
+- valida un texto siguendo las reglas de la NOM y que no exceda 50 carácteres.
 
 #### nomEspecialesOk (texto)
+- valida un texto que sigula las reglas de la NOM considerando carácteres especiales.
 
 #### nomEspeciales2Ok (texto)
+- valida un texto que sigula las reglas de la NOM considerando carácteres especiales y tienen mas consideranciones.
 
 #### nomNoEspecialesOk (texto)
+- valida un texto que sigula las reglas de la NOM sin tomar en cuenta carácteres especiales.
 
 #### nomNoEspeciales2Ok (texto)
+- valida un texto que sigula las reglas de la NOM sin tomar en cuenta carácteres especiales y otras consideraciones.
 
 #### nomNoEspeciales3Ok (texto)
+- valida un texto que sigula las reglas de la NOM sin tomar en cuenta carácteres especiales y otras consideraciones.
 
 #### round2 (numerico)
+- rendondea un importe a 2 decimales.
 
 #### amountDiff (numero1, numero2)
+- regresa la diferencia absoluta entre 2 números.
 
 #### trunc (valor)
+- eliminar los decimales de un número, conservando únicamente la parte entera.
 
 #### preset (preset)
+- devuelte un arreglo con el preset establecido.
+- por ejemplo `calc.getPresetFromName('month')` regresa `{"1":"Enero","2":"Febrero","3":"Marzo","4":"Abril","5":"Mayo","6":"Junio","7":"Julio","8":"Agosto","9":"Septiembre","10":"Octubre","11":"Noviembre","12":"Diciembre"}`
 
 #### momentName (id)
+- devuelve el nombre de un momento especifico
+- los momentos se configuran como un `code`.
+- por ejemplo `calc.momentName('enEjecucion')` devuelve `'En Ejecución'`.
 
 #### momentDefinition (id)
+- devuelve la definición del momento si esta configurada.
 
 #### momentInfo (id)
+- devuelve toda la información del momento
+- por ejemplo `calc.momentInfo('enEjecucion')` devuelve `{"partOf":"activo","nombre":"En Ejecución","id":"enEjecucion"}`
 
 #### presetNames (preset, arreglo)
+- devuelve la lista de nombres del preset pudiendo considerar el arreglo como filtro
+- por ejemplo `calc.presetNames('cfg.diaSemana', ['1','2','3'])` devuelve `'Lunes, Martes, Miércoles.'`.
 
 #### presetNamesList (preset, arreglo)
+- similar a `presetNames` pero regresa un arreglo con la lista de nombres
+- por ejemplo `calc.presetNamesList('cfg.diaSemana', ['1','2','3'])` devuelve `["Lunes","Martes","Miércoles"]`.
 
 #### presetDefinition (preset, id)
+- devuelve toda la información del preset.
 
-#### setValueInArray (objeto, campos)
+#### setValueInArray (arreglo, campo, valor)
+- a un arreglo le asigna un campo adicional con el valor específico.
 
 #### setFactorInArray (arreglo, llaves, factor)
+- en un arreglo a la lista de campos (llaves) les aplica un factor.
 
 #### validateCfdiTotals (base, importes, descuentos, subTotal, descuento, impuestos, retenciones, total)
+- valida si los totales del CFDI corresponden con todos los campos calculados.
 
 #### getLayoutInfo (tipo)
+- devuelve la definición de un layout del metadata.
 
-#### case (valor, filtro, default)
+#### case (objeto, filtro, default)
+- ejecuta una simple función para determinar un valor de un objeto usando un filtro
+- en caso de no encontrar un valor regresa el valor por omisión.
 
 #### bigger (valor1, valor2)
+- devuelve el valor mayor.
 
 #### smaller (valor1, valor2)
+- devuelve el valor menor.
 
 #### addDays (fecha, dias, formato)
+- agrega una cantidad de días (positivo o negativo) a una fecha específica.
+- se puede especificar un formato opcional.
 
 #### addMonths (fecha, meses, formato)
+- agrega una cantidad de meses (positivo o negativo) a una fecha específica.
+- se puede especificar un formato opcional.
 
-#### year (decha)
+#### year (fecha)
+-  devuelve el año de la fecha específica.
 
 #### years (desde, hasta)
+- calcula los años entre las 2 fechas.
 
 #### yearsToDate (fecha, ahora)
+- calcula los años a hoy.
+- se puede especificar el ahora para cambiar las fechas.
 
 #### month (fecha)
+- devuelve el número de mes de una fecha específica, considerando 1 = enero y 12 = diciembre.
 
 #### monthName (fecha, verCorto)
+- devuelve el nombre del mes de una fecha específica.
+- se puede solicitar un nombre corto.
 
 #### nextMonth (fecha, dia)
+- agrega un mes y lo pone en un dia en particular.
 
 #### elapsedTime (desde, hasta, unidad)
 
