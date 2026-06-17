@@ -1553,34 +1553,47 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### isAnniversary (fecha, desde, hasta)
 
 #### firstDayOfMonth (fecha)
+- regresa el primer día del la fecha específica.
 
 #### firstDayOfPeriod (año, mes)
-
+- regresa el primer día del año y mes específico.
+  
 #### lastDayOfMonth (fecha)
+- regresa el último día del la fecha específica.
 
 #### lastDayOfPeriod (año, mes)
-
+- regresa el último día del año y mes específico.
+  
 #### firstDayOfYear (fecha)
-
+- regresa el primer día del año del la fecha específica.
+  
 #### lastDayOfYear (fecha)
-
+- regresa el último día del año del la fecha específica.
+  
 #### dateDMY (fecha)
+- regresa la fecha en formato DD-MM-YYYY
 
 #### dateMDY (fecha)
+- regresa la fecha en formato MM-DD-YYYY
 
 #### dateYMD (fecha)
+- regresa la fecha en formato YYYY-MM-DD
 
 #### getDate (fecha)
+- extrae la fecha sin hora de la fecha específica.
 
 #### getTime (fecha)
+- extrae la hora de la fecha específica.
 
 #### incDatetime (fecha, cantidad, unidad)
-
-#### passwordOk (contraseña, metodoAcceso)
+- incrementa la fecha en la cantidad y unidad específica.
 
 #### retention (importe, retencion1, retencion2, decimales)
+- calcula el % retención usando las 2 retenciones juntas
+- se puede definir el rendondeo con las decimales opcionales.
 
-#### setRef (objeto, llave, valor, opciones)
+#### setRef (objeto, llave, valor)
+- devuelve el objeto modificando un valor en una llave (o referencia con puntos).
 
 #### getPresetKeyValue (preset, nombreCampo, presetPartOf, nombrePartOf) 
 
