@@ -1598,84 +1598,123 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### getPresetKeyValue (preset, nombreCampo, presetPartOf, nombrePartOf) 
 
 #### prefixItems (prefijo, arreglo) 
+- a un arreglo de valores le agrega el prefijo a todos los elementos.
 
 #### pluckWhere (arreglo, llave, atributos) 
+- obtiene la lista de la llave aplicando el filtro de los atributos.
 
 #### pluckWhereIsEmpty (arreglo, llave, atributos) 
+- valida que la lista obtenida este completamente vacia.
 
 #### pluckEq (arreglo, llave, valor)
+- extrae la lista cuando el campo llave corresponde con el valor.
 
 #### pluckUniq (arreglo, llave)
+- extrae la lista de arreglo y devuelve los valores únicos.
 
 #### pluckRefMerge (arreglo, referencia)
+- concatena todos los sub arreglos que vienen en la referencia indicada.
 
 #### pluckRefs (arreglo, llaves)
+- extrae todas las referencias de arreglo y lo une en un nuevo arreglo.
 
 #### pluckRefKeys (arreglo, llaves, nombres, tiposDatos) 
 
 #### pluckRef2 (doc, llave1, llave2) 
 
 #### compareArrays (arreglo1, arreglo2, llaves) 
+- compara 2 arreglos en las llaves específicas.
 
 #### itemsSet (arreglo, llave, valor)
+- le asigna un valor en una llave específica en todo el arreglo.
 
 #### setPlan (tipo, ultimoPlan, seRepite, horaInicial, solicitudes)
 
 #### itemsToLines (arreglo)
+- genera un texto separado por enter `\n` para todos los elementos.
 
 #### deleteFieldsFromArray (arreglo, campos)
+- elimina todos los campos especificados de un arreglo.
 
 #### unDeleteFieldsFromArray (arreglo, campos)
+- elimina todos los campos menos los campos especificados de un arreglo.
 
 #### first (arreglo, filtros)
+- devuelve el primer elemento de un arreglo
+- se puede aplicar un filtro opcional, para que sea el primer elemento que cumple con ese criterio.
 
 #### firstValue (arreglo)
+- funciona unicamente con arreglos y devuelve el primer valor.
 
 #### firstObj (arreglo)
+- funciona parecido a `firstValue`
 
 #### firstDef (arreglo, valorPorOmision)
+- regresa el primer valor del arreglo con la opción de agregar un valor por omisión en caso de que no exista.
 
 #### firstSeparator (texto, separador)
+- busca el primer bloque del texto usando el separador indicado.
 
 #### firstValidSchedule (arreglo, campo, fecha)
 
 #### rest (arreglo)
+- regresa el resto del arreglo quitando el primer elemento.
 
 #### expireColor (fecha, periodo, unidad)
+- calula un color tipo semaforo usando la fecha, periodo y unidad de vencimiento.
+- normalmente el verde es que esta vigente mas de 1 día, amarillo es que vence ese día y rojo es vencido.
 
 #### cat (importe, enganche, importePago, numPagos, periodicidad)
+- calcula el CAT siguiendo las reglas de Banxico.
 
 #### catArray (importe, enganche, pagos, periodicidad)
 
 #### dueTimes (servicio, subTipoSolicitud, motivo, momentoDieta, criticidadZona, tiempos)
 
 #### dueDate (vencimientoActual, tipoVencimiento, tiempo)
+- calcula una fecha vencimiento.
 
 #### dueText (fechaVencimiento)
+- calcula un texto que indica el tiempo de vencimiento previo o posterior.
 
 #### addPct (valor, pct)
+- agrega un % a un valor.
 
 #### addMargin (valor, pct)
+- calcula un margen en base a un costo y % utilidad.
 
 #### subtractMargin (valor, pct)
 
 #### amountPct (valor, pct)
 
 #### decPct (valor, pct)
+- decrementa un % de un valor
 
 #### incPct (valor, pct)
+- incrementa un % a un valor.
 
 #### globalVariable (llave, valorPorOmision)
+- regresa el valor especificado en esta variable global.
+- puede tener un valor por omisión.
 
 #### globalVariableIsTrue (llave, valorPorOmision)
+- devuelve `true` o `false` si la variable global tiene algun valor positivo o verdadero.
+- puede tener un valor por omisión.
 
 #### globalVariableIsFalse (llave, valorPorOmision)
+- devuelve `true` o `false` si la variable global tiene algun valor negativo o falso.
+- puede tener un valor por omisión.
 
 #### globalVariableToArray (llave, valorPorOmision)
+- convierte una variable global a un arreglo.
+- puede tener un valor por omisión.
 
 #### globalVariableToNumber (llave, valorPorOmision)
+- convierte una variable global a un numerico.
+- puede tener un valor por omisión.
 
-#### globalVariableIn (llave, valor)
+#### globalVariableIn (llave, valores)
+- devuelve `true` o `false` si la variable global esta en la lista valores especificados.
 
 #### globalVariableWhereValue (llaves, valor)
 
