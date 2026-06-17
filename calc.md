@@ -1395,8 +1395,10 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 - por ejemplo `calc.itemsToCode(['A','B','C'])` regresa `[{"id":"A","nombre":"A"},{"id":"B","nombre":"B"},{"id":"C","nombre":"C"}]`.
 
 #### itemsToUrlKeyValue (arreglo, llave, valor)
+- convierte un arreglo a URL extrayendo los campos indicados (llave y valor)
 
 #### urlKeyValueToItems (texto, llave, valor, opciones)
+- hace lo inverso `itemsToUrlKeyValue` y genera un arreglo desde una url.
 
 #### tipoServicioSis (tipoServicioSis, tipoPersonalNom, genero, rangoEdad, tipoCode)
 
@@ -1717,6 +1719,7 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 - devuelve `true` o `false` si la variable global esta en la lista valores especificados.
 
 #### globalVariableWhereValue (llaves, valor)
+- busca una variable global donde alguna de las llaves contenga el valor indicado.
 
 #### consecutiveType (llave, valor)
 
@@ -1737,63 +1740,105 @@ calc.mapArray([{_id:1,_name:'hola'}], {id:'_id',nombre:'_name'})
 #### paletMove (arreglo, posicionOrigen, posicionDestino)
 
 #### saveAsText (arreglo, nombreArchivo, encoding)
+- guarda un arreglo como un archivo de texto separado por `\r\n`.
+- el encodig por omisión es utf-8
 
 #### saveAsTextFromText (texto, nombreArchivo, encoding)
+- guarda un texto en un archivo de texto.
+- el encodig por omisión es utf-8
 
 #### saveFieldsAsCsv (arreglo, campos, textos, nombreArchivo, encoding)
+- guarda un arreglo como un archivo csv.
+- el encodig por omisión es utf-8
 
 #### saveLayoutAsText (arreglo, tipo, nombreArchivo, encoding)
+- guarda un arreglo usando un layout configurado en el metadata.
+- el encodig por omisión es utf-8
 
 #### periodFrom (tipo, periodo, ejercicio)
 
 #### periodTo (tipo, periodo, ejercicio)
 
 #### isPair (numero)
+- valida si el número es par.
 
 #### isOdd (numero)
-
+- valida si el número es inpar.
+  
 #### validarFechaEventoAtencion (fechaEvento, fechaAtencion, conHoras)
 
 #### inc (numero, valor)
+- incrementa un numero
+- se puede cambiar el valor del incremento.
 
 #### incLetter (texto)
+- incrementa una letra a la siguiente del abecedario.
 
 #### dec (numero, valor)
+- decrementa un numero
+- se puede cambiar el valor del decrementa.
 
 #### decLetter (texto)
+- decrementa una letra a la siguiente del abecedario.
 
 #### now (formato)
+- devuelve la fecha y hora actual
+- se puede especificar un formato
 
 #### today (formato)
+- devuelve la fecha sin hora actual
+- se puede especificar un formato
 
 #### time (formato)
+- devuelve la hora actual
+- se puede especificar un formato
 
 #### factorial (numero)
+- aplica un factorial a un número.
+- el producto de todos los números enteros positivos desde 1 hasta n.
 
 #### random (factor, decimales)
+- devulve un numero al azar
+- por omisión regresa un numero entre 0 y 1
+- se puede aplicar un factor y decimales.
 
 #### error (mensaje)
+- manda un mensaje de error (rojo) a la pantalla del usuario.
 
 #### warning (mensaje)
-
+- manda un mensaje de advertencia (amarillo) a la pantalla del usuario.
+  
 #### info (mensaje)
-
+- manda un mensaje de información (azul) a la pantalla del usuario.
+  
 #### success (mensaje)
+- manda un mensaje de exito (verde) a la pantalla del usuario.
 
 #### breakdownDenoms (importe, denominaciones)
+- genera un arreglo con todas la denominaciones requieridas para el importe especifico.
+- por ejemplo `calc.breakdownDenoms(1234, [10, 20, 50, 100])` regresa `[{"denominacion":100,"cantidad":12,"importe":1200},{"denominacion":20,"cantidad":1,"importe":20},{"denominacion":10,"cantidad":1,"importe":10},{"denominacion":0,"cantidad":1,"importe":4}]`.
 
 #### mdPrecioSucio (parametros) 
+- regresa un precio sucio para el módulo de mercado de dinero.
 
 #### serieToDate (serie)
+- convierte una serie de mercado dinero a una fecha vencimiento.
 
 #### cubage (tiposCajas, articulos)
+- calcula el cubicaje necesario para ese tipo de cajas y la lista de articulos requeridos.
 
 #### docToTokens (doc, campos)
+- genera todos los tokens normalizados de un documento
+- se puede específicar una lista de campos.
 
 #### jsonValuesToText (obj)
+- extrae todos los valores del objeto y los separa con un espacio.
 
 #### itemPassFilter (elemento, filtro)
+- determina si un elemento pasa un filtro específico.
 
 #### itemsPassFilter (arreglo, filtro)
+- determina si todo el arreglo pasa un filtro específico.
 
 #### scapeRegExp (texto)
+- escapa todos los carácteres especiales para poder ejecutar una consulta en la base de datos.
