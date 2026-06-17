@@ -11,8 +11,10 @@
 - `moment` basado en la libreria de [Moment.js](http://momentjs.com).
 - `numeral` basado en la libreria de [Numeral.js](http://numeraljs.com/).
 - `_` basado en la libreria de [underscore.js](http://underscorejs.org/).
+- `$` basado en la libreria de [jQuery](https://jquery.com/).
 - `fn` [funciones configurables](fn.md).
-- `calc` [funciones predefinidas](calc.md).
+- `calc` [funciones predefinidas Generales](calc.md).
+- `nom` [funciones predefinidas NOM](nom.md).
 - `edi` [funciones predefinidas](edi.md).
 - `user` devuelve información del usuario actual.
 - `wasabiCfg` tiene algunas variables de la configuración del servidor (appId).
