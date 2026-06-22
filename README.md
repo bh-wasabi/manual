@@ -1,5 +1,5 @@
 # Manual
-#### Versión 1.0.0
+#### Versión 2.0.0
 
 ## Objetos principales
 #### [app](app.md)
@@ -10,6 +10,9 @@
 
 #### [doc](doc.md)
 - tipo de documento
+
+#### [metadata](metadata.md)
+- metadata que ayuda a crear el código de forma automática
 
 ## Directivas de Compilación
 - Es posible usar estas directivas para hacer cambios al código a un nivel superior.
