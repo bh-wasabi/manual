@@ -101,7 +101,7 @@
 -
 
 #### template
--
+- id del template que se va usar en ese tablero
 
 #### validateParentFlowStatus
 -
@@ -112,65 +112,65 @@
 #### validateCloseTrack
 -
 
-#### grouped
--
+#### grouped (booleano)
+- define si aparece agrupado el tablero por omisión
 
 #### groupedDetailTemplate
--
+- id del template a usar cuando se muestra agrupado, pero se abre el grupo
 
 #### groupedTemplate
--
+- id del template cuando esta agrupado
 
 #### groupedBy
--
+- campo de la vista que se va usar para agrupar
 
-#### groupedReverse
--
+#### groupedReverse (booleano)
+- puede ser agrupado de forma inversa.
 
 #### groupedAmount
--
+- es posible calcular un campo calculado con la suma, para usarse en el template agrupado
 
 #### groupedLimit
--
+- limite de agrupadores por vista del tablero
 
 #### groupedParams
 -
 
 #### lastChange
--
+- columna informativa para registrar el último cambio registrado manualmente
 
-#### ignore
--
+#### ignore (booleano)
+- es posible comentar los renglones del metadata usando esta columna, tambien se recomienda poner el color de las letras en gris para que sea más visual lo comentado.
 
 #### include
--
+- lista de proyectos (separados por comas) que se desean incluir.
 
 #### exclude
--
+- lista de proyectos (separados por comas) que se desean excluir.
 
 #### condition
 -
 
 #### userRole
--
+- roles de usuario (separador por comas) que tienen acceso a este table
 
 #### subRole
--
+- sub roles de usuario (separador por comas) que tienen acceso a este table
 
 #### showActions
--
+- lista de acciones a mostrar en ese tablero.
 
 #### addActions
--
+- es posible agregar más acciones a la lista de acciones
 
 #### removeActions
--
+- es posible eliminar acciones a la lista de acciones
 
 #### quickReports
--
+- lista de reportes que pueden salir en este tablero
 
-#### hide
--
+#### hide (booleano)
+- define si el tablero esta oculto por omisión, esto permite tener tableros dinámicos.
 
 #### hideMainMenu
 -
@@ -196,19 +196,19 @@
 #### refreshSelected
 -
 
-#### allowFilter
+#### allowFilter (booleano)
 -
 
-#### allowInsert
+#### allowInsert (booleano)
+
+
+#### allowEdit (booleano)
 -
 
-#### allowEdit
+#### allowToolbox (booleano)
 -
 
-#### allowToolbox
--
-
-#### allowAnalysis
+#### allowAnalysis (booleano)
 -
 
 #### analysisType
@@ -241,20 +241,20 @@
 #### dashboardAutoRefresh
 -
 
-#### changeBoardType
--
+#### changeBoardType (conteo o suma)
+- muestra el contador o suma al momento de cambiar de tablero
 
 #### changeBoardSource
--
+- tipo de documento a usar para obtener el resumen
 
 #### changeBoardView
--
+- vista del tipo de documento que se usa para obtener el resumen
 
 #### changeBoardGroup
--
+- es posible agrupar los tableros para el cambio de tablero
 
 #### changeBoardGroupName
--
+- nombre del agrupador del cambio de tablero
 
 #### searchUrl
 -
@@ -281,4 +281,4 @@
 -
 
 #### autoRefresh
--
+- segundo para el refrescado automático del tablero
