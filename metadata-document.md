@@ -320,22 +320,25 @@
 - si se indica `n/a` no abre nada.
 
 #### docxTemplate
-- 
+- nombre del archivo `docx` que debe estar en un Bucket especial de `s3` para usar como plantilla.
+- https://github.com/open-xml-templating/docxtemplater#readme
 
 #### xlsxTemplate
-- 
+- nombre del archivo `xlsx` que debe estar en un Bucket especial de `s3` para usar como plantilla.
+- https://github.com/optilude/xlsx-template#readme
 
-#### saveRecordDetail
-- 
+#### saveRecordDetail (booleano)
+- si se activa esta opción, la nota en cuestión queda registrada en la persona.
+- se se hacen mas notas similares se van planchando.
 
 #### saveRecordDetailKey
-- 
+- es posible guardar en la persona en una llave en particular
 
 #### saveRecordDetailValue
-- 
+- es posible guardar en la persona en un valor en particular del documento
 
 #### userRole
-- 
+- es posible definir que roles tienen acceso a este documento
 
 #### mapReduceMovControl
 - 
