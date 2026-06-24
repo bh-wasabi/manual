@@ -46,12 +46,15 @@
 
 #### [mov](metadata-mov.md)
 - define la afectación del kardex de inventario o cajas
+- por omisión se concentra la afectación al inventario o caja por las columnas utilizadas para no generar repeticiones.
 
 #### [movControl](metadata-movControl.md)
 - define el control interno al afectar una nota
+- por omisión se concentra el control interno por las columnas utilizadas para no generar repeticiones.
 
 #### [book](metadata-book.md)
 - define la afectación contable al afectar una nota
+- por omisión se concentra la póliza por las columnas utilizadas para no generar repeticiones.
 
 #### [layout](metadata-layout.md)
 - define posibles layouts de exportación de datos
