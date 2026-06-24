@@ -141,46 +141,51 @@
 - lista de secciones separadas por coma que son temporales y antes de guardar el documento se eliminan.
 
 #### autoAffect
-- 
+- es posible auto afectar un documento, en las notas debe ser tipo `node` y en los catálogos que generan personas `node-direct`
 
 #### affectPostgre
 - 
 
-#### allowNotify
-- 
+#### allowNotify (booleano)
+- permite la notificación al momento de afectar, con esta opción sale una ventana para seleccionar las personas a notificar.
 
-#### autoNotify
-- 
+#### autoNotify (booleano)
+- con esta opción se puede generar una notificación automática.
+- puede ser una expresión.
 
-#### notifyPerson
-- 
+#### notifyPerson (booleano)
+- se define si la notificación se dirige a la misma persona a la que se hace el documento o nota.
 
 #### notifySubPersons
-- 
+- es posible notificar a un grupo de personas relacionadas con el documento.
 
 #### notifyList
-- 
+- es posible configurar una lista de personas o usuarios a notificar y si se activa esta opción al afectar un documento que contenga esto envia multiples notificaciones.
 
 #### notifyTopic
-- 
+- aqui se define el asunto del mensaje a enviar.
+- puede ser una expresión.
 
 #### notifyTpl
-- 
+- es posible usar un template de HBS para generar un mensaje, se va mandar el documento afectar como scope de la plantilla.
 
 #### notifyBody
-- 
+- aqui se define el detalle del mensaje si no se unso una plantilla.
+- puede ser una expresión.
 
 #### notifyPortal
-- 
+- es posible poner la URL opcional para complementar el mensaje
+- puede ser una expresión.
 
 #### notifyPortalName
-- 
+- si se usa una URL aqui se puede poner el nombre amigable.
 
 #### notifyPriority
-- 
+- es posible manejar diferentes prioridades y dependiendo de la severidad del asunto usar diferentes formas de notificación a las personas.
+- prioridades: `baja`, `mediana`, `alta`.
 
-#### notifyDisablePdf
-- 
+#### notifyDisablePdf (booleano)
+- en algunas ocaciones el sistema envia el PDF de la nota en forma automática, es posible desactivar esa opción.
 
 #### autoEvalSubPersons
 - 
@@ -189,127 +194,130 @@
 - 
 
 #### bannerTopTemplate
-- 
+- id del banner a usar en la parte superior del documento.
+- los banners se configuran en `_app.hbs` dentro del `markup`.
 
-#### bannerRightTemplate
-- 
+#### bannerSideTemplate
+- id del banner a usar en la parte lateral del documento.
+- los banners se configuran en `_app.hbs` dentro del `markup`.
 
-#### folioServiceName
-- 
+#### folioServiceName (booleano)
+- por medio de esta opción es posible folear el documento usando el nombre del servicio.
 
 #### autoPrint
+- id del reporte que se va usar por omisión para generar el PDF del documento unitario.
+- por omisión se genera `preliminar` con todos los campos y siguiendo todas las condiciones de visibilidad.
+
+#### autoHeader (booleano)
+- se usa en las notas
+
+#### autoStamp (booleano)
+- genera automáticamente una firma electronica del documento
+
+#### allowDraft (booleano)
+- permite el guardar el documento para despues editarlo y/o procesarlo desde la bandeja de entrada del usuario.
+
+#### disableAttach (booleano)
+- deshabilita la opción de adjuntar documentos.
+
+#### disableAttachRecord (booleano)
 - 
 
-#### autoHeader
+#### allowMutiply (booleano)
+- en algunos documentos tipo `embed` es posible generar una explosión usando algunos criterios.
+
+#### includeInPrintAll (booleano)
+- es una opción extra para cuando se quiera saber si esta nota se incluye en la impresión total del expediente de la persona.
+
+#### isAction (booleano)
 - 
 
-#### autoStamp
-- 
-
-#### allowDraft
-- 
-
-#### disableAttach
-- 
-
-#### disableAttachRecord
-- 
-
-#### allowMutiply
-- 
-
-#### includeInPrintAll
-- 
-
-#### isAction
-- 
-
-#### viewRequest
+#### viewRequest (booleano)
 - 
 
 #### sidPrefix
-- 
+- es posible agregar un prefijo al SID que es un id corto adicional que se genera en el documento.
 
 #### dateLabel
+- es posible cambiar la etiqueta de fecha que se usa en los reportes preliminares.
+
+#### landscape (booleano)
+- para el reporte por omisión es posible imprimirlo en forma horizontal por omisión.
+
+#### isDisabled (booleano)
 - 
 
-#### landscape
-- 
-
-#### isDisabled
-- 
-
-#### forceReadOnly
-- 
+#### forceReadOnly (booleano)
+- condición adicional para forzar modo lectura y no permitir la edición
+- puede ser una expresión.
 
 #### forceDate
+- se puede establecer otro campo para definir la fecha del documento.
+- por omision la fecha se genera de forma automática cuando se guarda el documento.
+
+#### disableAllZones (booleano)
 - 
 
-#### disableAllZones
+#### disableEditButton (booleano)
 - 
 
-#### disableEditButton
-- 
-
-#### disableSaveButton
+#### disableSaveButton (booleano)
 - 
 
 #### autoExportItems
 - 
 
-#### disableDelete
+#### disableDelete (booleano)
 - 
 
-#### validateEmptyMov
-- 
+#### validateEmptyMov (booleano)
+- esta opción valida que no se pueda afectar una nota si no genera algo en mov, movPoliza o movControl.
+- puede ser una expresión.
 
 #### updateParentMultipleNames
 - 
 
-#### completeBookItems
-- 
-
 #### notReduceBook
-- 
-
-#### validateBalanceMN
-- 
+- evita la reducción automática de la póliza y deja todos los renglones tal cual como se hayan producido.
 
 #### sort
-- 
+- es posible especificar el campo por el cual se hace el orden de la vista `lista` que se genera por omisión.
+- por omisión el sistema ordena por `_id`
 
 #### sortDirection
-- 
+- es posible cambiar la dirección del ordenamiento
+- `asc` o `desc`
 
 #### style
+- es posible agregar un CSS a la plantilla que se genera por omisión en `lista`
+
+#### isDeliveryReception (booleano)
 - 
 
-#### isDeliveryReception
-- 
-
-#### allowInsertLot
-- 
+#### allowInsertLot (booleano)
+- permite la opción de agregar en lote usando un `grid` donde se puede copiar un tabla de `Excel`.
 
 #### insertLotGrid
-- 
+- id del `grid` a usar para agregar en lote.
 
 #### insertLotTitle
-- 
+- título del `grid`.
 
 #### insertLotSection
-- 
+- sección del documento a modificar.
 
 #### insertLotKeyField
-- 
+- llave primaria.
 
 #### insertLotClearFields
-- 
+- lista de campos a borrar cuando se inserta en lote.
 
-#### isRequested
+#### isRequested (booleano)
 - 
 
 #### startOnOpen
-- 
+- es posible definir cual es la sección que abre por omisión
+- si se indica `n/a` no abre nada.
 
 #### docxTemplate
 - 
