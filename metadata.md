@@ -74,5 +74,8 @@
 #### [dpi](metadata-dpi.md)
 - define indicadores básicos que se pueden crear al afectar las notas
 
+#### [edi](metadata-edi.md)
+- define interfaces tipo EDI.
+
 #### [etl](metadata-etl.md)
 - define posibles ETL que se corren en batch, existe otra definición para el ETL que va en tiempo real.
