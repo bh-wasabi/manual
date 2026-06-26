@@ -55,7 +55,7 @@
 - `text`, `char`, `varchar`, `date`, `float`, `numeric`, `timestamp`
 
 #### size
--
+- tamaño del campo destino
 
 #### reviewed
 -
