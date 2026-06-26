@@ -46,7 +46,7 @@
 - `openPreview` abre un archivo adjunto, si tiene `else` abre una url.
 - `viewScheduler` despliega un calendario, requiere definir `scheduler`.
 - `viewData` ejecuta una vista y abre un campo de `items`.
-- 'viewCube' despliega un cubo, requiere ´cube´.
+- `viewCube` despliega un cubo, requiere `cube`.
 - `report-markdown` abre un PDF con el `markdown` de un campo, requiere `value`, `templateSource` y `templateId` para saber que tipo documento contiene la plantilla.
 - `suggest` se envía el documento a una rutina interna de sugerencia, se puede usar el `as` para usar el resultado como `scope` de un `update`.
 - `speak-items` pregunta una lista.

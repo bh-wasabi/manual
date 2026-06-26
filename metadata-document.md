@@ -340,20 +340,21 @@
 #### userRole
 - es posible definir que roles tienen acceso a este documento
 
-#### mapReduceMovControl
-- 
+#### mapReduceMovControl (booleano)
+- si se activa se reduce movControl antes de afectar
 
-#### validateMovControl
-- 
+#### validateMovControl (booleano)
+- se activa la validación de movControl para eviar negativos a menos de que se especifique en la configuración de wasabiCfg
 
-#### uniqueMovControl
-- 
+#### uniqueMovControl (booleano)
+- se activa una validación de unicos en movControl, para eviar duplicados
+- por ejemplo si se esta cargando un estado cuentas bancario y queremos controlar que no dupliquen la cargar repetida.
 
 #### changePersonId
-- 
+- por medio de esta opción es posible cambiar la persona del documento (id)
 
 #### changePersonName
-- 
+- por medio de esta opción es posible cambiar la persona del documento (nombre)
 
 #### changePersonType
-- 
+- por medio de esta opción es posible cambiar la persona del documento (tipo)
