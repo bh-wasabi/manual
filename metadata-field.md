@@ -154,76 +154,82 @@
 - aqui puede ir una expresión adiciona para checar si el campo es de lectura.
 
 #### column
--
+- es posible poner la forma usando columnas `A` y `B`
+- por omision todo es `A`
 
 #### modalColumn
--
+- es posible poner el modal usando columnas `A` y `B`
+- por omision todo es `A`
 
-#### search
--
+#### search (booleano)
+- cuando se usa un campo tipo `reference` es posible abrir un buscador 
 
-#### localSearch
--
+#### localSearch (booleano)
+- cuando hay ayuda en captura de tipo `code`, `preset`, `lookup` o `select` es posible abrir un buscador
 
-#### alwaysLoad
--
+#### alwaysLoad (booleano)
+- forza que se refresquen los parámetros de la busqueda y se vuelva a cargar la ayuda en captura cada vez que se entra al campo.
+- esto se usa cuando los parámetros son dinámicos.
 
-#### sendSearchValue
--
+#### sendSearchValue (booleano)
+- cuando se encuenta en una tabla y se quiere forzar a que la ayuda en captura vuelva a cargar las opciones se usa esta opción
 
 #### searchFilters
 -
 
-#### showControls
--
+#### showControls (booleano)
+- si es una captura multiple con esta opción es posible seleccionar rapidaménte las opciones o todas.
 
-#### showClearButton
--
+#### showClearButton (booleano)
+- permite borrar el campo si ya tiene valores
 
 #### validator
--
+- existen algunos validadores de campos basicos por omisión
+- `email`, `unique`, `curp`, `hour`, `int`, `phone`, `rfc`, `year`, `regEx`
 
 #### validatorRegEx
--
+- en el caso de la validación tipo `regEx`, aqui se define la expresión regular para validar.
 
 #### validatorMainDoc
 -
 
 #### total
--
+- se usa para los reportes PDF preliminares por omisión
+- puede ser: `sum`, `count`
 
-#### hide
--
+#### hide (booleano)
+- oculta el campo en general
 
 #### link
--
+- genera un link automático en las capturas
+- se especifica para que tipo: `url` o `email`
 
-#### modalHide
--
+#### modalHide (booleano)
+- es posible ocular un campo únicamente cuando abre la forma modal
 
-#### recordHide
--
+#### recordHide (booleano)
+- es posible ocular un campo únicamente cuando se muestra en la pantalla
 
-#### tableHide
--
+#### tableHide (booleano)
+- es posible ocultar un campo únicamente cuando esta en una tabla
 
-#### reportHide
--
+#### reportHide (booleano)
+- es posible ocultar un campo únicamente cuando esta en un reporte preliminar (PDF)
 
-#### disable
--
+#### disable (booleano)
+- deshabilita el campo en las captura (es similar al modo de únicamente lectura).
 
 #### saveSelectedItem
 -
 
 #### min
--
+- es posible definir un valor mínimo en la captura
 
 #### max
--
+- es posible definir un valor máximo en la captura
 
 #### maxLength
--
+- es posible limitar el tamaño máximo de un texto
 
 #### options
 -
@@ -261,10 +267,10 @@
 #### multipleTileViewGrid
 -
 
-#### unlink
--
+#### unlink (booleano)
+- en los campos tipo `reference` es posible quitar el link automático que se genera.
 
-#### forceGetScope
+#### forceGetScope (booleano)
 -
 
 #### insertLot
@@ -274,16 +280,16 @@
 -
 
 #### editRole
--
+- es posible limitar la edición del campo a un rol de usuario específico
 
 #### showRole
--
+- es posible limitar la visibilidad del campo a un rol de usuario específico
 
 #### subParams
 -
 
 #### player
--
+- es posible definir si el campo contiene una url de un `audio` o `video`.
 
 #### playerSource
--
+- si se usa el `player` hay que definir que campo tiene la `url`.
