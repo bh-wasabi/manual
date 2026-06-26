@@ -51,47 +51,46 @@
 - `suggest` se envía el documento a una rutina interna de sugerencia, se puede usar el `as` para usar el resultado como `scope` de un `update`.
 - `speak-items` pregunta una lista.
 - `export` en el caso de `report-pdf` se puede cambiar el formato de exportación del reporte a `csv` o `json`.
-- `inbox-remove`
-- `remove`
-- `download`
-- `logout`
-- `openSubDoc`
-- `openUrlDoc`
-- `iframe`
-- `plugin`
-- `bim360`
-- `openHtml`
-- `dicom`
-- `notify`
-- `paylink`
-- `affect-all`
-- `print-template`
-- `print-zebra-band`
-- `view-json`
-- `download-text`
-- `download-xlsx`
-- `save-fields-as-csv`
-- `save-layout-as-text`
-- `save-as-json`
-- `save-as-excel`
-- `viewGrid`
-- `viewChart`
-- `reload-speak-items`
-- `run-eval`
-- `report-ai`
-- `report-xlsx`
-- `report-xlsx-template`
-- `print-all`
-- `print-all-log`
-- `bpmn`
-- `copy-to-clipboard`
-- `survey`
-- `view-scheduler`
-- `analysis`
-- `copyFromNota`
-- `pasteItems`
-- `pasteText`
-- `browser-action`
+- `inbox-remove` elimina un documento de la bandeja de entrada
+- `remove` elimina un documento
+- `download` descarga un documento
+- `logout` cierra la sesión del usuario actual
+- `openSubDoc` abre un documento en una ventana
+- `openUrlDoc` abre un documento en un tab nuevo del browser
+- `iframe` abre un iframe en una ventana, pudiendo pasar el auth con JWT
+- `plugin` abre un plugin en tab del browser pudiendo pasar el auth con JWT
+- `bim360` abre un plano de BIM 360
+- `openHtml` visita una URL especifica
+- `dicom` abre una imagen DICOM con un visor especial
+- `notify` envia una notificación de tipo email o sms usando las APIs que estan activas
+- `paylink` dispara un proceso de pago con un link de pago generado por el sistema
+- `affect-all` dispara un proceso de afectación en lote de todos las operaciones pendientes de afectar en una colección especifica.
+- `print-template` imprime una plantilla HBS configurada en el sistema
+- `print-zebra-band` imprime una etiqueta de Zebra configurada como una plantilla HBS
+- `view-json` abre un visor con el contenido del un JSON
+- `download-text` descarga un archivo tipo Texto (.txt)
+- `download-xlsx` descarga un archivo tipo Excel (.xlsx)
+- `save-fields-as-csv` extrae una lista de campos de un arreglo y los guarda en un archivo local tipo .csv
+- `save-layout-as-text` usa un layout definido en el metadata sobre un arreglo y genera el resultado en un archivo .txt
+- `save-as-json` guarda un JSON del documento actual
+- `save-as-excel` extrae un arreglo del documento actual y lo guarda como archivo Excel tipo .xlsx
+- `viewGrid` abre una ventana y muestra un grid específico
+- `viewChart` abre una ventana y muestra una gráfica específica
+- `run-eval` ejecuta una evaluación
+- `report-ai` ejecuta un reporte especial tipo IA
+- `report-xlsx` descarga una hoja de Excel usando una plantilla dinámica
+- `report-xlsx-template` descarga una hoja de Excel usando una plantilla que esta en un Bucket especial en S3
+- `print-all` imprime un expediente completo
+- `print-all-log` imprime un expediente completo, generando un log en el servidor
+- `bpmn` abre un diagrama tipo BPMN en una ventana y selecciona la activdad actual
+- `copy-to-clipboard` copia un valor al clipboard
+- `survey` ejecuta una encuesta
+- `view-scheduler` abre un visor de la agenda
+- `analysis` abre un visor tipo BI para analizar algun tema en particular.
+- `copyFromNota` copia todos los datos de otra otra nota al documento actual
+- `pasteItems` permite pegar un arreglo para poder procesarlo
+- `pasteText` permite pegar un texto (tipo scanner) para poder procesar
+- `browser-action` ejecuta una acción de un documento particular desde el menú principal.
 
 #### modal
 - identificador de la forma modal a invocar
