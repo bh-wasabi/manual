@@ -30,7 +30,7 @@ Configuración central del comportamiento global del sistema.
 - `hideTenant`: oculta elementos visuales específicos para un grupo.
 - `online`: estado de mantenimiento del sistema.
 - `mode`: perfil de comportamiento del entorno.
-- `privateKey`, `certificate`, `intermediate1`, `intermediate2`, `intermediate3`: archivos de certificados SSL.
+- `privateKey`, `certificate`, `intermediate1`, `intermediate2`, `intermediate3`: rutas de archivos de certificados SSL.
 - `favicon`: icono de la aplicación.
 - `urlSupport`: enlace a soporte técnico.
 - `tokenExpiresIn`: duración de la sesión JWT.
