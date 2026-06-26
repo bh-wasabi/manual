@@ -14,6 +14,9 @@
 #### [metadata](metadata.md)
 - metadata que ayuda a crear el código de forma automática
 
+#### [wasabiCfg](wasabiCfg.md)
+- configuración del servidor de Wasabi
+
 ## Directivas de Compilación
 - Es posible usar estas directivas para hacer cambios al código a un nivel superior.
 - para esto se usa `[.` y `.]` en lugar de `{{` y `}}`.
