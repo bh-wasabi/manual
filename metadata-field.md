@@ -49,45 +49,44 @@
 
 #### format
 - format a usar
-- si tipo texto puede ser `upper`, `lower`, `capitalize`
 - es tipo fecha se pone el formato de fecha y/o hora tipo moment.js
 - si es numérico el formato tipo numeral.js o `currency`
 
 #### multiple (booleano)
--
+- permite definir el campo soporta multiples valores.
 
 #### readOnly (booleano)
--
+- define si es unicamente de lectura
 
 #### required (booleano)
--
+- define si es requierido
 
 #### requiredOnAffect (booleano)
--
+- valida al afectar que efectivamente este campo tenga valor.
 
 #### parent
 -
 
 #### case
--
+- si tipo texto puede ser `upper`, `lower`, `capitalize`
 
 #### value
 -
 
 #### defaultValue
--
+- valor por omisión al crear el documento
 
 #### defaultValue2
 -
 
 #### status
--
+- estatus de tipo comentario
 
 #### comentaries
--
+- comentarios sobre el campo
 
 #### group
--
+- grupo al que pertence el campo
 
 #### exportBI
 -
@@ -108,49 +107,51 @@
 - lista de proyectos (separados por comas) que se desean excluir.
 
 #### height
--
+- altura en pixeles para los campos de altura variable tipo `text-area`
 
 #### title
--
+- 
 
 #### title2
 -
 
 #### fieldSetHeader
--
+- es posible poner un encabezado en la captura en el modal
 
 #### fieldSetHeader2
--
+- es el encabezado cuando se compila en en idioma alterno
 
 #### sameLine
--
+- es posible poner 2 campos en la misma línea
+- debe ir por parejas de `start` y `end`
 
 #### detach
--
+- dentro de la misma sección es posible separar un bloque de campos si se usa esta leyenda.
 
 #### detach2
--
+- lo mismo para el idioma alterno
 
 #### doubleEnter
--
+- cuando son campos multiples es posible definir que se inserte un `enter` adicional para separar los valores.
 
-#### hasHtml
--
+#### hasHtml (booleano)
+- si el contenido de este campo tiene HTML es necesario indicarlo para que se presente correctamente.
 
-#### refresh
--
+#### refresh (booleano)
+- por medio de esta propiedad el sistema refrescar las condiciones de visibilidad de otros campos en el modal.
 
 #### isTrue
--
+- si el campo es tipo siNo, aqui se puede indicar el id del campo calculado automatico que se va asignar si el valor es `si`.
 
 #### isFalse
--
+- si el campo es tipo siNo, aqui se puede indicar el id del campo calculado automatico que se va asignar si el valor es `no`.
 
 #### condition
--
+- condición de visibilidad
+- en este caso la condicion no es una expresión sino un campo calculado que tenga o no valor, el motivo de esto es que esta condición se usa en las plantillas de HBS y ahi la unica forma de hacer un {{if campo}}{{/end}} es si el campo tiene un valor que no sea vacio (`''`), `null`, `false`, `0`, `undefined`.
 
-#### forceReadOnly
--
+#### forceReadOnly (booleano)
+- aqui puede ir una expresión adiciona para checar si el campo es de lectura.
 
 #### column
 -
