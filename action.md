@@ -51,6 +51,47 @@
 - `suggest` se envía el documento a una rutina interna de sugerencia, se puede usar el `as` para usar el resultado como `scope` de un `update`.
 - `speak-items` pregunta una lista.
 - `export` en el caso de `report-pdf` se puede cambiar el formato de exportación del reporte a `csv` o `json`.
+- `inbox-remove`
+- `remove`
+- `download`
+- `logout`
+- `openSubDoc`
+- `openUrlDoc`
+- `iframe`
+- `plugin`
+- `bim360`
+- `openHtml`
+- `dicom`
+- `notify`
+- `paylink`
+- `affect-all`
+- `print-template`
+- `print-zebra-band`
+- `view-json`
+- `download-text`
+- `download-xlsx`
+- `save-fields-as-csv`
+- `save-layout-as-text`
+- `save-as-json`
+- `save-as-excel`
+- `viewGrid`
+- `viewChart`
+- `reload-speak-items`
+- `run-eval`
+- `report-ai`
+- `report-xlsx`
+- `report-xlsx-template`
+- `print-all`
+- `print-all-log`
+- `bpmn`
+- `copy-to-clipboard`
+- `survey`
+- `view-scheduler`
+- `analysis`
+- `copyFromNota`
+- `pasteItems`
+- `pasteText`
+- `browser-action`
 
 #### modal
 - identificador de la forma modal a invocar
