@@ -1,4 +1,4 @@
-# Documentación de `wasabiCfd/cfg.json`
+# Documentación de `wasabiCfg / cfg.json`
 
 Este archivo concentra la configuración principal de la plataforma Wasabi. Está escrito en JSON. Su contenido organiza credenciales, conexiones, flags funcionales, integraciones externas y tareas programadas.
 
