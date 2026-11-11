@@ -29,6 +29,9 @@
 #### required (true, false)
 - define si el parámetro es requerido
 
+#### preset
+- se puede usar un preset como ayuda en captura
+
 #### source
 - puede apuntar a una colección
 

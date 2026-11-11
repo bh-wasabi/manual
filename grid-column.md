@@ -27,11 +27,11 @@
 #### showZeros (true, false)
 - muestra el valor aunque sea cero.
 
-#### hide (true, false)
+#### hide (true, false)
 - oculta la columna.
 - puede ser una [expresión](expr.md).
 
-#### show (true, false)
+#### show (true, false)
 - muestra la columna. 
 - puede ser una [expresión](expr.md).
 - por omisión es `true`.
